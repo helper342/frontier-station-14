@@ -136,6 +136,7 @@ flavor-complex-validhunting = як валідхантер
 flavor-complex-people = як людські почки
 flavor-complex-cat = як кіт
 flavor-complex-homerun = like a homerun
+flavor-complex-grass = як трава
 flavor-complex-flare = як димлячий факел
 flavor-complex-cobwebs = як павутиння
 flavor-complex-sadness = як смуток
