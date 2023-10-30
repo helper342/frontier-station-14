@@ -1,9 +1,9 @@
-﻿# - type: shader
-#   id: ColorTint
-#   kind: source
-#   path: "/Textures/SimpleStation14/Shaders/color_tint.swsl"
-
-- type: shader
-  id: Ethereal
+﻿- type: shader
+  id: ColorTint
   kind: source
-  path: "/Textures/SimpleStation14/Shaders/ethereal.swsl"
+  path: "/Textures/SimpleStation14/Shaders/color_tint.swsl"
+
+# - type: shader
+#   id: Ethereal
+#   kind: source
+#   path: "/Textures/SimpleStation14/Shaders/ethereal.swsl"
