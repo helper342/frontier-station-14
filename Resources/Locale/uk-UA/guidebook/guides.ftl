@@ -54,3 +54,17 @@ guide-entry-minor-antagonists = Minor Antagonists
 guide-entry-space-ninja = Space Ninja
 
 guide-entry-writing = Writing
+
+
+guide-entry-burgers = Бургери
+guide-entry-breads = Хліб
+guide-entry-pizza = Піца
+guide-entry-pasta = Паста та гарніри
+guide-entry-soup = Супи та рагу
+guide-entry-meats = Мʼясне
+guide-entry-fast-food = Фаст фуд
+guide-entry-deserts = Десерти
+guide-entry-pies = Пироги
+guide-entry-salads = Салати
+guide-entry-tacos = Тако
+guide-entry-cakes = Торти
