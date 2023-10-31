@@ -43,6 +43,19 @@
     ClothingHeadHatHairflower: 1
     ClothingHeadHatGladiator: 1
     ClothingUniformJumpsuitGladiator: 1
+    UniformSchoolgirlBlack: 1 # Nyano - Clothing addition
+    UniformSchoolgirlBlue: 1 # Nyano - Clothing addition
+    UniformSchoolgirlCyan: 1 # Nyano - Clothing addition
+    UniformSchoolgirlGreen: 1 # Nyano - Clothing addition
+    UniformSchoolgirlOrange: 1 # Nyano - Clothing addition
+    UniformSchoolgirlPink: 1 # Nyano - Clothing addition
+    UniformSchoolgirlPurple: 1 # Nyano - Clothing addition
+    UniformSchoolgirlRed: 1 # Nyano - Clothing addition
+    UniformGeisha: 1 # Nyano - Clothing addition
+    ClothingKimonoBlue: 2 # Nyano - Clothing addition
+    ClothingKimonoPink: 2 # Nyano - Clothing addition
+    ClothingCostumeArcDress: 1 # Nyano - Clothing addition
+    ClothingUniformJumpsuitPilgrim: 1 # DeltaV - Clothing addition
   emaggedInventory:
     ClothingShoesBling: 1
     ClothingOuterDogi: 1
