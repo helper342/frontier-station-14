@@ -14,7 +14,7 @@ public sealed class ShadowkinDarkSwappedSystem : EntitySystem
     [Dependency] private readonly IOverlayManager _overlay = default!;
 
     private IgnoreHumanoidWithComponentOverlay _ignoreOverlay = default!;
-    private EtherealOverlay _etherealOverlay = default!;
+    // private EtherealOverlay _etherealOverlay = default!;
 
     public override void Initialize()
     {

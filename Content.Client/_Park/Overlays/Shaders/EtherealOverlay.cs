@@ -12,26 +12,26 @@ public sealed class EtherealOverlay : Overlay
 
     public override bool RequestScreenTexture => true;
     public override OverlaySpace Space => OverlaySpace.WorldSpaceBelowFOV;
-    // private readonly ShaderInstance _shader;
+    private readonly ShaderInstance _shader;
 
     public EtherealOverlay()
     {
         IoCManager.InjectDependencies(this);
-        // _shader = _prototype.Index<ShaderPrototype>("Ethereal").InstanceUnique();
+        _shader = _prototype.Index<ShaderPrototype>("Ethereal").InstanceUnique();
     }
 
     protected override void Draw(in OverlayDrawArgs args)
     {
-        // if (ScreenTexture == null) return;
-        // if (_player.LocalPlayer?.ControlledEntity is not { Valid: true } player) return;
+        if (ScreenTexture == null) return;
+        if (_player.LocalPlayer?.ControlledEntity is not { Valid: true } player) return;
 
-        // _shader?.SetParameter("SCREEN_TEXTURE", ScreenTexture);
+        _shader?.SetParameter("SCREEN_TEXTURE", ScreenTexture);
 
-        // var worldHandle = args.WorldHandle;
-        // var viewport = args.WorldBounds;
-        // worldHandle.SetTransform(Matrix3.Identity);
-        // worldHandle.UseShader(_shader);
-        // worldHandle.DrawRect(viewport, Color.White);
-        // worldHandle.UseShader(null);
+        var worldHandle = args.WorldHandle;
+        var viewport = args.WorldBounds;
+        worldHandle.SetTransform(Matrix3.Identity);
+        worldHandle.UseShader(_shader);
+        worldHandle.DrawRect(viewport, Color.White);
+        worldHandle.UseShader(null);
     }
 }
