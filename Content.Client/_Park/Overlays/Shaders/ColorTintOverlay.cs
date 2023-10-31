@@ -49,7 +49,7 @@ public sealed class ColorTintOverlay : Overlay
         if (TintColor != null)
             _shader.SetParameter("tint_color", (Vector3) TintColor);
         if (TintAmount != null)
-            _shader.SetParameter("tint_amount", (float) TintAmount);
+            _shader.SetParameter("tint_amount", (float) TintAmount / 2);
 
         var worldHandle = args.WorldHandle;
         var viewport = args.WorldBounds;
