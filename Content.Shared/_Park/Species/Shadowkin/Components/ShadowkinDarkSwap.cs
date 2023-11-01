@@ -63,7 +63,7 @@ public sealed partial class ShadowkinDarkSwapEvent : InstantActionEvent
 public sealed partial class ShadowkinDarkSwapAttemptEvent : CancellableEntityEventArgs
 {
     [DataField("Performer"), AutoNetworkedField]
-    EntityUid Performer;
+    public EntityUid Performer;
 
     public ShadowkinDarkSwapAttemptEvent(EntityUid performer)
     {

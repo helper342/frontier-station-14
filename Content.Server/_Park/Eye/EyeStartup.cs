@@ -29,7 +29,8 @@ namespace Content.Server._Park.Eye
                 _eye.SetVisibilityMask(uid, component.VisibilityMask | (int) (VisibilityFlags.AIEye), component);
                 // component.VisibilityMask |= (int) VisibilityFlags.AIEye;
 
-            _shadowkinPowerSystem.SetVisibility(uid, _entityManager.HasComponent<GhostComponent>(uid));
+            // _shadowkinPowerSystem.SetVisibility(uid, _entityManager.HasComponent<GhostComponent>(uid));
+            _shadowkinPowerSystem.SetVisibility(uid, _entityManager.HasComponent<GhostComponent>(uid), false, !_entityManager.HasComponent<GhostComponent>(uid));
         }
     }
 }

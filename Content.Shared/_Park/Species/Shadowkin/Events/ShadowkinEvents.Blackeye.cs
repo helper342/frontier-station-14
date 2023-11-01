@@ -8,10 +8,12 @@ namespace Content.Shared._Park.Species.Shadowkin.Events;
 public sealed class ShadowkinBlackeyeAttemptEvent : CancellableEntityEventArgs
 {
     public readonly EntityUid Uid;
+    public readonly bool CheckPower;
 
-    public ShadowkinBlackeyeAttemptEvent(EntityUid uid)
+    public ShadowkinBlackeyeAttemptEvent(EntityUid uid, bool checkPower = true)
     {
         Uid = uid;
+        CheckPower = checkPower;
     }
 }
 
