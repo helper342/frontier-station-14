@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatScarecrow
+  name: капелюх опудало
+  description: Старий солом'яний капелюх опудало.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Hats/scarecrowhat.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Hats/scarecrowhat.rsi
