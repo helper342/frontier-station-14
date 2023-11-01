@@ -25,4 +25,4 @@
     - Hardsuit
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitShadowkinDarkswap
-    actionId: ShadowkinDarkSwapHardsuitToggle
+    # actionId: ShadowkinDarkSwapHardsuitToggle

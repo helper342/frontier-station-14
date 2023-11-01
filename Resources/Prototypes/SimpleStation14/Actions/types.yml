@@ -4,7 +4,7 @@
   noSpawn: true
   components:
   - type: InstantAction
-    name: action-darkswap-hardsuit-name
+    # name: action-darkswap-hardsuit-name
     useDelay: 15
     icon:
       sprite: SimpleStation14/Clothing/Head/Hardsuits/darkened.rsi
