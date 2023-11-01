@@ -1,0 +1,23 @@
+- type: entity
+  id: ShadowkinDarkSwapHardsuitToggle
+  name: action-darkswap-hardsuit-name
+  noSpawn: true
+  components:
+  - type: InstantAction
+    # name: action-darkswap-hardsuit-name
+    useDelay: 15
+    icon:
+      sprite: SimpleStation14/Clothing/Head/Hardsuits/darkened.rsi
+      state: icon
+    itemIconStyle: NoItem
+    event: !type:ToggleClothingEvent
+
+# - type: instantAction
+#   id: ShadowkinDarkSwapHardsuitToggle
+#   name: action-darkswap-hardsuit-name
+#   useDelay: 15
+#   icon:
+#     sprite: SimpleStation14/Clothing/Head/Hardsuits/darkened.rsi
+#     state: icon
+#   itemIconStyle: NoItem
+#   event: !type:ToggleClothingEvent

@@ -62,7 +62,7 @@ public sealed class ShadowkinRestSystem : EntitySystem
             // No waking up normally (it would do nothing)
             // _actions.RemoveAction(uid, component.RestActionEntity);
             // _actions.RemoveAction(args.Performer, new InstantAction(_prototype.Index<InstantActionPrototype>("Wake")));
-            _power.TryAddMultiplier(args.Performer, 1.5f);
+            _power.TryAddMultiplier(args.Performer, 2f);
             // No action cooldown
             args.Handled = false;
         }
@@ -72,7 +72,7 @@ public sealed class ShadowkinRestSystem : EntitySystem
             // Wake up
             _entity.RemoveComponent<ForcedSleepingComponent>(args.Performer);
             _entity.RemoveComponent<SleepingComponent>(args.Performer);
-            _power.TryAddMultiplier(args.Performer, -1.5f);
+            _power.TryAddMultiplier(args.Performer, -2f);
             // Action cooldown
             args.Handled = true;
         }
