@@ -420,7 +420,7 @@
       - MothFood
       - BloodFood
       - Meat
-   - type: SpawnItemsOnUse
+  - type: SpawnItemsOnUse
     items:
       - id: FoodPacketMRETrash
       - id: FoodSnackMREBrownieOpen
