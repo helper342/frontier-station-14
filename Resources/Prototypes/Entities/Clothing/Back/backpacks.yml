@@ -179,7 +179,7 @@
 
 - type: entity
   parent: ClothingBackpack
-  id: ClothingBackpackMerc
+  id: ClothingBackpackMercenary # Frontier - Merc to Mercenary
   name: рюкзак наймита
   description: Рюкзак, який побував у багатьох небезпечних місцях, надійний бойовий рюкзак.
   components:

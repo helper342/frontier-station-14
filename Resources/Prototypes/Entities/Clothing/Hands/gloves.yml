@@ -245,7 +245,7 @@
 
 - type: entity
   parent: ClothingHandsGlovesCombat
-  id: ClothingHandsMercGlovesCombat
+  id: ClothingHandsMercenaryGlovesCombat # Frontier - Merc to Mercenary
   name: бойові рукавиці наймита
   description: Якісні бойові рукавички для захисту рук від механічних пошкоджень під час бою.
   components:

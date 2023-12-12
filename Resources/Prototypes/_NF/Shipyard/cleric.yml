@@ -9,7 +9,7 @@
 
 - type: gameMap
   id: Cleric
-  mapName: 'NT Cleric'
+  mapName: 'NSF Cleric'
   mapPath: /Maps/Shuttles/cleric.yml
   minPlayers: 0
   stations:
@@ -17,7 +17,7 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Cleric {1}'
+          mapNameTemplate: 'Cleric {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

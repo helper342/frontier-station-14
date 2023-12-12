@@ -22,7 +22,7 @@
     back: ClothingBackpackAtmosphericsFilled
     shoes: ClothingShoesColorWhite
     id: AtmosPDA
-    belt: ClothingBeltUtilityEngineering
+#    belt: ClothingBeltUtilityEngineering # Frontier - Moved to locker
     ears: ClothingHeadsetEngineering
   innerClothingSkirt: ClothingUniformJumpskirtAtmos
   satchel: ClothingBackpackSatchelAtmosphericsFilled

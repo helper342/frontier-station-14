@@ -631,3 +631,13 @@
       sprite: Objects/Specific/Hydroponics/bungo.rsi
     - type: StaticPrice
       price: 1
+
+- type: entity
+  parent: SeedBase
+  name: packet of cotton seeds
+  id: CottonSeeds
+  components:
+    - type: Seed
+      seedId: cotton
+    - type: Sprite
+      sprite: Objects/Specific/Hydroponics/cotton.rsi

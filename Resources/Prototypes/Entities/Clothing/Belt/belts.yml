@@ -486,7 +486,7 @@
 
 - type: entity
   parent: ClothingBeltStorageBase
-  id: ClothingBeltMercWebbing
+  id: ClothingBeltMercenaryWebbing # Frontier - Merc to Mercenary
   name: розгрузка наймита
   description: Ідеально підходить для зберігання всього - від боєприпасів до зброї та бойових речей.
   components:

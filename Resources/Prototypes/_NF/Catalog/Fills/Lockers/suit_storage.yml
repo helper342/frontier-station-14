@@ -1,0 +1,77 @@
+#SOFTSUITS
+#Paramedic's hardsuit
+- type: entity
+  id: SuitStorageParamedic
+  parent: SuitStorageBase
+  suffix: Paramedic
+  components:
+  - type: StorageFill
+    contents:
+#        - id: NitrogenTankFilled
+#        - id: OxygenTankFilled
+        - id: AirTankFilled
+        - id: ClothingHeadHelmetVoidParamed
+        - id: ClothingOuterHardsuitVoidParamed
+        - id: ClothingMaskBreathMedical
+        - id: JetpackMiniFilled
+        - id: HandheldGPSBasic
+  - type: AccessReader
+#    access: [["Medical"]]
+
+#HARDSUITS
+#Brigmedic's hardsuit
+- type: entity
+  id: SuitStorageBrigmedic
+  parent: SuitStorageBase
+  suffix: Brigmedic
+  components:
+  - type: StorageFill
+    contents:
+#        - id: NitrogenTankFilled
+#        - id: OxygenTankFilled
+        - id: AirTankFilled
+        - id: ClothingOuterHardsuitBrigmedic
+        - id: ClothingMaskBreathMedicalSecurity
+        - id: JetpackSecurityFilled
+        - id: HandheldGPSBasic
+        - id: ClothingShoesBootsMagCombatFilled # Frontier
+  - type: AccessReader
+    access: [["Security"]]
+
+#Quartermaster hardsuit
+- type: entity
+  id: SuitStorageQuartermaster
+  parent: SuitStorageBase
+  suffix: Quartermaster
+  components:
+  - type: StorageFill
+    contents:
+#        - id: NitrogenTankFilled
+#        - id: OxygenTankFilled
+        - id: AirTankFilled
+        - id: ClothingShoesBootsMag
+        - id: ClothingOuterHardsuitLuxury
+        - id: ClothingMaskGasExplorer
+        - id: JetpackMiniFilled
+        - id: HandheldGPSBasic
+  - type: AccessReader
+    # access: [["Quartermaster"]]
+
+#Mercenary hardsuit
+- type: entity
+  id: SuitStorageMercenary
+  parent: SuitStorageBase
+  suffix: Mercenary
+  components:
+  - type: StorageFill
+    contents:
+#        - id: NitrogenTankFilled
+#        - id: OxygenTankFilled
+        - id: AirTankFilled
+        - id: ClothingOuterHardsuitMercenary
+        - id: ClothingMaskGasMercenary
+        - id: JetpackMiniFilled
+        - id: HandheldGPSBasic
+#        - id: ClothingShoesBootsMagMercenaryFilled # Frontier - Not adding this to the suit storage so it wont be abused, exists only on role spawn.
+  - type: AccessReader
+    access: [["Mercenary"]]

@@ -56,6 +56,8 @@
     ClothingKimonoPink: 2 # Nyano - Clothing addition
     ClothingCostumeArcDress: 1 # Nyano - Clothing addition
     ClothingUniformJumpsuitPilgrim: 1 # DeltaV - Clothing addition
+    RubberStampClown: 1
+    RubberStampMime: 1
   emaggedInventory:
     ClothingShoesBling: 1
     ClothingOuterDogi: 1

@@ -1,20 +1,13 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDeathSquad
-  name: Death squad uniform
+  name: death squad uniform
   description: Advanced armored jumpsuit used by special forces in special operations.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/deathsquad.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/deathsquad.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.8
-        Heat: 0.8
 
 - type: entity
   parent: ClothingUniformBase
@@ -960,7 +953,7 @@
       mode: SensorOff
 
 - type: entity
-  parent: UnsensoredClothingUniformBase
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMercenary
   name: mercenary jumpsuit
   description: Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.
@@ -1090,10 +1083,6 @@
     sprite: Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Radiation: 0.8
 
 - type: entity
   parent: ClothingUniformBase
@@ -1116,12 +1105,6 @@
     sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.8
 
 - type: entity
   parent: ClothingUniformBase
@@ -1144,12 +1127,6 @@
     sprite: Clothing/Uniforms/Jumpsuit/ert_security.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/ert_security.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.8
 
 - type: entity
   parent: ClothingUniformJumpsuitClown
@@ -1301,8 +1278,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorOfficer
-  name: senior officer jumpsuit
-  description: A sign of skill and prestige within the security department.
+  name: sergeant jumpsuit
+  description: A sign of skill and prestige within the sheriff's department.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/senior_officer.rsi

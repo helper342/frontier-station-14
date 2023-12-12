@@ -12,7 +12,7 @@
       time: 21600 #6 hrs
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 216000 # 60 hrs
+      time: 21600 #6 hrs
   startingGear: SeniorEngineerGear
   icon: "JobIconSeniorEngineer"
   supervisors: job-supervisors-ce
@@ -29,6 +29,7 @@
     back: ClothingBackpackEngineeringFilled
     shoes: ClothingShoesBootsWork
     id: SeniorEngineerPDA
+    eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
   innerClothingSkirt: ClothingUniformJumpskirtSeniorEngineer

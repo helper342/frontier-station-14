@@ -5,16 +5,16 @@
   components:
   - type: StorageFill
     contents:
-      - id: FlashlightSeclite
-      - id: WeaponDisabler
+#      - id: FlashlightSeclite # Frontier
+#      - id: WeaponDisabler
       - id: ClothingHeadHatWarden
       - id: ClothingHeadHatBeretWarden
-      - id: ClothingBeltSecurityFilled
-      - id: Flash
-      - id: ClothingEyesGlassesSecurity
-      - id: ClothingHeadsetAltSecurity
-      - id: ClothingHandsGlovesCombat
-      - id: ClothingShoesBootsJack
+#      - id: ClothingBeltSecurityFilled
+#      - id: Flash
+#      - id: ClothingEyesGlassesSecurity
+      - id: ClothingHeadsetAltSecurityWarden # Frontier
+#      - id: ClothingHandsGlovesCombat
+#      - id: ClothingShoesBootsJack
       - id: ClothingOuterCoatWarden
       - id: ClothingOuterWinterWarden
       - id: RubberStampWarden
@@ -24,6 +24,15 @@
       - id: ClothingEyesHudSecurity
       - id: ClothingEyesGlassesShadowkinDarkWindow
       - id: HandcuffsShadowkin
+#      - id: HoloprojectorSecurity # Frontier - Starting gear
+#      - id: ClothingEyesHudSecurity
+#      - id: NitrogenTankFilled
+#      - id: OxygenTankFilled
+      - id: AirTankFilled
+      - id: ClothingMaskGasSecurity # Frontier
+      - id: JetpackSecurityFilled # Frontier
+      - id: HandheldGPSBasic # Frontier
+      - id: ClothingShoesBootsMagCombatFilled # Frontier
 
 - type: entity
   id: LockerWardenFilled
@@ -32,16 +41,16 @@
   components:
   - type: StorageFill
     contents:
-      - id: FlashlightSeclite
-      - id: WeaponDisabler
+#      - id: FlashlightSeclite
+#      - id: WeaponDisabler
       - id: ClothingHeadHatWarden
       - id: ClothingHeadHatBeretWarden
-      - id: ClothingBeltSecurityFilled
-      - id: Flash
-      - id: ClothingEyesGlassesSecurity
-      - id: ClothingHeadsetAltSecurity
-      - id: ClothingHandsGlovesCombat
-      - id: ClothingShoesBootsJack
+#      - id: ClothingBeltSecurityFilled
+#      - id: Flash
+#      - id: ClothingEyesGlassesSecurity
+      - id: ClothingHeadsetAltSecurityWarden # Frontier
+#      - id: ClothingHandsGlovesCombat
+#      - id: ClothingShoesBootsJack
       - id: ClothingOuterCoatWarden
       - id: ClothingOuterWinterWarden
       - id: RubberStampWarden
@@ -50,6 +59,8 @@
       - id: ClothingEyesHudSecurity
       - id: ClothingEyesGlassesShadowkinDarkWindow
       - id: HandcuffsShadowkin
+#      - id: HoloprojectorSecurity # Frontier - Starting gear
+#      - id: ClothingEyesHudSecurity
 
 - type: entity
   id: LockerSecurityFilled
@@ -58,14 +69,14 @@
   components:
   - type: StorageFill
     contents:
-      - id: FlashlightSeclite
-      - id: ClothingUniformJumpsuitSecGrey
-        prob: 0.3
+#      - id: FlashlightSeclite
+#      - id: ClothingUniformJumpsuitSecGrey
+#        prob: 0.3
       - id: ClothingHeadHelmetBasic
       - id: ClothingOuterArmorBasic
-      - id: ClothingBeltSecurityFilled
-      - id: Flash
-      - id: ClothingEyesGlassesSecurity
+#      - id: ClothingBeltSecurityFilled
+#      - id: Flash
+#      - id: ClothingEyesGlassesSecurity
       - id: ClothingHeadsetSecuritySafe # Ask SR or Sheriff for keys
       - id: ClothingHandsGlovesColorBlack
       - id: ClothingShoesBootsJack
@@ -110,6 +121,11 @@
       - id: ClothingNeckCloakMoth #bzzz Moth-pocalypse
         prob: 0.15
       - id: ClothingEyesGlassesShadowkinDarkWindow
+#      - id: ClothingHandsGlovesColorBlack
+#      - id: ClothingShoesBootsJack
+#      - id: WeaponMeleeNeedle
+#        prob: 0.1
+#      - id: ClothingEyesHudSecurity
 
 - type: entity
   id: LockerDetectiveFilled
@@ -118,12 +134,12 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingEyesHudSecurity
-      - id: ClothingHeadHatFedoraBrown
-      - id: ClothingNeckTieDet
+#      - id: ClothingEyesHudSecurity
+#      - id: ClothingHeadHatFedoraBrown
+#      - id: ClothingNeckTieDet
       - id: ClothingOuterVestDetective
-      - id: ClothingOuterCoatDetective
-      - id: FlashlightSeclite
+#      - id: ClothingOuterCoatDetective
+#      - id: FlashlightSeclite
       - id: ForensicScanner
       - id: BoxForensicPad
       - id: DrinkDetFlask
@@ -142,11 +158,11 @@
       - id: ClothingOuterSuitBomb
       # NT is cheap, what can you do...
       - id: Wirecutter
-        prob: 0.9
+#        prob: 0.9 # Frontier - Always has this
       - id: Screwdriver
-        prob: 0.9
+#        prob: 0.9 # Frontier - Always has this
       - id: Multitool
-        prob: 0.5
+#        prob: 0.5 # Frontier - Always has this
 
 - type: entity
   parent: GunSafe

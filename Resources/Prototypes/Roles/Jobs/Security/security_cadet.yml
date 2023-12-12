@@ -12,12 +12,16 @@
       inverted: true # stop playing intern if you're good at security!
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
-  supervisors: job-supervisors-security
+  supervisors: job-supervisors-hos # Frontier
   canBeAntag: false
   access:
   - Security
   - Brig
   - Maintenance
+  - Service # Frontier
+  - External # Frontier
+  - Mercenary # Frontier
+  - Captain # Frontier
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant, TrackingImplant ]
@@ -31,6 +35,7 @@
     id: SecurityCadetPDA
     ears: ClothingHeadsetSecurity
     pocket1: WeaponPistolMk58Nonlethal
+    gloves: ClothingHandsGlovesCombat # Frontier
   innerClothingSkirt: ClothingUniformJumpskirtColorRed
   satchel: ClothingBackpackSatchelSecurityFilled
   duffelbag: ClothingBackpackDuffelSecurityFilled
