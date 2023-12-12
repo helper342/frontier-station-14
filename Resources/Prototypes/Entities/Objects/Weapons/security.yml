@@ -1,8 +1,8 @@
 - type: entity
-  name: stun baton
+  name: електрошокова палиця
   parent: BaseItem
   id: Stunbaton
-  description: A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+  description: Електрошокова палиця для виведення з ладу людей с. Активно шкодити цим вважається поганим тоном.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/stunbaton.rsi
@@ -66,10 +66,10 @@
     - Security
 
 - type: entity
-  name: truncheon
+  name: кийок
   parent: BaseItem
   id: Truncheon
-  description: A rigid, steel-studded baton, meant to harm.
+  description: Жорсткий, оздоблений сталлю кийок, призначений завдавати шкоди.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/truncheon.rsi
@@ -97,10 +97,10 @@
     - Security
 
 - type: entity
-  name: flash
+  name: спалах
   parent: BaseItem
   id: Flash
-  description: An ultrabright flashbulb with a trigger, which causes the victim to be dazed and lose their eyesight for a moment. Useless when burnt out.
+  description: Ультраяскравий спалах із тригером, від якого жертва на мить одурманює та втрачає зір. Марний, коли згорів.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/flash.rsi
@@ -142,7 +142,7 @@
       - Security
 
 - type: entity
-  name: flash
+  name: спалах
   parent: Flash
   suffix: 2 charges
   id: SciFlash
@@ -152,10 +152,10 @@
       charges: 2
 
 - type: entity
-  name: portable flasher
+  name: переносний флешер
   parent: BaseStructure
   id: PortableFlasher
-  description: An ultrabright flashbulb with a proximity trigger, useful for making an area security-only.
+  description: Надяскрава лампа-спалах із безконтактним тригером, корисна для того, щоб зробити зону лише охороною.
   components:
     - type: EmitSoundOnTrigger
       sound:

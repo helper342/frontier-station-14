@@ -72,7 +72,7 @@
   id: WindowReinforcedDirectional
   parent: WindowDirectional
   name: одностороннє посилене вікно
-  description: Don't smudge up the glass down there.
+  description: Не розмазуйте там скло.
   placement:
     mode: SnapgridCenter
     snap:

@@ -21,19 +21,19 @@
 # Muffins/Buns
 
 - type: entity
-  name: muffin
+  name: булочка
   parent: FoodBakedBase
   id: FoodBakedMuffin
-  description: A delicious and spongy little cake.
+  description: Смачний і бісквітний торт.
   components:
   - type: Sprite
     state: muffin
 
 - type: entity
-  name: berry muffin
+  name: ягідний кекс
   parent: FoodBakedBase
   id: FoodBakedMuffinBerry
-  description: A delicious and spongy little cake, with berries.
+  description: Смачний бісквітний пиріг з ягодами.
   components:
   - type: Sprite
     state: muffin-berry
@@ -42,10 +42,10 @@
     - Fruit
 
 - type: entity
-  name: cherry muffin
+  name: вишневий кекс
   parent: FoodBakedBase
   id: FoodBakedMuffinCherry
-  description: A sweet muffin with cherry bits.
+  description: Солодкий мафін з шматочками вишні.
   components:
   - type: Sprite
     state: muffin-cherry
@@ -54,10 +54,10 @@
     - Fruit
 
 - type: entity
-  name: bluecherry muffin
+  name: вишневий кекс
   parent: FoodBakedBase
   id: FoodBakedMuffinBluecherry
-  description: Blue cherries inside a delicious muffin.
+  description: Сині вишні всередині смачного мафіну.
   components:
   - type: Sprite
     state: muffin-bluecherry
@@ -66,28 +66,28 @@
     - Fruit
 
 - type: entity
-  name: honey bun #TODO honey
+  name: медова булочка #TODO мед
   parent: FoodBakedBase
   id: FoodBakedBunHoney
-  description: A sticky pastry bun glazed with honey.
+  description: Булочка з тіста, глазурована медом.
   components:
   - type: Sprite
     state: bun-honey
 
 - type: entity
-  name: hotcross bun
+  name: гаряча булочка
   parent: FoodBakedBase
   id: FoodBakedBunHotX
-  description: A sticky pastry bun glazed with a distinct white cross.
+  description: Липка булочка з тіста, глазурована чітким білим хрестом.
   components:
   - type: Sprite
     state: bun-hotcross
 
 - type: entity
-  name: meat bun
+  name: м'ясна булочка
   parent: FoodBakedBase
   id: FoodBakedBunMeat
-  description: Has the potential to not be dog.
+  description: Має потенціал не бути собакою.
   components:
   - type: Sprite
     state: bun-meat
@@ -104,19 +104,19 @@
 # Cookies
 
 - type: entity
-  name: cookie
+  name: печиво
   parent: FoodBakedBase
   id: FoodBakedCookie
-  description: COOKIE!!!
+  description: ПЕЧИВО!!!
   components:
   - type: Sprite
     state: COOKIE!!!
 
 - type: entity
-  name: oatmeal cookie
+  name: вівсяне печиво
   parent: FoodBakedBase
   id: FoodBakedCookieOatmeal
-  description: The best of both cookie and oat.
+  description: Найкраще як з печива, так і з вівса.
   components:
   - type: Sprite
     state: cookie-oatmeal
@@ -131,10 +131,10 @@
           Quantity: 1
 
 - type: entity
-  name: raisin cookie
+  name: печиво з родзинками
   parent: FoodBakedBase
   id: FoodBakedCookieRaisin
-  description: Why would you put raisins in a cookie?
+  description: Навіщо вам класти родзинки в печиво?
   components:
   - type: Sprite
     state: cookie-raisin
@@ -152,10 +152,10 @@
     - Fruit
 
 - type: entity
-  name: sugar cookie
+  name: цукрове печиво
   parent: FoodBakedBase
   id: FoodBakedCookieSugar
-  description: Just like your mom used to make.
+  description: Так само, як робила ваша мама.
   components:
   - type: Sprite
     state: cookie-sugar
@@ -166,15 +166,14 @@
   id: Nugget
 
 - type: entity
-  name: chicken nugget
+  name: курячий нагетс
   parent: FoodBakedBase
   id: FoodBakedNugget
-  description: A "chicken" nugget vaguely shaped into an object. # Should change depending on name.
+  description: «Курячий» наггетс нечіткої форми у предмет. # Має змінюватися залежно від імені.
   components:
   - type: Tag
     tags:
       - Nugget
-      - Meat
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/nuggets.rsi
     layers:
@@ -207,10 +206,10 @@
 # Once StackVisuals is updated you should be able to mix/match stacks of pancakes.
 
 - type: entity
-  name: pancake
+  name: млинець
   parent: FoodBakedBase
   id: FoodBakedPancake
-  description: A fluffy pancake. The softer, superior relative of the waffle.
+  description: Пухкий млинець. М'якший, кращий родич вафлі.
   components:
   - type: Stack
     stackType: Pancake
@@ -269,10 +268,10 @@
     - Pancake
 
 - type: entity
-  name: blueberry pancake
+  name: чорничний млинець
   parent: FoodBakedBase
   id: FoodBakedPancakeBb
-  description: A fluffy and delicious blueberry pancake.
+  description: Пухкий і смачний чорничний млинець.
   components:
   - type: Stack
     stackType: Pancake
@@ -308,10 +307,10 @@
     - Fruit
 
 - type: entity
-  name: chocolate chip pancake
+  name: шоколадний млинець
   parent: FoodBakedBase
   id: FoodBakedPancakeCc
-  description: A fluffy and delicious chocolate chip pancake.
+  description: Пухкий і смачний шоколадний млинець.
   components:
   - type: Stack
     stackType: Pancake
@@ -348,10 +347,10 @@
     - Pancake
 
 - type: entity
-  name: waffles
+  name: вафлі
   parent: FoodBakedBase
   id: FoodBakedWaffle
-  description: Mmm, waffles.
+  description: Ммм, вафлі.
   components:
   - type: Sprite
     layers:
@@ -368,10 +367,10 @@
           Quantity: 1
 
 - type: entity
-  name: soy waffles
+  name: соєві вафлі
   parent: FoodBakedWaffle
   id: FoodBakedWaffleSoy
-  description: You feel healthier and - more feminine?
+  description: Ви почуваєтеся здоровішою і - жіночнішою?
   components:
   - type: Sprite
     layers:
@@ -388,10 +387,10 @@
           Quantity: 1
 
 - type: entity
-  name: soylent waffles
+  name: соєві вафлі
   parent: FoodBakedWaffle
   id: FoodBakedWaffleSoylent
-  description: Not made of people. Honest. # Definitely people
+  description: Не з людей. Чесний. # Однозначно люди
   components:
   - type: Sprite
     layers:
@@ -408,10 +407,10 @@
           Quantity: 1
 
 - type: entity
-  name: roffle waffles
+  name: вафлі розіграш
   parent: FoodBakedWaffle
   id: FoodBakedWaffleRoffle
-  description: Waffles from Roffle. Co.
+  description: Вафлі від Роффл. Co.
   components:
   - type: Sprite
     layers:
@@ -430,19 +429,19 @@
 # Misc
 
 - type: entity
-  name: poppy pretzel
+  name: маковий крендель
   parent: FoodBakedBase
   id: FoodBakedPretzel
-  description: It's all twisted up!
+  description: Це все перекручено!
   components:
   - type: Sprite
     state: pretzel
 
 - type: entity
-  name: cannoli
+  name: каннолі
   parent: FoodBakedBase
   id: FoodBakedCannoli
-  description: A Sicilian treat that makes you into a wise guy.
+  description: Сицилійське частування, яке перетворює вас на розумника.
   components:
   - type: Sprite
     state: cannoli
@@ -457,10 +456,10 @@
           Quantity: 1
 
 - type: entity
-  name: dumplings
+  name: пельмені
   parent: FoodBakedBase
   id: FoodBakedDumplings
-  description: Average recipe for meat in doughs.
+  description: Середній рецепт м'яса в тісті.
   components:
   - type: Sprite
     state: dumplings
@@ -475,10 +474,10 @@
           Quantity: 2
 
 - type: entity
-  name: chèvre chaud
+  name: черве чауд
   parent: FoodBakedBase
   id: FoodBakedChevreChaud
-  description: A disk of slightly melted chèvre flopped on top of a crostini, and toasted all-round.
+  description: Диск злегка підталого шевра плюхнувся на кростіні та підсмажився з усіх боків.
   components:
   - type: FlavorProfile
     flavors:
@@ -499,10 +498,10 @@
           Quantity: 0.5
 
 - type: entity
-  name: brownies
+  name: брауні
   parent: FoodBakedBase
   id: FoodBakedBrownieBatch
-  description: A pan of brownies.
+  description: Каструля брауні.
   components:
   - type: FlavorProfile
     flavors:
@@ -525,11 +524,11 @@
     slice: FoodBakedBrownie
 
 - type: entity
-  name: brownie
+  name: брауні
   parent: FoodBakedBase
   id: FoodBakedBrownie
   suffix: Fresh
-  description: A fresh baked brownie.
+  description: Свіжоспечений брауні.
   components:
   - type: FlavorProfile
     flavors:
@@ -549,10 +548,10 @@
           Quantity: 3
 
 - type: entity
-  name: special brownies
+  name: спеціальні брауні
   parent: FoodBakedBase
   id: FoodBakedCannabisBrownieBatch
-  description: A pan of "special" brownies.
+  description: Каструля «особливих» брауні.
   components:
   - type: FlavorProfile
     flavors:
@@ -578,10 +577,10 @@
     slice: FoodBakedCannabisBrownie
 
 - type: entity
-  name: special brownie
+  name: спеціальний брауні
   parent: FoodBakedBase
   id: FoodBakedCannabisBrownie
-  description: A "special" brownie.
+  description: «Особливий» брауні.
   components:
   - type: FlavorProfile
     flavors:
@@ -604,10 +603,10 @@
           Quantity: 25
 
 - type: entity
-  name: onion rings
+  name: цибульні кільця
   parent: FoodBakedBase
   id: FoodOnionRings
-  description: You can eat it or propose to your loved ones.
+  description: Ви можете з'їсти його або зробити пропозицію своїм близьким.
   components:
     - type: FlavorProfile
       flavors:

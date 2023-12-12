@@ -57,7 +57,7 @@
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetVoidParamed
   name: Шолом Пустоти Парамедика
-  description: A void helmet made for paramedics.
+  description: Порожній шолом, створений для парамедиків.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/paramedhelm.rsi

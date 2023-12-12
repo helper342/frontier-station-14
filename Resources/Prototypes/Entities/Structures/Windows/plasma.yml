@@ -48,7 +48,7 @@
   id: PlasmaWindowDirectional
   parent: WindowDirectional
   name: одностороннє плазмове вікно
-  description: Don't smudge up the glass down there.
+  description: Не розмазуйте там скло.
   placement:
     mode: SnapgridCenter
     snap:

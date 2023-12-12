@@ -2,7 +2,7 @@
   id: BasePortal
   abstract: true
   name: блюспейс портал
-  description: Transports you to a linked destination!
+  description: Перенесе вас до пов’язаного пункту призначення!
   components:
   - type: Transform
     anchored: True

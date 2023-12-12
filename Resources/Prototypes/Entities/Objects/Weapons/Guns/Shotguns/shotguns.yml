@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponShotgun
+  name: Дробовик базової зброї
   parent: BaseItem
   id: BaseWeaponShotgun
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: BaseItem
   id: WeaponShotgunBulldog
-  description: It's a magazine-fed shotgun designed for close quarters combat. Uses .50 shotgun shells.
+  description: Це рушниця з магазинним живленням, призначена для ближнього бою. Використовує гільзи калібру .50.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -100,10 +100,10 @@
     price: 500
 
 - type: entity
-  name: double-barreled shotgun
+  name: двостволка
   parent: BaseWeaponShotgun
   id: WeaponShotgunDoubleBarreled
-  description: An immortal classic. Uses .50 shotgun shells.
+  description: Безсмертна класика. Використовує гільзи калібру .50.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
@@ -119,10 +119,10 @@
     price: 350
 
 - type: entity
-  name: double-barreled shotgun
+  name: двостволка
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
-  description: An immortal classic. Uses .50 shotgun shells.
+  description: Безсмертна класика. Використовує гільзи калібру .50.
   suffix: Non-Lethal
   components:
   - type: BallisticAmmoProvider
@@ -132,7 +132,7 @@
   name: Enforcer
   parent: BaseWeaponShotgun
   id: WeaponShotgunEnforcer
-  description: A next-generation Frozen Star shotgun. Uses .50 shotgun shells.
+  description: Дробовик Frozen Star нового покоління. Використовує гільзи калібру .50.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
@@ -144,7 +144,7 @@
   name: Enforcer
   parent: BaseWeaponShotgun
   id: WeaponShotgunEnforcerRubber
-  description: A next-generation Frozen Star shotgun. Uses .50 shotgun shells.
+  description: Дробовик Frozen Star нового покоління. Використовує гільзи калібру .50.
   suffix: Non-Lethal
   components:
   - type: Sprite
@@ -158,7 +158,7 @@
   name: Kammerer
   parent: BaseWeaponShotgun
   id: WeaponShotgunKammerer
-  description: When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses .50 shotgun shells.
+  description: Коли старий дизайн Remington зустрічається з сучасними матеріалами, це результат. Улюблена зброя ополченців у багатьох світах. Використовує гільзи калібру .50.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
@@ -168,10 +168,10 @@
     capacity: 4
 
 - type: entity
-  name: sawn-off shotgun
+  name: обріз рушниця
   parent: BaseWeaponShotgun
   id: WeaponShotgunSawn
-  description: Groovy! Uses .50 shotgun shells.
+  description: Чудово! Використовує гільзи калібру .50.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
@@ -189,10 +189,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: sawn-off shogun
+  name: відпиляний сьогун
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
-  description: Groovy! Uses .50 shotgun shells.
+  description: Чудово! Використовує гільзи калібру .50.
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -203,10 +203,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: handmade pistol
+  name: саморобний пістолет
   parent: BaseWeaponShotgun
   id: WeaponShotgunHandmade
-  description: Looks unreliable. Uses .50 shotgun shells.
+  description: Виглядає ненадійно. Використовує гільзи калібру .50.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
@@ -228,7 +228,7 @@
   parent: BaseWeaponShotgun
   id: WeaponShotgunBlunderbuss
   suffix: Pirate
-  description: Deadly at close range.
+  description: Смертельно з близької відстані.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
@@ -238,10 +238,10 @@
     capacity: 1
 
 - type: entity
-  name: improvised shotgun
+  name: саморобна рушниця
   parent: BaseWeaponShotgun
   id: WeaponShotgunImprovised
-  description: A shitty, hand-made shotgun that uses .50 shotgun shells. It can only hold one round in the chamber.
+  description: Рушниця ручної роботи, у якій використовуються патрони калібру .50. Він може вмістити лише один патрон у патроннику.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
@@ -261,7 +261,7 @@
     price: 400
 
 - type: entity
-  name: improvised shotgun
+  name: саморобна рушниця
   parent: WeaponShotgunImprovised
   suffix: Loaded
   id: WeaponShotgunImprovisedLoaded

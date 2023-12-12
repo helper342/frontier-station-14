@@ -1,8 +1,8 @@
 - type: entity
   parent: BoxCardboard
-  name: monkey cube box
+  name: коробка для кубиків мавпи
   id: MonkeyCubeBox
-  description: Drymate brand monkey cubes. Just add water!
+  description: Кубики мавпи бренду Drymate. Просто додайте води!
   components:
   - type: Storage
     whitelist:
@@ -23,10 +23,10 @@
 
 - type: entity
   parent: BaseItem
-  name: monkey cube
+  name: куб мавпи
   suffix: Wrapped
   id: MonkeyCubeWrapped
-  description: Unwrap this to get a monkey cube.
+  description: Розгорніть це, щоб отримати куб мавпи.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -44,10 +44,10 @@
 
 - type: entity
   parent: BoxCardboard
-  name: monkey cube box
+  name: коробка для кубиків мавпи
   suffix: Syndicate
   id: SyndicateSpongeBox
-  description: Drymate brand monkey cubes. Just add water!
+  description: Кубики мавпи бренду Drymate. Просто додайте води!
   components:
   - type: Storage
     whitelist:
@@ -66,10 +66,10 @@
 
 - type: entity
   parent: BaseItem
-  name: monkey cube
+  name: куб мавпи
   suffix: Wrapped, Syndicate
   id: SyndicateSpongeWrapped
-  description: Unwrap this to get a monkey cube.
+  description: Розгорніть це, щоб отримати куб мавпи.
   components:
   - type: SpawnItemsOnUse
     items:

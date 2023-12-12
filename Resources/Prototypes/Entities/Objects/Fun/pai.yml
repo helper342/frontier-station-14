@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: PersonalAI
-  name: personal ai device
-  description: Your electronic pal who's fun to be with!
+  name: персональний штучний інтелект
+  description: Ваш електронний друг, з яким весело бути!
   components:
   - type: Instrument
     allowPercussion: false
@@ -71,8 +71,8 @@
 - type: entity
   parent: PersonalAI
   id: SyndicatePersonalAI
-  name: Syndicate personal ai device
-  description: Your Syndicate pal who's fun to be with!
+  name: Персональний штучний пристрій Синдикат
+  description: Твій товариш із Синдикату, з яким весело бути!
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi
@@ -129,8 +129,8 @@
 
 - type: entity
   id: ActionPAIPlayMidi
-  name: Play MIDI
-  description: Open your portable MIDI interface to soothe your owner.
+  name: Грати в MIDI
+  description: Відкрийте портативний MIDI-інтерфейс, щоб заспокоїти свого власника.
   noSpawn: true
   components:
   - type: InstantAction

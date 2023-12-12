@@ -40,7 +40,7 @@
     requiredTriggeredSpeed: 0
 
 - type: entity
-  name: kick mine
+  name: Наземний мінний удар
   parent: BaseLandMine
   id: LandMineKick
   components:
@@ -48,8 +48,8 @@
   - type: DeleteOnTrigger
 
 - type: entity
-  name: modular mine
-  description: This bad boy could be packing any number of dangers. Or a bike horn.
+  name: модульна міна
+  description: Цей поганий хлопець може таїти багато небезпек. Або велосипедний гудок.
   parent: BaseLandMine
   id: LandMineModular
   components:
@@ -60,7 +60,7 @@
   - type: LandMine
 
 - type: entity
-  name: explosive mine
+  name: вибухова міна
   parent: BaseLandMine
   id: LandMineExplosive
   components:

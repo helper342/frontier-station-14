@@ -1,8 +1,8 @@
 - type: entity
   id: LidSalami
   parent: BaseItem
-  name: salami lid
-  description: Ain't gon' fit, won't fit.
+  name: кришка салямі
+  description: Не підійде, не підійде.
   components:
   - type: Sprite
     sprite: Objects/Decoration/lidsalami.rsi

@@ -154,8 +154,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltAssault
-  name: assault belt
-  description: A tactical assault belt.
+  name: штурмовий пояс
+  description: Пояс тактичний штурмовий.
   components:
   - type: Sprite
     sprite: Clothing/Belt/assault.rsi
@@ -349,8 +349,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltSecurity
-  name: security belt
-  description: Can hold security gear like handcuffs and flashes.
+  name: ремінь безпеки
+  description: Може тримати засоби безпеки, такі як наручники та спалахи.
   components:
   - type: Sprite
     sprite: Clothing/Belt/security.rsi
@@ -486,7 +486,7 @@
 
 - type: entity
   parent: ClothingBeltStorageBase
-  id: ClothingBeltMercenaryWebbing # Frontier - Merc to Mercenary
+  id: ClothingBeltMercWebbing
   name: розгрузка наймита
   description: Ідеально підходить для зберігання всього - від боєприпасів до зброї та бойових речей.
   components:

@@ -1,9 +1,9 @@
-- type: entity
-  name: basic slime
+﻿- type: entity
+  name: основний слайм
   id: MobAdultSlimes
   parent: [ SimpleMobBase, MobCombat ]
   abstract: true
-  description: It looks so much like jelly. I wonder what it tastes like?
+  description: Це дуже схоже на желе. Цікаво, який він на смак?
   components:
   - type: NpcFactionMember
     factions:
@@ -113,17 +113,16 @@
     interactFailureString: petting-failure-generic
   - type: ReplacementAccent
     accent: slimes
-    #Frontier Disabled
-# - type: GhostTakeoverAvailable
-# - type: GhostRole
-#   makeSentient: true
-#   name: ghost-role-information-slimes-name
-#   description: ghost-role-information-slimes-description
+  - type: GhostTakeoverAvailable
+  - type: GhostRole
+    makeSentient: true
+    name: ghost-role-information-slimes-name
+    description: ghost-role-information-slimes-description
   - type: Speech
     speechVerb: Slime
 
 - type: entity
-  name: blue slime
+  name: блакитний слайм
   id: MobAdultSlimesBlue
   parent: MobAdultSlimes
   components:
@@ -135,7 +134,7 @@
         Base: blue_adult_slime_dead
 
 - type: entity
-  name: blue slime
+  name: блакитний слайм
   parent: MobAdultSlimesBlue
   id: MobAdultSlimesBlueAngry
   suffix: Angry
@@ -147,7 +146,7 @@
       description: ghost-role-information-angry-slimes-description
 
 - type: entity
-  name: green slime
+  name: зелений слайм
   parent: MobAdultSlimes
   id: MobAdultSlimesGreen
   components:
@@ -170,7 +169,7 @@
           Poison: 4
 
 - type: entity
-  name: green slime
+  name: зелений слайм
   parent: MobAdultSlimesGreen
   id: MobAdultSlimesGreenAngry
   suffix: Angry
@@ -182,7 +181,7 @@
       description: ghost-role-information-angry-slimes-description
 
 - type: entity
-  name: yellow slime
+  name: жовтий слайм
   parent: MobAdultSlimes
   id: MobAdultSlimesYellow
   components:
@@ -205,7 +204,7 @@
           Cellular: 3
 
 - type: entity
-  name: yellow slime
+  name: жовтий слайм
   parent: MobAdultSlimesYellow
   id: MobAdultSlimesYellowAngry
   suffix: Angry

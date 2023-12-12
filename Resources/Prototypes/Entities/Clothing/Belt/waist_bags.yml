@@ -15,8 +15,8 @@
 #- type: entity
 #  parent: ClothingBeltStorageWaistbag
 #  id: ClothingBeltWaistbagColorRed
-#  name: red waist bag
-#  description: A waist bag meant for carrying small items.
+#  name: червона поясна сумка
+#  description: Поясна сумка призначена для перенесення дрібниць.
 #  components:
 #  - type: Sprite
 #    sprite: Clothing/Belt/waistbag.rsi

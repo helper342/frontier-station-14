@@ -32,8 +32,8 @@
   - type: TimerTriggerVisuals
 
 - type: entity
-  name: explosive grenade
-  description: Grenade that creates a small but devastating explosion.
+  name: розривна граната
+  description: Граната, яка створює невеликий, але нищівний вибух.
   parent: GrenadeBase
   id: ExGrenade
   components:
@@ -53,8 +53,8 @@
     beepInterval: 2 # 2 beeps total (at 0 and 2)
 
 - type: entity
-  name: flashbang
-  description: Eeeeeeeeeeeeeeeeeeeeee
+  name: спалах
+  description: Еееееееееееееееееееееее
   parent: GrenadeBase
   id: GrenadeFlashBang
   components:
@@ -93,8 +93,8 @@
 #The explosive values for these are pretty god damn mediocre, but SS14's explosion system is hard to understand - this is a good enough approximation of how it was in SS13.
 #Ideally, there should be a weak radius around the bomb outside of its gibbing / spacing range capable of dealing fair damage to players / structures.
 - type: entity
-  name: syndicate minibomb
-  description: A syndicate-manufactured explosive used to stow destruction and cause chaos.
+  name: синдикат мінібомба
+  description: Вибухівка, виготовлена ​​синдикатом, яка використовується для придушення руйнувань і спричинення хаосу.
   parent: GrenadeBase
   id: SyndieMiniBomb
   components:
@@ -116,8 +116,8 @@
         volume: 12
 
 - type: entity
-  name: supermatter grenade
-  description: Grenade that simulates delamination of the supermatter engine, pulling things in a heap and exploding after some time.
+  name: супер матеріальна граната
+  description: Граната, яка імітує розшарування двигуна надматерії, тягне речі в купу і вибухає через деякий час.
   parent: GrenadeBase
   id: SupermatterGrenade
   components:
@@ -179,8 +179,8 @@
       - type: ExplodeOnTrigger
 
 - type: entity
-  name: whitehole grenade
-  description: Grenade that repulses everything around for some time.
+  name: білодірна граната
+  description: Граната, яка деякий час відбиває все навколо.
   parent: SupermatterGrenade
   id: WhiteholeGrenade
   components:
@@ -226,8 +226,8 @@
       - type: DeleteOnTrigger
 
 - type: entity
-  name: the nuclear option
-  description: Please don't throw it, think of the children.
+  name: ядерний варіант
+  description: Будь ласка, не кидайте, подумайте про дітей.
   parent: GrenadeBase
   id: NuclearGrenade
   components:
@@ -256,8 +256,8 @@
       path: /Audio/Effects/countdown.ogg
 
 - type: entity
-  name: modular grenade
-  description: A grenade casing. Requires a trigger and a payload.
+  name: модульна граната
+  description: Гільза гранати. Потрібен тригер і корисне навантаження.
   parent: BaseItem
   id: ModularGrenade
   components:
@@ -300,8 +300,8 @@
     price: 25
 
 - type: entity
-  name: EMP grenade
-  description: A grenade designed to wreak havoc on electronic systems.
+  name: Граната ЕМП
+  description: Граната, призначена для руйнування електронних систем.
   parent: GrenadeBase
   id: EmpGrenade
   components:
@@ -317,8 +317,8 @@
       path: /Audio/Effects/countdown.ogg
 
 - type: entity
-  name: holy hand grenade
-  description: O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.
+  name: свята ручна граната
+  description: Господи, благослови цю Твою ручну гранату, щоб нею Ти міг рознести Твоїх ворогів на дрібні шматочки, у Твоїй милості.
   parent: GrenadeBase
   id: HolyHandGrenade
   components:

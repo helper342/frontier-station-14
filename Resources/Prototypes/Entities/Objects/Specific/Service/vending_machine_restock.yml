@@ -2,8 +2,8 @@
   parent: BaseItem
   id: BaseVendingMachineRestock
   abstract: true
-  name: vending machine restock box
-  description: A box for restocking vending machines with corporate goodies.
+  name: ящик для поповнення торгового автомата
+  description: Бокс для поповнення торгових автоматів корпоративними смаколиками.
   components:
   - type: VendingMachineRestock
   - type: Sprite
@@ -51,8 +51,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockBooze
-  name: Booze-O-Mat restock box
-  description: Slot into your Booze-O-Mat to start the party! Not for sale to passengers below the legal age. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів Booze-O-Mat
+  description: Вставте свій Booze-O-Mat, щоб почати вечірку! Не для продажу пасажирам, які не досягли встановленого законом віку. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -67,8 +67,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockChang
-  name: Mr. Chang's restock box
-  description: A box covered in white labels with bold red Chinese characters, ready to be loaded into the nearest Mr. Chang's vending machine. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів містера Чанга
+  description: Коробка, вкрита білими етикетками з жирними червоними китайськими ієрогліфами, готова до завантаження в найближчий торговий автомат пана Чанга. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -83,8 +83,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockChefvend
-  name: ChefVend restock box
-  description: Refill the ChefVend. Just don't break any more of the eggs.
+  name: Коробка для поповнення запасів ChefVend
+  description: Поповніть ChefVend. Тільки більше не розбивай яйця.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -99,8 +99,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockCondimentStation
-  name: Condiment Station restock box
-  description: Refill the Condiment Station. Mmmm, cold sauce.
+  name: Коробка для поповнення запасів Condiment Station
+  description: Заповніть станцію для приправ. Мммм, холодний соус.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -115,8 +115,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockClothes
-  name: wardrobe restock box
-  description: It's time to step up your fashion! Place inside any clothes vendor restock slot to begin. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: ящик для поповнення гардеробу
+  description: Настав час покращити свою моду! Для початку помістіть у будь-який слот для поповнення запасів постачальника одягу. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -152,8 +152,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockCostumes
-  name: AutoDrobe restock box
-  description: A panoply of NanoTrasen employees are prancing about a colorful theater in a tragicomedy. You can join them too! Load this into your nearest AutoDrobe vending machine. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка поповнення запасів AutoDrobe
+  description: Група співробітників NanoTrasen гарцює в барвистому театрі в трагікомедії. Ви також можете приєднатися до них! Завантажте це в найближчий торговий автомат AutoDrobe. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -168,8 +168,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockDinnerware
-  name: Plasteel Chef's restock box
-  description: It's never raw in this kitchen! Drop into the restock slot on the Plasteel Chef to begin. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів Plasteel Chef's
+  description: На цій кухні ніколи не буває сирого! Щоб почати, зайдіть у слот для поповнення запасів на Plasteel Chef. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -184,8 +184,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockDiscountDans
-  name: Discount Dan's restock box
-  description: A box full of salt and starch. Why suffer Quality when you can have Quantity? Discount Dan's! A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів Discount Dan's
+  description: Ящик, повний солі та крохмалю. Навіщо страждати від якості, коли можна мати кількість? Знижка Dan's! На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -200,8 +200,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockDonut
-  name: Robust Donuts restock box
-  description: A box full of toroidal bundles of fried dough for restocking a vending machine. Use only as directed by Robust Industries, LLC. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Міцна коробка для поповнення запасів пончиків
+  description: Коробка, повна тороїдальних пачок смаженого тіста для поповнення торгового автомата. Використовуйте лише відповідно до вказівок Robust Industries, LLC. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -216,8 +216,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockEngineering
-  name: EngiVend restock box
-  description: Only to be used by certified professionals. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів EngiVend
+  description: Використовувати лише сертифіковані спеціалісти. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -233,8 +233,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockGames
-  name: Good Clean Fun restock box
-  description: It's time to roll for initiative, dice dragons! Load up at the Good Clean Fun vending machine! A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів Good Clean Fun
+  description: Настав час проявити ініціативу, кубики-дракони! Завантажуйтеся в торговий автомат Good Clean Fun! На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -249,8 +249,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockGetmoreChocolateCorp
-  name: GetMore Chocolate restock box
-  description: A box loaded with the finest ersatz cacao. Only to be used in official Getmore Chocolate vending machines. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів шоколаду GetMore
+  description: Коробка, наповнена найкращим ерзац-какао. Тільки для використання в офіційних торгових автоматах Getmore Chocolate. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -265,8 +265,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockHotDrinks
-  name: Solar's Best restock box
-  description: Toasty! For use in Solar's Best Hot Drinks or other affiliate vending machines. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Найкраща коробка для поповнення запасів від Solar
+  description: Підсмажений! Для використання в Solar's Best Hot Drinks або інших дочірніх торгових автоматах. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -281,8 +281,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockMedical
-  name: NanoMed restock box
-  description: Slot into your department's NanoMed or NanoMedPlus to dispense. Handle with care. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів NanoMed
+  description: Для дозування вставте NanoMed або NanoMedPlus свого відділу. Поводьтеся обережно. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -298,8 +298,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockNutriMax
-  name: NutriMax restock box
-  description: We'll make your thumbs green with our tools. Let's get to harvesting! Load into a NutriMax vending machine. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Бокс для поповнення запасів NutriMax
+  description: Ми зробимо ваші великі пальці зеленими за допомогою наших інструментів. Беремося до збору врожаю! Завантажте в автомат NutriMax. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -314,8 +314,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockPTech
-  name: PTech restock box
-  description: All the bureaucracy you can handle, and more! Load into the PTech vending machine to get started. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів PTech
+  description: Уся бюрократія, з якою ви можете впоратися, і багато іншого! Завантажте в торговий автомат PTech, щоб почати. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -330,8 +330,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockRobustSoftdrinks
-  name: beverage restock box
-  description: A cold, clunky container of colliding chilly cylinders. Use only as directed by Robust Industries, LLC. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: ящик для поповнення запасів напоїв
+  description: Холодний, незграбний контейнер холодних циліндрів, що стикаються. Використовуйте лише відповідно до вказівок Robust Industries, LLC. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -353,8 +353,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockSecTech
-  name: SecTech restock box
-  description: "Communists beware: the reinforcements have arrived! A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM."
+  name: Коробка для поповнення запасів SecTech
+  description: "Комуністи стережіться: прибуло підкріплення! На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ."
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -369,8 +369,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockSalvageEquipment
-  name: Salvage Vendor restock box
-  description: Strike the earth ere the space carp nip your behind! Slam into a salvage vendor to begin. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Утилізована коробка для поповнення запасів постачальника
+  description: Вдарте землю до того, як космічний короп задушить вас за спину! Для початку вдартеся про продавця вторсировини. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -385,8 +385,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockSeeds
-  name: MegaSeed restock box
-  description: "A label says they're heirloom seeds, passed down from our ancestors. Pack it into the MegaSeed Servitor! A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM."
+  name: Коробка для поповнення запасів MegaSeed
+  description: "На етикетці вказано, що це реліквія насіння, яке передалося нашими предками. Запакуйте його в MegaSeed Servitor! На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ."
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -401,8 +401,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockSmokes
-  name: ShadyCigs restock box
-  description: It's hard to see anything under all the Surgeon General warnings, but it mentions loading it into a vending machine. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів ShadyCigs
+  description: Важко щось побачити під усіма попередженнями Головного хірурга, але там згадується завантаження в торговий автомат. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -417,8 +417,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockTankDispenser
-  name: tank dispenser restock box
-  description: Capable of replacing tanks in a gas tank dispenser. Handle with care. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: коробка для поповнення дозатора бака
+  description: Можливість заміни резервуарів в ТРК. Поводьтеся обережно. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -434,8 +434,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockVendomat
-  name: Vendomat restock box
-  description: A box full of parts for various machinery. Load it into a Vendomat to begin. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів Vendomat
+  description: Ящик, наповнений деталями для різної техніки. Щоб почати, завантажте його у Vendomat. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -450,8 +450,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockRobotics
-  name: Robotech Deluxe restock box
-  description: A box full of tools for creating borgs. Load it into a Robotech Deluxe to begin. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів Robotech Deluxe
+  description: Ящик, повний інструментів для створення боргів. Щоб почати, завантажте його в Robotech Deluxe. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -466,8 +466,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockHappyHonk
-  name: Happy Honk restock box
-  description: place this box full of fun into the restock slot on the Happy Honk Dispenser to begin. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка поповнення запасів Happy Honk
+  description: Щоб почати, помістіть цю коробку, наповнену розвагами, у слот для поповнення запасів на диспенсері Happy Honk. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -482,8 +482,8 @@
 - type: entity
   parent: SecuredVendingMachineRestock
   id: VendingMachineRestockChemVend
-  name: ChemVend restock box
-  description: A box filled with chemicals and covered in dangerous-looking NFPA diamonds. Load it into a ChemVend to begin. A label reads THE BOX IS TAMPER PROOF AND WILL DESTROY IT'S CONTENT ON HARM.
+  name: Коробка для поповнення запасів ChemVend
+  description: Коробка, наповнена хімікатами та вкрита небезпечними на вигляд діамантами NFPA. Щоб почати, завантажте його в ChemVend. На ярлику написано. КОРОБКА ЗАХИЩЕНА ДО ЗАБЕЗПЕЧЕННЯ ТА ЇЇ ВМІСТ БУДЕ ЗНИЩЕНА НА ШКОДУ.
   components:
   - type: VendingMachineRestock
     canRestock:

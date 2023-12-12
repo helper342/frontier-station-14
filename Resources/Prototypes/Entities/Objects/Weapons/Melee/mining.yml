@@ -1,9 +1,9 @@
 - type: entity
-  name: crusher
+  name: дробарка
   parent: BaseItem
   id: BaseWeaponCrusher # Crusher? But I...
   abstract: true
-  description: An early design of the proto-kinetic accelerator.
+  description: Рання конструкція протокінетичного прискорювача.
   components:
   - type: Sharp
   - type: UnpoweredFlashlight
@@ -15,7 +15,7 @@
     price: 255
 
 - type: entity
-  name: crusher
+  name: дробарка
   parent: BaseWeaponCrusher
   id: WeaponCrusher
   components:
@@ -72,10 +72,10 @@
   - type: Prying
 
 - type: entity
-  name: crusher dagger
+  name: кинджал дробарки
   parent: BaseWeaponCrusher
   id: WeaponCrusherDagger
-  description: A scaled down version of a proto-kinetic crusher, usually used in a last ditch scenario.
+  description: Зменшена версія протокінетичної дробарки, яка зазвичай використовується в сценарії останньої відмови.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_dagger.rsi
@@ -96,10 +96,10 @@
 
 # Like a crusher... but better
 - type: entity
-  name: crusher glaive
+  name: подрібнювач меча
   parent: WeaponCrusher
   id: WeaponCrusherGlaive
-  description: An early design of the proto-kinetic accelerator, in glaive form.
+  description: Рання конструкція протокінетичного прискорювача у формі глефи.
   components:
   - type: Tag
     tags:

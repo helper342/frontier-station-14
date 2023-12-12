@@ -1,10 +1,10 @@
 # Hacky for the stress test so don't even consider adding to this
 # I added to it anyways because heck you
 - type: entity
-  name: Burrower
+  name: Беровер
   id: MobXeno
   parent: SimpleSpaceMobBase
-  description: They mostly come at night. Mostly.
+  description: В основному приходять вночі. Переважно.
   components:
   - type: Insulated
   - type: CombatMode
@@ -120,7 +120,7 @@
     speechVerb: LargeMob
 
 - type: entity
-  name: Praetorian
+  name: Преторіанець
   parent: MobXeno
   id: MobXenoPraetorian
   components:
@@ -155,7 +155,7 @@
     accent: genericAggressive
 
 - type: entity
-  name: Drone
+  name: Дрон
   parent: MobXeno
   id: MobXenoDrone
   components:
@@ -196,7 +196,7 @@
     accent: genericAggressive
 
 - type: entity
-  name: Queen
+  name: Королева
   parent: MobXeno
   id: MobXenoQueen
   components:
@@ -240,7 +240,7 @@
     - CannotSuicide
 
 - type: entity
-  name: Ravager
+  name: Спустошитель
   parent: MobXeno
   id: MobXenoRavager
   components:
@@ -255,8 +255,6 @@
     thresholds:
       0: Alive
       200: Dead
-  - type: Stamina
-    critThreshold: 550
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.3
     baseSprintSpeed: 4.2
@@ -283,7 +281,7 @@
     accent: genericAggressive
 
 - type: entity
-  name: Runner
+  name: Бігун
   parent: MobXeno
   id: MobXenoRunner
   components:
@@ -318,7 +316,7 @@
     accent: genericAggressive
 
 - type: entity
-  name: Rouny
+  name: Роуні
   parent: MobXenoRunner
   id: MobXenoRouny
   components:
@@ -335,7 +333,7 @@
     accent: genericAggressive
 
 - type: entity
-  name: Spitter
+  name: Плювач
   parent: MobXeno
   id: MobXenoSpitter
   components:
@@ -386,10 +384,10 @@
     accent: genericAggressive
 
 - type: entity
-  name: space adder
+  name: суматор простору
   parent: SimpleSpaceMobBase
   id: MobPurpleSnake
-  description: A menacing purple snake from Kepler-283c.
+  description: Грізна фіолетова змія з Kepler-283c.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -446,11 +444,11 @@
     accent: genericAggressive
 
 - type: entity
-  name: space adder
+  name: суматор простору
   parent: MobPurpleSnake
   id: MobSmallPurpleSnake
   suffix: small
-  description: A smaller version of the menacing purple snake from Kepler-283c.
+  description: Зменшена версія грізної фіолетової змії з Kepler-283c.
   components:
   - type: Sprite
     drawdepth: Mobs

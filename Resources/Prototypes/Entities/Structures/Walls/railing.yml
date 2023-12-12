@@ -2,7 +2,7 @@
   parent: BaseStructure
   id: Railing
   name: перила
-  description: Basic railing meant to protect idiots like you from falling.
+  description: Базові перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -60,7 +60,7 @@
   parent: BaseStructure
   id: RailingCorner
   name: перила
-  description: Basic railing meant to protect idiots like you from falling.
+  description: Базові перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -127,7 +127,7 @@
   parent: BaseStructure
   id: RailingCornerSmall
   name: перила
-  description: Basic railing meant to protect idiots like you from falling.
+  description: Базові перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -185,7 +185,7 @@
   parent: BaseStructure
   id: RailingRound
   name: перила
-  description: Basic railing meant to protect idiots like you from falling.
+  description: Базові перила, призначені для захисту таких ідіотів, як ти, від падіння.
   components:
   - type: Sprite
     drawdepth: WallTops

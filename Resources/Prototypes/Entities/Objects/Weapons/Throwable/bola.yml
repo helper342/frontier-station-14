@@ -1,8 +1,8 @@
 - type: entity
-  name: bola
+  name: була
   parent: BaseItem
   id: Bola
-  description: Linked together with some spare cuffs and metal.
+  description: З’єднані разом із запасними манжетами та металом.
   components:
   - type: Item
     size: 20
@@ -13,6 +13,8 @@
     sound: /Audio/Weapons/bolathrow.ogg
   - type: EmitSoundOnLand
     sound: /Audio/Effects/snap.ogg
+  - type: StaminaDamageOnCollide
+    damage: 80
   - type: Construction
     graph: Bola
     node: bola

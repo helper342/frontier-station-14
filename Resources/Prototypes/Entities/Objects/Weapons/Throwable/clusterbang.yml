@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ClusterBang
-  name: clusterbang
-  description: Can be used only with flashbangs. Explodes several times.
+  name: Кластер Банг
+  description: Можна використовувати тільки з флеш-чобками. Вибухає кілька разів.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/clusterbang.rsi

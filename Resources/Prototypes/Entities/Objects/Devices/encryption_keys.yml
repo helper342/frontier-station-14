@@ -2,13 +2,12 @@
   abstract: true
   parent: BaseItem
   id: EncryptionKey
-  name: encryption key
-  description: A small cypher chip for headsets.
+  name: ключ шифрування
+  description: Невеликий чіп шифр для гарнітур.
   components:
   - type: EncryptionKey
   - type: Item
     sprite: Objects/Devices/encryption_keys.rsi
-    size: 2 # Frontier - 5 to 2 size
   - type: Sprite
     sprite: Objects/Devices/encryption_keys.rsi
   - type: StaticPrice
@@ -17,8 +16,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCommon
-  name: common encryption key
-  description: An encryption key used by anyone.
+  name: загальний ключ шифрування
+  description: Ключ шифрування, який використовується будь-ким.
   components:
   - type: EncryptionKey
     channels:
@@ -32,8 +31,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCargo
-  name: cargo encryption key
-  description: An encryption key used by supply employees.
+  name: ключ шифрування карго
+  description: Ключ шифрування, який використовують працівники постачання.
   components:
   - type: EncryptionKey
     channels:
@@ -47,8 +46,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCentCom
-  name: central command encryption key
-  description: An encryption key used by captain's bosses.
+  name: центральний командний ключ шифрування
+  description: Ключ шифрування, яким користуються боси капітана.
   components:
   - type: EncryptionKey
     channels:
@@ -62,8 +61,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyStationMaster
-  name: station master encryption key
-  description: An encryption key used by station's bosses.
+  name: головний ключ шифрування станції
+  description: Ключ шифрування, який використовують боси станції.
   components:
   - type: EncryptionKey
     channels:
@@ -75,7 +74,6 @@
     - Security
     - Service
     - Supply
-    - Traffic # Frontier
     defaultChannel: Command
   - type: Sprite
     layers:
@@ -85,8 +83,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCommand
-  name: command encryption key
-  description: An encryption key used by crew's bosses.
+  name: ключ шифрування контролю трафіку
+  description: Ключ шифрування для каналу управління космічним трафіком.
   components:
   - type: EncryptionKey
     channels:
@@ -100,8 +98,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyEngineering
-  name: engineering encryption key
-  description: An encryption key used by the engineers.
+  name: інженерний ключ шифрування
+  description: Ключ шифрування, який використовують інженери.
   components:
   - type: EncryptionKey
     channels:
@@ -115,8 +113,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyMedical
-  name: medical encryption key
-  description: An encryption key used by those who save lives.
+  name: медичний ключ шифрування
+  description: Ключ шифрування, який використовують ті, хто рятує життя.
   components:
   - type: EncryptionKey
     channels:
@@ -130,8 +128,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyMedicalScience
-  name: med-sci encryption key
-  description: An encryption key used by someone who hasn't decided which side to take.
+  name: медично-науковий ключ шифрування
+  description: Ключ шифрування, яким користується хтось, хто не вирішив, чию сторону вибрати.
   components:
   - type: EncryptionKey
     channels:
@@ -146,8 +144,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyScience
-  name: science encryption key
-  description: An encryption key used by scientists. Maybe it is plasmaproof?
+  name: науковий ключ шифрування
+  description: Ключ шифрування, який використовують вчені. Можливо, він плазмостійкий?
   components:
   - type: EncryptionKey
     channels:
@@ -161,8 +159,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyRobo
-  name: robotech encryption key
-  description: An encryption key used by robototech engineers. Maybe it has a LAH-6000 on it?
+  name: ключ шифрування робототехніка
+  description: Ключ шифрування, який використовують інженери робототехніки. Можливо, на ньому LAH-6000?
   components:
   - type: EncryptionKey
     channels:
@@ -176,8 +174,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeySecurity
-  name: nfsd encryption key
-  description: An encryption key used by the New Frontier Sheriff's Department.
+  name: ключ шифрування ДНПШ
+  description: Ключ шифрування, який використовується "Департаментом Нового Прикордонного Шерифа".
   components:
   - type: EncryptionKey
     channels:
@@ -191,8 +189,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyService
-  name: service encryption key
-  description: An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
+  name: службовий ключ шифрування
+  description: Ключ шифрування, який використовується обслуговуючим персоналом, який має підтримувати станцію заповненою, щасливою та чистою.
   components:
   - type: EncryptionKey
     channels:
@@ -206,8 +204,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeySyndie
-  name: blood-red encryption key
-  description: An encryption key used by... wait... Who is owner of this chip?
+  name: криваво-червоний ключ шифрування
+  description: Ключ шифрування, який використовує... зачекайте... Хто є власником цього чіпа?
   components:
   - type: EncryptionKey
     channels:
@@ -221,8 +219,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyBinary
-  name: binary translator key
-  description: An encryption key that translates binary signals used by silicons.
+  name: ключ двійкового транслятора
+  description: Ключ шифрування, який перетворює двійкові сигнали, що використовуються силіконами.
   components:
   - type: EncryptionKey
     channels:

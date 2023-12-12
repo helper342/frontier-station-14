@@ -19,7 +19,7 @@
   parent: WeldingMaskBase
   id: ClothingHeadHatWelding
   name: маска для зварювання
-  description: A head-mounted face cover designed to protect the wearer completely from space-arc eye.
+  description: Лицьова маска, що кріпиться на голову, призначена для повного захисту користувача від космічної дуги.
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/welding.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: WeldingMaskBase
   id: ClothingHeadHatWeldingMaskFlame
-  name: flame маска для зварювання
-  description: A painted welding helmet, this one has flames on it.
+  name: полум'яна маска для зварювання
+  description: Розмальований зварювальний шолом, на ньому вогонь.
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/flame_welding_mask.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: WeldingMaskBase
   id: ClothingHeadHatWeldingMaskFlameBlue
-  name: blue-flame маска для зварювання
-  description: A painted welding helmet, this one has blue flames on it.
+  name: синє-полум'я маска для зварювання
+  description: Розмальований зварювальний шолом, на цьому синє полум’я.
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/blue_flame_welding_mask.rsi
@@ -58,7 +58,7 @@
   parent: WeldingMaskBase
   id: ClothingHeadHatWeldingMaskPainted
   name: розмальована маска для зварювання
-  description: A welding helmet, painted in crimson.
+  description: Зварювальна маска, пофарбована в малиновий колір.
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/paintedwelding.rsi

@@ -2,7 +2,7 @@
   id: LockerBooze
   parent: LockerBase
   name: зберігання випивки
-  description: This is where the bartender keeps the booze.
+  description: Тут бармен зберігає випивку.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -34,8 +34,8 @@
 - type: entity
   id: LockerSalvageSpecialist
   parent: LockerBase
-  name: salvage specialist's equipment
-  description: Nevermind the pickaxe.
+  name: обладнання рятувальників
+  description: Не звертайте уваги на кірку.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -49,7 +49,7 @@
 - type: entity
   id: LockerCaptain
   parent: LockerBaseSecure
-  name: captain's locker
+  name: капітанська шафа
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -146,7 +146,7 @@
 - type: entity
   id: LockerFreezerBase
   parent: LockerBase
-  name: freezer
+  name: морозильна камера
   suffix: No Access
   components:
   - type: Appearance
@@ -161,7 +161,7 @@
 - type: entity
   id: LockerFreezer
   parent: LockerFreezerBase
-  name: freezer
+  name: морозильна камера
   suffix: Kitchen, Locked
   components:
   - type: AccessReader
@@ -186,7 +186,7 @@
   id: LockerMedicine
   parent: LockerBase
   name: шафка для медикаментів
-  description: Filled to the brim with medical junk.
+  description: Вщерть заповнений медичним мотлохом.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -363,7 +363,7 @@
   id: LockerEvidence
   parent: LockerSecurity
   name: шафа для доказів
-  description: To store bags of bullet casings and detainee belongings.
+  description: Зберігати сумки з гільзами та речами затриманих.
   components:
   - type: AccessReader
     access: [["Security"]]
@@ -373,7 +373,7 @@
   id: LockerSyndicatePersonal
   name: збройова шафа
   parent: LockerBaseSecure
-  description: It's a personal storage unit for operative gear.
+  description: Це особисте сховище для оперативного спорядження.
   components:
   - type: Appearance
   - type: EntityStorageVisuals

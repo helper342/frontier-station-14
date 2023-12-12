@@ -2,8 +2,8 @@
   abstract: true
   id: GasPipeBase
   parent: BaseItem
-  name: pipe
-  description: Holds gas.
+  name: труба
+  description: Для постачання газів.
   placement:
     mode: SnapgridCenter
   components:

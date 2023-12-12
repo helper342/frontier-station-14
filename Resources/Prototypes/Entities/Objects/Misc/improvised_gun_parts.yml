@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: ModularReceiver 
-  name: modular receiver 
-  description: A vital part used in the creation of firearms. #Could use a better description, but I'm not a gun nut so I can't really do that.
+  name: модульний приймач
+  description: Важлива частина, яка використовується при створенні вогнепальної зброї. #Можна використати кращий опис, але я не божевільний, тому я не можу цього зробити.
   components:
 #    - type: Item
 #      size: 15
@@ -19,8 +19,8 @@
 - type: entity
   parent: BaseItem
   id: RifleStock
-  name: rifle stock
-  description: A robust wooden stock, used in the creation of firearms. #Same as above
+  name: приклад рушниці
+  description: Міцний дерев'яний приклад, який використовується при створенні вогнепальної зброї. #Само, як і вище
   components:
 #    - type: Item
 #      size: 25

@@ -1,6 +1,6 @@
 - type: entity
   id: SpawnPointGhostRatKing
-  name: ghost role spawn point
+  name: точка появи ролі привида
   suffix: rat king
   parent: MarkerBase
   components:
@@ -19,7 +19,7 @@
 
 - type: entity
   id: SpawnPointGhostRemilia
-  name: ghost role spawn point
+  name: точка появи ролі привида
   suffix: Remilia
   parent: MarkerBase
   components:
@@ -38,7 +38,7 @@
 
 - type: entity
   id: SpawnPointGhostCerberus
-  name: ghost role spawn point
+  name: точка появи ролі привида
   suffix: cerberus
   parent: MarkerBase
   components:
@@ -58,7 +58,7 @@
 - type: entity
   noSpawn: true
   id: SpawnPointGhostNukeOperative
-  name: ghost role spawn point
+  name: точка появи ролі привида
   suffix: nukeops
   parent: MarkerBase
   components:
@@ -76,7 +76,7 @@
 - type: entity
   noSpawn: true
   id: SpawnPointLoneNukeOperative
-  name: ghost role spawn point
+  name: точка появи ролі привида
   suffix: loneops
   parent: MarkerBase
   components:
@@ -97,7 +97,7 @@
   parent: MarkerBase
   id: SpawnPointGhostDragon
   noSpawn: true
-  name: ghost role spawn point
+  name: точка появи ролі привида
   suffix: dragon
   components:
   - type: GhostRole
@@ -114,7 +114,7 @@
 
 - type: entity
   id: SpawnPointGhostSpaceNinja
-  name: ghost role spawn point
+  name: точка появи ролі привида
   suffix: space ninja
   parent: MarkerBase
   components:

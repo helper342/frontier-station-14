@@ -2,7 +2,7 @@
   parent: BaseStructure
   id: Rack
   name: стелаж
-  description: A rack for storing things on.
+  description: Стелаж для зберігання речей.
   components:
   - type: MeleeSound
     soundGroups:

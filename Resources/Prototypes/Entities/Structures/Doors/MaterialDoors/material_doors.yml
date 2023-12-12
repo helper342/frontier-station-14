@@ -3,7 +3,7 @@
   parent: BaseStructure
   name: двері
   abstract: true
-  description: A door, where will it lead?
+  description: Двері, куди вони приведуть?
   components:
   - type: InteractionOutline
   - type: Sprite
@@ -67,7 +67,7 @@
   id: WoodDoor
   name: деревʼяні двері
   parent: BaseMaterialDoor
-  description: A door, where will it lead?
+  description: Двері, куди вони приведуть?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/wood_door.rsi
@@ -104,7 +104,7 @@
   id: PaperDoor
   name: паперові двері
   parent: WoodDoor
-  description: A door, where will it lead?
+  description: Двері, куди вони приведуть?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/paper_door.rsi
@@ -127,7 +127,7 @@
   id: PlasmaDoor
   name: плазмові двері
   parent: BaseMaterialDoor
-  description: A door, where will it lead?
+  description: Двері, куди вони приведуть?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/plasma_door.rsi
@@ -153,7 +153,7 @@
   id: GoldDoor
   name: золоті двері
   parent: BaseMaterialDoor
-  description: A door, where will it lead?
+  description: Двері, куди вони приведуть?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/gold_door.rsi
@@ -168,7 +168,7 @@
   id: SilverDoor
   name: двері зі срібла
   parent: BaseMaterialDoor
-  description: A door, where will it lead?
+  description: Двері, куди вони приведуть?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/silver_door.rsi
@@ -183,7 +183,7 @@
   id: BananiumDoor
   name: двері бананіуму
   parent: BaseMaterialDoor
-  description: A door, where will it lead?
+  description: Двері, куди вони приведуть?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/bananium_door.rsi
@@ -203,7 +203,7 @@
   id: WebDoor
   name: двері з павутини
   parent: BaseMaterialDoor
-  description: A door, leading to the lands of the spiders... or a spaced room.
+  description: Двері, що ведуть у країну павуків... або віддалена кімната.
   components:
   - type: Sprite
     sprite: Structures/Doors/web_door.rsi

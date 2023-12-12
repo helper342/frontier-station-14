@@ -56,7 +56,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadLightBase
-  name: base helmet with light
+  name: база шолома з підсвіткою
   noSpawn: true
   components:
   - type: Sprite
@@ -114,7 +114,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadEVAHelmetBase
-  name: base space helmet
+  name: базовий космічний шолом
   components:
   - type: Item
     size: 10
@@ -225,7 +225,7 @@
   abstract: true
   id: ClothingHeadHatHoodWinterBase
   name: основа капюшона зимового пальто
-  description: A hood, made to keep your head warm.
+  description: Капюшон, створений для збереження голови в теплі.
   noSpawn: true
   components:
   - type: Sprite

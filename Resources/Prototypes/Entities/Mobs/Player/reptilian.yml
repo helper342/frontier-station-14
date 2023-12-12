@@ -1,6 +1,8 @@
 - type: entity
   save: false
-  name: Urisst' Mzhand
+  name: Уристь Мжан
   parent: BaseMobReptilian
   id: MobReptilian
+  # components:
+  #   - type: MailReceiver
 #Weh

@@ -2,7 +2,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatBunny
   name: заячі вушка
-  description: Cute bunny ears.
+  description: Милі вушка кролика.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/bunny.rsi
@@ -13,7 +13,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatCake
   name: капелюшок для торта
-  description: You put the cake on your head. Brilliant.
+  description: Ви кладете торт на голову. Блискуче.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/cake.rsi
@@ -24,7 +24,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatChickenhead
   name: куряча голова
-  description: "It's a chicken head. Bok bok bok!"
+  description: "Це куряча голова. Бок-бок-бок!"
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/chickenhead.rsi
@@ -37,7 +37,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatFlowerCrown
   name: квіткова корона
-  description: A coronet of fresh and fragrant flowers.
+  description: Віночок живих і запашних квітів.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/flower-crown.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHairflower
-  name: hairflower
-  description: A red flower for beautiful ladies.
+  name: квітка
+  description: Червона квітка для прекрасних дам.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/hairflower.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPwig
-  name: pwig
-  description: To be honest, those look ridiculous.
+  name: гілочка
+  description: Чесно кажучи, вони виглядають смішно.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/pwig.rsi
@@ -102,7 +102,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatSkub
   name: скуб капелюх
-  description: 'Best paired with the Skub Suit.'
+  description: 'Найкраще поєднується з костюмом Скуб.'
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/skubhead.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatShrineMaidenWig
-  name: shrine maiden's wig
-  description: The tag reads "All proceeds go to the Hakurei Shrine."
+  name: святиня дівоча перука
+  description: На бірці написано «Всі виручені кошти йдуть до храму Хакурей».
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/shrine-maidens-wig.rsi
@@ -130,7 +130,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatCone
   name: попереджувальний конус
-  description: This cone is trying to warn you of something!
+  description: Цей конус намагається вас про щось попередити!
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/cone.rsi
@@ -144,7 +144,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatFancyCrown
   name: шикарна корона
-  description: It smells like dead rat. Lets you speak like one!
+  description: Пахне дохлим щуром. Дозволяє вам говорити як один!
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/fancycrown.rsi

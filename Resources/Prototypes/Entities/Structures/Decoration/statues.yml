@@ -1,9 +1,9 @@
 - type: entity
   id: StatueVenusRed
   parent: BaseStructure
-  name: statue of a pure maiden
+  name: статуя пречистої дівиці
   suffix: Red
-  description: An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a red toolbox.
+  description: Стародавня мармурова статуя. Суб'єкт зображений із косою до підлоги та тримає в руках червоний ящик для інструментів.
   components:
   - type: Sprite
     sprite: Structures/Decoration/statues.rsi
@@ -14,9 +14,9 @@
 - type: entity
   id: StatueVenusBlue
   parent: BaseStructure
-  name: statue of a pure maiden
+  name: статуя пречистої дівиці
   suffix: Blue
-  description: An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a blue toolbox.
+  description: Стародавня мармурова статуя. Суб'єкт зображений із косою до підлоги та тримає в руках синю коробку з інструментами.
   components:
   - type: Sprite
     sprite: Structures/Decoration/statues.rsi
@@ -27,8 +27,8 @@
 - type: entity
   id: StatueBananiumClown
   parent: BaseStructure
-  name: bananium savior statue
-  description: A bananium statue. It portrays the return of the savior who will rise up and lead the clowns to the great honk.
+  name: статуя бананіум
+  description: Бананієва статуя. Він зображує повернення рятівника, який підніметься і поведе клоунів під великий хонк.
   components:
   - type: Sprite
     sprite: Structures/Decoration/statues.rsi

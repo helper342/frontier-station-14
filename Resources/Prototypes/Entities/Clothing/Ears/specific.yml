@@ -2,7 +2,7 @@
   parent: ClothingHeadsetGrey
   id: ClothingHeadsetChameleon
   name: пасажирська гарнітура
-  description: An updated, modular intercom that fits over the head. Takes encryption keys.
+  description: Оновлений модульний домофон, який встановлюється на голову. Приймає ключі шифрування.
   suffix: Chameleon
   components:
     - type: Tag

@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineShotgun
-  name: ammo drum (.50 shells)
+  name: боєприпаси барабан (.50 снаряду)
   parent: BaseItem
   abstract: true
   components:
@@ -35,7 +35,7 @@
 
 - type: entity
   id: MagazineShotgun
-  name: ammo drum (.50 pellet)
+  name: боєприпаси барабан (.50 гранули)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -49,7 +49,7 @@
 
 - type: entity
   id: MagazineShotgunBeanbag
-  name: ammo drum (.50 beanbags)
+  name: боєприпаси барабан (.50 beanbags)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -63,7 +63,7 @@
 
 - type: entity
   id: MagazineShotgunSlug
-  name: ammo drum (.50 slug)
+  name: патронний барабан (.50 slug)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -77,7 +77,7 @@
 
 - type: entity
   id: MagazineShotgunIncendiary
-  name: ammo drum (.50 incendiary)
+  name: патронний барабан (.50 запальний)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider

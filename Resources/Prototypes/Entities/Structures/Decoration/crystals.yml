@@ -1,8 +1,8 @@
 - type: entity
   id: CrystalGreen
   parent: BaseStructure
-  name: green crystal
-  description: It's a shiny green crystal.
+  name: зелений кристал
+  description: Це блискучий зелений кристал.
   components:
     - type: Sprite
       sprite: Structures/Decoration/crystal.rsi
@@ -48,8 +48,8 @@
 - type: entity
   id: CrystalPink
   parent: CrystalGreen
-  name: pink crystal
-  description: It's a shiny pink crystal.
+  name: рожевий кристал
+  description: Це блискучий рожевий кристал.
   components:
     - type: Sprite
       sprite: Structures/Decoration/crystal.rsi
@@ -62,8 +62,8 @@
 - type: entity
   id: CrystalGrey
   parent: CrystalGreen
-  name: grey crystal
-  description: It's a shiny grey crystal.
+  name: сірий кристал
+  description: Це блискучий сірий кристал.
   components:
     - type: Sprite
       sprite: Structures/Decoration/crystal.rsi
@@ -76,8 +76,8 @@
 - type: entity
   id: CrystalOrange
   parent: CrystalGreen
-  name: orange crystal
-  description: It's a shiny orange crystal.
+  name: помаранчевий кристал
+  description: Це блискучий оранжевий кристал.
   components:
     - type: Sprite
       sprite: Structures/Decoration/crystal.rsi
@@ -90,8 +90,8 @@
 - type: entity
   id: CrystalBlue
   parent: CrystalGreen
-  name: blue crystal
-  description: It's a shiny blue crystal.
+  name: синій кристал
+  description: Це блискучий синій кристал.
   components:
     - type: Sprite
       sprite: Structures/Decoration/crystal.rsi
@@ -104,8 +104,8 @@
 - type: entity
   id: CrystalCyan
   parent: CrystalGreen
-  name: cyan crystal
-  description: It's a shiny cyan crystal.
+  name: блакитний кристал
+  description: Це блискучий блакитний кристал.
   components:
     - type: Sprite
       sprite: Structures/Decoration/crystal.rsi

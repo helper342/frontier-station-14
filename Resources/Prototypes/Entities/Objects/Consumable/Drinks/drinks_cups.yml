@@ -44,7 +44,7 @@
   parent: DrinkBaseCup
   id: DrinkGoldenCup
   name: золота філіжанка
-  description: A golden cup.
+  description: Золота чаша.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/golden_cup.rsi
@@ -54,7 +54,7 @@
   id: DrinkBaseMug
   abstract: true
   name: чашка
-  description: A mug.
+  description: Чашка
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug.rsi
@@ -75,7 +75,7 @@
   parent: DrinkBaseMug
   id: DrinkMug
   name: чашка
-  description: A plain white mug.
+  description: Звичайна біла чашка.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug.rsi
@@ -84,7 +84,7 @@
   parent: DrinkBaseMug
   id: DrinkMugBlack
   name: чорна чашка
-  description: A sleek black mug.
+  description: Витончена чорна чашка.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_black.rsi
@@ -93,7 +93,7 @@
   parent: DrinkBaseMug
   id: DrinkMugBlue
   name: синя чашка
-  description: A blue and black mug.
+  description: Чорно-синя чашка.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_blue.rsi
@@ -102,7 +102,7 @@
   parent: DrinkBaseMug
   id: DrinkMugGreen
   name: зелена чашка
-  description: A pale green and pink mug.
+  description: Блідо-зелена та рожева чашка.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_green.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: DrinkBaseCup #this one doesn't have the proper layers in the rsi
   id: DrinkMugDog
-  name: funny dog чашка
-  description: It looks like a cartoon beagle.
+  name: весела собака чашка
+  description: Виглядає як мультяшний бігль.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_dog.rsi
@@ -121,7 +121,7 @@
   parent: DrinkBaseMug
   id: DrinkMugHeart
   name: серцева чашка
-  description: A white mug, it prominently features a red heart.
+  description: Біла чашка, на ній помітно червоне серце.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_heart.rsi
@@ -130,7 +130,7 @@
   parent: DrinkBaseMug
   id: DrinkMugMetal
   name: металічна чашка
-  description: A metal mug. You're not sure which metal.
+  description: Металева кружка. Ви не впевнені, який метал.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_metal.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugMoebius
-  name: moebius чашка
-  description: A mug with a Moebius Laboratories logo on it. Not even your morning coffee is safe from corporate advertising.
+  name: Moebius чашка
+  description: Кружка з логотипом Moebius Laboratories. Навіть ваша ранкова кава не застрахована від корпоративної реклами.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_moebius.rsi
@@ -151,7 +151,7 @@
   parent: DrinkBaseMug
   id: DrinkMugOne
   name: "чашка #1"
-  description: "A white mug, it prominently features a #1."
+  description: "Біла кухоль, на ній видно номер 1."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_one.rsi
@@ -160,7 +160,7 @@
   parent: DrinkBaseMug
   id: DrinkMugRainbow
   name: чашка райдуга
-  description: A rainbow mug. The colors are almost as blinding as a welder.
+  description: Веселкова чашка. Кольори майже такі ж сліпучі, як у зварника.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_rainbow.rsi
@@ -169,7 +169,7 @@
   parent: DrinkBaseMug
   id: DrinkMugRed
   name: червона чашка
-  description: A red and black mug.
+  description: Червоно-чорна чашка.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_red.rsi
@@ -178,7 +178,7 @@
   parent: DrinkBaseCup
   id: DrinkHotCoco
   name: Гарячий шоколад
-  description: A heated drink consisting melted chocolate and heated milk.
+  description: Підігрітий напій, що складається з розтопленого шоколаду та підігрітого молока.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/hot_coco.rsi

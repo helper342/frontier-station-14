@@ -33,8 +33,8 @@
 - type: entity
   id: LegionnaireBonfire
   parent: Bonfire
-  name: legionnaire bonfire
-  description: There, in the land of lava and ash, place to to cook marshmallow and potato.
+  name: Легіонер багаття
+  description: Там, у країні лави та попелу, можна готувати зефір і картоплю.
   components:
   - type: Sprite
     layers:

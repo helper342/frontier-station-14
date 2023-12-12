@@ -1,7 +1,7 @@
 - type: entity
   id: SignalSwitch
   name: перемикач сигналу
-  description: It's a switch for toggling power to things.
+  description: Це перемикач для перемикання живлення речей.
   placement:
     mode: SnapgridCenter
     snap:
@@ -37,8 +37,8 @@
 
 - type: entity
   id: SignalButton
-  name: signal button
-  description: It's a button for activating something.
+  name: сигнальна кнопка
+  description: Це кнопка для активації чогось.
   placement:
     mode: SnapgridCenter
     snap:
@@ -95,8 +95,8 @@
 
 - type: entity
   id: ApcNetSwitch
-  name: apc net switch
-  description: Its a switch for toggling lights that are connected to the same apc.
+  name: APC перемикач мережі
+  description: Це перемикач для перемикання світла, підключеного до одного APC.
   placement:
     mode: SnapgridCenter
     snap:
@@ -128,8 +128,8 @@
 
 - type: entity
   id: TwoWayLever
-  name: two way lever
-  description: A two way lever.
+  name: двосторонній важіль
+  description: Двосторонній важіль.
   placement:
     mode: SnapgridCenter
   components:
@@ -204,7 +204,7 @@
 
 - type: entity
   id: ApcNetSwitchDirectional
-  name: apc net switch
+  name: APC перемикач мережі
   suffix: directional
   parent: ApcNetSwitch
   components:

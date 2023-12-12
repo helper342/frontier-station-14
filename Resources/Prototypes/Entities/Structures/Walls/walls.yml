@@ -148,7 +148,7 @@
   parent: BaseWall
   id: WallMeat
   name: мʼясна стіна
-  description: Sticky.
+  description: Липкий.
   components:
   - type: Tag
     tags:
@@ -649,7 +649,7 @@
   id: WallShuttleDiagonal
   name: стіна шатлу
   suffix: diagonal
-  description: Keeps the air in and the greytide out.
+  description: Зберігає повітря всередині, а пасажирів – зовні.
   placement:
     mode: SnapgridCenter
     snap:
@@ -898,7 +898,7 @@
 - type: entity
   parent: BaseWall
   id: WallWood
-  name: wood wall
+  name: дерев'яна стіна
   components:
   - type: Sprite
     sprite: Structures/Walls/wood.rsi
@@ -936,7 +936,7 @@
   parent: BaseWall
   id: WallWeb
   name: стіна павутини
-  description: Keeps the spiders in and the greytide out.
+  description: Тримає павуків всередині а пасажирів зовні.
   components:
   - type: Clickable
   - type: MeleeSound
@@ -1028,7 +1028,7 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallMiningDiagonal
-  name: wall
+  name: стіна
   suffix: diagonal
   placement:
     mode: SnapgridCenter
@@ -1053,8 +1053,8 @@
 - type: entity
   parent: BaseWall
   id: WallVaultAlien
-  name: alien vault wall
-  description: A mysterious ornate looking wall. There may be ancient dangers inside.
+  name: стіна сховища прибульців
+  description: Таємнича вишукана стіна. Всередині можуть бути давні небезпеки.
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1074,7 +1074,7 @@
 - type: entity
   parent: WallVaultAlien
   id: WallVaultRock
-  name: rock vault wall
+  name: стіна склепу
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1086,7 +1086,7 @@
 - type: entity
   parent: WallVaultAlien
   id: WallVaultSandstone
-  name: sandstone vault wall
+  name: стіна склепу з пісковика
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1099,7 +1099,7 @@
 
 - type: entity
   id: WallInvisible
-  name: Invisible Wall
+  name: Невидима стіна
   components:
   - type: TimedDespawn
     lifetime: 15
@@ -1122,7 +1122,7 @@
 
 - type: entity
   id: WallForce
-  name: Force Wall
+  name: Силова стіна
   components:
     - type: TimedDespawn
       lifetime: 20
@@ -1152,8 +1152,8 @@
 - type: entity
   parent: BaseWall
   id: WallCobblebrick
-  name: cobblestone brick wall
-  description: Stone by stone, perfectly fitted together to form a wall.
+  name: бруківкою цегляна стіна
+  description: Камінь за каменем, ідеально підігнані разом, щоб утворити стіну.
   components:
   - type: Tag
     tags:
@@ -1178,7 +1178,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallBasaltCobblebrick
-  name: basalt brick wall
+  name: стіна з базальтової цегли
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_basalt.rsi
@@ -1191,8 +1191,8 @@
 - type: entity
   parent: WallCobblebrick
   id: WallSnowCobblebrick
-  name: snow brick wall
-  description: A cold, not-so-impenetrable wall.
+  name: снігова цегляна стіна
+  description: Холодна, не надто непроникна стіна.
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_snow.rsi
@@ -1205,7 +1205,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallAsteroidCobblebrick
-  name: asteroid stone brick wall
+  name: астероїд кам'яна цегляна стіна
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_asteroid.rsi
@@ -1218,7 +1218,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallSandCobblebrick
-  name: sandstone brick wall
+  name: цегляна стіна з пісковика
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_sand.rsi
@@ -1231,7 +1231,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallChromiteCobblebrick
-  name: chromite brick wall
+  name: хромітова цегляна стіна
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_chromite.rsi
@@ -1244,7 +1244,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallAndesiteCobblebrick
-  name: andesite brick wall
+  name: стіна з андезитової цегли
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_andesite.rsi

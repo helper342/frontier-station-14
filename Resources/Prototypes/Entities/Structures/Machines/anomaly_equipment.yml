@@ -1,8 +1,8 @@
 - type: entity
   id: MachineAnomalyVessel
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: anomaly vessel
-  description: A container able to harness a scan of an anomaly and turn it into research points.
+  name: аномальна посудина
+  description: Контейнер, здатний використовувати сканування аномалії та перетворювати її на точки дослідження.
   components:
   - type: Sprite
     noRot: true
@@ -100,8 +100,8 @@
 - type: entity
   id: MachineAPE
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: A.P.E.
-  description: An Anomalous Particle Emitter, capable of shooting out unstable particles which can interface with anomalies.
+  name: П.Е.С.
+  description: Прилад аналізу Експерементальних Сутностей, здатний викидати нестабільні частинки, які можуть взаємодіяти з аномаліями.
   components:
   - type: Sprite
     noRot: true
@@ -200,8 +200,8 @@
 - type: entity
   id: MachineAnomalyGenerator
   parent: BaseMachinePowered
-  name: anomaly generator
-  description: The peak of pseudoscientific technology.
+  name: генератор аномалій
+  description: Вершина псевдонаукових технологій.
   placement:
     mode: AlignTileAny
   components:

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChameleon
-  name: black jumpsuit
-  description: A generic black jumpsuit with no rank markings.
+  name: чорний комбінезон
+  description: Звичайний чорний комбінезон без знаків рангу.
   suffix: Chameleon
   components:
     - type: Tag

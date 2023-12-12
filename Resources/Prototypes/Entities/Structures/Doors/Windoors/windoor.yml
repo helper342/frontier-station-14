@@ -1,14 +1,14 @@
 ﻿- type: entity
   id: Windoor
   parent: BaseWindoor
-  name: windoor
-  description: It's a window and a sliding door. Wow!
+  name: стікляні двері
+  description: Це вікно та двері-купе. Ого!
 
 - type: entity
   id: WindoorSecure
   parent: BaseSecureWindoor
-  name: secure windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: надійні стікляні двері
+  description: Це міцне вікно та розсувні двері. Ого!
 
 # TODO remove these with parameterized prototypes/whatever we end up doing
 # Windoors (alphabetical)

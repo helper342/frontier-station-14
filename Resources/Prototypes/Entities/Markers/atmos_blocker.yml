@@ -1,7 +1,7 @@
 - type: entity
   name: Atmos Fix Vacuum Marker
   id: AtmosFixBlockerMarker
-  description: "Vacuum, T20C"
+  description: "Вакуум, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -16,9 +16,9 @@
       mode: 1
 
 - type: entity
-  name: Atmos Fix Oxygen Marker
+  name: Кисневий маркер Atmos Fix
   id: AtmosFixOxygenMarker
-  description: "Oxygen @ gas miner pressure, T20C"
+  description: "Кисень при тиску газової шахти, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -33,9 +33,9 @@
       mode: 2
 
 - type: entity
-  name: Atmos Fix Nitrogen Marker
+  name: Маркер азоту Atmos Fix
   id: AtmosFixNitrogenMarker
-  description: "Nitrogen @ gas miner pressure, T20C"
+  description: "Азот при тиску газової шахти, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -50,9 +50,9 @@
       mode: 3
 
 - type: entity
-  name: Atmos Fix Plasma Marker
+  name: Плазмовий маркер Atmos Fix
   id: AtmosFixPlasmaMarker
-  description: "Plasma @ gas miner pressure, T20C"
+  description: "Плазма при газовому тиску шахти, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -67,9 +67,9 @@
       mode: 4
 
 - type: entity
-  name: Atmos Fix Instant Plasmafire Marker
+  name: Atmos Fix. Миттєвий маркер плазмового вогню
   id: AtmosFixInstantPlasmaFireMarker
-  description: "INSTANT PLASMAFIRE"
+  description: "МИТТЄВИЙ ПЛАЗМОЖИН"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -84,9 +84,9 @@
       mode: 5
 
 - type: entity
-  name: Atmos Fix Freezer Marker
+  name: Маркер морозильника Atmos Fix
   id: AtmosFixFreezerMarker
-  description: "Change air temp to 235K, for freezer with a big of wiggle room to get set up."
+  description: "Змініть температуру повітря на 235 К, для морозильної камери з великим простором для налаштування."
   parent: MarkerBase
   components:
     - type: Sprite

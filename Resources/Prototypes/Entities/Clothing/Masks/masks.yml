@@ -2,7 +2,7 @@
   parent: ClothingMaskPullableBase
   id: ClothingMaskGas
   name: протигаз
-  description: A face-covering mask that can be connected to an air supply.
+  description: Маска, що закриває обличчя, яку можна підключити до подачі повітря.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gas.rsi
@@ -21,25 +21,18 @@
   parent: ClothingMaskGas
   id: ClothingMaskGasSecurity
   name: охоронний протигаз
-  description: A standard issue Security gas mask.
+  description: Стандартний випуск Охоронний протигаз.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gassecurity.rsi
   - type: Clothing
     sprite: Clothing/Mask/gassecurity.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
 
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskGasSyndicate
   name: синдикатський протигаз
-  description: A close-fitting tactical mask that can be connected to an air supply.
+  description: Щільно прилягаюча тактична маска, яку можна підключити до подачі повітря.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gassyndicate.rsi
@@ -47,19 +40,12 @@
     sprite: Clothing/Mask/gassyndicate.rsi
   - type: FlashImmunity
   - type: EyeProtection
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
 
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskGasAtmos
   name: атмосферний протигаз
-  description: Improved gas mask utilized by atmospheric technicians. It's flameproof!
+  description: Покращений протигаз, що використовується атмосферними техніками. Він вогнестійкий!
   components:
   - type: Sprite
     sprite: Clothing/Mask/gasatmos.rsi
@@ -74,7 +60,7 @@
   parent: ClothingMaskGasAtmos
   id: ClothingMaskGasCaptain
   name: капітанський протигаз
-  description: Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
+  description: Нанотрасен обрізав і перефарбував запасний атмосферний протигаз, але нікому не кажіть.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gascaptain.rsi
@@ -87,7 +73,7 @@
   parent: ClothingMaskGasAtmos
   id: ClothingMaskGasCentcom
   name: протигаз ЦентКому
-  description: Oooh, gold and green. Fancy! This should help as you sit in your office.
+  description: Ой, золотий і зелений. Уява! Це має допомогти, коли ви сидите в офісі.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gascentcom.rsi
@@ -100,7 +86,7 @@
   parent: ClothingMaskGas
   id: ClothingMaskGasExplorer
   name: протигаз дослідника
-  description: A military-grade gas mask that can be connected to an air supply.
+  description: Протигаз військового зразка, який можна підключити до подачі повітря.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gasexplorer.rsi
@@ -118,7 +104,7 @@
   parent: ClothingMaskPullableBase
   id: ClothingMaskBreathMedical
   name: медична маска
-  description: A close-fitting sterile mask that can be connected to an air supply.
+  description: Щільно прилягаюча стерильна маска, яку можна підключити до подачі повітря.
   components:
   - type: Sprite
     sprite: Clothing/Mask/medical.rsi
@@ -135,7 +121,7 @@
   parent: ClothingMaskBreathMedical
   id: ClothingMaskBreathMedicalSecurity
   name: медична маска військового зразка
-  description: A medical mask with a small layer of protection against damage and viruses, similar to the one used in the medical units of the first corporate war.
+  description: Медична маска з невеликим шаром захисту від пошкоджень і вірусів, аналогічна тій, що використовувалася в медичних підрозділах першої корпоративної війни.
   components:
   - type: Sprite
     sprite: Clothing/Mask/medicalsecurity.rsi
@@ -153,7 +139,7 @@
   parent: ClothingMaskPullableBase
   id: ClothingMaskBreath
   name: дихальна маска
-  description: Might as well keep this on 24/7.
+  description: Можна також тримати це ввімкненим 24/7.
   components:
   - type: Sprite
     sprite: Clothing/Mask/breath.rsi
@@ -175,7 +161,7 @@
   id: ClothingMaskClownBase
   abstract: true
   name: перука і маска клоуна
-  description: A true prankster's facial attire. A clown is incomplete without his wig and mask.
+  description: Вбрання справжнього жартівника. Клоун неповний без перуки та маски.
   components:
   - type: Sprite
     sprite: Clothing/Mask/clown.rsi
@@ -202,7 +188,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskJoy
   name: маска радості
-  description: Express your happiness or hide your sorrows with this laughing face with crying tears of joy cutout.
+  description: Висловіть своє щастя або приховайте свої печалі за допомогою цього обличчя, яке сміється, із вирізом зі сльозами радості.
   components:
   - type: Sprite
     sprite: Clothing/Mask/joy.rsi
@@ -215,7 +201,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskMime
   name: мімська маска
-  description: The traditional mime's mask. It has an eerie facial posture.
+  description: Традиційна маска міма. Має моторошну поставу обличчя.
   components:
   - type: Sprite
     sprite: Clothing/Mask/mime.rsi
@@ -232,7 +218,7 @@
   parent: ClothingMaskPullableBase
   id: ClothingMaskSterile
   name: стерильна маска
-  description: A sterile mask designed to help prevent the spread of diseases.
+  description: Стерильна маска, призначена для запобігання поширенню хвороб.
   components:
   - type: Sprite
     sprite: Clothing/Mask/sterile.rsi
@@ -244,7 +230,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskMuzzle
   name: кляп
-  description: To stop that awful noise.
+  description: Щоб припинити цей жахливий шум.
   components:
   - type: Sprite
     sprite: Clothing/Mask/muzzle.rsi
@@ -262,7 +248,7 @@
   parent: ClothingMaskPullableBase
   id: ClothingMaskPlague
   name: маска чумного лікаря
-  description: A bad omen.
+  description: Погана прикмета.
   components:
   - type: Sprite
     sprite: Clothing/Mask/plaguedoctormask.rsi
@@ -277,7 +263,7 @@
   id: ClothingMaskCluwne
   name: перука і маска клувні
   suffix: Unremoveable
-  description: Cursed cluwne face and hair.
+  description: Прокляте обличчя та волосся.
   components:
   - type: Sprite
     sprite: Clothing/Mask/cluwne.rsi
@@ -290,8 +276,8 @@
 - type: entity
   parent: ClothingMaskGasExplorer
   id: ClothingMaskGasSwat
-  name: протигаз swat
-  description: A elite issue Security gas mask.
+  name: протигаз спецназу
+  description: Протигаз елітного випуску Охорони.
   components:
   - type: Sprite
     sprite: Clothing/Mask/swat.rsi
@@ -300,9 +286,9 @@
 
 - type: entity
   parent: ClothingMaskGasExplorer
-  id: ClothingMaskGasMercenary # Frontier - Merc to Mercenary
+  id: ClothingMaskGasMerc
   name: протигаз найманця
-  description: Slightly outdated, but reliable military-style gas mask.
+  description: Трохи застарілий, але надійний протигаз військового зразка.
   components:
   - type: Sprite
     sprite: Clothing/Mask/merc.rsi
@@ -310,10 +296,10 @@
     sprite: Clothing/Mask/merc.rsi
 
 - type: entity
-  parent: ClothingMaskGasSyndicate
+  parent: ClothingMaskGasExplorer
   id: ClothingMaskGasERT
-  name: протигаз ert
-  description: The gas mask of the elite squad of the ERT.
+  name: протигаз ERT
+  description: Протигаз елітного загону ERT.
   components:
   - type: Sprite
     sprite: Clothing/Mask/ert.rsi
@@ -324,7 +310,7 @@
   parent: ClothingMaskGasERT
   id: ClothingMaskGasDeathSquad
   name: протигаз ескадрону смерті
-  description: A unique gas mask for the NT's most elite squad.
+  description: Унікальний протигаз для найелітнішого складу НТ.
   components:
   - type: Sprite
     sprite: Clothing/Mask/squadron.rsi
@@ -342,7 +328,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskRat
   name: маска пацюка
-  description: A mask of a rat that looks like a rat. Perhaps they will take you for a fellow rat.
+  description: Маска щура, схожого на щура. Можливо, вас приймуть за побратима-щура.
   components:
   - type: Sprite
     sprite: Clothing/Mask/rat.rsi
@@ -398,7 +384,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskRaven
   name: маска ворона
-  description: Where I am, death... or glitter.
+  description: Де я, смерть... або блиск.
   components:
   - type: Sprite
     sprite: Clothing/Mask/raven.rsi
@@ -411,7 +397,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskJackal
   name: маска шакала
-  description: It is better not to turn your back to the owner of the mask, it may bite.
+  description: До власника маски краще не повертатися спиною, вона може вкусити.
   components:
   - type: Sprite
     sprite: Clothing/Mask/jackal.rsi
@@ -424,7 +410,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskBat
   name: маска кажана
-  description: A bloodsucker by night, and a cute, blinded beast by day.
+  description: Вночі кровопивця, а вдень милий засліплений звір.
   components:
   - type: Sprite
     sprite: Clothing/Mask/bat.rsi
@@ -436,8 +422,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskNeckGaiter
-  name: neck gaiter
-  description: Stylish neck gaiter for your neck, can protect from the cosmic wind?...
+  name: шийна гетра
+  description: Стильна гетра на шию, захистить від космічного вітру?...
   components:
   - type: Sprite
     sprite: Clothing/Mask/neckgaiter.rsi
@@ -452,7 +438,7 @@
   parent: ClothingMaskClownBase
   id: ClothingMaskSexyClown
   name: сексуальна маска клоуна
-  description: Some naughty clowns think this is what the Honkmother looks like.
+  description: Деякі пустотливі клоуни думають, що так виглядає Хонкматір.
   components:
   - type: Sprite
     sprite: Clothing/Mask/sexyclown.rsi
@@ -463,7 +449,7 @@
   parent: ClothingMaskMime
   id: ClothingMaskSexyMime
   name: сексуальна маска міма
-  description: Those ruddy cheeks just want to be rubbed.
+  description: Ці рум’яні щічки просто хочеться потерти.
   components:
   - type: Sprite
     sprite: Clothing/Mask/sexymime.rsi
@@ -474,7 +460,7 @@
   parent: ClothingMaskMime
   id: ClothingMaskSadMime
   name: сумна маска міма
-  description: Many people think this is what a real mime mask looks like.
+  description: Багато хто думає, що так виглядає справжня маска міма.
   components:
   - type: Sprite
     sprite: Clothing/Mask/sadmime.rsi
@@ -485,7 +471,7 @@
   parent: ClothingMaskMime
   id: ClothingMaskScaredMime
   name: налякана маска міма
-  description: Looks like it would scream if it wasn't a mask
+  description: Здається, воно б кричало, якби не маска
   components:
   - type: Sprite
     sprite: Clothing/Mask/scaredmime.rsi
@@ -496,7 +482,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskItalianMoustache
   name: італійські вуса
-  description: Made from authentic Italian moustache hairs. Gives the wearer an irresistable urge to gesticulate wildly.
+  description: Виготовлений із справжніх італійських вусів. Викликає у власника непереборне бажання дико жестикулювати.
   components:
   - type: Sprite
     sprite: Clothing/Mask/italian_moustache.rsi
@@ -510,7 +496,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskNinja
   name: маска ніндзя
-  description: A close-fitting nano-enhanced mask that acts both as an air filter and a post-modern fashion statement.
+  description: Щільно прилягаюча нанопокращена маска, яка одночасно виконує функцію повітряного фільтра та постмодерністської моди.
   components:
   - type: Sprite
     sprite: Clothing/Mask/ninja.rsi

@@ -1,9 +1,9 @@
 - type: entity
-  name: behonker
+  name: біхонкер
   parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat ]
   id: BaseMobBehonker
   abstract: true
-  description: A floating demon aspect of the honkmother.
+  description: Плаваючий демонський аспект honkmother.
   components:
     - type: GhostRole
       allowMovement: true
@@ -114,7 +114,7 @@
       context: "human"
 
 - type: entity
-  name: behonker
+  name: біхонкер
   parent: BaseMobBehonker
   id: MobBehonkerElectrical
   suffix: "Pyro"
@@ -129,7 +129,7 @@
       spawnRadius: 0
 
 - type: entity
-  name: behonker
+  name: біхонкер
   parent: BaseMobBehonker
   id: MobBehonkerPyro
   suffix: "Electrical"
@@ -138,7 +138,7 @@
   - type: Electrified
 
 - type: entity
-  name: behonker
+  name: біхонкер
   parent: BaseMobBehonker
   id: MobBehonkerGrav
   suffix: "Grav"
@@ -146,7 +146,7 @@
   - type: GravityAnomaly
 
 - type: entity
-  name: behonker
+  name: біхонкер
   parent: BaseMobBehonker
   id: MobBehonkerIce
   suffix: "Ice"

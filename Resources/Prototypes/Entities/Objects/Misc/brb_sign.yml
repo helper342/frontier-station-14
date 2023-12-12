@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BrbSign
-  name: brb sign
-  description: Lets others know you are away.
+  name: знак "скоро буду"
+  description: Повідомте іншим, що вас немає.
   components:
   - type: Sprite
     sprite: Objects/Misc/brbsign.rsi

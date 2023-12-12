@@ -2,7 +2,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesHudDiagnostic
   name: діагностичний худ
-  description: A heads-up display capable of analyzing the integrity and status of robotics and exosuits.
+  description: Наявний дисплей, здатний аналізувати цілісність і стан робототехніки та екзокостюмів.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/diag.rsi
@@ -13,7 +13,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesHudMedical
   name: медичний худ
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status.
+  description: Головний дисплей, який сканує гуманоїдів у полі зору та надає точні дані про стан їх здоров’я.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/med.rsi
@@ -24,7 +24,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesHudSecurity
   name: охоронний худ
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
+  description: Проекційний дисплей, який сканує гуманоїдів у полі зору та надає точні дані про їхні ідентифікаційні статуси та записи безпеки.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/sec.rsi
@@ -36,7 +36,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesHudBeer
   name: пивні окуляри
-  description: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion.
+  description: Пара sunHud оснащена апаратурою для сканування реагентів, а також забезпечує вроджене розуміння в’язкості рідини під час руху.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/beergoggles.rsi
@@ -48,7 +48,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesHudFriedOnion
   name: окуляри смаженої цибулі
-  description: Filler
+  description: Наповнювач
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/friedonion.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudOnionBeer
-  name: thungerst goggles
-  description: Filler
+  name: захисні окуляри
+  description: Наповнювач
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/onionbeer.rsi
@@ -84,8 +84,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudMedOnion
-  name: medonion hud
-  description: Filler
+  name: медоніон худ
+  description: Наповнювач
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medonion.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudMedOnionBeer
-  name: medthungerst hud
-  description: Filler
+  name: medthungerst худ
+  description: Наповнювач
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medonionbeer.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudMedSec
-  name: medsec худ
-  description: Filler
+  name: медсек худ
+  description: Наповнювач
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medsec.rsi
@@ -122,7 +122,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesHudMultiversal
   name: мультиверсальний худ
-  description: Filler
+  description: Наповнювач
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medsecengi.rsi
@@ -134,7 +134,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesHudOmni
   name: омні худ
-  description: Filler
+  description: Наповнювач
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/omni.rsi

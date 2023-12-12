@@ -1,8 +1,8 @@
 - type: entity
   id: PortableScrubber
   parent: BaseStructureDynamic
-  name: portable scrubber
-  description: It scrubs, portably!
+  name: портативний скрубер
+  description: Це портативний скубер.
   components:
   - type: Transform
     noRot: true

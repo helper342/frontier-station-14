@@ -2,7 +2,7 @@
   parent: BaseStructure
   id: BaseFenceMetal
   name: рабиця
-  description: A metal piece of fencing cordoning off something likely very important.
+  description: Металевий шматок огорожі, що відгороджує щось, ймовірно, дуже важливе.
   abstract: true
   components:
   - type: MeleeSound
@@ -83,7 +83,7 @@
   parent: BaseFenceMetal
   id: FenceMetalBroken
   name: злімана рабиця
-  description: Someone got real mad at an inanimate object.
+  description: Хтось дуже розлютився на неживий предмет.
   components:
   - type: Sprite
     layers:
@@ -280,7 +280,7 @@
   parent: BaseFenceMetal
   id: FenceMetalGate
   name: ворота рабиці
-  description: You could use the door instead of vaulting over--if you're a COWARD, that is.
+  description: Ви могли б скористатися дверима замість того, щоб перестрибувати, якщо ви БОЯГУС, тобто.
   components:
   - type: Sprite
     layers:

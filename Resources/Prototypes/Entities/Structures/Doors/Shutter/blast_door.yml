@@ -2,7 +2,7 @@
   id: BlastDoor
   parent: BaseShutter
   name: вибухові двері
-  description: This one says 'BLAST DONGER'.
+  description: На цьому написано "BLAST DONGER".
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/blastdoor.rsi

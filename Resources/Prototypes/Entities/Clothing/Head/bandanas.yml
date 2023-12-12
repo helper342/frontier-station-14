@@ -2,7 +2,7 @@
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadBandBlack
   name: чорна бандана
-  description: A black bandana to make you look cool.
+  description: Чорна бандана, щоб виглядати круто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/black.rsi
@@ -13,7 +13,7 @@
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadBandBlue
   name: синя бандана
-  description: A blue bandana to make you look cool.
+  description: Синя бандана, щоб виглядати круто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/blue.rsi
@@ -24,7 +24,7 @@
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadBandBotany
   name: ботанічна бандана
-  description: A botany bandana to make you look cool, made from natural fibers.
+  description: Ботанічна бандана з натуральних волокон, щоб ви виглядали круто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/botany.rsi
@@ -40,7 +40,7 @@
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadBandGold
   name: золота бандана
-  description: A gold bandana to make you look cool.
+  description: Золота бандана, щоб виглядати круто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/gold.rsi
@@ -51,7 +51,7 @@
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadBandGreen
   name: зелена бандана
-  description: A green bandana to make you look cool.
+  description: Зелена бандана, щоб виглядати круто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/green.rsi
@@ -62,7 +62,7 @@
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadBandGrey
   name: сіра бандана
-  description: A grey bandana to make you look cool.
+  description: Сіра бандана, щоб виглядати круто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/grey.rsi
@@ -73,7 +73,7 @@
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadBandRed
   name: червона бандана
-  description: A red bandana to make you look cool.
+  description: Червона бандана, щоб виглядати круто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/red.rsi
@@ -84,7 +84,7 @@
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadBandSkull
   name: бандана з черепом
-  description: A bandana with a skull to make you look even cooler.
+  description: Бандана з черепом, щоб виглядати ще крутіше.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/skull.rsi
@@ -93,9 +93,9 @@
 
 - type: entity
   parent: ClothingHeadBaseButcherable
-  id: ClothingHeadBandMercenary # Frontier - Name fix
+  id: ClothingHeadBandMerc
   name: бандана наймита
-  description: To protect the head from the sun, insects and other dangers of the higher path.
+  description: Для захисту голови від сонця, комах та інших небезпек вищого шляху.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/merc.rsi
@@ -106,7 +106,7 @@
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadBandBrown
   name: коричнева бандана
-  description: A brown bandana to make you look cool.
+  description: Коричнева бандана, щоб виглядати круто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/brown.rsi

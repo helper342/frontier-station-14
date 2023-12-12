@@ -16,7 +16,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelEngineering
   name: інженерна речова сумка
-  description: A large duffel bag for holding extra tools and supplies.
+  description: Велика сумка для зберігання додаткових інструментів і витратних матеріалів.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/engineering.rsi
@@ -25,16 +25,16 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelAtmospherics
   name: атмосферна речова сумка
-  description: A large duffel bag made of fire resistant fibers. Smells like plasma.
+  description: Великий речовий мішок з вогнестійких волокон. Пахне плазмою.
   components:
-    - type: Sprite
-      sprite: Clothing/Back/Duffels/atmospherics.rsi
+  - type: Sprite
+    sprite: Clothing/Back/Duffels/atmospherics.rsi
 
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelMedical
   name: медична речова сумка
-  description: A large duffel bag for holding extra medical supplies.
+  description: Велика сумка для зберігання додаткових медичних засобів.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/medical.rsi
@@ -43,7 +43,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelCaptain
   name: капітанська речова сумка
-  description: A large duffel bag for holding extra captainly goods.
+  description: Велика сумка для зберігання додаткових капітанських речей.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/captain.rsi
@@ -52,7 +52,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelClown
   name: клоунська речова сумка
-  description: A large duffel bag for holding extra honk goods.
+  description: Велика сумка для зберігання додаткових речей.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/clown.rsi
@@ -64,7 +64,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelSecurity
   name: охоронна речова сумка
-  description: A large duffel bag for holding extra security related goods.
+  description: Великий речовий мішок для додаткових речей, пов’язаних із захистом.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/security.rsi
@@ -73,7 +73,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelBrigmedic
   name: речова сумка брігмеда
-  description: A large duffel bag for holding extra medical related goods.
+  description: Велика сумка для зберігання додаткових медичних товарів.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/brigmedic.rsi
@@ -82,7 +82,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelChemistry
   name: речова сумка хіміка
-  description: A large duffel bag for holding extra beakers and test tubes.
+  description: Велика сумка для зберігання додаткових склянок і пробірок.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/chemistry.rsi
@@ -91,7 +91,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelVirology
   name: речова сумка вірології
-  description: A large duffel bag made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
+  description: Велика спортивна сумка з гіпоалергенних волокон. Він призначений для запобігання поширенню хвороби. Пахне мавпою.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/virology.rsi
@@ -100,7 +100,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelGenetics
   name: речова сумка генетики
-  description: A large duffel bag for holding extra genetic mutations.
+  description: Велика сумка для зберігання додаткових генетичних мутацій.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/genetics.rsi
@@ -109,7 +109,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelMime
   name: речова сумка міма
-  description: A large duffel bag for holding... mime... stuff.
+  description: Великий речовий мішок для... мімічних... речей.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/mime.rsi
@@ -122,7 +122,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelScience
   name: речова сумка науки
-  description: A large duffel bag for holding extra science related goods.
+  description: Великий речовий мішок для додаткових наукових речей.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/science.rsi
@@ -131,7 +131,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelHydroponics
   name: речова сумка гідропоніки
-  description: A large duffel bag for holding extra gardening tools.
+  description: Велика сумка для зберігання додаткових садових інструментів.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/hydroponics.rsi
@@ -140,7 +140,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelCargo
   name: речова сумка карго
-  description: A large duffel bag for stealing cargo's precious loot.
+  description: Великий речовий мішок для крадіжки дорогоцінної здобичі вантажу.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/cargo.rsi
@@ -149,7 +149,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelSalvage
   name: речова сумка експедитора
-  description: A large duffel bag for holding extra exotic treasures.
+  description: Велика сумка для зберігання додаткових екзотичних скарбів.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/salvage.rsi
@@ -158,7 +158,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelSyndicate
   name: речова сумка синдикату
-  description: A large duffel bag for holding various traitor goods.
+  description: Великий речовий мішок для зберігання різних зрадницьких речей.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -219,7 +219,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelHolding
   name: речова сумка безкінечності
-  description: A duffelbag that opens into a localized pocket of bluespace.
+  description: Речовий мішок, який відкривається в локалізовану кишеню блюспейс.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/holding.rsi

@@ -1,7 +1,7 @@
 - type: entity
   id: CigPackBase
   parent: [ BaseStorageItem, BaseBagOpenClose ]
-  name: cigarette pack
+  name: пачка сигарет
   abstract: true
   components:
   - type: Sprite
@@ -66,7 +66,7 @@
 - type: entity
   id: CigPackMixedBase
   parent: [ BaseStorageItem, BaseBagOpenClose ]
-  name: soaked cigarette pack
+  name: просочена сигаретна пачка
   abstract: true
   components:
   - type: Sprite
@@ -131,8 +131,8 @@
 - type: entity
   id: CigPackGreen
   parent: CigPackBase
-  name: Spessman's Smokes packet
-  description: A label on the packaging reads, Wouldn't a slow death make a change?
+  name: Пакет Шпессман Смоки
+  description: На упаковці написано. Чи не змінить повільна смерть?
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/green.rsi
@@ -142,8 +142,8 @@
 - type: entity
   id: CigPackRed
   parent: CigPackBase
-  name: DromedaryCo packet
-  description: The most popular brand of Space Cigarettes, sponsors of the Space Olympics.
+  name: Пакет дромадер
+  description: Найпопулярніший бренд Космічні сигарети, спонсори Космічної Олімпіади.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/red.rsi
@@ -153,8 +153,8 @@
 - type: entity
   id: CigPackBlue
   parent: CigPackBase
-  name: AcmeCo packet
-  description: For those who somehow want to obtain the record for the most amount of cancerous tumors.
+  name: Пакет АкмеКо
+  description: Для тих, хто якимось чином хоче отримати рекорд за найбільшою кількістю ракових пухлин.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
@@ -164,8 +164,8 @@
 - type: entity
   id: CigPackBlack
   parent: CigPackBase
-  name: Nomads packet
-  description: Nomads's extra strong, for when your life is more extra hard.
+  name: Пакет Кочівники
+  description: Кочівники надзвичайно сильні, коли ваше життя надзвичайно важке.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/black.rsi
@@ -175,8 +175,8 @@
 - type: entity
   id: CigPackSyndicate
   parent: CigPackBase
-  name: Interdyne herbals packet
-  description: Elite cigarettes for elite syndicate agents. Infused with medicine for when you need to do more than calm your nerves.
+  name: Трав'яний пакет Інтердин
+  description: Елітні сигарети для елітних агентів синдикату. Наповнений ліками, коли вам потрібно зробити більше, ніж заспокоїти нерви.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/syndicate.rsi
@@ -190,8 +190,8 @@
 - type: entity
   id: CigPackMixedMedical
   parent: CigPackMixedBase
-  name: Dan's soaked smokes
-  description: Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
+  name: Просочений Ден курить
+  description: Ден працював із хімією NT, щоб утилізувати надлишки хімікатів, НАСОЛОЖУЙТЕСЯ.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
@@ -217,8 +217,8 @@
 - type: entity
   id: CigPackMixed
   parent: CigPackMixedBase
-  name: Dan's soaked smokes
-  description: Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
+  name: Просочений Ден курить
+  description: Ден працював із хімією NT, щоб утилізувати надлишки хімікатів, НАСОЛОЖУЙТЕСЯ.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
@@ -250,8 +250,8 @@
 - type: entity
   id: CigPackMixedNasty
   parent: CigPackMixedBase
-  name: Dan's soaked smokes
-  description: Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
+  name: Просочений Ден курить
+  description: Ден працював із хімією NT, щоб утилізувати надлишки хімікатів, НАСОЛОЖУЙТЕСЯ.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi

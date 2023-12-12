@@ -1,5 +1,7 @@
 ﻿- type: entity
   save: false
-  name: Vox
+  name: Вокс
   parent: BaseMobVox
   id: MobVox
+  # components:
+  #   - type: MailReceiver

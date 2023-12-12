@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RPED
-  name: RPED
-  description: A Rapid Part Exchange Device, perfect for quickly upgrading machines.
+  name: ПШЗД
+  description: ПШЗД-Пристрій Швидкої Заміни Деталей, ідеальний для швидкої модернізації машин.
   components:
   - type: Sprite
     sprite: Objects/Specific/Research/rped.rsi

@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: MaterialBase
-  description: A raw material.
+  description: Сировина.
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCardboard
-  name: cardboard
+  name: картон
   suffix: Full
   components:
   - type: Material
@@ -77,7 +77,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCloth
-  name: cloth
+  name: тканина
   suffix: Full
   components:
   - type: Healing
@@ -162,7 +162,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialDurathread
-  name: durathread
+  name: нитка твердої мозкової оболонки
   suffix: Full
   components:
   - type: Stack
@@ -215,7 +215,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialWoodPlank
-  name: wood
+  name: деревина
   suffix: Full
   components:
   - type: Material
@@ -261,7 +261,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBiomass
-  name: biomass
+  name: біомаса
   suffix: Full
   components:
   - type: Material
@@ -295,7 +295,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideBear
-  name: bear hide
+  name: ведмежа шкура
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -322,8 +322,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideCorgi
-  name: corgi hide
-  description: Luxury pelt used in only the most elite fashion. Rumors say this is found when a corgi is sent to the nice farm.
+  name: коргі шкура
+  description: Розкішна шкура використовується тільки в найелітнішому стилі. Кажуть, що це знаходять, коли коргі відправляють на гарну ферму.
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -343,7 +343,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialDiamond
-  name: refined diamond
+  name: очищений алмаз
   suffix: Full
   components:
   - type: Stack
@@ -369,7 +369,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCotton
-  name: cotton
+  name: бавовна
   suffix: Full
   components:
   - type: Stack
@@ -418,7 +418,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBananium
-  name: bananium
+  name: бананіум
   suffix: Full
   components:
   - type: Material
@@ -482,8 +482,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialWebSilk
-  name: silk
-  description: A webby material
+  name: Шовк
+  description: Павутинний матеріал
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -540,7 +540,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBones
-  name: bones
+  name: кістки
   suffix: Full
   components:
   - type: Stack

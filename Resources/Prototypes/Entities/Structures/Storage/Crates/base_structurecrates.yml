@@ -3,7 +3,7 @@
   id: CrateGeneric
   noSpawn: true
   name: ящик
-  description: A large container for items.
+  description: Великий контейнер для предметів.
   components:
   - type: Transform
     noRot: true

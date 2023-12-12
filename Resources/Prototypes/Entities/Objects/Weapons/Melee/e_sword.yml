@@ -1,8 +1,8 @@
 - type: entity
-  name: energy sword
+  name: енергетичний меч
   parent: BaseItem
   id: EnergySword
-  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
+  description: Дуже гучний і небезпечний меч із пучком із чистої концентрованої плазми. Прорізає неброньовані цілі як масло.
   components:
   - type: EnergySword
     litDamageBonus:
@@ -56,11 +56,11 @@
     enabled: false
 
 - type: entity
-  name: pen
+  name: ручка
   parent: EnergySword
   id: EnergyDagger
   suffix: E-Dagger
-  description: 'A dark ink pen.'
+  description: 'Темна чорнильна ручка.'
   components:
   - type: EnergySword
     secret: true
@@ -124,9 +124,9 @@
 - type: entity
   parent: BaseItem
   id: EnergyDaggerBox
-  name: e-dagger box
+  name: ящик електронного кинджала
   suffix: E-Dagger
-  description: A small box containing an e-dagger. Packaging disintegrates when opened, leaving no evidence behind.
+  description: Невелика коробка з електронним кинджалом. При відкритті упаковка розпадається, не залишаючи слідів.
   components:
   - type: Sprite
     sprite: Objects/Storage/penbox.rsi
@@ -138,10 +138,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: energy cutlass
+  name: енергетичний кутлас
   parent: EnergySword
   id: EnergyCutlass
-  description: An exotic energy weapon.
+  description: Екзотична енергетична зброя.
   components:
   - type: EnergySword
     secret: true
@@ -165,10 +165,10 @@
     sprite: Objects/Weapons/Melee/e_cutlass.rsi
 
 - type: entity
-  name: Double Bladed Energy Sword
+  name: Подвійний енергетичний меч
   parent: EnergySword
   id: EnergySwordDouble
-  description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
+  description: Стажери Команди синдикату вважали, що одного леза на енергетичному мечі недостатньо. Це можна зберігати в кишенях. Генерал Кенобі!
   components:
   - type: Wieldable
   - type: EnergySword

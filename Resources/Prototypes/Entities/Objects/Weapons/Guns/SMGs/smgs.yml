@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseSMG
+  name: Базовий SMG
   parent: BaseItem
   id: BaseWeaponSubMachineGun
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         startingItem: MagazinePistolSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -59,7 +59,7 @@
   name: Atreides
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunAtreides
-  description: Pla-ket-ket-ket-ket! Uses .35 auto ammo.
+  description: Пла-кет-це-це-це! Використовує автоматичні патрони .35.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -79,10 +79,10 @@
   - type: Appearance
 
 - type: entity
-  name: C-20r sub machine gun
+  name: пістолет-кулемет С-20р
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunC20r
-  description: A firearm that is often used by the infamous nuclear operatives. Uses .35 auto ammo.
+  description: Вогнепальна зброя, яку часто використовують суто відомі ядерники. Використовує автоматичні патрони .35.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -108,7 +108,7 @@
   name: Drozd
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunDrozd
-  description: An excellent fully automatic Heavy SMG.
+  description: Чудовий повністю автоматичний важкий SMG.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
@@ -129,7 +129,7 @@
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: Magazine
+          name: Магазин
           startingItem: MagazinePistolSubMachineGun
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -138,7 +138,7 @@
             tags:
               - MagazinePistolSubMachineGun
         gun_chamber:
-          name: Chamber
+          name: палата
           startingItem: CartridgePistol
           priority: 1
           whitelist:
@@ -155,7 +155,7 @@
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunVector
   suffix: Deprecated use Drozd
-  description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
+  description: Чудовий повністю автоматичний важкий SMG. Використовує патрони калібру .45 Магнум.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/vector.rsi
@@ -176,7 +176,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         startingItem: MagazineMagnumSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -185,7 +185,7 @@
           tags:
             - MagazineMagnumSubMachineGun
       gun_chamber:
-        name: Chamber
+        name: Затвор
         startingItem: CartridgeMagnum
         priority: 1
         whitelist:
@@ -201,7 +201,7 @@
   name: WT550
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunWt550
-  description: An excellent SMG, produced by NanoTrasen's Small Arms Division. Uses .35 auto ammo.
+  description: Чудовий пістолет, виготовлений підрозділом стрілецької зброї NanoTrasen. Використовує автоматичні патрони .35.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
@@ -228,7 +228,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         startingItem: MagazinePistolSubMachineGunTopMounted
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -237,7 +237,7 @@
           tags:
             - MagazinePistolSubMachineGunTopMounted
       gun_chamber:
-        name: Chamber
+        name: Затвор
         startingItem: CartridgePistol
         priority: 1
         whitelist:
@@ -259,7 +259,7 @@
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: Magazine
+          name: Магазин
           startingItem: MagazinePistolSubMachineGunRubber
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -268,7 +268,7 @@
             tags:
               - MagazinePistolSubMachineGun
         gun_chamber:
-          name: Chamber
+          name: Затвор
           startingItem: CartridgePistolRubber
           priority: 1
           whitelist:
@@ -279,13 +279,13 @@
   name: Vector
   parent: WeaponSubMachineGunVector
   id: WeaponSubMachineGunVectorRubber
-  description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
+  description: Чудовий повністю автоматичний важкий SMG. Використовує патрони калібру .45 Магнум.
   suffix: Non-Lethal
   components:
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         startingItem: MagazineMagnumSubMachineGunRubber
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -294,7 +294,7 @@
           tags:
             - MagazineMagnumSubMachineGun
       gun_chamber:
-        name: Chamber
+        name: Затвор
         startingItem: CartridgeMagnumRubber
         priority: 1
         whitelist:

@@ -1,5 +1,5 @@
 - type: entity
-  name: Asteroid Crab Spawner
+  name: Астероїд Краб Спаунер
   id: AsteroidCrabSpawner
   parent: MarkerBase
   components:

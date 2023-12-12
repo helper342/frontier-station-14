@@ -10,7 +10,7 @@
   id: ClothingHeadHelmetHardsuitBasic
   noSpawn: true
   name: звичайний шолом космокосюма
-  description: A basic-looking hardsuit helmet that provides minor protection against most sources of damage.
+  description: Зовнішній на вигляд шолом, який забезпечує незначний захист від більшості джерел пошкоджень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/basic.rsi
@@ -23,7 +23,7 @@
   id: ClothingHeadHelmetHardsuitAtmos
   noSpawn: true
   name: шолом атмосферного космокостюма
-  description: A special hardsuit helmet designed for working in low-pressure, high thermal environments.
+  description: Спеціальний жорсткий шолом, розроблений для роботи в умовах низького тиску та високої температури.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/atmospherics.rsi
@@ -63,7 +63,7 @@
   id: ClothingHeadHelmetHardsuitEngineering
   noSpawn: true
   name: шолом інженерного космокостюма
-  description: An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
+  description: Інженерний жорсткий шолом, розроблений для роботи в умовах низького тиску з високою радіоактивністю.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/engineering.rsi
@@ -81,7 +81,7 @@
   id: ClothingHeadHelmetHardsuitSpatio
   noSpawn: true
   name: шолом космокосюма космонавта
-  description: A sturdy helmet designed for complex industrial operations in space.
+  description: Міцний шолом, призначений для складних промислових операцій у космосі.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/spatiohelm.rsi
@@ -116,7 +116,7 @@
   id: ClothingHeadHelmetHardsuitSalvage
   noSpawn: true
   name: шолом космокостюма експедитора
-  description: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
+  description: Спеціальний шолом, призначений для роботи в небезпечному середовищі з низьким тиском. Має посилене покриття для зустрічі з дикою природою та подвійні прожектори.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/salvage.rsi
@@ -135,7 +135,7 @@
   id: ClothingHeadHelmetHardsuitSecurity
   noSpawn: true
   name: шолом охоронного космокостюма
-  description: Armored hardsuit helmet for security needs.
+  description: Броньований шолом для безпеки.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security.rsi
@@ -159,8 +159,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecuritypatrol
   noSpawn: true
-  name: шолом патрульного охоронного космокосюма
-  description: Lightly armored hardsuit helmet for security beat-cop needs.
+  name: шолом патрульного охоронного космокостюма
+  description: Легкий броньований шолом для охорони.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security-patrol.rsi
@@ -185,7 +185,7 @@
   id: ClothingHeadHelmetHardsuitBrigmedic
   noSpawn: true
   name: шолом космокостюма брігмеда
-  description: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
+  description: Легкий шолом хардкостюма Brigmedic. Захищає від вірусів і клоунів.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/brigmedic.rsi
@@ -211,8 +211,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitWarden
   noSpawn: true
-  name: bailiff's hardsuit helmet
-  description: A modified riot helmet. Oddly comfortable.
+  name: каска судового пристава
+  description: Модифікований шолом ОМОН. Дивно зручно.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security-warden.rsi
@@ -237,7 +237,7 @@
   id: ClothingHeadHelmetHardsuitCap
   noSpawn: true
   name: шолом капітанського космокостюма
-  description: Special hardsuit helmet, made for the captain of the station.
+  description: Спеціальний жорсткий шолом, виготовлений для капітана станції.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/capspace.rsi
@@ -252,8 +252,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineeringWhite
   noSpawn: true
-  name: шолом космокосюма ГІ
-  description: Special hardsuit helmet, made for the chief engineer of the station.
+  name: шолом космокостюма ГІ
+  description: Спеціальний шолом, виготовлений для головного інженера станції.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/engineering-white.rsi
@@ -270,8 +270,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitMedical
   noSpawn: true
-  name: шолом космокосюма ГЛ
-  description: Lightweight medical hardsuit helmet that doesn't restrict your head movements.
+  name: шолом космокостюма ГЛ
+  description: Легкий медичний шолом, який не сковує рухи голови.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/medical.rsi
@@ -289,7 +289,7 @@
   id: ClothingHeadHelmetHardsuitRd
   noSpawn: true
   name: шолом експерементального наукового космокостюма
-  description: Lightweight hardsuit helmet that doesn't restrict your head movements.
+  description: Легкий жорсткий шолом, який не сковує рухи голови.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/rd.rsi
@@ -307,7 +307,7 @@
   id: ClothingHeadHelmetHardsuitSecurityRed
   noSpawn: true
   name: шолом космокостюма шерифа
-  description: Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the Sheriff.
+  description: Захисний жорсткий шолом із найновішим надсекретним програмним забезпеченням NT-HUD. Належить Шерифу.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security-red.rsi
@@ -332,7 +332,7 @@
   id: ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
   noSpawn: true
   name: люксовий шолом шахтарського космокостюма
-  description: A refurbished mining hardsuit helmet, fitted with satin cushioning and an extra (non-functioning) antenna, because you're that extra.
+  description: Відремонтований шахтарський шолом із атласною амортизацією та додатковою (непрацюючою) антеною, тому що ти такий екстра.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/luxury.rsi
@@ -352,7 +352,7 @@
   id: ClothingHeadHelmetHardsuitSyndie
   noSpawn: true
   name: криваво-червоний шолом космокостюма
-  description: An advanced red hardsuit helmet designed for work in special operations.
+  description: Удосконалений шолом червоного кольору, призначений для роботи в спецопераціях.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndicate.rsi
@@ -377,7 +377,7 @@
   id: ClothingHeadHelmetHardsuitSyndieMedic
   noSpawn: true
   name: шолом джагера сайберсан
-  description: Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
+  description: Виготовлений зі стисненої червоної речовини, цей шолом був розроблений на хромосферному заводі Тау.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndiemedic.rsi
@@ -402,7 +402,7 @@
   id: ClothingHeadHelmetHardsuitSyndieElite
   noSpawn: true
   name: елітний шолом синдиката
-  description: A variant of the blood red helmet designed by the Gorlex Marauders to be exceptionally fireproof and pressure proof.
+  description: Варіант криваво-червоного шолома, розробленого Gorlex Marauders, щоб бути винятково вогнестійким і стійким до тиску.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndieelite.rsi
@@ -429,7 +429,7 @@
   id: ClothingHeadHelmetHardsuitSyndieCommander
   noSpawn: true
   name: шолом командуючого синдиката
-  description: A syndicate hardsuit helmet custom designed for commanders of syndicate operative squads.
+  description: Спеціальний шолом синдикату, розроблений для командирів оперативних загонів синдикату.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
@@ -453,8 +453,8 @@
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitCybersun
   noSpawn: true
-  name: cybersun juggernaut helmet
-  description: Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
+  name: джеггернаутський шолом кіберсонце
+  description: Виготовлений зі стисненої червоної речовини, цей шолом був розроблений на хромосферному заводі Тау.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/cybersun.rsi
@@ -477,7 +477,7 @@
   id: ClothingHeadHelmetHardsuitWizard
   noSpawn: true
   name: шолом космокостюма чаклуна
-  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  description: Чудернацький шолом, інкрустований самоцвітами, випромінює магічну енергію.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/wizard.rsi
@@ -502,7 +502,7 @@
   id: ClothingHeadHelmetHardsuitLing
   noSpawn: true
   name: космічний шолом з органіки
-  description: A spaceworthy biomass of pressure and temperature resistant tissue.
+  description: Космічна біомаса тканини, стійкої до тиску та температури.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/lingspacehelmet.rsi
@@ -519,7 +519,7 @@
   noSpawn: true
   name: шолом EVA дальнього космоса
   suffix: Pirate
-  description: A deep space EVA helmet, very heavy but provides good protection.
+  description: Шолом EVA для глибокого космосу, дуже важкий, але забезпечує хороший захист.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/pirateeva.rsi
@@ -536,7 +536,7 @@
   noSpawn: true
   name: шолом космокосюма капітана піратів
   suffix: Pirate
-  description: A special hardsuit helmet, made for the captain of a pirate ship.
+  description: Спеціальний жорсткий шолом, виготовлений для капітана піратського корабля.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/piratecaptainhelm.rsi
@@ -553,7 +553,7 @@
   id: ClothingHeadHelmetHardsuitERTLeader
   noSpawn: true
   name: шолом космокосюма лідера ERT
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  description: Спеціальний шолом, який носять члени групи швидкого реагування.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertleader.rsi
@@ -645,7 +645,7 @@
   id: ClothingHeadHelmetCBURN
   noSpawn: true
   name: шолом екзокосюма CBURN
-  description: A pressure resistant and fireproof hood worn by special cleanup units.
+  description: Стійкий до тиску та вогнетривкий капюшон, який носять спеціальні очисні пристрої.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/cburn.rsi
@@ -684,7 +684,7 @@
   id: ClothingHeadHelmetHardsuitDeathsquad
   noSpawn: true
   name: шолом космокосюма ескадрону смерті
-  description: A robust helmet for special operations.
+  description: Міцний шолом для спеціальних операцій.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/deathsquad.rsi
@@ -710,7 +710,7 @@
   id: ClothingHeadHelmetHardsuitClown
   noSpawn: true
   name: шолом космокостюма клоуна
-  description: A clown hardsuit helmet.
+  description: Шолом клоуна.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/clown.rsi

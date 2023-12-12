@@ -1,6 +1,6 @@
 # TODO once tiles can be smoothed and carpets ported over to that, add them to the FloorTile outputs
 - type: entity
-  name: red carpet
+  name: червоний килим
   parent: FloorTileItemBase
   id: FloorCarpetItemRed
   components:
@@ -15,7 +15,7 @@
     stackType: FloorCarpetRed
 
 - type: entity
-  name: black carpet
+  name: чорний килим
   parent: FloorTileItemBase
   id: FloorCarpetItemBlack
   components:
@@ -30,7 +30,7 @@
     stackType: FloorCarpetBlack
 
 - type: entity
-  name: blue carpet
+  name: синій килим
   parent: FloorTileItemBase
   id: FloorCarpetItemBlue
   components:
@@ -45,7 +45,7 @@
     stackType: FloorCarpetBlue
 
 - type: entity
-  name: green carpet
+  name: зелений килим
   parent: FloorTileItemBase
   id: FloorCarpetItemGreen
   components:
@@ -60,7 +60,7 @@
     stackType: FloorCarpetGreen
 
 - type: entity
-  name: orange carpet
+  name: помаранчевий килим
   parent: FloorTileItemBase
   id: FloorCarpetItemOrange
   components:
@@ -75,7 +75,7 @@
     stackType: FloorCarpetOrange
 
 - type: entity
-  name: sky blue carpet
+  name: блакитний килим
   parent: FloorTileItemBase
   id: FloorCarpetItemSkyBlue
   components:
@@ -90,7 +90,7 @@
     stackType: FloorCarpetSkyBlue
 
 - type: entity
-  name: purple carpet
+  name: фіолетовий килим
   parent: FloorTileItemBase
   id: FloorCarpetItemPurple
   components:
@@ -105,7 +105,7 @@
     stackType: FloorCarpetPurple
 
 - type: entity
-  name: pink carpet
+  name: рожевий килим
   parent: FloorTileItemBase
   id: FloorCarpetItemPink
   components:

@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponRevolver
+  name: Базова зброя Револьвер
   parent: BaseItem
   id: BaseWeaponRevolver
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
   name: Deckard
   parent: BaseWeaponRevolver
   id: WeaponRevolverDeckard
-  description: A rare, custom-built revolver. Use when there is no time for Voight-Kampff test. Uses .45 magnum ammo.
+  description: Рідкісний револьвер, виготовлений на замовлення. Використовуйте, коли немає часу для тесту Войта-Кампфа. Використовує патрони калібру .45 Магнум.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
@@ -76,7 +76,7 @@
   name: Inspector
   parent: BaseWeaponRevolver
   id: WeaponRevolverInspector
-  description: A detective's best friend. Uses .45 magnum ammo.
+  description: Кращий друг детектива. Використовує патрони калібру .45 Магнум.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
@@ -91,7 +91,7 @@
   name: Mateba
   parent: BaseWeaponRevolver
   id: WeaponRevolverMateba
-  description: The iconic sidearm of the dreaded death squads. Uses .45 magnum ammo.
+  description: Культова зброя страшних ескадронів смерті. Використовує патрони калібру .45 Магнум.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
@@ -106,7 +106,7 @@
   name: Python
   parent: BaseWeaponRevolver
   id: WeaponRevolverPython
-  description: A robust revolver favoured by Syndicate agents. Uses .45 magnum ammo.
+  description: Міцний револьвер, улюблений агентами Синдикату. Використовує патрони калібру .45 Магнум.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -129,7 +129,7 @@
   parent: WeaponRevolverPython
   id: WeaponRevolverPythonAP # For the uplink.
   suffix: armor-piercing
-  description: A robust revolver favoured by Syndicate agents. Uses .45 magnum ammo.
+  description: Міцний револьвер, улюблений агентами Синдикату. Використовує патрони калібру .45 Магнум.
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -140,10 +140,10 @@
 
 
 - type: entity
-  name: pirate revolver
+  name: піратський револьвер
   parent: BaseWeaponRevolver
   id: WeaponRevolverPirate
-  description: An odd, old-looking revolver, favoured by pirate crews. Uses .45 magnum ammo.
+  description: Дивний, старий на вигляд револьвер, улюблений піратськими командами. Використовує патрони калібру .45 Магнум.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi

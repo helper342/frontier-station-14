@@ -14,7 +14,7 @@
       - EncryptionKeyCommon
   - type: Headset
   - type: EncryptionKeyHolder
-    keySlots: 5 # Frontier 4<5
+    keySlots: 4
   - type: Sprite
     state: icon
   - type: Clothing
@@ -37,7 +37,7 @@
   parent: ClothingHeadset
   id: ClothingHeadsetCargo
   name: гарнітура карго
-  description: A headset used by supply employees.
+  description: Гарнітура, яку використовують працівники постачання.
   components:
   - type: ContainerFill
     containers:
@@ -53,7 +53,7 @@
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetMining
   name: гарнітура шахтарів
-  description: Headset used by shaft miners.
+  description: Гарнітура, яка використовується шахтарями.
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/mining.rsi
@@ -64,20 +64,20 @@
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetQM
   name: гарнітура ГК
-  description: A headset used by the quartermaster.
+  description: Гарнітура, якою користується квартирмейстер.
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - EncryptionKeyCargo
-#      - EncryptionKeyCommand # Frontier
+      - EncryptionKeyCommand
       - EncryptionKeyCommon
 
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetCentCom
   name: гарнітура ЦентКому
-  description: A headset used by the upper echelons of Nanotrasen.
+  description: Гарнітура, яка використовується вищими ешелонами Nanotrasen.
   components:
   - type: ContainerFill
     containers:
@@ -93,7 +93,7 @@
   parent: ClothingHeadset
   id: ClothingHeadsetCommand
   name: гарнітура командування
-  description: A headset with a commanding channel.
+  description: Гарнітура з командним каналом.
   components:
   - type: ContainerFill
     containers:
@@ -108,7 +108,7 @@
   parent: ClothingHeadset
   id: ClothingHeadsetEngineering
   name: інженерська гарнітура
-  description: A headset for engineers to chat while the station burns around them.
+  description: Гарнітура для інженерів, щоб спілкуватися, поки станція горить навколо них.
   components:
   - type: ContainerFill
     containers:
@@ -124,20 +124,20 @@
   parent: ClothingHeadsetEngineering
   id: ClothingHeadsetCE
   name: гарнітура ГІ
-  description: A headset for the chief engineer to ignore all emergency calls on.
+  description: Гарнітура головного інженера для ігнорування всіх екстрених викликів.
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - EncryptionKeyEngineering
-#      - EncryptionKeyCommand # Frontier
+      - EncryptionKeyCommand
       - EncryptionKeyCommon
 
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetMedical
   name: медична гарнітура
-  description: A headset for the trained staff of the medbay.
+  description: Гарнітура для навченого медичного персоналу.
   components:
   - type: ContainerFill
     containers:
@@ -153,20 +153,20 @@
   parent: ClothingHeadsetMedical
   id: ClothingHeadsetCMO
   name: гарнітура ГЛ
-  description: A headset used by the CMO.
+  description: Гарнітура, яку використовує CMO.
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - EncryptionKeyMedical
-#      - EncryptionKeyCommand # Frontier
+      - EncryptionKeyCommand
       - EncryptionKeyCommon
 
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetScience
   name: наукова гарнітура
-  description: A sciency headset. Like usual.
+  description: Наукова гарнітура. Як завжди.
   components:
   - type: ContainerFill
     containers:
@@ -182,7 +182,7 @@
   parent: ClothingHeadsetScience
   id: ClothingHeadsetMedicalScience
   name: медико-наукова гарнітура
-  description: A headset that is a result of the mating between medical and science.
+  description: Гарнітура, яка є результатом поєднання медицини та науки.
   components:
   - type: ContainerFill
     containers:
@@ -198,7 +198,7 @@
   parent: ClothingHeadsetScience
   id: ClothingHeadsetRobotics
   name: гарнітура роботехів
-  description: Made specifically for the roboticists, who cannot decide between departments.
+  description: Створено спеціально для робототехніків, які не можуть вибирати між відділами.
   components:
   - type: ContainerFill
     containers:
@@ -214,20 +214,20 @@
   parent: ClothingHeadsetScience
   id: ClothingHeadsetRD
   name: гарнітура ДНВ
-  description: Lamarr used to love chewing on this...
+  description: Раніше Ламарр любив це жувати...
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - EncryptionKeyScience
-#      - EncryptionKeyCommand # Frontier
+      - EncryptionKeyCommand
       - EncryptionKeyCommon
 
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetSecurity
-  name: deputy headset
-  description: This is used by your elite sheriff's department force.
+  name: гарнітура заступника
+  description: Це використовується вашим елітним відділом шерифа.
   components:
   - type: ContainerFill
     containers:
@@ -243,7 +243,7 @@
   parent: ClothingHeadset
   id: ClothingHeadsetBrigmedic
   name: гарнітура брігмеда
-  description: A headset that helps to hear the death cries.
+  description: Гарнітура, яка допомагає почути передсмертні крики.
   components:
   - type: ContainerFill
     containers:
@@ -260,7 +260,7 @@
   parent: ClothingHeadset
   id: ClothingHeadsetService
   name: сервісна гарнітура
-  description: Headset used by the service staff, tasked with keeping the station full, happy and clean.
+  description: Гарнітура, яка використовується обслуговуючим персоналом, який має підтримувати станцію заповненою, щасливою та чистою.
   components:
   - type: ContainerFill
     containers:

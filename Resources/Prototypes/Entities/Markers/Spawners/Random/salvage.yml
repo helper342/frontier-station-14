@@ -2,7 +2,7 @@
 # These rulesets exist because Salvage mobs kept harassing the station and going out of control.
 
 - type: entity
-  name: Salvage Material Crate Spawner
+  name: Створювач ящиків для рятувальних матеріалів
   id: SalvageMaterialCrateSpawner
   parent: MarkerBase
   components:
@@ -40,7 +40,7 @@
       offset: 0.0
 
 - type: entity
-  name: Salvage Canister Spawner
+  name: Спавнер рятувальних каністр
   id: SalvageCanisterSpawner
   parent: MarkerBase
   components:
@@ -63,7 +63,7 @@
       offset: 0.0
 
 - type: entity
-  name: Salvage T2 Machine Parts Spawner
+  name: Порятунок Т2 Спаунер машинних частин
   id: SalvagePartsT2Spawner
   parent: MarkerBase
   components:
@@ -82,7 +82,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvagePartsT3T4Spawner
-  name: tier 3/4 machine part
+  name: ярус 3/4 машинна частина
   components:
   - type: Sprite
     layers:
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvagePartsT3Spawner
-  name: tier 3 machine part
+  name: ярус 3 машинна частина
   suffix: Spawner
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvagePartsT4Spawner
-  name: tier 4 machine part
+  name: ярус 4 машинна частина
   suffix: Spawner
   components:
   - type: Sprite
@@ -131,12 +131,12 @@
   - type: RandomSpawner
     prototypes:
     - QuadraticCapacitorStockPart
-    - FemtoManipulatorStockPart #Frontier - Fixed this from tier 3 part to tier 4
+    - PicoManipulatorStockPart
     - BluespaceMatterBinStockPart
     offset: 0.0
 
 - type: entity
-  name: Salvage Mob Spawner
+  name: Порятунок Моб Спаунер
   id: SalvageMobSpawner
   parent: MarkerBase
   suffix: 25
@@ -162,7 +162,7 @@
       offset: 0.2
 
 - type: entity #I made this in case someone decided to make a terrifying space tick swarm for salvage. that someone may be me -EG404
-  name: Salvage Space Tick Spawner
+  name: Космо блоха Спаунер
   id: SpaceTickSpawner
   parent: MarkerBase
   suffix: 100
@@ -177,7 +177,7 @@
         - MobTickSalvage
 
 - type: entity
-  name: Salvage Space Bear Spawner
+  name: Спаунер космічного ведмедя
   id: SpawnMobBearSalvage
   parent: MarkerBase
   components:
@@ -211,7 +211,7 @@
     offset: 0.2
 
 - type: entity
-  name: Salvage Space Kangaroo Spawner
+  name: Космо Кенгуру Спаунер
   id: SpawnMobKangarooSalvage
   parent: MarkerBase
   components:
@@ -225,7 +225,7 @@
     - MobKangarooSpaceSalvage
 
 - type: entity
-  name: Salvage Space Spider Spawner
+  name: Космо павук спавнер
   id: SpawnMobSpiderSalvage
   parent: MarkerBase
   components:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AmeJar
-  name: AME fuel jar
-  description: A hermetically sealed jar containing antimatter for use in an antimatter reactor.
+  name: Паливна каністра AME
+  description: Герметично закрита банка з антиматерією для використання в реакторі з антиматерією.
   components:
   - type: Item
     size: 5

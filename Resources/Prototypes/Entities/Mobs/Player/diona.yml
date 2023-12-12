@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McPlants
+  name: Уріст МакПлантс
   parent: BaseMobDiona
   id: MobDiona
   components:
@@ -11,3 +11,4 @@
       damageRecovery:
         types:
           Asphyxiation: -1.0
+    # - type: MailReceiver

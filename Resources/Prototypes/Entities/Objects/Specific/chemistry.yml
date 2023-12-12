@@ -147,9 +147,9 @@
     price: 30
 
 - type: entity
-  name: beaker
+  name: мензурка
   parent: BaseBeaker
-  description: Used to contain a moderate amount of chemicals and solutions.
+  description: Використовується для вмісту помірної кількості хімікатів і розчинів.
   id: Beaker
   components:
   - type: Spillable
@@ -158,8 +158,8 @@
     price: 5
 
 - type: entity
-  name: cryoxadone beaker
-  description: Filled with a reagent used in cryogenic tubes.
+  name: мензурка з кріоксадону
+  description: Заповнений реагентом, який використовується в кріогенних трубках.
   parent: Beaker
   id: CryoxadoneBeakerSmall
   components:
@@ -172,9 +172,9 @@
           Quantity: 50
 
 - type: entity
-  name: large beaker
+  name: велика мензурка
   parent: BaseBeaker
-  description: Used to contain a large amount of chemicals or solutions.
+  description: Використовується для зберігання великої кількості хімікатів або розчинів.
   id: LargeBeaker
   components:
   - type: Spillable
@@ -202,9 +202,9 @@
     price: 10
 
 - type: entity
-  name: cryostasis beaker
+  name: мензурка кріостаз
   parent: BaseBeakerMetallic
-  description: Used to contain chemicals or solutions without reactions.
+  description: Використовується для зберігання хімічних речовин або розчинів без реакції.
   id: CryostasisBeaker
   components:
   - type: Spillable
@@ -220,9 +220,9 @@
         canReact: false
 
 - type: entity
-  name: bluespace beaker
+  name: блюспейс мензурка
   parent: BaseBeakerMetallic
-  description: Powered by experimental bluespace technology.
+  description: На основі експериментальної технології блюспейс.
   id: BluespaceBeaker
   components:
   - type: Spillable
@@ -238,9 +238,9 @@
         canMix: true
 
 - type: entity
-  name: dropper
+  name: піпетка
   parent: BaseItem
-  description: Used to transfer small amounts of chemical solution between containers.
+  description: Використовується для перенесення невеликої кількості хімічного розчину між контейнерами.
   id: Dropper
   components:
   - type: Sprite
@@ -279,9 +279,9 @@
     price: 40
 
 - type: entity
-  name: borgdropper
+  name: борг піпетка
   parent: Dropper
-  description: Used to transfer small amounts of chemical solution between containers. Extended for use by medical borgs.
+  description: Використовується для перенесення невеликої кількості хімічного розчину між контейнерами. Розширено для використання медичними боргами.
   id: BorgDropper
   components:
   - type: Sprite
@@ -299,9 +299,9 @@
     sprite: Objects/Specific/Chemistry/dropper.rsi
 
 - type: entity
-  name: syringe
+  name: шприц
   parent: BaseItem
-  description: Used to draw blood samples from mobs, or to inject them with reagents.
+  description: Використовується для взяття зразків крові з мобів або для введення в них реагентів.
   id: BaseSyringe
   abstract: true
   components:
@@ -355,8 +355,8 @@
 - type: entity
   id: SyringeBluespace
   parent: BaseSyringe
-  name: bluespace syringe
-  description: Injecting with advanced bluespace technology.
+  name: блюспейс шприц
+  description: Введення за допомогою передової технології блюспейс.
   components:
   - type: Sprite
     layers:
@@ -384,10 +384,10 @@
     - Trash
 
 - type: entity
-  name: pill
+  name: таблетка
   parent: BaseItem
   id: Pill
-  description: It's not a suppository.
+  description: Це не супозиторії.
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pills.rsi
@@ -433,10 +433,10 @@
     - Pill
 
 - type: entity
-  name: pill canister
+  name: каністра для таблеток
   id: PillCanister
   parent: BaseStorageItem
-  description: Holds up to 9 pills.
+  description: Вміщує до 9 таблеток.
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pills_canister.rsi

@@ -1,8 +1,8 @@
 - type: entity
-  name: Rat King
+  name: Щурячий король
   id: MobRatKing
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da rat. He make da roolz.
+  description: Він щур. Він головний щур.
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -149,10 +149,10 @@
     - MinorAntagonists
 
 - type: entity
-  name: Rat Servant
+  name: Щур Слуга
   id: MobRatServant
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da mini rat. He don't make da roolz.
+  description: Це маленький щур.
   noSpawn: true #Must be configured to a King or the AI breaks.
   components:
   - type: CombatMode
@@ -275,8 +275,8 @@
 
 - type: entity
   id: ActionRatKingRaiseArmy
-  name: Raise Army
-  description: Spend some hunger to summon an allied rat to help defend you.
+  name: Підняти армію
+  description: Витратьте трохи голоду, щоб викликати союзного щура, який допоможе захистити вас.
   noSpawn: true
   components:
   - type: InstantAction
@@ -288,8 +288,8 @@
 
 - type: entity
   id: ActionRatKingDomain
-  name: Rat King's Domain
-  description: Spend some hunger to release a cloud of miasma into the air.
+  name: Домен щурячого короля
+  description: Витратьте трохи голоду, щоб випустити хмару міазмів у повітря.
   noSpawn: true
   components:
   - type: InstantAction
@@ -301,8 +301,8 @@
 
 - type: entity
   id: ActionRatKingOrderStay
-  name: Stay
-  description: Command your army to stand in place.
+  name: Зупиніться
+  description: Накажи своїй армії стояти на місці.
   noSpawn: true
   components:
   - type: InstantAction
@@ -320,8 +320,8 @@
 
 - type: entity
   id: ActionRatKingOrderFollow
-  name: Follow
-  description: Command your army to follow you around.
+  name: Слідуйте
+  description: Накажи своїй армії слідувати за тобою.
   noSpawn: true
   components:
   - type: InstantAction
@@ -339,8 +339,8 @@
 
 - type: entity
   id: ActionRatKingOrderCheeseEm
-  name: Cheese 'Em
-  description: Command your army to attack whoever you point at.
+  name: Атакуйте ціль
+  description: Наказуйте своїй армії атакувати будь-кого, на кого ви вкажете.
   noSpawn: true
   components:
   - type: InstantAction
@@ -358,8 +358,8 @@
 
 - type: entity
   id: ActionRatKingOrderLoose
-  name: Loose
-  description: Command your army to act at their own will.
+  name: Вільні
+  description: Наказуйте своїй армії діяти за власним бажанням.
   noSpawn: true
   components:
   - type: InstantAction

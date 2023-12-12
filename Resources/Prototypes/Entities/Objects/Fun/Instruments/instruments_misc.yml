@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseHandheldInstrument
   id: MusicalLungInstrument
-  name: musical lung
-  description: The spiritual and magical lung of a former opera singer. Though, to be honest, the vocal chords make the performance.
+  name: музичні легені
+  description: Духовні та магічні легені колишньої оперної співачки. Хоча, чесно кажучи, голосові зв’язки роблять виступ.
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/organs.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: SeashellInstrument
-  name: seashell
-  description: For laying down the shoreline beat.
+  name: морська раковина
+  description: За укладання берегової лінії.
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: BirdToyInstrument
-  name: bird whistle
-  description: A delightful little whistle in the shape of a bird. It sings beautifully.
+  name: пташиний свисток
+  description: Чудовий маленький свисток у формі пташки. Прекрасно співає.
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: PhoneInstrument
-  name: red phone
-  description: Should anything ever go wrong...
+  name: червоний телефон
+  description: Якщо щось піде не так...
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: HelicopterInstrument
-  name: toy helicopter
-  description: Ch-ka-ch-ka-ch-ka-ch-ka-ch-ka-ch-ka...
+  name: вертоліт весілля
+  description: Ч-ка-ч-ка-ч-ка-ч-ка-ч-ка-ч-ка...
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: CannedApplauseInstrument
-  name: canned applause
-  description: Seems like someone already used it all up...
+  name: сховані оплески
+  description: Здається, хтось уже все використав...
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: GunpetInstrument
-  name: gunpet
-  description: Why do you need to examine this? Is it not self-explanatory?
+  name: рушниця
+  description: Навіщо вам це досліджувати? Хіба це не зрозуміло?
   components:
   - type: Instrument
     program: 127
@@ -111,8 +111,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: BikeHornInstrument
-  name: gilded bike horn
-  description: An exquisitely decorated bike horn, capable of honking in a variety of notes.
+  name: позолочений велосипедний гудок
+  description: Вишукано прикрашений велосипедний гудок, який може сигналити різноманітними нотами.
   components:
   - type: Instrument
     program: 1
@@ -134,8 +134,8 @@
 - type: entity
   parent: PhoneInstrument
   id: BananaPhoneInstrument
-  name: banana phone
-  description: A direct line to the Honkmother. Seems to always go to voicemail.
+  name: телефон банан
+  description: Пряма лінія до Хонкоматері. Здається, він завжди переходить на голосову пошту.
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/otherinstruments.rsi

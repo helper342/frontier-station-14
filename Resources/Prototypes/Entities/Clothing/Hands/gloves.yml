@@ -2,7 +2,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesBoxingRed
   name: червоні боксерські рукавички
-  description: Red gloves for competitive boxing.
+  description: Червоні рукавички для змагань з боксу.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingred.rsi
@@ -33,7 +33,7 @@
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingBlue
   name: сині боксерські рукавички
-  description: Blue gloves for competitive boxing.
+  description: Сині рукавички для змагань з боксу.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingblue.rsi
@@ -49,7 +49,7 @@
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingGreen
   name: зелені боксерські рукавички
-  description: Green gloves for competitive boxing.
+  description: Зелені рукавички для змагань з боксу.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxinggreen.rsi
@@ -65,7 +65,7 @@
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingYellow
   name: жовті боксерські рукавички
-  description: Yellow gloves for competitive boxing.
+  description: Жовті рукавички для змагань з боксу.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingyellow.rsi
@@ -94,7 +94,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesCaptain
   name: капітнські рукавички
-  description: Regal blue gloves, with a nice gold trim. Swanky.
+  description: Капітанські сині рукавички з гарною золотою окантовкою. Шикарний.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/captain.rsi
@@ -113,7 +113,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesLatex
   name: латексні рукавички
-  description: Thin sterile latex gloves. Basic PPE for any doctor.
+  description: Тонкі латексні стерильні рукавички. Основні ЗІЗ для будь-якого лікаря.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/latex.rsi
@@ -127,7 +127,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesNitrile
   name: нітрилові рукавички
-  description: High-quality nitrile gloves. Expensive medical PPE.
+  description: Якісні нітрилові рукавички. Дорогі медичні ЗІЗ.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/blue.rsi
@@ -141,7 +141,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesLeather
   name: шкіряні рукавички ботаніка
-  description: These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin. They're also quite warm.
+  description: Ці шкіряні рукавички захищають від колючок, колючок, колючок та інших шкідливих предметів рослинного походження. Вони також досить теплі.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/leather.rsi
@@ -158,7 +158,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesPowerglove
   name: силові рукавички
-  description: Тепер я граю з силою! Зачекайте... вони вимкнені. #Use "Now I'm playin' with power! BAM!" for when they're turned on
+  description: Тепер я граю з силою! Зачекайте... вони вимкнені. #Використовуйте "Тепер я граю з силою! БАМ!" коли вони ввімкнені
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/powerglove.rsi
@@ -245,7 +245,7 @@
 
 - type: entity
   parent: ClothingHandsGlovesCombat
-  id: ClothingHandsMercenaryGlovesCombat # Frontier - Merc to Mercenary
+  id: ClothingHandsMercGlovesCombat
   name: бойові рукавиці наймита
   description: Якісні бойові рукавички для захисту рук від механічних пошкоджень під час бою.
   components:
@@ -293,7 +293,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesMercFingerless
   name: найманські рукавички без пальців
-  description: Gloves that may not protect you from finger burns, but will make you cooler.
+  description: Рукавички, які, можливо, не захистять вас від опіків пальців, але зроблять вас прохолодніше.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/mercfingerless.rsi
@@ -309,7 +309,7 @@
   parent: ClothingHandsGlovesColorBlack
   id: ThievingGloves
   suffix: Thieving
-  name: чорні рукавички #Intentionally named after regular gloves, they're meant to be sneaky.
+  name: чорні рукавички #Навмисно названі на честь звичайних рукавичок, вони призначені для підступу.
   description: Звичайні чорні рукавички, які не вбережуть вас від вогню.
   components:
   - type: Tag

@@ -1,5 +1,5 @@
 - type: entity
-  name: Secway Spawner
+  name: Секвей-СБ спавн
   id: SpawnVehicleSecway
   parent: MarkerBase
   components:
@@ -13,7 +13,7 @@
       - VehicleSecway
 
 - type: entity
-  name: Janicart Spawner
+  name: байк-прибиральника спавн
   id: SpawnVehicleJanicart
   parent: MarkerBase
   components:
@@ -21,13 +21,13 @@
     layers:
       - state: green
       - sprite: Objects/Vehicles/janicart.rsi
-        state: icon # Frontier - Icon actully look like the cart
+        state: keys
   - type: ConditionalSpawner
     prototypes:
       - VehicleJanicart
 
 - type: entity
-  name: ATV Spawner
+  name: Квадроцикл спавн
   id: SpawnVehicleATV
   parent: MarkerBase
   components:
@@ -41,7 +41,7 @@
       - VehicleATV
 
 - type: entity
-  name: Motobike Spawner
+  name: мотобайк спавн
   id: SpawnVehicleMotobike
   parent: MarkerBase
   components:

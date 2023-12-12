@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterVestWeb
-  name: web vest
-  description: A synthetic armor vest. This one has added webbing and ballistic plates.
+  name: веб-жилет
+  description: Синтетичний бронежилет. Цей має додані лямки та балістичні пластини.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/webvest.rsi
@@ -22,9 +22,9 @@
 #Mercenary web vest
 - type: entity
   parent: ClothingOuterStorageBase #web vest so it should have some pockets for ammo
-  id: ClothingOuterVestWebMercenary # Frontier - Merc to Mercenary
-  name: mercenary web vest
-  description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
+  id: ClothingOuterVestWebMerc
+  name: жилет для найманців
+  description: Високоякісний броньований жилет з міцного синтетичного матеріалу. Він напрочуд гнучкий і легкий, незважаючи на потужну броню.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterVestDetective
-  name: detective's vest
-  description: A hard-boiled private investigator's armored vest.
+  name: жилет детектива
+  description: Бронежилет приватного детектива.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterVestHazard
-  name: hi-viz vest
-  description: A high-visibility vest used in work zones.
+  name: hi-viz жилет
+  description: Жилет підвищеної видимості, який використовується в робочих зонах.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/hazard.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVest
-  name: vest
-  description: A thick vest with a rubbery, water-resistant shell.
+  name: жилет
+  description: Товстий жилет з гумовою водонепроникною оболонкою.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest.rsi

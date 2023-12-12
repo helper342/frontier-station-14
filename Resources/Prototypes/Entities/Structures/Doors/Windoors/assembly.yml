@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: WindoorAssembly
-  name: windoor assembly
-  description: It opens, it closes, and you can see through it!
+  name: бар'єр вікно
+  description: Він відкривається, закривається, і ви можете бачити крізь нього!
   parent: BaseStructure
   components:
   - type: InteractionOutline
@@ -47,8 +47,8 @@
 
 - type: entity
   id: WindoorAssemblySecure
-  name: secure windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks tough.
+  name: надійне бар'єр вікно
+  description: Він відкривається, закривається, і ви можете бачити крізь нього! Це виглядає жорстко.
   parent: WindoorAssembly
   components:
   - type: Sprite

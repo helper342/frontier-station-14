@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseLightStructure
   id: LightPostSmall
-  name: post light
-  description: "An always powered light."
+  name: пост світло
+  description: "Завжди ввімкнене світло."
   suffix: Always Powered
   components:
   - type: Construction
@@ -68,8 +68,8 @@
 
 - type: entity
   id: PoweredLightPostSmallEmpty
-  name: post light
-  description: "A small light post."
+  name: пост світло
+  description: "Невеликий світловий пост."
   suffix: Empty
   parent: BaseLightStructure
   components:
@@ -110,8 +110,8 @@
 
 - type: entity
   id: PoweredLightPostSmall
-  name: post light
-  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  name: пост світло
+  description: "Світильник. Споживає електроенергію та виробляє світло, якщо оснащено світловою трубкою."
   suffix: ""
   parent: PoweredLightPostSmallEmpty
   components:

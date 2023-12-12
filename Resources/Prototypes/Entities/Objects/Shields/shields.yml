@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: base shield
+  name: базовий щит
   parent: BaseItem
   id: BaseShield
-  description: A shield!
+  description: Щит!
   abstract: true
   components:
     - type: Sprite
@@ -62,19 +62,19 @@
 #Security Shields
 
 - type: entity
-  name: riot shield
+  name: бунтівський щит
   parent: BaseShield
   id: RiotShield
-  description: A large tower shield. Good for controlling crowds.
+  description: Великий баштовий щит. Добре підходить для контролю натовпу.
   components:
     - type: StaticPrice
       price: 100
 
 - type: entity
-  name: riot laser shield
+  name: лазерний щит бунту
   parent: BaseShield
   id: RiotLaserShield
-  description: A riot shield built for withstanding lasers, but not much else.
+  description: Щит проти заворушень, створений для протидії лазерам, але нічого іншого.
   components:
     - type: Sprite
       state: riot_laser-icon
@@ -91,10 +91,10 @@
           Heat: 2
 
 - type: entity
-  name: riot bullet shield
+  name: бунт куля щит
   parent: BaseShield
   id: RiotBulletShield
-  description: A ballistic riot shield built for withstanding bullets, but not much else.
+  description: Балістичний щит від заворушень, створений для захисту від куль, але нічого іншого.
   components:
     - type: Sprite
       state: riot_bullet-icon
@@ -116,10 +116,10 @@
 #Craftable shields
 
 - type: entity
-  name: wooden buckler
+  name: дерев'яний щит
   parent: BaseShield
   id: WoodenBuckler
-  description: A small round wooden makeshift shield.
+  description: Невеликий круглий дерев'яний імпровізований щит.
   components:
     - type: Sprite
       state: buckler-icon
@@ -170,10 +170,10 @@
       price: 150
 
 - type: entity
-  name: makeshift shield
+  name: імпровізований щит
   parent: BaseShield
   id: MakeshiftShield
-  description: A rundown looking shield, not good for much.
+  description: Поганий щит, не дуже хороший.
   components:
     - type: Sprite
       state: makeshift-icon
@@ -225,10 +225,10 @@
 #Magic/Cult Shields (give these to wizard for now)
 
 - type: entity
-  name: Clockwork Shield
+  name: Заводний щит
   parent: BaseShield
   id: ClockworkShield
-  description: Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
+  description: Цей щит має захистити вас
   components:
     - type: Sprite
       state: ratvarian-icon
@@ -254,10 +254,10 @@
       #Have it break into brass when clock cult is in
 
 - type: entity
-  name: Mirror Shield
+  name: Дзеркальний щит
   parent: BaseShield
   id: MirrorShield
-  description: Eerily glows red... you hear the geometer whispering
+  description: Моторошно світиться червоним... чуєш геометр шепоче
   components:
     - type: Sprite
       state: mirror-icon
@@ -297,10 +297,10 @@
                   max: 5
 
 - type: entity
-  name: energy shield
+  name: енергетичний щит
   parent: BaseItem
   id: EnergyShield
-  description: Exotic energy shield, when folded, can even fit in your pocket.
+  description: Екзотичний енергетичний щит у складеному вигляді поміститься навіть у кишені.
   components:
     - type: ItemToggle
       activatedDisarmMalus: 0.6
@@ -388,10 +388,10 @@
       price: 350
 
 - type: entity
-  name: broken energy shield
+  name: зламаний енергетичний щит
   parent: BaseItem
   id: BrokenEnergyShield
-  description: Something inside is burned out, it is no longer functional.
+  description: Щось всередині вигоріло, вже не працює.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/e_shield.rsi
@@ -404,10 +404,10 @@
       price: 15
 
 - type: entity
-  name: telescopic shield
+  name: телескопічний щит
   parent: BaseShield
   id: TelescopicShield
-  description: An advanced riot shield made of lightweight materials that collapses for easy storage.
+  description: Удосконалений захисний щит із легких матеріалів, який складається для зручного зберігання.
   components:
     - type: ItemToggle
       activatedDisarmMalus: 0.6

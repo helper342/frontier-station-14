@@ -194,7 +194,7 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSpaceUpCan
-  name: банка space-up
+  name: банка пробіл вгору
   description: У роті смак як пролом корпусу.
   components:
   - type: SolutionContainerManager
@@ -212,7 +212,7 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkStarkistCan
-  name: банка starkist
+  name: банка старкіст
   description: Смак зірочки в рідкому вигляді. І трохи тунця...?
   components:
   - type: SolutionContainerManager
@@ -247,7 +247,7 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkFourteenLokoCan
-  name: банка fourteen loko
+  name: банка чотирнадцять локо
   description: MBO попередив членів екіпажу, що споживання Fourteen Loko може призвести до судом, сліпоти, сп’яніння або навіть смерті. Будь ласка, пийте відповідально.
   components:
   - type: SolutionContainerManager
@@ -265,7 +265,7 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkChangelingStingCan
-  name: Changeling sting can
+  name: Перемінник жала може
   description: Ви робите маленький ковток і відчуваєте печіння...
   components:
   - type: SolutionContainerManager
@@ -284,7 +284,7 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkDrGibbCan
-  name: банка Dr. Gibb
+  name: банка Доктор Гібб
   description: Чудове поєднання 42 різних смаків.
   components:
   - type: SolutionContainerManager
@@ -303,7 +303,7 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkNukieCan
-  name: банка blood-red brew
+  name: банка криваво-червоний квас
   description: Домашній напій, виготовлений божевільними розумами в Синдикаті. Не рекомендовано лікарями.
   components:
   - type: SolutionContainerManager
@@ -347,7 +347,7 @@
 - type: entity
   id: DrinkCanPack
   parent: BaseStorageItem
-  name: 6pack
+  name: 6 упаковок
   components:
   - type: Sprite
     sprite: Objects/Misc/6pack.rsi
@@ -398,8 +398,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkShamblersJuiceCan
-  name: банка shamblers juice
-  description: ~Shake me up some of that Shambler's Juice!~
+  name: банка шамблерний сік
+  description: ~Струсніть мені трохи того соку Шамблера!~
   components:
   - type: SolutionContainerManager
     solutions:
@@ -417,7 +417,7 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkPwrGameCan
-  name: банка pwr game
+  name: банка PWR геймер
   description: Єдиний напій з PWR, якого жадають справжні геймери. Коли геймер говорить про gamerfuel, він має на увазі саме це.
   components:
   - type: SolutionContainerManager

@@ -1,9 +1,9 @@
 - type: entity
-  name: toilet
+  name: туалет
   id: ToiletEmpty
   suffix: Empty
   parent: SeatBase
-  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
+  description: HT-451, пристрій для утилізації дрібних відходів на основі крутного моменту. Цей виглядає надзвичайно чистим.
   components:
   - type: MeleeSound
     soundGroups:

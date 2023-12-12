@@ -66132,7 +66132,7 @@ entities:
     - pos: 18.357231,9.632823
       parent: 82
       type: Transform
-- proto: ClothingShoesBootsMerc
+- proto: ClothingShoesBootsMercenary
   entities:
   - uid: 20323
     components:

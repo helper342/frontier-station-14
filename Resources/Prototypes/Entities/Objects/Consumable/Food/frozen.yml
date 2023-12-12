@@ -19,46 +19,46 @@
 # Ice-cream
 
 - type: entity
-  name: ice-cream sandwich
+  name: сендвіч з морозивом
   parent: FoodFrozenBase
   id: FoodFrozenSandwich
-  description: Portable ice-cream in its own packaging.
+  description: Портативне морозиво у власній упаковці.
   components:
   - type: Sprite
     state: sandwich
 
 - type: entity
-  name: strawberry ice-cream sandwich
+  name: полуничний сендвіч з морозивом
   parent: FoodFrozenBase
   id: FoodFrozenSandwichStrawberry
-  description: Portable ice-cream in its own packaging of the strawberry variety.
+  description: Морозиво портативне у власній упаковці сорту полуниця.
   components:
   - type: Sprite
     state: sandwich-strawberry
 
 - type: entity
-  name: space freezy
+  name: космос морозиво
   parent: FoodFrozenBase
   id: FoodFrozenFreezy
-  description: The best ice-cream in space.
+  description: Найкраще морозиво в космосі.
   components:
   - type: Sprite
     state: spacefreezy
 
 - type: entity
-  name: ice-cream sundae
+  name: морозиво морозиво
   parent: FoodFrozenBase
   id: FoodFrozenSundae
-  description: A classic dessert.
+  description: Класичний десерт.
   components:
   - type: Sprite
     state: spacefreezy
 
 - type: entity
-  name: cornuto
+  name: корнтайн
   parent: FoodFrozenBase
   id: FoodFrozenCornuto
-  description: A Neapolitan vanilla and chocolate ice-cream cone. It menaces with a sprinkling of caramelized nuts.
+  description: Неаполітанський ріжок морозива з ванілі та шоколаду. Він загрожує посипанням карамелізованих горіхів.
   components:
   - type: Sprite
     state: cornuto
@@ -75,10 +75,10 @@
 # Popsicle
 
 - type: entity
-  name: orange creamsicle
+  name: апельсиновий крем
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleOrange
-  description: A classic orange creamsicle. A sunny frozen treat.
+  description: Класичний апельсиновий крем. Сонячне заморожене ласощі.
   components:
   - type: Sprite
     layers:
@@ -90,10 +90,10 @@
     trash: FoodFrozenPopsicleTrash
 
 - type: entity
-  name: berry creamsicle
+  name: ягідний крем
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleBerry
-  description: A vibrant berry creamsicle. A berry good frozen treat.
+  description: Яскравий ягідний крем. Ягідне хороше заморожене ласощі.
   components:
   - type: Sprite
     layers:
@@ -108,10 +108,10 @@
     - Fruit
 
 - type: entity
-  name: jumbo ice-cream
+  name: джамбо морозиво
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleJumbo
-  description: A luxurious ice-cream covered in rich chocolate. It's smaller than you remember.
+  description: Розкішне морозиво в насиченому шоколаді. Він менший, ніж ви пам'ятаєте.
   components:
   - type: Sprite
     layers:
@@ -135,11 +135,11 @@
 # layer depending on soda/syrup/waterever. Name and description will also have
 # to be modified.
 - type: entity
-  name: sweet snowcone
+  name: солодкий сніговий шишок
   #  name: [Flavor] snowcone
   parent: FoodFrozenBase
   id: FoodFrozenSnowconeBase
-  description: It's just shaved ice and simple syrup, minimum effort.
+  description: Це просто тертий лід і простий сироп, мінімум зусиль.
   #  description: [Liquid] drizzled over a snowball in a paper cup.
   components:
     - type: Sprite
@@ -162,10 +162,10 @@
               Quantity: 2
 
 - type: entity
-  name: flavorless snowcone
+  name: сніговий конус без смаку
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowcone
-  description: It's just shaved ice. Still fun to chew on.
+  description: Це просто тертий лід. Все ще весело жувати.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -176,10 +176,10 @@
             Quantity: 8
 
 - type: entity
-  name: berry snowcone
+  name: ягідний сніговик
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeBerry
-  description: Berry syrup drizzled over a snowball in a paper cup.
+  description: Ягідний сироп ллється на сніжок у паперовому стаканчику.
   components:
   - type: Sprite
     layers:
@@ -192,10 +192,10 @@
     - Fruit
 
 - type: entity
-  name: fruit salad snowcone
+  name: фруктовий салат сніговий конус
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeFruit
-  description: A delightful mix of citrus syrups drizzled over a snowball in a paper cup.
+  description: Чудовий мікс цитрусових сиропів, налитих сніжком у паперовий стаканчик.
   components:
   - type: Sprite
     layers:
@@ -208,10 +208,10 @@
     - Fruit
 
 - type: entity
-  name: clowncone
+  name: клоунконус
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeClown
-  description: Laughter drizzled over a snowball in a paper cup.
+  description: Сніжок у паперовому стаканчику сипав сміх.
   components:
   - type: Sprite
     layers:
@@ -221,7 +221,7 @@
     trash: FoodFrozenSnowconeTrash
 
 - type: entity
-  name: mime snowcone
+  name: мім сніговий шишок
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeMime
   description: ...
@@ -234,10 +234,10 @@
     trash: FoodFrozenSnowconeTrash
 
 - type: entity
-  name: rainbow snowcone
+  name: райдужний сніговий конус
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeRainbow
-  description: A very colorful snowball in a paper cup.
+  description: Дуже барвистий сніжок у паперовому стаканчику.
   components:
   - type: Sprite
     layers:
@@ -249,10 +249,10 @@
 # Trash
 
 - type: entity
-  name: paper cone
+  name: паперовий конус
   parent: BaseItem
   id: FoodFrozenSnowconeTrash
-  description: A crumpled paper cone used for an icy treat. Worthless.
+  description: Конус із зім’ятого паперу, який використовується для приготування льоду. Нічого не варто.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/frozen.rsi
@@ -262,10 +262,10 @@
     - Trash
 
 - type: entity
-  name: popsicle stick
+  name: паличка від ескімо
   parent: BaseItem
   id: FoodFrozenPopsicleTrash
-  description: Once held a delicious treat. Now, 'tis barren.
+  description: Одного разу провели смачне частування. Тепер це безплідно.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/frozen.rsi

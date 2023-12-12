@@ -2,7 +2,7 @@
   id: Window
   parent: BaseStructure
   name: вікно
-  description: Don't smudge up the glass down there.
+  description: Не розмазуйте там скло.
   placement:
     mode: SnapgridCenter
     snap:
@@ -91,7 +91,7 @@
   id: WindowDirectional
   parent: BaseStructure
   name: одностороннє вікно
-  description: Don't smudge up the glass down there.
+  description: Не розмазуйте там скло.
   placement:
     mode: SnapgridCenter
     snap:
@@ -172,8 +172,8 @@
 - type: entity
   id: WindowFrostedDirectional
   parent: WindowDirectional
-  name: directional frosted window
-  description: Don't smudge up the glass down there.
+  name: спрямоване матове вікно
+  description: Не розмазуйте там скло.
   placement:
     mode: SnapgridCenter
     snap:

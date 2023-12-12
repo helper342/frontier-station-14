@@ -13,13 +13,13 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCargo
-  name: quartermaster's накладна гарнітура
+  name: квартирмейстерська накладна гарнітура
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - EncryptionKeyCargo
-#      - EncryptionKeyCommand # Frontier
+      - EncryptionKeyCommand
       - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/cargo.rsi
@@ -74,7 +74,7 @@
     containers:
       key_slots:
       - EncryptionKeyEngineering
-#      - EncryptionKeyCommand # Frontier
+      - EncryptionKeyCommand
       - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/engineering.rsi
@@ -90,7 +90,7 @@
     containers:
       key_slots:
       - EncryptionKeyMedical
-#      - EncryptionKeyCommand # Frontier
+      - EncryptionKeyCommand
       - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/medical.rsi
@@ -117,13 +117,13 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltScience
-  name: research director's накладна гарнітура
+  name: наукового керівника накладна гарнітура
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - EncryptionKeyScience
-#      - EncryptionKeyCommand # Frontier
+      - EncryptionKeyCommand
       - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/science.rsi
@@ -134,7 +134,7 @@
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltSyndicate
   name: червоно-червона накладна гарнітура
-  description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+  description: Оновлений модульний домофон синдикату, який встановлюється на голову та приймає ключі шифрування (є 5 слотів для ключів).
   components:
   - type: Headset
   - type: EncryptionKeyHolder

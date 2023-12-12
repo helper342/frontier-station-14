@@ -27289,7 +27289,7 @@ entities:
     - pos: 58.78938,-5.6705165
       parent: 31
       type: Transform
-- proto: ClothingShoesBootsMerc
+- proto: ClothingShoesBootsMercenary
   entities:
   - uid: 1109
     components:

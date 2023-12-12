@@ -1,8 +1,8 @@
 - type: entity
-  name: arm blade
+  name: лезо руки
   parent: BaseItem
   id: ArmBlade
-  description: A grotesque blade made out of bone and flesh that cleaves through people as a hot knife through butter.
+  description: Гротескне лезо, виготовлене з кісток і м’яса, яке пронизує людей, як гарячий ніж масло.
   components:
   - type: Sharp
   - type: Sprite

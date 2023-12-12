@@ -1,6 +1,6 @@
 - type: entity
   id: MeteorLarge
-  name: meteor
+  name: метеор
   noSpawn: true
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
-  name: chainsaw
+  name: бензопила
   parent: BaseItem
   id: Chainsaw
-  description: A very large chainsaw. Usually you use this for cutting down trees... usually.
+  description: Дуже велика бензопила. Зазвичай ви використовуєте це для вирубування дерев... зазвичай.
   components:
   - type: Wieldable
     wieldSound: !type:SoundPathSpecifier

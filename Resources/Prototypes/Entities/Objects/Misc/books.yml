@@ -1,8 +1,8 @@
 - type: entity
-  name: book
+  name: книга
   parent: BaseItem
   id: BookBase
-  description: 'A hardcover book.'
+  description: 'Книга в твердій палітурці.'
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -31,8 +31,8 @@
 - type: entity
   id: BookSpaceEncyclopedia
   parent: BaseItem
-  name: space encyclopedia
-  description: An encyclopedia containing all the knowledge. The author of this encyclopedia is unknown.
+  name: космічна енциклопедія
+  description: Енциклопедія, яка містить усі знання. Автор цієї енциклопедії невідомий.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -49,8 +49,8 @@
 - type: entity
   id: BookTheBookOfControl
   parent: BaseItem
-  name: the book of control
-  description: Essential to become robust.
+  name: книга контролю
+  description: Необхідно стати міцним.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -67,8 +67,8 @@
 - type: entity
   id: BookBartendersManual
   parent: BaseItem
-  name: bartender's manual
-  description: This manual is stained with beer.
+  name: посібник бармена
+  description: Цей посібник заплямований пивом.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -85,8 +85,8 @@
 - type: entity
   id: BookChefGaming
   parent: BaseItem
-  name: chef gaming
-  description: A book about cooking written by a gamer chef.
+  name: ігри шеф-кухаря
+  description: Книга про кулінарію, написана шеф-кухарем-геймером.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -103,8 +103,8 @@
 - type: entity
   id: BookLeafLoversSecret
   parent: BaseItem
-  name: leaf lover's secret
-  description: It has a strong weed smell. It motivates you to feed and seed.
+  name: секрет любителя листя
+  description: Має сильний запах бур'янів. Це мотивує вас годувати та сіяти насіння.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -121,8 +121,8 @@
 - type: entity
   id: BookEngineersHandbook
   parent: BaseItem
-  name: engineer's handbook
-  description: A handbook about engineering written by Nanotrasen.
+  name: довідник інженера
+  description: Посібник з інженерії, написаний Nanotrasen.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -140,7 +140,7 @@
   id: BookScientistsGuidebook
   parent: BaseItem
   name: scientist's guidebook
-  description: A guidebook about science written by Nanotrasen.
+  description: Довідник про науку, написаний Nanotrasen.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -157,8 +157,8 @@
 - type: entity
   id: BookSecurity
   parent: BaseItem
-  name: security 101
-  description: A book about security written by Nanotrasen. The book is stained with blood. It seems to have been used more as a weapon than reading material.
+  name: безпека 101
+  description: Книга про безпеку, написана Nanotrasen. Книга закривавлена. Здається, його використовували більше як зброю, ніж як матеріал для читання.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -180,8 +180,8 @@
 - type: entity
   id: BookHowToKeepStationClean
   parent: BaseItem
-  name: how to keep station clean
-  description: This book is very clean.
+  name: як утримувати станцію в чистоті
+  description: Ця книга дуже чиста.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -198,8 +198,8 @@
 - type: entity
   id: BookHowToRockAndStone
   parent: BaseItem
-  name: how to rock and stone
-  description: A very detailed guide about salvage written by Karl, a legendary space miner, however he's missing. It motivates you to rock and stone.
+  name: як рок і камінь
+  description: Дуже детальний посібник про порятунок, написаний Карлом, легендарним космічним шахтарем, однак він зник. Це спонукає вас до каменю.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -216,8 +216,8 @@
 - type: entity
   id: BookMedicalReferenceBook
   parent: BaseItem
-  name: medical reference book
-  description: A reference book about medical written by an old doctor. The handwriting is barely comprehensible.
+  name: медичний довідник
+  description: Довідник про медицину, написаний старим лікарем. Почерк ледь розбірливий.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -234,8 +234,8 @@
 - type: entity
   id: BookHowToSurvive
   parent: BaseItem
-  name: how to survive
-  description: Ironically the author of this book is dead.
+  name: як вижити
+  description: За іронією долі, автор цієї книги помер.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -252,8 +252,8 @@
 - type: entity
   id: BookChemicalCompendium
   parent: BaseItem
-  name: chempendium
-  description: A comprehensive guide written by some old skeleton of a professor about chemical synthesis.
+  name: хемпендіум
+  description: Вичерпний посібник, написаний якимось старим скелетом професора про хімічний синтез.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -296,8 +296,8 @@
 - type: entity
   parent: BookBase
   id: BookEscalation
-  name: Robert's Rules of Escalation
-  description: The book is stained with blood. It seems to have been used more as a weapon than reading material.
+  name: Правила ескалації Роберта
+  description: Книга закривавлена. Здається, його використовували більше як зброю, ніж як матеріал для читання.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -313,8 +313,8 @@
 - type: entity
   parent: BookBase
   id: BookEscalationSecurity
-  name: "Robert's Rules of Escalation: Security Edition"
-  description: The book is stained with blood. It seems to have been used more as a weapon than reading material.
+  name: "Правила ескалації Роберта: Видання безпеки"
+  description: Книга закривавлена. Здається, його використовували більше як зброю, ніж як матеріал для читання.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -330,8 +330,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosDistro
-  name: "Newton's Guide to Atmos: The Distro"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: "Посібник по Атмосу: Дистрибутив"
+  description: Є нескінченні нерозбірливі нотатки, нашкрябані на полях. Більшість тексту вкрита рукописними знаками питання.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -343,8 +343,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosWaste
-  name: "Newton's Guide to Atmos: Waste"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: "Путівник по Атмосу: Відходи"
+  description: Є нескінченні нерозбірливі нотатки, нашкрябані на полях. Більшість тексту вкрита рукописними знаками питання.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -356,8 +356,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosAirAlarms
-  name: "Newton's Guide to Atmos: Air Alarms"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: "Керівництво по Атмосу: повітряні сигнали"
+  description: Є нескінченні нерозбірливі нотатки, нашкрябані на полях. Більшість тексту вкрита рукописними знаками питання.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -369,8 +369,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosVentsMore
-  name: "Newton's Guide to Atmos: Vents and More"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: "Посібник по Атмосу: вентиляційні отвори та інше"
+  description: Є нескінченні нерозбірливі нотатки, нашкрябані на полях. Більшість тексту вкрита рукописними знаками питання.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi

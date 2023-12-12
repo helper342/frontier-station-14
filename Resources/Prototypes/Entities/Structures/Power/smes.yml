@@ -3,8 +3,8 @@
   abstract: true
   id: BaseSMES
   parent: [ BaseMachine, ConstructibleMachine ]
-  name: SMES
-  description: Надпровідний накопичувач магнітної енергії (SMES) великої ємності.
+  name: СМЕС
+  description: Надпровідний накопичувач магнітної енергії (СМЕС) великої ємності.
   placement:
     mode: SnapgridCenter
   components:

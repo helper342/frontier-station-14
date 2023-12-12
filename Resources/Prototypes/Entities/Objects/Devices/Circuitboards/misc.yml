@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseElectronics
   id: StationMapCircuitboard
-  name: station map electronics
-  description: An electronics board used in station maps.
+  name: станційна карта електроніки
+  description: Плата електроніки, яка використовується в картах станцій.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

@@ -1,6 +1,6 @@
 - type: entity
-  name: handcuffs
-  description: Used to detain criminals and other assholes.
+  name: наручники
+  description: Використовується для затримання злочинців та інших мудаків.
   id: Handcuffs
   parent: BaseItem
   components:
@@ -28,8 +28,8 @@
     - Security
 
 - type: entity
-  name: makeshift handcuffs
-  description: Homemade handcuffs crafted from spare cables.
+  name: імпровізовані наручники
+  description: Саморобні наручники, виготовлені із запасних кабелів.
   id: Cablecuffs
   parent: Handcuffs
   components:
@@ -63,8 +63,8 @@
     price: 6
 
 - type: entity
-  name: zipties
-  description: Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
+  name: застібки
+  description: Міцні одноразові пластикові застібки-блискавки, ідеальні для стримування буйних ув'язнених.
   id: Zipties
   parent: Handcuffs
   components:
@@ -109,8 +109,8 @@
     price: 1
 
 - type: entity
-  name: broken zipties
-  description: These zipties look like they tried to manage the wrong cables.
+  name: зламана застібка
+  description: Ці застібки виглядають так, ніби вони намагалися керувати не тими кабелями.
   id: ZiptiesBroken
   parent: BaseHandcuffsBroken
   components:
@@ -119,8 +119,8 @@
     state: cuff-broken
 
 - type: entity
-  name: broken cables
-  description: These cables are broken in several places and don't seem very useful.
+  name: зламані кабелі
+  description: Ці кабелі зламані в кількох місцях і не здаються дуже корисними.
   id: CablecuffsBroken
   parent: BaseHandcuffsBroken
   components:
@@ -132,8 +132,8 @@
 - type: entity
   parent: Handcuffs
   id: ClothingOuterStraightjacket
-  name: straitjacket
-  description: Used to restrain those who may cause harm to themselves or others.
+  name: гамівна сорочка
+  description: Використовується для стримування тих, хто може завдати шкоди собі або іншим.
   components:
   - type: Item
     size: 20

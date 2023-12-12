@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: MonkeyCube
-  name: monkey cube
-  description: Just add water!
+  name: куб мавпи
+  description: Просто додайте води!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -52,8 +52,8 @@
 - type: entity
   parent: PlushieCarp
   id: DehydratedSpaceCarp
-  name: dehydrated space carp
-  description: Looks like a plush toy carp, but just add water and it becomes a real-life space carp!
+  name: зневоднений космічний карп
+  description: Виглядає як плюшевий іграшковий карп, але просто додайте води, і він стане справжнім космічним карпом!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -109,9 +109,9 @@
 - type: entity
   parent: BaseItem
   id: SyndicateSponge
-  name: monkey cube
+  name: куб мавпи
   suffix: Syndicate
-  description: Just add water!
+  description: Просто додайте води!
   components:
   - type: SolutionContainerManager
     solutions:

@@ -1,7 +1,7 @@
 - type: entity
   id: CargoPallet
-  name: cargo pallet
-  description: Designates valid items to sell to CentCom when a shuttle is recalled.
+  name: вантажний піддон
+  description: Призначає дійсні предмети для продажу CentCom, коли шаттл відкликано.
   parent: BaseStructure
   components:
   - type: InteractionOutline

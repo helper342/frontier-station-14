@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: NukeOpsDeclarationOfWar
-  name: declaration of war
-  description: Use to send a declaration of hostilities to the target, delaying your shuttle departure while they prepare for your assault. Such a brazen move will attract the attention of powerful benefactors within the Syndicate, who will supply your team with a massive amount of bonus telecrystals. Must be used at start of mission, or your benefactors will lose interest.
+  name: оголошення війни
+  description: Використовуйте, щоб надіслати оголошення про військові дії цілі, затримуючи відправлення вашого шатла, поки вони готуються до вашого нападу. Такий нахабний крок приверне увагу могутніх благодійників у Синдикаті, які забезпечать вашу команду величезною кількістю бонусних телекристалів. Необхідно використовувати на початку місії, інакше ваші благодійники втратять інтерес.
   components:
     - type: Sprite
       sprite: Objects/Devices/declaration_of_war.rsi

@@ -1,8 +1,8 @@
 - type: entity
   id: CigarCase
   parent: [ BaseStorageItem, BaseBagOpenClose ]
-  name: cigar case
-  description: A case for holding your cigars when you are not smoking them.
+  name: портсигар
+  description: Футляр для сигар, коли ви їх не курите.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigars/case.rsi
@@ -61,8 +61,8 @@
 - type: entity
   id: CigarGoldCase
   parent: CigarCase
-  name: premium cigar case
-  description: "A case of premium Havanian cigars. You'll only see heads with these."
+  name: портсигар преміум класу
+  description: "Ящик преміальних гаванських сигар. Ви побачите лише голови з ними."
   components:
   - type: StorageFill
     contents:

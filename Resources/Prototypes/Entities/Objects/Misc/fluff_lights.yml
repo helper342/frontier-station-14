@@ -1,5 +1,5 @@
 - type: entity
-  name: lantern
+  name: ліхтар
   parent: BaseItem
   id: BaseLamp
   abstract: true
@@ -54,10 +54,10 @@
     price: 5
 
 - type: entity
-  name: lamp
+  name: лампа
   id: Lamp
   parent: BaseLamp
-  description: A light emitting device.
+  description: Світлопромінний пристрій.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi
@@ -71,10 +71,10 @@
     sprite: Objects/Misc/Lights/lamp.rsi
 
 - type: entity
-  name: banana lamp
+  name: бананова лампа
   id: LampBanana
   parent: BaseLamp
-  description: A light emitting device, shaped like a banana.
+  description: Світловий пристрій у формі банана.
   components:
   - type: Sprite
     layers:
@@ -85,10 +85,10 @@
         map: [ "light" ]
 
 - type: entity
-  name: desk lamp
+  name: настільна лампа
   id: LampGold
   parent: BaseLamp
-  description: A light emitting device that would look great on a desk.
+  description: Світловий пристрій, який чудово виглядатиме на столі.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampgreen.rsi
@@ -102,10 +102,10 @@
     sprite: Objects/Misc/Lights/lampgreen.rsi
 
 - type: entity
-  name: interrogator lamp
+  name: лампа запитувача
   id: LampInterrogator
   parent: BaseLamp
-  description: Ultra-bright lamp for the bad cop
+  description: Надяскрава лампа для поганого поліцейського
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampint.rsi
@@ -155,10 +155,10 @@
           False: {visible: false}
 
 - type: entity
-  name: floodlight
+  name: прожектор
   id: Floodlight
   parent: BaseLamp
-  description: A pole with powerful mounted lights on it.
+  description: Стовп із встановленими на ньому потужними ліхтарями.
   components:
   - type: Item
     size: 50
@@ -210,10 +210,10 @@
     price: 75
 
 - type: entity
-  name: broken floodlight
+  name: зламаний прожектор
   id: FloodlightBroken
   parent: BaseItem
-  description: A pole with powerful mounted lights on it. It's broken.
+  description: Стовп із встановленими на ньому потужними ліхтарями. Він зламався.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lights.rsi

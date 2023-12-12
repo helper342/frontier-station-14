@@ -2,7 +2,7 @@
   name: BaseWeaponLauncher
   parent: BaseItem
   id: BaseWeaponLauncher
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -21,10 +21,10 @@
         ents: []
 
 - type: entity
-  name: china lake
+  name: чайна лейк
   parent: BaseWeaponLauncher
   id: WeaponLauncherChinaLake
-  description: PLOOP
+  description: БУЛЬК
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -54,7 +54,7 @@
   name: RPG-7
   parent: BaseWeaponLauncher
   id: WeaponLauncherRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: Модифікований старовинний реактивний гранатомет.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -84,10 +84,10 @@
   - type: Appearance
 
 - type: entity
-  name: multiple rocket launcher
+  name: реактивна система залпового вогню
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: Модифікований старовинний реактивний гранатомет.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -119,10 +119,10 @@
   - type: Appearance
 
 - type: entity
-  name: pirate cannon
+  name: піратська гармата
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannon
-  description: Kaboom!
+  description: Кабум!
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
@@ -151,12 +151,12 @@
         path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
 
 - type: entity
-  name: tether gun
+  name: прив'язний пістолет
   parent:
   - BaseItem
   - PowerCellSlotMediumItem
   id: WeaponTetherGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: Керує силою тяжіння навколо об’єктів, щоб кидати їх на високій швидкості.
   components:
     - type: TetherGun
       frequency: 5
@@ -188,12 +188,12 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: силовий пістолет
   parent:
     - BaseItem
     - PowerCellSlotMediumItem
   id: WeaponForceGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: Керує силою тяжіння навколо об’єктів, щоб кидати їх на високій швидкості.
   components:
     - type: ForceGun
       frequency: 15
@@ -231,7 +231,7 @@
                 False: { visible: false }
 
 - type: entity
-  name: grappling gun
+  name: грайферний пістолет
   parent: BaseItem
   id: WeaponGrapplingGun
   components:
@@ -264,11 +264,11 @@
 
 # Admeme
 - type: entity
-  name: tether gun
+  name: прив'язний пістолет
   parent: BaseItem
   id: WeaponTetherGunAdmin
   suffix: admin
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: Керує силою тяжіння навколо об’єктів, щоб кидати їх на високій швидкості.
   components:
     - type: TetherGun
       canTetherAlive: true
@@ -303,11 +303,11 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: силовий пістолет
   parent: BaseItem
   id: WeaponForceGunAdmin
   suffix: Admin
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: Керує силою тяжіння навколо об’єктів, щоб кидати їх на високій швидкості.
   components:
     - type: ForceGun
       canTetherAlive: true
@@ -345,11 +345,11 @@
             False: { visible: false }
 
 - type: entity
-  name: meteor launcher
+  name: метеорна установка
   parent: WeaponLauncherMultipleRocket
   id: WeaponLauncherAdmemeMeteorLarge
   suffix: Admeme
-  description: It fires large meteors
+  description: Він запускає великі метеори
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -358,11 +358,11 @@
     proto: MeteorLarge
 
 - type: entity
-  name: immovable rod launcher
+  name: нерухомий стрижневий пусковий пристрій
   parent: WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
   suffix: Admeme
-  description: It fires slow immovable rods.
+  description: Він стріляє повільними нерухомими стрижнями.
   components:
   - type: BallisticAmmoProvider
     whitelist:

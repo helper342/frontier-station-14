@@ -1,5 +1,5 @@
 - type: entity
-  name: bottle
+  name: пляшка
   parent: BaseItem
   id: BaseChemistryEmptyBottle
   abstract: true
@@ -90,12 +90,12 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: bottle
+  name: пляшка
   parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottle01
 
 - type: entity
-  name: bottle
+  name: пляшка
   parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottle02
   components:
@@ -110,7 +110,7 @@
     fillBaseName: bottle-2-
 
 - type: entity
-  name: bottle
+  name: пляшка
   parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottle03
   components:
@@ -125,7 +125,7 @@
     fillBaseName: bottle-3-
 
 - type: entity
-  name: bottle
+  name: пляшка
   parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottle04
   components:
@@ -141,7 +141,7 @@
 
 - type: entity
   id: EpinephrineChemistryBottle
-  name: epinephrine bottle
+  name: флакон з епінефрином
   parent: BaseChemistryEmptyBottle
   components:
   - type: SolutionContainerManager
@@ -157,8 +157,8 @@
 
 - type: entity
   id: RobustHarvestChemistryBottle
-  name: robust harvest bottle
-  description: This will increase the potency of your plants.
+  name: міцна пляшка врожаю
+  description: Це підвищить потенцію ваших рослин.
   parent: BaseChemistryEmptyBottle
   components:
   - type: SolutionContainerManager
@@ -174,8 +174,8 @@
 
 - type: entity
   id: EZNutrientChemistryBottle
-  name: ez nutrient bottle
-  description: This will provide some nutrition to your plants.
+  name: ез поживні речовини
+  description: Це забезпечить рослинам деяке харчування.
   parent: BaseChemistryEmptyBottle
   components:
   - type: SolutionContainerManager
@@ -191,8 +191,8 @@
 
 - type: entity
   id: Left4ZedChemistryBottle
-  name: left-4-zed bottle
-  description: This will increase the effectiveness of mutagen.
+  name: ліва-4-зед пляшка
+  description: Це підвищить ефективність мутагену.
   parent: BaseChemistryEmptyBottle
   components:
   - type: SolutionContainerManager
@@ -208,8 +208,8 @@
 
 - type: entity
   id: UnstableMutagenChemistryBottle
-  name: unstable mutagen bottle
-  description: This will cause rapid mutations in your plants.
+  name: пляшка нестабільного мутагену
+  description: Це спричинить швидкі мутації ваших рослин.
   parent: BaseChemistryEmptyBottle
   components:
   - type: SolutionContainerManager
@@ -225,8 +225,8 @@
 
 - type: entity
   id: NocturineChemistryBottle
-  name: nocturine bottle
-  description: This will make someone fall down almost immediately. Hard to overdose on.
+  name: пляшка ноктюрину
+  description: Це змусить когось впасти майже відразу. Важко передозувати.
   parent: BaseChemistryEmptyBottle
   components:
   - type: SolutionContainerManager
@@ -242,7 +242,7 @@
 
 - type: entity
   id: EphedrineChemistryBottle
-  name: ephedrine bottle
+  name: пляшка ефедрину
   parent: BaseChemistryEmptyBottle
   components:
   - type: SolutionContainerManager
@@ -258,7 +258,7 @@
 
 - type: entity
   id: OmnizineChemistryBottle
-  name: omnizine bottle
+  name: пляшка омнізину
   parent: BaseChemistryEmptyBottle
   components:
   - type: SolutionContainerManager
@@ -275,7 +275,7 @@
 - type: entity
   parent: BaseChemistryEmptyBottle
   id: CognizineChemistryBottle
-  name: cognizine bottle
+  name: пляшка когнізину
   components:
   - type: SolutionContainerManager
     solutions:
@@ -290,7 +290,7 @@
 
 - type: entity
   id: ToxinChemistryBottle
-  name: toxin bottle
+  name: пляшка з токсином
   parent: BaseChemistryEmptyBottle
   components:
     - type: SolutionContainerManager

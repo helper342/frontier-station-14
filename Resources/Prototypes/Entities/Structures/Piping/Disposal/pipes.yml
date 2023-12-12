@@ -59,7 +59,7 @@
 - type: entity
   id: DisposalHolder
   noSpawn: true
-  name: disposal holder
+  name: труба для утилізації
   components:
   - type: DisposalHolder
   - type: ContainerContainer
@@ -71,7 +71,7 @@
 - type: entity
   id: DisposalPipeBroken
   parent: DisposalPipeBase
-  name: broken disposal pipe
+  name: зламана труба для утилізації
   description: A BBP (big broken pipe)
   components:
   - type: Sprite
@@ -89,8 +89,8 @@
 - type: entity
   id: DisposalPipe
   parent: DisposalPipeBase
-  name: disposal pipe segment
-  description: A huge pipe segment used for constructing disposal systems.
+  name: сегмент утилізаційної труби
+  description: Величезний сегмент труби, який використовується для будівництва систем утилізації.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -117,8 +117,8 @@
 - type: entity
   id: DisposalTagger
   parent: DisposalPipeBase
-  name: disposal pipe tagger
-  description: A pipe that tags entities for routing.
+  name: теггер труб для утилізації
+  description: Канал, який позначає сутності для маршрутизації.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -151,8 +151,8 @@
 - type: entity
   id: DisposalTrunk
   parent: DisposalPipeBase
-  name: disposal trunk
-  description: A pipe trunk used as an entry point for disposal systems.
+  name: утилізаційний контейнер
+  description: Стовбур труби, який використовується як точка входу для систем утилізації.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -187,8 +187,8 @@
 - type: entity
   id: DisposalRouter
   parent: DisposalPipeBase
-  name: disposal router
-  description: A three-way router. Entities with matching tags get routed to the side via configurable filters.
+  name: маршрутизатор для утилізації
+  description: Тристоронній маршрутизатор. Сутності з відповідними тегами спрямовуються в сторону за допомогою настроюваних фільтрів.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -234,7 +234,7 @@
 
 - type: entity
   id: DisposalRouterFlipped
-  description: A three-way router. Entities with matching tags get routed to the side.
+  description: Тристоронній маршрутизатор. Сутності з відповідними тегами направляються в сторону.
   parent: DisposalRouter
   suffix: flipped
   components:
@@ -274,8 +274,8 @@
 - type: entity
   id: DisposalJunction
   parent: DisposalPipeBase
-  name: disposal junction
-  description: A three-way junction. The arrow indicates where items exit.
+  name: вузол утилізації
+  description: Тристороння розв'язка. Стрілка вказує, де елементи виходять.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -316,7 +316,7 @@
 
 - type: entity
   id: DisposalJunctionFlipped
-  description: A three-way junction. The arrow indicates where items exit.
+  description: Тристороння розв'язка. Стрілка вказує, де елементи виходять.
   parent: DisposalJunction
   suffix: flipped
   components:
@@ -356,8 +356,8 @@
 - type: entity
   id: DisposalYJunction
   parent: DisposalPipeBase
-  name: disposal y-junction
-  description: A three-way junction with another exit point.
+  name: утилізація y-переходу
+  description: Тристороння розв'язка з ще одним виїздом.
   components:
   - type: Sprite
     drawdepth: ThickPipe
@@ -396,8 +396,8 @@
 - type: entity
   id: DisposalBend
   parent: DisposalPipeBase
-  name: disposal bend
-  description: A tube bent at a 90 degree angle.
+  name: вигин утилізації
+  description: Труба, зігнута під кутом 90 градусів.
   components:
   - type: Sprite
     drawdepth: ThickPipe

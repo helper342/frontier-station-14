@@ -79,9 +79,9 @@
 # https://academo.org/demos/colour-temperature-relationship/
 - type: entity
   parent: BaseLightbulb
-  name: incandescent light bulb
+  name: лампочка розжарювання
   id: LightBulb
-  description: A light bulb.
+  description: Електрична лампочка.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -93,9 +93,9 @@
 - type: entity
   suffix: Broken
   parent: BaseLightbulb
-  name: incandescent light bulb
+  name: лампочка розжарювання
   id: LightBulbBroken
-  description: A light bulb.
+  description: Електрична лампочка.
   components:
   - type: LightBulb
     startingState: Broken
@@ -103,9 +103,9 @@
 
 - type: entity
   parent: BaseLightTube
-  name: fluorescent light tube
+  name: люмінесцентна лампа
   id: LightTube
-  description: A light fixture.
+  description: Світильник.
   components:
   - type: LightBulb
     color: "#FFE4CE" # 5000K color temp
@@ -117,17 +117,17 @@
 - type: entity
   suffix: Broken
   parent: BaseLightTube
-  name: fluorescent light tube
+  name: люмінесцентна лампа
   id: LightTubeBroken
-  description: A light fixture.
+  description: Світильник.
   components:
   - type: LightBulb
     startingState: Broken
 
 - type: entity
   parent: BaseLightTube
-  name: led light tube
-  description: A high power high energy bulb.
+  name: світлодіодна світлова трубка
+  description: Високоенергетична лампа високої потужності.
   id: LedLightTube
   components:
   - type: LightBulb
@@ -140,8 +140,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: exterior light tube
-  description: A high power high energy bulb for the depths of space. May contain mercury.
+  name: зовнішня світлова труба
+  description: Потужна високоенергетична лампа для глибин космосу. Може містити ртуть.
   id: ExteriorLightTube
   components:
   - type: LightBulb
@@ -154,8 +154,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: sodium light tube
-  description: A high power high energy bulb for the depths of space. Salty.
+  name: натрієва світлова трубка
+  description: Потужна високоенергетична лампа для глибин космосу. Солоний.
   id: SodiumLightTube
   components:
   - type: LightBulb

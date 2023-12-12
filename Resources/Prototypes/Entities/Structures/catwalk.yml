@@ -2,7 +2,7 @@
 - type: entity
   id: Catwalk
   name: подіум
-  description: A catwalk for easier EVA maneuvering and cable placement.
+  description: Подіум для легшого маневрування EVA та розміщення кабелю.
   placement:
     mode: SnapgridCenter
   components:

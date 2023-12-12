@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Holoprojector
-  name: holographic sign projector
-  description: A handy-dandy holographic projector that displays a janitorial sign.
+  name: проектор голографічних знаків
+  description: Зручний голографічний проектор, який відображає табличку прибиральника.
   components:
   - type: HolosignProjector
   - type: ItemCooldown
@@ -28,8 +28,8 @@
 - type: entity
   parent: Holoprojector
   id: HolofanProjector
-  name: holofan projector
-  description: Stop suicidal passengers from killing everyone during atmos emergencies.
+  name: Голофановий проектор
+  description: Не дозволяйте пасажирам-самогубцям вбивати всіх під час надзвичайних ситуацій в атмосфері.
   components:
   - type: HolosignProjector
     signProto: HoloFan
@@ -47,8 +47,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorSecurity
-  name: holobarrier projector
-  description: Creates a solid but fragile holographic barrier.
+  name: голобар'єрний проектор
+  description: Створює міцний, але крихкий голографічний бар'єр.
   components:
     - type: HolosignProjector
       signProto: HolosignSecurity

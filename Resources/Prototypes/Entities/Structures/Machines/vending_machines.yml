@@ -1,8 +1,8 @@
 - type: entity
   id: VendingMachine
   parent: BaseMachinePowered
-  name: vending machine
-  description: Just add capitalism!
+  name: торговий автомат
+  description: Просто додайте капіталізму!
   abstract: true
   components:
   - type: AmbientOnPowered
@@ -105,8 +105,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCondiments
-  name: Condiment Station
-  description: Slather these thick gooey substances on your food for a full flavor effect.
+  name: Станція приправ
+  description: Намажте їжу цими густими клейкими речовинами для повного смаку.
   components:
   - type: VendingMachine
     pack: CondimentInventory
@@ -137,8 +137,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineAmmo
-  name: Liberation Station
-  description: An overwhelming amount of ancient patriotism washes over you just by looking at the machine.
+  name: Станція Визволення
+  description: Переважна кількість давнього патріотизму охоплює вас, просто дивлячись на машину.
   components:
   - type: VendingMachine
     pack: AmmoVendInventory
@@ -164,8 +164,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineBooze
-  name: Booze-O-Mat
-  description: A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
+  name: Буз-О-Мат
+  description: Технологічне диво, нібито здатне змішати саме ту суміш, яку ви хочете випити, коли ви попросите її.
   components:
   - type: VendingMachine
     pack: BoozeOMatInventory
@@ -197,7 +197,7 @@
   parent: VendingMachine
   id: VendingMachineCart
   name: PTech
-  description: PTech vending! Providing a ROBUST selection of PDAs, cartridges, and anything else a dull paper pusher needs!
+  description: PTech вендінг! Надійний вибір PDA, картриджів та всього іншого, що потрібно нудному штовхачу паперу!
   components:
   - type: VendingMachine
     pack: PTechInventory
@@ -221,15 +221,15 @@
     energy: 1.3
     color: "#ffb0b0"
   - type: AccessReader
-    access: [["HeadOfPersonnel"], ["HeadOfSecurity"]] # Frontier - Added sheriff access
+    access: [["HeadOfPersonnel"]]
   - type: MarketModifier
     mod: 5
 
 - type: entity
   parent: VendingMachine
   id: VendingMachineChefvend
-  name: ChefVend
-  description: An ingredient vendor for all your cheffin needs.
+  name: Шеф-кухар Венд
+  description: Постачальник інгредієнтів для всіх ваших потреб Cheffin.
   components:
   - type: VendingMachine
     pack: ChefvendInventory
@@ -260,7 +260,7 @@
   parent: VendingMachine
   id: VendingMachineCigs
   name: ShadyCigs Deluxe
-  description: If you want to get cancer, might as well do it in style.
+  description: Якщо ви хочете захворіти на рак, зробіть це стильно.
   components:
   - type: VendingMachine
     pack: CigaretteMachineInventory
@@ -289,7 +289,7 @@
   parent: VendingMachine
   id: VendingMachineClothing
   name: ClothesMate
-  description: A vending machine for clothing.
+  description: Автомат для продажу одягу.
   components:
   - type: VendingMachine
     pack: ClothesMateInventory
@@ -322,7 +322,7 @@
   parent: VendingMachine
   id: VendingMachineWinter
   name: WinterDrobe
-  description: The best place to enjoy the cold!
+  description: Найкраще місце, щоб насолодитися холодом!
   components:
   - type: VendingMachine
     pack: WinterDrobeInventory
@@ -354,8 +354,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCoffee
-  name: Solar's Best Hot Drinks
-  description: Served boiling so it stays hot all shift!
+  name: Найкращі гарячі напої від Solar
+  description: Подають у киплячому вигляді, щоб він залишався гарячим усю зміну!
   components:
   - type: VendingMachine
     pack: HotDrinksMachineInventory
@@ -393,8 +393,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCola
-  name: Robust Softdrinks
-  description: A softdrink vendor provided by Robust Industries, LLC.
+  name: Міцні безалкогольні напої
+  description: Постачальник безалкогольних напоїв від Robust Industries, LLC.
   components:
   - type: VendingMachine
     pack: RobustSoftdrinksInventory
@@ -448,7 +448,7 @@
   parent: VendingMachineCola
   id: VendingMachineColaRed
   name: Space Cola Vendor
-  description: It vends cola, in space.
+  description: Він продає колу в космосі.
   components:
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/cola-red.rsi
@@ -469,7 +469,7 @@
   parent: VendingMachineCola
   id: VendingMachineSpaceUp
   name: Space-Up! Vendor
-  description: Indulge in an explosion of flavor.
+  description: Насолоджуйтесь вибуховим смаком.
   components:
   - type: VendingMachine
     pack: SpaceUpInventory
@@ -514,7 +514,7 @@
   parent: VendingMachineCola
   id: VendingMachineStarkist
   name: Star-kist Vendor
-  description: The taste of a star in liquid form.
+  description: Смак зірочки в рідкому вигляді.
   components:
   - type: VendingMachine
     pack: StarkistInventory
@@ -537,7 +537,7 @@
   parent: VendingMachine
   id: VendingMachineShamblersJuice
   name: Shambler's Juice Vendor
-  description: ~Shake me up some of that Shambler's Juice!~
+  description: ~Струсніть мені трохи того соку Шамблера!~
   components:
   - type: VendingMachine
     pack: ShamblersJuiceInventory
@@ -570,8 +570,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachinePwrGame
-  name: Pwr Game Vendor
-  description: You want it, we got it. Brought to you in partnership with Vlad's Salads.
+  name: Постачальник ігор Pwr
+  description: Ви хочете, ми це отримали. До вашої уваги в партнерстві з Салатами Влада.
   components:
   - type: VendingMachine
     pack: PwrGameInventory
@@ -604,8 +604,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDrGibb
-  name: Dr. Gibb Vendor
-  description: Canned explosion of different flavors in this very vendor!
+  name: Доктор Гібб Вендор
+  description: Консервований вибух різноманітних смаків саме у цього продавця!
   components:
   - type: VendingMachine
     pack: DrGibbInventory
@@ -638,8 +638,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDinnerware
-  name: Plasteel Chef's Dinnerware Vendor
-  description: A kitchen and restaurant equipment vendor.
+  name: Продавець обіднього посуду від шеф-кухаря Plasteel
+  description: Продавець кухонного та ресторанного обладнання.
   components:
   - type: VendingMachine
     pack: DinnerwareInventory
@@ -669,8 +669,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineMagivend
-  name: MagiVend
-  description: A magic vending machine.
+  name: МагіВенд
+  description: Чарівний торговий автомат.
   components:
   - type: VendingMachine
     pack: MagiVendInventory
@@ -698,7 +698,7 @@
   parent: VendingMachine
   id: VendingMachineDiscount
   name: Discount Dan's
-  description: A vending machine containing discount snacks from the infamous 'Discount Dan' franchise.
+  description: Торговий автомат зі зниженими закусками від сумнозвісної франшизи «Дискаунт Ден».
   components:
   - type: VendingMachine
     pack: DiscountDansInventory
@@ -729,7 +729,7 @@
   parent: VendingMachine
   id: VendingMachineEngivend
   name: Engi-Vend
-  description: Spare tool vending. What? Did you expect some witty description?
+  description: Продаж запасного інструменту. Що? Ви очікували якогось дотепного опису?
   components:
   - type: VendingMachine
     pack: EngiVendInventory
@@ -759,7 +759,7 @@
   parent: VendingMachine
   id: VendingMachineMedical
   name: NanoMed Plus
-  description: It's a medical drug dispenser. Natural chemicals only!
+  description: Це медичний дозатор ліків. Тільки природні хімікати!
   components:
   - type: VendingMachine
     pack: NanoMedPlusInventory
@@ -795,7 +795,7 @@
   parent: VendingMachine
   id: VendingMachineNutri
   name: NutriMax
-  description: A vending machine containing nutritional substances for plants and botanical tools.
+  description: Автомат з поживними речовинами для рослин і ботанічним інструментом.
   components:
   - type: VendingMachine
     pack: NutriMaxInventory
@@ -827,7 +827,7 @@
   parent: VendingMachine
   id: VendingMachineSec
   name: SecTech
-  description: A vending machine containing Security equipment. A label reads SECURITY PERSONNEL ONLY.
+  description: Торговий автомат із засобами безпеки. На етикетці написано ЛИШЕ ДЛЯ ОХОРОНИ.
   components:
   - type: VendingMachine
     pack: SecTechInventory
@@ -864,7 +864,7 @@
   parent: VendingMachine
   id: VendingMachineSeedsUnlocked
   name: MegaSeed Servitor
-  description: For when you need seeds fast. Hands down the best seed selection on the station!
+  description: Коли вам швидко потрібні насіння. Найкращий вибір насіння на станції!
   suffix: Unlocked
   components:
   - type: VendingMachine
@@ -905,7 +905,7 @@
   parent: VendingMachine
   id: VendingMachineSmartFridge
   name: SmartFridge
-  description: A refrigerated storage unit for keeping items cold and fresh.
+  description: Холодильна камера для зберігання продуктів холодними та свіжими.
   components:
   - type: VendingMachine
     pack: SmartFridgeInventory
@@ -936,7 +936,7 @@
   parent: VendingMachine
   id: VendingMachineSnack
   name: Getmore Chocolate Corp
-  description: A snack machine courtesy of the Getmore Chocolate Corporation, based out of Mars.
+  description: Машина для снеків, люб’язно надана корпорацією Getmore Chocolate Corporation, розташованою на Марсі.
   components:
   - type: VendingMachine
     pack: GetmoreChocolateCorpInventory
@@ -969,7 +969,7 @@
   parent: VendingMachineSnack
   id: VendingMachineSustenance
   name: Sustenance Vendor
-  description: A vending machine which vends food, as required by section 47-C of the NT's Prisoner Ethical Treatment Agreement.
+  description: Торговий автомат, який продає їжу, як того вимагає розділ 47-C Угоди про етичне поводження з ув’язненими Нового Заходу.
   components:
   - type: VendingMachine
     pack: SustenanceInventory
@@ -1079,7 +1079,7 @@
   parent: VendingMachine
   id: VendingMachineSovietSoda
   name: BODA
-  description: An old vending machine containing sweet water.
+  description: Старий торговий автомат із солодкою водою.
   components:
   - type: VendingMachine
     pack: BodaInventory
@@ -1114,7 +1114,7 @@
   parent: VendingMachine
   id: VendingMachineTheater
   name: AutoDrobe
-  description: A vending machine containing costumes.
+  description: Торговий автомат з костюмами.
   components:
   - type: VendingMachine
     pack: AutoDrobeInventory
@@ -1152,7 +1152,7 @@
   parent: VendingMachine
   id: VendingMachineVendomat
   name: Vendomat
-  description: Only the finest robust equipment in space!
+  description: Тільки найкраще надійне обладнання в космосі!
   components:
   - type: VendingMachine
     pack: VendomatInventory
@@ -1183,7 +1183,7 @@
   parent: VendingMachine
   id: VendingMachineRobotics
   name: Robotech Deluxe
-  description: All the tools you need to create your own robot army.
+  description: Усі інструменти, необхідні для створення власної армії роботів.
   components:
   - type: VendingMachine
     pack: RoboticsInventory
@@ -1219,7 +1219,7 @@
   parent: VendingMachine
   id: VendingMachineYouTool
   name: YouTool
-  description: "A vending machine containing standard tools. A label reads: Tools for tools."
+  description: "Торговий автомат зі стандартними інструментами. На етикетці написано: інструменти для інструментів."
   components:
   - type: VendingMachine
     pack: YouToolInventory
@@ -1250,7 +1250,7 @@
   parent: VendingMachine
   id: VendingMachineGames
   name: Good Clean Fun
-  description: Vends things that the station representatives are probably not going to appreciate you fiddling with instead of your job...
+  description: Продає речі, з якими представники станції, ймовірно, не оцінять, що ви возитеся з ними замість своєї роботи...
   components:
   - type: VendingMachine
     pack: GoodCleanFunInventory
@@ -1280,7 +1280,7 @@
   parent: VendingMachine
   id: VendingMachineChang
   name: Mr. Chang
-  description: A self-serving Chinese food machine, for all your Chinese food needs.
+  description: Автоматична машина для приготування китайської їжі для всіх ваших потреб у китайській їжі.
   components:
   - type: VendingMachine
     pack: ChangInventory
@@ -1311,7 +1311,7 @@
   parent: VendingMachine
   id: VendingMachineSalvage
   name: Salvage Vendor
-  description: A dwarves best friend!
+  description: Найкращий друг гномів!
   components:
   - type: VendingMachine
     pack: SalvageEquipmentInventory
@@ -1343,7 +1343,7 @@
   parent: VendingMachine
   id: VendingMachineDonut
   name: Monkin' Donuts
-  description: A donut vendor provided by Robust Industries, LLC.
+  description: Продавець пончиків від Robust Industries, LLC.
   components:
   - type: VendingMachine
     pack: DonutInventory
@@ -1377,7 +1377,7 @@
 - type: entity
   id: VendingMachineWallmount
   parent: VendingMachine
-  name: vending machine
+  name: торговий автомат
   abstract: true
   components:
   - type: Sprite
@@ -1392,7 +1392,7 @@
   parent: VendingMachineWallmount
   id: VendingMachineWallMedical
   name: NanoMed
-  description: "It's a wall-mounted medical equipment dispenser. Natural chemicals only!"
+  description: "Це настінний дозатор медичного обладнання. Тільки природні хімікати!"
   components:
   - type: VendingMachine
     pack: NanoMedInventory
@@ -1422,7 +1422,7 @@
   parent: VendingMachine
   id: VendingMachineHydrobe
   name: HyDrobe
-  description: A machine with a catchy name. It dispenses botany related clothing and gear.
+  description: Машина з гучною назвою. Він продає одяг і спорядження, пов’язані з ботанікою.
   components:
   - type: VendingMachine
     pack: HyDrobeInventory
@@ -1446,7 +1446,7 @@
   parent: VendingMachine
   id: VendingMachineLawDrobe
   name: LawDrobe
-  description: Objection! This wardrobe dispenses the rule of law... and lawyer clothing..
+  description: Заперечення! Цей гардероб відповідає за верховенство права... та одяг юриста..
   components:
   - type: VendingMachine
     pack: LawDrobeInventory
@@ -1470,7 +1470,7 @@
   parent: VendingMachine
   id: VendingMachineSecDrobe
   name: SecDrobe
-  description: A vending machine for security and security-related clothing!
+  description: Автомат для продажу охоронного та охоронного одягу!
   components:
   - type: VendingMachine
     pack: SecDrobeInventory
@@ -1496,7 +1496,7 @@
   parent: VendingMachine
   id: VendingBarDrobe
   name: BarDrobe
-  description: A stylish vendor to dispense the most stylish bar clothing!
+  description: Стильний продавець, який пропонує найстильніший барний одяг!
   components:
   - type: VendingMachine
     pack: BarDrobeInventory
@@ -1546,7 +1546,7 @@
   parent: VendingMachine
   id: VendingMachineCargoDrobe
   name: CargoDrobe
-  description: A highly advanced vending machine for buying cargo related clothing for free.
+  description: Високопрогресивний торговий автомат для безкоштовної покупки одягу, пов’язаного з вантажами.
   components:
   - type: VendingMachine
     pack: CargoDrobeInventory
@@ -1570,7 +1570,7 @@
   parent: VendingMachine
   id: VendingMachineMediDrobe
   name: MediDrobe
-  description: A vending machine rumoured to be capable of dispensing clothing for medical personnel.
+  description: Торговий автомат, за чутками, здатний видавати одяг для медичного персоналу.
   components:
   - type: VendingMachine
     pack: MediDrobeInventory
@@ -1594,7 +1594,7 @@
   parent: VendingMachine
   id: VendingMachineChemDrobe
   name: ChemDrobe
-  description: A vending machine for dispensing chemistry related clothing.
+  description: Торговий автомат для видачі одягу, пов’язаного з хімією.
   components:
   - type: VendingMachine
     pack: ChemDrobeInventory
@@ -1618,7 +1618,7 @@
   parent: VendingMachine
   id: VendingMachineCuraDrobe
   name: CuraDrobe
-  description: A lowstock vendor only capable of vending clothing for curators and librarians.
+  description: Продавець з низьким асортиментом, здатний продавати лише одяг для кураторів і бібліотекарів.
   components:
   - type: VendingMachine
     pack: CuraDrobeInventory
@@ -1644,7 +1644,7 @@
   parent: VendingMachine
   id: VendingMachineAtmosDrobe
   name: AtmosDrobe
-  description: This relatively unknown vending machine delivers clothing for Atmospherics Technicians, an equally unknown job.
+  description: Цей відносно невідомий торговий автомат доставляє одяг для техніків з атмосферних досліджень, так само невідомої роботи.
   components:
   - type: VendingMachine
     pack: AtmosDrobeInventory
@@ -1668,7 +1668,7 @@
   parent: VendingMachine
   id: VendingMachineEngiDrobe
   name: EngiDrobe
-  description: A vending machine renowned for vending industrial grade clothing.
+  description: Торговий автомат, відомий продажем промислового одягу.
   components:
   - type: VendingMachine
     pack: EngiDrobeInventory
@@ -1692,7 +1692,7 @@
   parent: VendingMachine
   id: VendingMachineChefDrobe
   name: ChefDrobe
-  description: This vending machine might not dispense meat, but it certainly dispenses chef related clothing.
+  description: Можливо, цей торговий автомат не видає м’ясо, але він точно видає одяг, пов’язаний із шеф-кухарем.
   components:
   - type: VendingMachine
     pack: ChefDrobeInventory
@@ -1716,7 +1716,7 @@
   parent: VendingMachine
   id: VendingMachineDetDrobe
   name: DetDrobe
-  description: A machine for all your detective needs, as long as you need clothes.
+  description: Машина для всіх ваших детективних потреб, якщо вам потрібен одяг.
   components:
   - type: VendingMachine
     pack: DetDrobeInventory
@@ -1740,7 +1740,7 @@
   parent: VendingMachine
   id: VendingMachineJaniDrobe
   name: JaniDrobe
-  description: A self cleaning vending machine capable of dispensing clothing for janitors.
+  description: Автомат, що самоочищається, може видавати одяг для двірників.
   components:
   - type: VendingMachine
     pack: JaniDrobeInventory
@@ -1764,7 +1764,7 @@
   parent: VendingMachine
   id: VendingMachineSciDrobe
   name: SciDrobe
-  description: A simple vending machine suitable to dispense well tailored science clothing. Endorsed by Space Cubans.
+  description: Простий торговий автомат, придатний для видачі добре зшитого наукового одягу. Підтримано Space Cubans.
   components:
   - type: VendingMachine
     pack: SciDrobeInventory
@@ -1788,7 +1788,7 @@
   parent: VendingMachine
   id: VendingMachineSyndieDrobe
   name: SyndieDrobe
-  description: Wardrobe machine encoded by the syndicate, contains elite outfits for various operations.
+  description: Гардеробна машина, закодована синдикатом, містить елітне спорядження для різних операцій.
   components:
   - type: VendingMachine
     pack: SyndieDrobeInventory
@@ -1814,7 +1814,7 @@
   parent: VendingMachine
   id: VendingMachineRoboDrobe
   name: RoboDrobe
-  description: A vending machine designed to dispense clothing known only to roboticists.
+  description: Торговий автомат, призначений для видачі одягу, відомого лише робототехнікам.
   components:
   - type: VendingMachine
     pack: RoboDrobeInventory
@@ -1838,7 +1838,7 @@
   parent: VendingMachine
   id: VendingMachineGeneDrobe
   name: GeneDrobe
-  description: A machine for dispensing clothing related to genetics.
+  description: Машина для видачі одягу, пов'язаного з генетикою.
   components:
   - type: VendingMachine
     pack: GeneDrobeInventory
@@ -1862,7 +1862,7 @@
   parent: VendingMachine
   id: VendingMachineViroDrobe
   name: ViroDrobe
-  description: An unsterilized machine for dispending virology related clothing.
+  description: Нестерилизована машина для роздачі вірусологічного одягу.
   components:
   - type: VendingMachine
     pack: ViroDrobeInventory
@@ -1886,7 +1886,7 @@
   parent: VendingMachine
   id: VendingMachineCentDrobe
   name: CentDrobe
-  description: A one-of-a-kind vending machine for all your centcom aesthetic needs!
+  description: Єдиний у своєму роді торговий автомат для всіх ваших естетичних потреб centcom!
   components:
   - type: VendingMachine
     pack: CentDrobeInventory
@@ -1912,7 +1912,7 @@
   parent: VendingMachine
   id: VendingMachineHappyHonk
   name: Happy Honk Dispenser
-  description: A happy honk meal box dispenser made by honk! co.
+  description: Щасливий дозатор коробки для їжі honk від honk! співробітництво
   components:
   - type: VendingMachine
     pack: HappyHonkDispenserInventory
@@ -1950,7 +1950,7 @@
   id: VendingMachineTankDispenserEVA
   suffix: EVA [O2, N2]
   name: Gas Tank Dispenser
-  description: A vendor for dispensing gas tanks.
+  description: Продавець розливних балонів.
   components:
   - type: VendingMachine
     pack: TankDispenserEVAInventory
@@ -1965,7 +1965,7 @@
   id: VendingMachineTankDispenserEngineering
   suffix: ENG [O2, Plasma]
   name: Gas Tank Dispenser
-  description: A vendor for dispensing gas tanks. This one has an engineering livery.
+  description: Продавець розливних балонів. Цей має інженерну ліврею.
   components:
   - type: VendingMachine
     pack: TankDispenserEngineeringInventory
@@ -1979,7 +1979,7 @@
   parent: VendingMachine
   id: VendingMachineChemicals
   name: ChemVend
-  description: Probably not the coffee machine.
+  description: Напевно, не кавоварка.
   components:
   - type: VendingMachine
     pack: ChemVendInventory

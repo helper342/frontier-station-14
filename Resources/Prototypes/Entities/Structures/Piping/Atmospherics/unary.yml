@@ -23,8 +23,8 @@
 - type: entity
   parent: GasUnaryBase
   id: GasVentPump
-  name: air vent
-  description: Has a valve and a pump attached to it.
+  name: вентиляційний отвір
+  description: Має клапан і приєднаний до нього насос.
   placement:
     mode: SnapgridCenter
   components:
@@ -93,8 +93,8 @@
 - type: entity
   parent: GasUnaryBase
   id: GasPassiveVent
-  name: passive vent
-  description: It's an open vent.
+  name: пасивний вентиляційний отвір
+  description: Це відкрита вентиляція.
   placement:
     mode: SnapgridCenter
   components:
@@ -119,8 +119,8 @@
 - type: entity
   parent: GasUnaryBase
   id: GasVentScrubber
-  name: air scrubber
-  description: Has a valve and pump attached to it.
+  name: скрубер повітря
+  description: До нього приєднаний клапан і насос.
   placement:
     mode: SnapgridCenter
   components:
@@ -187,8 +187,8 @@
 - type: entity
   parent: GasUnaryBase
   id: GasOutletInjector
-  name: air injector
-  description: Has a valve and pump attached to it.
+  name: повітряний інжектор
+  description: До нього приєднаний клапан і насос.
   placement:
     mode: SnapgridCenter
   components:
@@ -226,7 +226,7 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: BaseGasThermoMachine
-  name: thermomachine
+  name: термомашина
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -272,8 +272,8 @@
 - type: entity
   parent: BaseGasThermoMachine
   id: GasThermoMachineFreezer
-  name: freezer
-  description: Cools gas in connected pipes.
+  name: морозильна камера
+  description: Охолоджує газ у сполучених трубах.
   placement:
     mode: SnapgridCenter
   components:
@@ -315,8 +315,8 @@
 - type: entity
   parent: BaseGasThermoMachine
   id: GasThermoMachineHeater
-  name: heater
-  description: Heats gas in connected pipes.
+  name: обігрівач
+  description: Підігріває газ у підключених трубах.
   placement:
     mode: SnapgridCenter
   components:

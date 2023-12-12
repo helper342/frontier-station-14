@@ -1,8 +1,8 @@
 - type: entity
-  name: improvised pneumatic cannon
+  name: імпровізована пневматична гармата
   parent: BaseStorageItem
   id: WeaponImprovisedPneumaticCannon
-  description: Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
+  description: Імпровізовано, використовуючи лише трубу, кілька застібок і пневматичну гармату. Не приймає баки без достатньої кількості газу.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
@@ -65,10 +65,10 @@
       gas_tank: !type:ContainerSlot
 
 - type: entity
-  name: pie cannon
+  name: пирогова гармата
   parent: BaseStorageItem
   id: LauncherCreamPie
-  description: Load cream pie for optimal results.
+  description: Завантажте кремовий пиріг для отримання оптимальних результатів.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi

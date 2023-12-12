@@ -1,8 +1,8 @@
 - type: entity
-  name: torch # todo: we need some sort of IgnitionSourceComponent we can add to this, so when it's lit it will cause fires when touching fuel
+  name: факел # завдання: нам потрібен якийсь Компонент джерела запалювання, який ми можемо додати до цього, щоб, коли він горить, він спричиняв пожежі при торканні палива
   parent: BaseItem
   id: Torch
-  description: A torch fashioned from some wood.
+  description: Смолоскип, зроблений з якогось дерева.
   components:
     - type: ExpendableLight
       spentName: expendable-light-burnt-torch-name

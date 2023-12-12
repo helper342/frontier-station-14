@@ -51,8 +51,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkAbsintheBottleFull
-  name: Jailbreaker Verte
-  description: One sip of this and you just know you're gonna have a good time.
+  name: Втеча з в'язниці Верте
+  description: Один ковток цього, і ви просто знаєте, що добре проведете час.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -66,8 +66,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkBlueCuracaoBottleFull
-  name: Miss Blue Curacao
-  description: A fruity, exceptionally azure drink. Does not allow the imbiber to use the fifth magic.
+  name: Міс Блю Кюрасао
+  description: Фруктовий, надзвичайно блакитний напій. Не дозволяє споживачеві використовувати п'яту магію.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -81,8 +81,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkBottleOfNothingFull
-  name: bottle of nothing
-  description: A bottle filled with nothing.
+  name: пляшка нічого
+  description: Пляшка, наповнена нічим.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -96,8 +96,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkCognacBottleFull
-  name: cognac bottle
-  description: A sweet and strongly alchoholic drink, made after numerous distillations and years of maturing. You might as well not scream 'SHITCURITY' this time.
+  name: пляшка коньяку
+  description: Солодкий і сильноалкогольний напій, виготовлений після численних дистиляцій і багаторічної витримки. Цього разу ви могли б так само не кричати «ЛІННЯ».
   components:
   - type: SolutionContainerManager
     solutions:
@@ -111,8 +111,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkColaBottleFull
-  name: space cola bottle
-  description: Cola. In space.
+  name: космічна пляшка коли
+  description: Кола. В космосі.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -127,8 +127,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkGrenadineBottleFull
-  name: briar rose grenadine syrup bottle
-  description: Sweet and tangy, a bar syrup used to add color or flavor to drinks.
+  name: шипшина троянда гренадин пляшка сиропу
+  description: Солодкий і гострий, батончиковий сироп, який використовується для додання кольору або смаку напоям.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -145,8 +145,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkGinBottleFull
-  name: Griffeater Gin
-  description: A bottle of high quality gin, produced in the New London Space Station.
+  name: Гриффоїд Джин
+  description: Пляшка високоякісного джину, виробленого на космічній станції New London.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -160,8 +160,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkGoldschlagerBottleFull
-  name: goldschlager bottle
-  description: 100 proof cinnamon schnapps, made for alcoholic teen girls on spring break.
+  name: пляшка голдшлагера
+  description: 100 міцних шнапсів із корицею для дівчат-підлітків-алкоголіків на весняних канікулах.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -175,8 +175,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkCoffeeLiqueurBottleFull
-  name: coffee liqueur bottle
-  description: The great taste of coffee with none of the benifits.
+  name: пляшка кавового лікеру
+  description: Чудовий смак кави без жодних переваг.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -190,8 +190,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkMelonLiquorBottleFull
-  name: emeraldine melon liquor
-  description: A bottle of 46 proof Emeraldine Melon Liquor. Sweet and light.
+  name: смарагдовий динний лікер
+  description: Пляшка лікеру Emeraldine Melon 46 проб. Солодкий і легкий.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -205,8 +205,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkPatronBottleFull
-  name: wrapp artiste patron bottle
-  description: Silver laced tequilla, served in space night clubs across the galaxy.
+  name: wrapp артистка меценатська пляшка
+  description: Срібляста текіла, яку подають у космічних нічних клубах по всій галактиці.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -220,8 +220,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkPoisonWinebottleFull
-  name: warlock's velvet bottle
-  description: What a delightful packaging for a surely high quality wine! The vintage must be amazing!
+  name: оксамитова пляшка чорнокнижника
+  description: Яка чудова упаковка для високоякісного вина! Урожай повинен бути неймовірним!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -235,8 +235,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkRumBottleFull
-  name: captain pete's Cuban spiced rum
-  description: This isn't just rum, oh no. It's practically GRIFF in a bottle.
+  name: кубинський пряний ром капітана Піта
+  description: Це не просто ром, о ні. Це практично GRIFF у пляшці.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -250,8 +250,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkSpaceMountainWindBottleFull
-  name: space mountain wind bottle
-  description: Blows right through you like a space wind.
+  name: пляшка космічного гірського вітру
+  description: Дме наскрізь, як космічний вітер.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -266,8 +266,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkSpaceUpBottleFull
-  name: space-up bottle
-  description: Tastes like a hull breach in your mouth.
+  name: вільна пляшка
+  description: У роті смак як пролом корпусу.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -282,8 +282,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkTequilaBottleFull
-  name: caccavo guaranteed quality tequila bottle
-  description: Made from premium petroleum distillates, pure thalidomide and other fine quality ingredients!
+  name: гарантована пляшка текіли якості каккаво
+  description: Виготовлено з нафтових дистилятів преміум-класу, чистого талідоміду та інших високоякісних інгредієнтів!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -297,8 +297,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkVermouthBottleFull
-  name: goldeneye vermouth bottle
-  description: Sweet, sweet dryness!
+  name: золотоглазка пляшка вермуту
+  description: Солодка, солодка сухості!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -312,8 +312,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkVodkaBottleFull
-  name: vodka bottle
-  description: Aah, vodka. Prime choice of drink AND fuel by Russians worldwide.
+  name: пляшка горілки
+  description: Ааа, горілка. Найкращий вибір напоїв ТА пального.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -327,8 +327,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkWhiskeyBottleFull
-  name: uncle git's special reserve
-  description: A premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES.
+  name: спецзаповідник дядька гіт
+  description: Преміальний односолодовий віскі, м’яко витриманий у тунелях ядерного укриття. ПРАВИЛА ТУНЕЛЬНОГО ВІСКІ.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -342,8 +342,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkWineBottleFull
-  name: doublebearded bearded special wine bottle
-  description: A faint aura of unease and asspainery surrounds the bottle.
+  name: двобородий бородатий спеціальна пляшка вина
+  description: Слабка аура неспокою та жалюгідності оточує пляшку.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -359,8 +359,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkBeerBottleFull
-  name: beer  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
-  description: An alcoholic beverage made from malted grains, hops, yeast, and water.
+  name: пиво # це пиво. кава. пиво? кава? be-er? с-о... б-е
+  description: Алкогольний напій, виготовлений із солодового зерна, хмелю, дріжджів і води.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -375,8 +375,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkAleBottleFull
-  name: Magm-Ale
-  description: A true dorf's drink of choice.
+  name: Магм-Ель
+  description: Справжній дорфський напій.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -391,8 +391,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkChampagneBottleFull
-  name: champagne bottle
-  description: Only people devoid of imagination can't find an excuse for champagne.
+  name: пляшка шампанського
+  description: Тільки люди, позбавлені фантазії, не можуть знайти виправдання для шампанського.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -406,8 +406,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkWaterBottleFull
-  name: water bottle
-  description: Simple clean water of unknown origin. You think that maybe you dont want to know it.
+  name: пляшка води
+  description: Проста чиста вода невідомого походження. Ви думаєте, що, можливо, не хочете цього знати.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -425,8 +425,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkJuiceLimeCarton
-  name: lime juice
-  description: Sweet-sour goodness.
+  name: сік лайма
+  description: Кисло-солодка доброта.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -444,8 +444,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkJuiceOrangeCarton
-  name: orange juice
-  description: Full of vitamins and deliciousness!
+  name: апельсиновий сік
+  description: Насичений вітамінами та смакотою!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -463,8 +463,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkJuiceTomatoCarton
-  name: tomato juice
-  description: Well, at least it LOOKS like tomato juice. You can't tell with all that redness.
+  name: томатного соку
+  description: Ну, принаймні, це схоже на томатний сік. Ви не можете сказати з усім цим почервонінням.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -482,8 +482,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkCreamCarton
-  name: Milk Cream
-  description: It's cream. Made from milk. What else did you think you'd find in there?
+  name: Молочні вершки
+  description: Це вершки. Виготовляється з молока. Що ще ви думали там знайти?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -499,8 +499,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkMilkCarton
-  name: milk
-  description: An opaque white liquid produced by the mammary glands of mammals.
+  name: молоко
+  description: Біла непрозора рідина, що виробляється молочними залозами ссавців.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -515,8 +515,8 @@
 - type: entity
   parent: DrinkBottleBaseFull
   id: DrinkSoyMilkCarton
-  name: soy milk
-  description: White and nutritious soy goodness!
+  name: соєве молоко
+  description: Біла та поживна соя!
   components:
   - type: SolutionContainerManager
     solutions:

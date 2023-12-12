@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: HospitalCurtains
   parent: BaseStructure
-  name: curtains
-  description: Contains less than 1% mercury.
+  name: штори
+  description: Містить менше 1% ртуті.
   components:
   - type: Occluder
   - type: Sprite

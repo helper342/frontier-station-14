@@ -49,7 +49,7 @@
   id: SolarPanel
   parent: SolarPanelBasePhysSprite
   name: сонячна панель
-  description: A solar panel that generates power.
+  description: Сонячна панель, яка виробляє електроенергію.
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -78,8 +78,8 @@
 - type: entity
   id: SolarPanelBroken
   parent: SolarPanelBasePhysSprite
-  name: solar panel
-  description: A broken solar panel.
+  name: сонячна панель
+  description: Розбита сонячна панель.
   suffix: Broken
   components:
   - type: Sprite
@@ -109,8 +109,8 @@
 
 - type: entity
   id: SolarAssembly
-  name: solar assembly
-  description: A solar assembly. Anchor to a wire to start building a solar panel.
+  name: сонячна збірка
+  description: Сонячна збірка. Прикріпіть до дроту, щоб почати будувати сонячну панель.
   placement:
     mode: SnapgridCenter
   components:
@@ -155,7 +155,7 @@
 - type: entity
   id: SolarTracker
   name: сонячний трекер
-  description: A solar tracker. Tracks the nearest star.
+  description: Сонячний трекер. Відстежує найближчу зірку.
   placement:
     mode: SnapgridCenter
   components:
