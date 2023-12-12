@@ -8,8 +8,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxDonut
-  name: donut box
-  description: Mmm, Donuts.
+  name: коробка для пончиків
+  description: Ммм, пончики.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/donut.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodContainerEgg
-  name: egg carton
-  description: Don't drop 'em!
+  name: яєчна коробка
+  description: Не кидайте їх!
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/egg.rsi
@@ -194,7 +194,7 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxPizza
-  name: pizza box
+  name: коробка для піци
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/pizza.rsi
@@ -221,7 +221,7 @@
     price: 0
 
 - type: entity
-  name: pizza box
+  name: коробка для піци
   parent: FoodBoxPizza
   id: FoodBoxPizzaFilled
   suffix: Filled
@@ -266,8 +266,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxNugget
-  name: chicken nuggets
-  description: You suddenly have an urge to trade on the intergalactic stock market.
+  name: курячі нагетси
+  description: У вас раптом виникає бажання торгувати на міжгалактичному фондовому ринку.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/nuggets.rsi
@@ -323,8 +323,8 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxDonkpocket
-  name: box of donk-pockets
-  description: 'Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.'
+  name: коробка донк-кишень
+  description: 'Інструкція: Розігрійте в мікрохвильовці. Продукт охолоне, якщо його не з’їсти протягом семи хвилин.'
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
@@ -345,7 +345,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketSpicy
-  name: box of spicy-flavoured donk-pockets
+  name: коробка донк-кишеньок із пряним смаком
   components:
   - type: Sprite
     state: spicy-box
@@ -359,7 +359,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketTeriyaki
-  name: box of teriyaki-flavoured donk-pockets
+  name: коробка кишеньок зі смаком теріякі
   components:
   - type: Sprite
     state: teriyaki-box
@@ -373,7 +373,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketPizza
-  name: box of pizza-flavoured donk-pockets
+  name: коробка кишеньок зі смаком піци
   components:
   - type: Sprite
     state: pizza-box
@@ -387,7 +387,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketGondola
-  name: box of gondola-flavoured donk-pockets
+  name: коробка донк-кишень зі смаком гондоли
   components:
   - type: Sprite
     state: gondola-box
@@ -401,7 +401,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketBerry
-  name: box of berry-flavoured donk-pockets
+  name: коробка донк-покетів із смаком ягід
   components:
   - type: Sprite
     state: berry-box
@@ -415,7 +415,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketHonk
-  name: box of banana-flavoured donk-pockets
+  name: коробка донк-кишень зі смаком банана
   components:
   - type: Sprite
     state: banana-box
@@ -429,8 +429,8 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketDink
-  name: box of dink-pockets
-  description: Net Zero carbohydrates! No need for heating!
+  name: коробка динків-кишень
+  description: Чистий нуль вуглеводів! Немає необхідності в обігріві!
   components:
   - type: Sprite
     state: dink-box
@@ -444,9 +444,9 @@
 - type: entity
   id: HappyHonk
   parent: [ BoxCardboard, BaseBagOpenClose ]
-  name: happy honk meal
+  name: щаслива трапеза
   suffix: Toy Safe
-  description: The toy is more edible than the food.
+  description: Іграшка їстівніша, ніж їжа.
   components:
   - type: Sprite
     sprite: Objects/Storage/Happyhonk/clown.rsi
@@ -530,7 +530,7 @@
 - type: entity
   id: HappyHonkMime
   parent: HappyHonk
-  description: A limited mime edition of the happy honk meal.
+  description: Обмежене видання пантоміми щасливої ​​їжі.
   suffix: Toy Safe
   components:
   - type: Tag
@@ -548,8 +548,8 @@
 - type: entity
   id: HappyHonkNukie
   parent: HappyHonk
-  name: robust nukie meal
-  description: A sus meal with a potentially explosive surprise.
+  name: міцна ядерна їжа
+  description: Вишукана їжа з потенційно вибухонебезпечним сюрпризом.
   suffix: Toy Unsafe
   components:
   - type: Sprite
@@ -576,6 +576,57 @@
         orGroup: GiftPool
       - id: PlushieNuke
         orGroup: GiftPool
+
+- type: entity
+  parent: HappyHonkNukie
+  id: HappyHonkNukieSnacks
+  suffix: Toy Unsafe, Snacks
+  name: syndicate snack box
+  components:
+  - type: Item
+    size: 64
+  - type: Storage
+    capacity: 64 # need more room for goodies
+  - type: StorageFill
+    contents:
+    # toy
+    - id: C4
+      prob: 0.02
+      orGroup: GiftPool
+    - id: ToyMarauder
+      orGroup: GiftPool
+    - id: ToyMauler
+      orGroup: GiftPool
+    - id: ToyNuke
+      orGroup: GiftPool
+    - id: ToySword
+      orGroup: GiftPool
+    - id: BalloonSyn
+      prob: 0.6
+      orGroup: GiftPool
+    - id: PlushieNuke
+      orGroup: GiftPool
+    # drinks - 4 cans, up to 2 blood-red brews
+    - id: DrinkNukieCan
+      prob: 0.2
+      orGroup: Drink1Pool
+    - id: DrinkColaCan
+      orGroup: Drink1Pool
+    - id: DrinkNukieCan
+      prob: 0.2
+      orGroup: Drink2Pool
+    - id: DrinkColaCan
+      orGroup: Drink2Pool
+    - id: DrinkColaCan
+      amount: 2
+    # food
+    - id: FoodSaladValid
+      prob: 0.05
+      amount: 4
+      orGroup: FoodPool
+    - id: FoodSnackSyndi
+      amount: 4
+      orGroup: FoodPool
 
 - type: entity
   id: HappyHonkCluwne

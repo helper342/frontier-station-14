@@ -1,8 +1,8 @@
 - type: entity
   id: Joint
   parent: BaseCigar
-  name: joint
-  description: A roll of dried plant matter wrapped in thin paper.
+  name: Косяк
+  description: Рулон висушеної рослинної речовини, загорнутий у тонкий папір.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cannabis/joint.rsi
@@ -32,8 +32,8 @@
 - type: entity
   id: Blunt
   parent: BaseCigar
-  name: blunt
-  description: A roll of dried plant matter wrapped in a dried tobacco leaf.
+  name: Самокрут
+  description: Рулон сухої рослинної речовини, загорнутий у висушений лист тютюну.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cannabis/blunt.rsi

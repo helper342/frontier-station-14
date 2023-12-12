@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckHeadphones
-  name: headphones
-  description: Quality headphones from Drunk Masters, with good sound insulation.
+  name: навушники
+  description: Якісні навушники від Drunk Masters, з хорошою звукоізоляцією.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/headphones.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckStethoscope
-  name: stethoscope
-  description: An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
+  name: стетоскоп
+  description: Застарілий медичний апарат для прослуховування звуків людського тіла. Це також створює враження, що ви знаєте, що робите.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/stethoscope.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBling
-  name: bling
-  description: Damn, it feels good to be a gangster.
+  name: блиск
+  description: Блін, як добре бути гангстером.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/bling.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckLawyerbadge
-  name: lawyer badge
-  description: A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
+  name: значок адвоката
+  description: Значок, який свідчить про те, що власник є «законним» юристом, який склав іспит на право адвоката NT, необхідний для юридичної практики.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/lawyerbadge.rsi
@@ -47,7 +47,7 @@
 
 - type: entity
   id: ActionStethoscope
-  name: Listen with stethoscope
+  name: Слухайте за допомогою стетоскопа
   noSpawn: true
   components:
   - type: EntityTargetAction

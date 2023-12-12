@@ -89,7 +89,7 @@
   id: BaseGeneratorWallmount
   parent: BaseGenerator
   name: настінний генератор
-  description: A high efficiency thermoelectric generator stuffed in a wall cabinet.
+  description: Високоефективний термоелектричний генератор, розміщений у стінній шафі.
   placement:
     mode: SnapgridCenter
   components:
@@ -135,8 +135,8 @@
 - type: entity
   noSpawn: true
   id: BaseGeneratorWallmountFrame
-  name: wallmount generator frame
-  description: A construction frame for a wallmount generator.
+  name: настінна рама генератора
+  description: Конструкція каркаса для настінного генератора.
   placement:
     mode: SnapgridCenter
   components:
@@ -199,8 +199,8 @@
 - type: entity
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountAPU
-  name: shuttle APU
-  description: An auxiliary power unit for a shuttle - 6kW.
+  name: шатл APU
+  description: Допоміжна силова установка для човника - 6кВт.
   suffix: APU, 6kW
   components:
   - type: PowerSupplier
@@ -222,8 +222,8 @@
 - type: entity
   parent: BaseGenerator
   id: GeneratorRTG
-  name: RTG
-  description: A Radioisotope Thermoelectric Generator for long term power.
+  name: РТГ
+  description: Радіоізотопний термоелектричний генератор для тривалого живлення.
   suffix: 10kW
   components:
   - type: PowerSupplier
@@ -263,8 +263,8 @@
 - type: entity
   parent: GeneratorRTG
   id: GeneratorRTGDamaged
-  name: damaged RTG
-  description: A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
+  name: пошкоджений РТГ
+  description: Радіоізотопний термоелектричний генератор для тривалого живлення. У цього пошкоджений екран.
   suffix: 10kW
   components:
   - type: PowerSupplier

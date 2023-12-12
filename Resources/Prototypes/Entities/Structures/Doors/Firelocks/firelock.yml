@@ -2,7 +2,7 @@
   id: BaseFirelock
   abstract: true
   parent: BaseStructure
-  name: firelock
+  name: пожежний замок
   description: Застосувати лом.
   components:
     - type: AtmosAlarmable
@@ -127,7 +127,7 @@
 - type: entity
   id: FirelockGlass
   parent: Firelock
-  name: glass firelock
+  name: скляний пожежний замок
   components:
     - type: Sprite
       sprite: Structures/Doors/Airlocks/Glass/firelock.rsi
@@ -152,7 +152,7 @@
 - type: entity
   id: FirelockEdge
   parent: BaseFirelock
-  name: firelock
+  name: пожежний замок
   components:
     - type: Sprite
       sprite: Structures/Doors/edge_door_hazard.rsi

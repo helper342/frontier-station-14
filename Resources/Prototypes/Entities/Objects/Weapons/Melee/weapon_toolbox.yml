@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: WeaponMeleeToolboxRobust
-  name: robust toolbox
-  description: A tider's weapon.
+  name: міцний ящик для інструментів
+  description: Пасажирська зброя.
   suffix: Do Not Map
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 ﻿# This item is stored in the hand slot while it is blocked, to represent what is blocking that hand.
 - type: entity
   id: HandVirtualItem
-  name: VIRTUAL ITEM YOU SHOULD NOT SEE THIS
+  name: ВІРТУАЛЬНИЙ ПРЕДМЕТ, ЯКИЙ ВИ НЕ МАЄТЕ БАЧИТИ ЦЬОГО
   noSpawn: true
   components:
   - type: Item

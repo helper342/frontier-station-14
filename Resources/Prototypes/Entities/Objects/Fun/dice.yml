@@ -18,8 +18,8 @@
 - type: entity
   parent: BaseDice
   id: PercentileDie
-  name: Percentile Die
-  description: A die with ten sides. Works better for d100 rolls than a golf ball.
+  name: Процентиль
+  description: Кубик із десятьма сторонами. Краще підходить для кидків Д100, ніж для м’яча для гольфу.
   components:
   - type: Dice
     sides: 10
@@ -32,8 +32,8 @@
 - type: entity
   parent: BaseDice
   id: d20Dice
-  name: d20
-  description: A die with twenty sides. The preferred die to throw at the GM.
+  name: Д20
+  description: Кубик із двадцятьма сторонами. Найкращий кубик для кидання в GM.
   components:
   - type: Dice
     sides: 20
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseDice
   id: d12Dice
-  name: d12
-  description: A die with twelve sides. There's an air of neglect about it.
+  name: Д12
+  description: Кубик із дванадцятьма сторонами. У цьому є відчуття зневаги.
   components:
   - type: Dice
     sides: 12
@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseDice
   id: d10Dice
-  name: d10
-  description: A die with ten sides. Useful for percentages.
+  name: Д10
+  description: Кубик із десятьма сторонами. Корисно для відсотків.
   components:
   - type: Dice
     sides: 10
@@ -68,8 +68,8 @@
 - type: entity
   parent: BaseDice
   id: d8Dice
-  name: d8
-  description: A die with eight sides. It feels... lucky.
+  name: Д8
+  description: Кубик із вісьмома сторонами. Це відчуття... щастя.
   components:
   - type: Dice
     sides: 8
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseDice
   id: d6Dice
-  name: d6
-  description: A die with six sides. Basic and serviceable.
+  name: Д6
+  description: Кубик із шістьма сторонами. Базовий і справний.
   components:
   - type: Dice
     sides: 6
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseDice
   id: d4Dice
-  name: d4
-  description: A die with four sides. The nerd's caltrop.
+  name: Д4
+  description: Плашка з чотирма сторонами. Кальтроп ботаніка.
   components:
   - type: Dice
     sides: 4

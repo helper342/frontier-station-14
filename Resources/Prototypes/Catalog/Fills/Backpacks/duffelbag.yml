@@ -4,31 +4,31 @@
   name: хірургічний речовий мішок
   description: "Великий речовий мішок для зберігання додаткових медичних приладів - цей, здається, призначений для зберігання хірургічних інструментів."
   components:
-  - type: StorageFill
-    contents:
-      - id: Hemostat
-      - id: Saw
-      - id: Drill
-      - id: Cautery
-      - id: Retractor
-      - id: Scalpel
+    - type: StorageFill
+      contents:
+        - id: Hemostat
+        - id: Saw
+        - id: Drill
+        - id: Cautery
+        - id: Retractor
+        - id: Scalpel
 
 - type: entity
-  id: ClothingBackpackDuffelCBURN
-  parent: ClothingBackpackDuffel
-  name: Речовий мішок CBURN
-  description: Речовий мішок, що містить різноманітне обладнання для біологічного утримання.
+  id: ClothingBackpackDuffelCBURNFilled
+  parent: ClothingBackpackDuffelCBURN
+  suffix: Filled
   components:
-  - type: StorageFill
-    contents:
-      - id: WeaponShotgunDoubleBarreled
-      - id: BoxShotgunIncendiary
-        amount: 2
-      - id: GrenadeFlashBang
-        amount: 2
-      - id: PillAmbuzolPlus
-      - id: PillAmbuzol
-        amount: 4
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalEngineering
+        - id: WeaponShotgunDoubleBarreled
+        - id: BoxShotgunIncendiary
+          amount: 2
+        - id: GrenadeFlashBang
+          amount: 2
+        - id: PillAmbuzolPlus
+        - id: PillAmbuzol
+          amount: 4
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
@@ -36,14 +36,14 @@
   name: синдикатський хірургічний речовий мішок
   description: Велика сумка, що містить повний набір хірургічних інструментів.
   components:
-  - type: StorageFill
-    contents:
-      - id: Hemostat
-      - id: SawAdvanced
-      - id: Drill
-      - id: Cautery
-      - id: Retractor
-      - id: ScalpelAdvanced
+    - type: StorageFill
+      contents:
+        - id: Hemostat
+        - id: SawAdvanced
+        - id: Drill
+        - id: Cautery
+        - id: Retractor
+        - id: ScalpelAdvanced
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -51,12 +51,12 @@
   name: набір Bulldog
   description: "М’який і злий: містить популярну рушницю Bulldog Shotgun, резиновий барабан і 3 дробові барабани.." #, and a pair of Thermal Imaging Goggles.
   components:
-  - type: StorageFill
-    contents:
-      - id: WeaponShotgunBulldog
-      - id: MagazineShotgun
-      - id: MagazineShotgun
-      - id: MagazineShotgunBeanbag
+    - type: StorageFill
+      contents:
+        - id: WeaponShotgunBulldog
+        - id: MagazineShotgun
+        - id: MagazineShotgun
+        - id: MagazineShotgunBeanbag
 #     - id: ThermalImagingGoggles
 
 - type: entity
@@ -65,11 +65,11 @@
   name: набір C-20r 
   description: "Старий добрий класичний пістолет-кулемет C-20r у комплекті з трьома магазинами." #, and a Suppressor.
   components:
-  - type: StorageFill
-    contents:
-      - id: WeaponSubMachineGunC20r
-      - id: MagazinePistolSubMachineGun
-        amount: 2
+    - type: StorageFill
+      contents:
+        - id: WeaponSubMachineGunC20r
+        - id: MagazinePistolSubMachineGun
+          amount: 2
 #     - id: SMGSuppressor
 
 - type: entity
@@ -78,11 +78,11 @@
   name: набір Python
   description: "Гучно та гордо з повним завантаженням Magnum Python у комплекті з двома швидкісними завантажувачами."
   components:
-  - type: StorageFill
-    contents:
-      - id: WeaponRevolverPythonAP
-      - id: SpeedLoaderMagnumAP
-        amount: 2
+    - type: StorageFill
+      contents:
+        - id: WeaponRevolverPythonAP
+        - id: SpeedLoaderMagnumAP
+          amount: 2
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -90,10 +90,10 @@
   name: набір L6 Saw
   description: "Більше вогню: культовий легкий кулемет L6 у комплекті з 2 коробчатими магазинами."
   components:
-  - type: StorageFill
-    contents:
-      - id: WeaponLightMachineGunL6
-      - id: MagazineLightRifleBox
+    - type: StorageFill
+      contents:
+        - id: WeaponLightMachineGunL6
+        - id: MagazineLightRifleBox
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -101,13 +101,13 @@
   name: набір China-Lake
   description: "Старий гранатомет China-Lake в комплекті з 11 патронами різного ураження."
   components:
-  - type: StorageFill
-    contents:
-      - id: WeaponLauncherChinaLake
-      - id: GrenadeBlast
-        amount: 4
-      - id: GrenadeFrag
-        amount: 4
+    - type: StorageFill
+      contents:
+        - id: WeaponLauncherChinaLake
+        - id: GrenadeBlast
+          amount: 4
+        - id: GrenadeFrag
+          amount: 4
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -115,17 +115,17 @@
   name: набір M-90gl
   description: "Універсальна бойова рушниця з навісним гранатометом, в комплекті з 3 магазинами і 6 гранатами різної потужності."
   components:
-  - type: StorageFill
-    contents:
-      - id: WeaponRifleM90GrenadeLauncher
-      - id: MagazineRifle
-        amount: 2
-      - id: GrenadeBlast
-        amount: 2
-      - id: GrenadeFlash
-        amount: 2
-      - id: GrenadeFrag
-        amount: 2
+    - type: StorageFill
+      contents:
+        - id: WeaponRifleM90GrenadeLauncher
+        - id: MagazineRifle
+          amount: 2
+        - id: GrenadeBlast
+          amount: 2
+        - id: GrenadeFlash
+          amount: 2
+        - id: GrenadeFrag
+          amount: 2
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmo
@@ -133,14 +133,14 @@
   name: набір патронів
   description: "Перезаряджаюсь! Містить 4 магазини для C-20r, 4 барабани для Bulldog і 2 ящики для патронів для L6 SAW."
   components:
-  - type: StorageFill
-    contents:
-      - id: MagazinePistolSubMachineGun
-        amount: 4
-      - id: MagazineShotgun
-        amount: 4
-      - id: MagazineLightRifleBox
-        amount: 2
+    - type: StorageFill
+      contents:
+        - id: MagazinePistolSubMachineGun
+          amount: 4
+        - id: MagazineShotgun
+          amount: 4
+        - id: MagazineLightRifleBox
+          amount: 2
 
 - type: entity
   parent: ClothingBackpackDuffel
@@ -149,36 +149,36 @@
   description: "Містить повний набір офіційної форми CentCom, гарнітуру та буфер обміну. Ключі шифрування та ID не включені."
   suffix: DO NOT MAP
   components:
-  - type: Tag
-    tags: [] # ignore "WhitelistChameleon" tag
-  - type: StorageFill
-    contents:
-      - id: ClothingHeadHatCentcom
-      - id: ClothingEyesGlassesSunglasses
-      - id: ClothingUniformJumpsuitCentcomOfficial
-      - id: ClothingShoesBootsJack
-      - id: ClothingHandsGlovesColorBlack
-      - id: ClothingHeadsetAltCentComFake
-      - id: ClothingOuterArmorBasic
-      - id: Paper
-      - id: Pen
-      - id: CentcomPDAFake
+    - type: Tag
+      tags: [] # ignore "WhitelistChameleon" tag
+    - type: StorageFill
+      contents:
+        - id: ClothingHeadHatCentcom
+        - id: ClothingEyesGlassesSunglasses
+        - id: ClothingUniformJumpsuitCentcomOfficial
+        - id: ClothingShoesBootsJack
+        - id: ClothingHandsGlovesColorBlack
+        - id: ClothingHeadsetAltCentComFake
+        - id: ClothingOuterArmorBasic
+        - id: Paper
+        - id: Pen
+        - id: CentcomPDAFake
 
 - type: entity
   parent: ClothingBackpackDuffelClown
   id: ClothingBackpackDuffelSyndicateCostumeClown
   suffix: syndicate
   components:
-  - type: Tag
-    tags: [] # ignore "WhitelistChameleon" tag
-  - type: StorageFill
-    contents:
-      - id: ClothingUniformJumpsuitClown
-      - id: ClothingShoesClown
-      - id: ClothingMaskClown
-      - id: BikeHorn
-      - id: ClownPDA
-      - id: ClothingHeadsetService
+    - type: Tag
+      tags: [] # ignore "WhitelistChameleon" tag
+    - type: StorageFill
+      contents:
+        - id: ClothingUniformJumpsuitClown
+        - id: ClothingShoesClown
+        - id: ClothingMaskClown
+        - id: BikeHorn
+        - id: ClownPDA
+        - id: ClothingHeadsetService
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -186,11 +186,11 @@
   name: сумка з короповим костюмом
   description: Містить костюм коропа та кілька друзів для гри.
   components:
-  - type: StorageFill
-    contents:
-    - id: ClothingOuterSuitCarp
-    - id: PlushieCarp
-      amount: 6
+    - type: StorageFill
+      contents:
+        - id: ClothingOuterSuitCarp
+        - id: PlushieCarp
+          amount: 6
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -198,22 +198,22 @@
   name: піжамний мішок Syndicate
   description: Містить 3 пари синдикатних піжам і 3 плюшеві подарунки для чудового ночівлі.
   components:
-  - type: StorageFill
-    contents:
-      - id: ClothingUniformJumpsuitPyjamaSyndicateRed
-      - id: ClothingUniformJumpsuitPyjamaSyndicateBlack
-      - id: ClothingUniformJumpsuitPyjamaSyndicatePink
-      - id: ClothingHeadPyjamaSyndicateRed
-      - id: ClothingHeadPyjamaSyndicateBlack
-      - id: ClothingHeadPyjamaSyndicatePink
-      - id: ClothingShoesSlippers
-        amount: 3
-      - id: BedsheetSyndie
-        amount: 3
-      - id: PlushieCarp
-      - id: PlushieNuke
-      - id: PlushieLizard
-      - id: PlushieSharkBlue
+    - type: StorageFill
+      contents:
+        - id: ClothingUniformJumpsuitPyjamaSyndicateRed
+        - id: ClothingUniformJumpsuitPyjamaSyndicateBlack
+        - id: ClothingUniformJumpsuitPyjamaSyndicatePink
+        - id: ClothingHeadPyjamaSyndicateRed
+        - id: ClothingHeadPyjamaSyndicateBlack
+        - id: ClothingHeadPyjamaSyndicatePink
+        - id: ClothingShoesSlippers
+          amount: 3
+        - id: BedsheetSyndie
+          amount: 3
+        - id: PlushieCarp
+        - id: PlushieNuke
+        - id: PlushieLizard
+        - id: PlushieSharkBlue
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -251,14 +251,14 @@
   name: синдикатський набір EVA
   description: "Містить схвалений Syndicate костюм EVA."
   components:
-  - type: StorageFill
-    contents:
-      - id: ClothingHeadHelmetSyndicate
-      - id: ClothingOuterHardsuitSyndicate
-      - id: ClothingMaskGasSyndicate
-      - id: DoubleEmergencyOxygenTankFilled
-  - type: StaticPrice
-    price: 40
+    - type: StorageFill
+      contents:
+        - id: ClothingHeadHelmetSyndicate
+        - id: ClothingOuterHardsuitSyndicate
+        - id: ClothingMaskGasSyndicate
+        - id: DoubleEmergencyOxygenTankFilled
+    - type: StaticPrice
+      price: 40
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -266,11 +266,11 @@
   name: набір рігу (hardsuit) синдикату
   description: "Містить фірмовий криваво-червоний ріг Syndicate."
   components:
-  - type: StorageFill
-    contents:
-      - id: ClothingOuterHardsuitSyndie
-      - id: ClothingMaskGasSyndicate
-      - id: ClothingHandsGlovesCombat
+    - type: StorageFill
+      contents:
+        - id: ClothingOuterHardsuitSyndie
+        - id: ClothingMaskGasSyndicate
+        - id: ClothingHandsGlovesCombat
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -278,26 +278,26 @@
   name: зомбі набір синдикату
   description: "Універсальний комплект для звільнення нежиті на станцію."
   components:
-  - type: StorageFill
-    contents:
-      - id: SyringeRomerol
-      - id: WeaponRevolverPython
-      - id: MagazineBoxMagnumIncendiary
-      - id: PillAmbuzolPlus
-      - id: PillAmbuzol
-        amount: 3
+    - type: StorageFill
+      contents:
+        - id: SyringeRomerol
+        - id: WeaponRevolverPython
+        - id: MagazineBoxMagnumIncendiary
+        - id: PillAmbuzolPlus
+        - id: PillAmbuzol
+          amount: 3
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateOperative
   name: оперативний речовий мішок
   components:
-  - type: StorageFill
-    contents:
-      - id: BoxSurvivalSyndicate
-      - id: WeaponPistolViper
-      - id: PinpointerNuclear
-      - id: MicroBombImplanter
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalSyndicate
+        - id: WeaponPistolViper
+        - id: PinpointerNuclear
+        - id: MicroBombImplanter
 
 
 - type: entity
@@ -306,17 +306,18 @@
   name: оперативний медичний речовий мішок
   description: Велика сумка для зберігання додаткових медичних засобів.
   components:
-  - type: StorageFill
-    contents:
-      - id: BoxSurvivalSyndicate
-      - id: SawAdvanced
-      - id: Cautery
-      - id: CombatKnife
-      - id: WeaponPistolViper
-      - id: PinpointerNuclear
-      - id: HandheldHealthAnalyzer
-      - id: CombatMedipen
-      - id: MicroBombImplanter
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalSyndicate
+        - id: SawAdvanced
+        - id: Cautery
+        - id: CombatKnife
+        - id: WeaponPistolViper
+        - id: PinpointerNuclear
+        - id: HandheldHealthAnalyzer
+        - id: CombatMedipen
+        - id: MicroBombImplanter
+        - id: SyndiHypo
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
@@ -324,12 +325,12 @@
   name: медичний набір
   description: "Все, що вам потрібно, щоб повернути своїх товаришів у бій."
   components:
-  - type: StorageFill
-    contents:
-      - id: MedkitCombatFilled
-      - id: Defibrillator
-      - id: CombatMedipen
-        amount: 3
-      - id: ClothingHandsGlovesLatex
-      - id: SyringeTranexamicAcid
-      - id: SyringeHyronalin
+    - type: StorageFill
+      contents:
+        - id: MedkitCombatFilled
+        - id: Defibrillator
+        - id: CombatMedipen
+          amount: 3
+        - id: ClothingHandsGlovesLatex
+        - id: SyringeTranexamicAcid
+        - id: SyringeHyronalin

@@ -36,3 +36,7 @@
 - type: metabolizerType
   id: Moth
   name: Моль
+
+- type: metabolizerType
+  id: Reptilian
+  name: Рептилія

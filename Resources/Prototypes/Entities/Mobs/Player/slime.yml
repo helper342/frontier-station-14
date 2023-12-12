@@ -2,5 +2,5 @@
   save: false
   parent: BaseMobSlimePerson
   id: MobSlimePerson
-  components:
-    - type: MailReceiver
+  # components:
+  #   - type: MailReceiver

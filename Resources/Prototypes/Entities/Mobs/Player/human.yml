@@ -1,16 +1,16 @@
 - type: entity
   save: false
-  name: Urist McHands
+  name: Уріст МакХендс
   parent: BaseMobHuman
   id: MobHuman
-  components:
-  - type: MailReceiver
+  # components:
+  # - type: MailReceiver
 
 #Syndie
 - type: entity
   parent: MobHuman
   id: MobHumanSyndicateAgent
-  name: Syndicate Agent
+  name: Агент синдикату
   suffix: Human
   components:
     - type: Loadout
@@ -31,7 +31,7 @@
 # Nuclear Operative
 - type: entity
   noSpawn: true
-  name: Nuclear Operative
+  name: Ядерний оператор
   parent: MobHuman
   id: MobHumanNukeOp
   components:
@@ -42,7 +42,7 @@
   noSpawn: true
   parent: MobHuman
   id: MobHumanLoneNuclearOperative
-  name: Lone Operative
+  name: Самотній оперативник
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false
@@ -60,7 +60,7 @@
 # Space Ninja
 - type: entity
   noSpawn: true
-  name: Space Ninja
+  name: Космічний ніндзя
   parent: MobHuman
   id: MobHumanSpaceNinja
   components:

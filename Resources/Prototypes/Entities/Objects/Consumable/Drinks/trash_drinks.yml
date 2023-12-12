@@ -1,6 +1,6 @@
 # These can still be used as containers
 - type: entity
-  name: base empty bottle
+  name: базова порожня пляшка
   id: DrinkBottleBaseEmpty
   parent: BaseItem
   abstract: true
@@ -74,7 +74,7 @@
 
 # Containers
 - type: entity
-  name: jailbreaker verte bottle
+  name: втеча з в'язниці верте пляшка
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleAbsinthe
   components:
@@ -119,7 +119,7 @@
 
 
 - type: entity
-  name: griffeater gin bottle
+  name: грішник пляшка джину
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleGin
   components:
@@ -128,7 +128,7 @@
 
 
 - type: entity
-  name: goldschlager bottle
+  name: пляшка голдшлагера
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleGoldschlager
   components:
@@ -146,7 +146,7 @@
 
 
 - type: entity
-  name: nt cahors bottle
+  name: пляшка кагору
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleNTCahors
   components:
@@ -155,7 +155,7 @@
 
 
 - type: entity
-  name: patron bottle
+  name: меценатська пляшка
   parent: DrinkBottleBaseEmpty
   id: DrinkBottlePatron
   components:
@@ -164,7 +164,7 @@
 
 
 - type: entity
-  name: poison wine bottle
+  name: пляшка отруйного вина
   parent: DrinkBottleBaseEmpty
   id: DrinkBottlePoisonWine
   components:
@@ -173,7 +173,7 @@
 
 
 - type: entity
-  name: rum bottle
+  name: пляшка рому
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleRum
   components:
@@ -182,7 +182,7 @@
 
 
 - type: entity
-  name: tequila bottle
+  name: пляшка текіли
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleTequila
   components:
@@ -191,7 +191,7 @@
 
 
 - type: entity
-  name: vermouth bottle
+  name: пляшка вермуту
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleVermouth
   components:
@@ -200,7 +200,7 @@
 
 
 - type: entity
-  name: vodka bottle
+  name: пляшка горілки
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleVodka
   components:
@@ -209,7 +209,7 @@
 
 
 - type: entity
-  name: whiskey bottle
+  name: пляшка віскі
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleWhiskey
   components:
@@ -218,7 +218,7 @@
 
 
 - type: entity
-  name: wine bottle
+  name: пляшка вина
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleWine
   components:

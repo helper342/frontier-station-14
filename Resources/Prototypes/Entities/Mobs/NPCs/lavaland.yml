@@ -1,9 +1,9 @@
 ﻿- type: entity
-  name: watcher
+  name: спостерігач
   id: MobWatcherBase
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   abstract: true
-  description: It's like its staring right through you.
+  description: Це ніби він дивиться прямо крізь вас.
   components:
   - type: NpcFactionMember
     factions:
@@ -90,7 +90,7 @@
 - type: entity
   id: MobWatcherIcewing
   parent: MobWatcherBase
-  name: icewing watcher
+  name: крижане крило спостерігача
   components:
   - type: Sprite
     layers:
@@ -108,7 +108,7 @@
 - type: entity
   id: MobWatcherMagmawing
   parent: MobWatcherBase
-  name: magmawing watcher
+  name: спостерігач за магмою
   components:
   - type: Sprite
     layers:
@@ -129,9 +129,9 @@
 - type: entity
   id: MobWatcherPride
   parent: MobWatcherBase
-  name: pride watcher
+  name: спостерігач гордості
   suffix: ADMEME
-  description: This rare subspecies only appears in June.
+  description: Цей рідкісний підвид з'являється тільки в червні.
   components:
   - type: Sprite
     layers:

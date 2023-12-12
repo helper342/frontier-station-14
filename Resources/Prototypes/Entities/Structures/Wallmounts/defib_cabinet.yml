@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: DefibrillatorCabinet
   name: шафа дефібрилятора
-  description: A small wall mounted cabinet designed to hold a defibrillator.
+  description: Невелика настінна шафа, призначена для розміщення дефібрилятора.
   components:
     - type: WallMount
       arc: 90

@@ -9,7 +9,7 @@
 
 - type: gameMap
   id: Empress
-  mapName: 'NT Empress'
+  mapName: 'NSF Empress'
   mapPath: /Maps/Shuttles/empress.yml
   minPlayers: 0
   stations:
@@ -17,7 +17,7 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Empress {1}'
+          mapNameTemplate: 'Empress {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

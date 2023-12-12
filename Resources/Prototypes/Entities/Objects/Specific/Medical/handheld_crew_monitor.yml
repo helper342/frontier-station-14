@@ -1,10 +1,10 @@
 - type: entity
-  name: handheld crew monitor
+  name: ручний монітор екіпажу
   parent:
   - BaseItem
   - PowerCellSlotSmallItem
   id: HandheldCrewMonitor
-  description: A hand-held crew monitor displaying the status of suit sensors.
+  description: Ручний монітор екіпажу, що відображає стан датчиків костюма.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
@@ -24,9 +24,9 @@
   - type: DeviceNetwork
     deviceNetId: Wireless
     receiveFrequencyId: CrewMonitor
-  - type: WirelessNetworkConnection
-    range: 500
-  - type: StationLimitedNetwork
+#  - type: WirelessNetworkConnection # Frontier
+#    range: 500
+#  - type: StationLimitedNetwork
   - type: StaticPrice
     price: 500
 

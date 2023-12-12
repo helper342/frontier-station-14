@@ -1,8 +1,8 @@
 - type: entity
-  name: stun prod
+  name: стан палка-кийок
   parent: BaseItem
   id: Stunprod
-  description: A stun prod for illegal incapacitation.
+  description: Приголомшливий удар для незаконного позбавлення дієздатності.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/stunprod.rsi

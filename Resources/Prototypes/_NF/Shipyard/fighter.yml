@@ -9,7 +9,7 @@
 
 - type: gameMap
   id: Fighter
-  mapName: 'NT Fighter'
+  mapName: 'NSF Fighter'
   mapPath: /Maps/Shuttles/fighter.yml
   minPlayers: 0
   stations:
@@ -17,7 +17,7 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Fighter {1}'
+          mapNameTemplate: 'Fighter {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

@@ -3,7 +3,7 @@
   parent: ClosetBase
   name: шафа
   suffix: cursed
-  description: A standard-issue Nanotrasen storage unit.
+  description: Стандартний накопичувач Nanotrasen.
   components:
   - type: CursedEntityStorage
   - type: EntityStorage

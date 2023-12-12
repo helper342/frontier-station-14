@@ -240,7 +240,7 @@
   id: BaseSubstationWallFrame
   noSpawn: true
   name: рама настінної підстанції
-  description: A substation frame for construction
+  description: Каркас підстанції для будівництва
   placement:
     mode: SnapgridCenter
   components:

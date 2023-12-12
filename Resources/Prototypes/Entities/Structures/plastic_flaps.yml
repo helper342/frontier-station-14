@@ -1,9 +1,9 @@
 - type: entity
   id: PlasticFlapsClear
   parent: BaseStructureDynamic
-  name: plastic flaps
+  name: пластикові клапани
   suffix: Clear
-  description: Heavy duty, plastic flaps. Definitely can't get past those. No way.
+  description: Надміцні пластикові клапани. Безумовно, не можна пройти повз них. У жодному разі.
   placement:
     mode: SnapgridCenter
   components:
@@ -49,9 +49,9 @@
 - type: entity
   id: PlasticFlapsOpaque
   parent: PlasticFlapsClear
-  name: plastic flaps
+  name: пластикові клапани
   suffix: Opaque
-  description: Heavy duty, plastic flaps. Definitely can't get past those. No way.
+  description: Надміцні пластикові клапани. Безумовно, не можна пройти повз них. У жодному разі.
   components:
   - type: Fixtures
     fixtures:
@@ -70,9 +70,9 @@
 - type: entity
   id: PlasticFlapsAirtightClear
   parent: PlasticFlapsClear
-  name: airtight plastic flaps
+  name: герметичні пластикові клапани
   suffix: Airtight Clear
-  description: Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
+  description: Надміцні, трохи міцніші, герметичні пластикові клапани. Безумовно, не можна пройти повз них. У жодному разі.
   components:
   - type: Destructible
     thresholds:
@@ -88,9 +88,9 @@
 - type: entity
   id: PlasticFlapsAirtightOpaque
   parent: PlasticFlapsOpaque
-  name: airtight plastic flaps
+  name: герметичні пластикові клапани
   suffix: Airtight Opaque
-  description: Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
+  description: Надміцні, трохи міцніші, герметичні пластикові клапани. Безумовно, не можна пройти повз них. У жодному разі.
   components:
   - type: Destructible
     thresholds:

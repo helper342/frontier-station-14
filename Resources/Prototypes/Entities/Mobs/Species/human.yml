@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseMobSpeciesOrganic
   id: BaseMobHuman
-  name: Urist McHands
+  name: Уріст МакХендс
   abstract: true
   components:
   - type: Hunger
@@ -14,6 +14,7 @@
     sprite: Mobs/Species/Human/parts.rsi
     state: full
   - type: Thirst
+  - type: Carriable # Carrying system from nyanotrasen.
   - type: Perishable
   - type: Butcherable
     butcheringType: Spike

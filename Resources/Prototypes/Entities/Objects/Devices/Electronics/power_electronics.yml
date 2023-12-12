@@ -2,8 +2,8 @@
 - type: entity
   id: APCElectronics
   parent: BaseElectronics
-  name: APC electronics
-  description: Circuit used in APC construction.
+  name: Електроніка APC
+  description: Схема, яка використовується в конструкції APC.
   components:
     - type: ApcElectronics
     - type: Sprite
@@ -21,8 +21,8 @@
 - type: entity
   id: WallmountSubstationElectronics
   parent: BaseElectronics
-  name: wallmount substation electronics
-  description: Circuit used to construct a wallmount substation.
+  name: електроніка настінної підстанції
+  description: Схема, яка використовується для побудови настінної підстанції.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: BaseElectronics
   id: WallmountGeneratorElectronics
-  name: wallmount generator electronics
-  description: Circuit used to construct a wallmount generator.
+  name: настінний монтаж електроніки генератора
+  description: Схема, яка використовується для створення настінного генератора.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -54,8 +54,8 @@
 - type: entity
   id: WallmountGeneratorAPUElectronics
   parent: BaseElectronics
-  name: wallmount APU electronics
-  description: Circuit used to construct a wallmount APU.
+  name: настінна електроніка APU
+  description: Схема, яка використовується для створення настінного APU.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: BaseElectronics
   id: SolarTrackerElectronics
-  name: solar tracker electronics
-  description: Advanced circuit board used to detect differences in pressure, temperature and gas concentrations between the two sides of the door.
+  name: електроніка сонячного трекера
+  description: Удосконалена друкована плата, яка використовується для визначення різниці в тиску, температурі та концентрації газу між двома сторонами дверей.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi

@@ -83,7 +83,7 @@
 - type: entity
   parent: Airlock
   id: AirlockMaint
-  name: maintenance hatch
+  name: Технічне обслуговування шлюзу
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
@@ -101,7 +101,7 @@
 - type: entity
   id: AirlockGlass
   parent: Airlock
-  name: glass airlock
+  name: скляний шлюз
   components:
   - type: MeleeSound
     soundGroups:

@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: hover entity
+  name: сутність наведення
   id: hoverentity
   noSpawn: true
   components:

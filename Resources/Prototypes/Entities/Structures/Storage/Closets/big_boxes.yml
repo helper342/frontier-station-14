@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseBigBox
-  name: картонна коробка #it's still just a box
-  description: Huh? Just a box...
+  name: картонна коробка #це все ще просто коробка
+  description: га? Просто коробка...
   abstract: true
   components:
     - type: Transform
@@ -60,7 +60,7 @@
   id: StealthBox
   suffix: stealth
   parent: BaseBigBox
-  description: Kept ya waiting, huh?
+  description: Змусив вас чекати, га?
   components:
     - type: Damageable
       damageModifierSet: FlimsyMetallic #Syndicate boxes should have a bit of protection
@@ -94,7 +94,7 @@
   parent: StealthBox
   suffix: ""
   name: скриня-привид
-  description: Beware!
+  description: Обережно!
   components:
     - type: Fixtures
       fixtures:
@@ -115,7 +115,7 @@
 #Exclamation effect for box opening
 - type: entity
   id: Exclamation
-  name: exclamation
+  name: вигук
   noSpawn: true
   save: false
   components:

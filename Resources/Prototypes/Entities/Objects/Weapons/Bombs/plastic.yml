@@ -1,6 +1,6 @@
 ﻿- type: entity
-  name: composition C-4
-  description: Used to put holes in specific areas without too much extra hole. A saboteur's favorite.
+  name: заряд C-4
+  description: Використовується для створення отворів у певних областях без зайвих отворів. Улюбленець диверсанта.
   parent: BaseItem
   id: C4
   components:

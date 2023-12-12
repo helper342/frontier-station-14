@@ -1,7 +1,7 @@
 - type: entity
   id: ProjectileFireball
-  name: fireball
-  description: You better GITTAH WEIGH.
+  name: вогнений шар фаербол
+  description: Вам краще ГИТТА ЗВАЖИТИ.
   parent: BulletRocket
   noSpawn: true
   components:
@@ -34,8 +34,8 @@
 - type: entity
   id: ProjectilePolyboltCarp
   parent: ProjectilePolyboltBase
-  name: carp polybolt
-  description: Nooo, I don't wanna be fish!
+  name: карп поліболт
+  description: Ні, я не хочу бути рибою!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -47,8 +47,8 @@
 - type: entity
   id: ProjectilePolyboltMonkey
   parent: ProjectilePolyboltBase
-  name: monkey polybolt
-  description: Nooo, I don't wanna be monkey!
+  name: мавпа поліболт
+  description: Ні, я не хочу бути мавпою!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -60,8 +60,8 @@
 - type: entity
   id: ProjectilePolyboltDoor
   parent: ProjectilePolyboltBase
-  name: door polybolt
-  description: Nooo, I don't wanna be door!
+  name: дверний поліболт
+  description: Ні, я не хочу бути дверима!
   noSpawn: true
   components:
   - type: Sprite
@@ -80,8 +80,8 @@
 
 - type: entity
   id: ProjectileHealingBolt
-  name: healing bolt
-  description: I COMMAND YOU TO LIVE!
+  name: лікувальний болт
+  description: НАКАЗУЮ ВАМ ЖИТИ!
   parent: BaseBullet
   noSpawn: true
   components:
@@ -101,10 +101,10 @@
 
 - type: entity
   id: BulletInstakillMagic
-  name: magical lead cylinder
+  name: магічний свинцевий циліндр
   parent: BaseBullet
   noSpawn: true
-  description: This looks familiar.
+  description: Це виглядає знайомим.
   components:
   - type: Projectile
     damage:
@@ -115,8 +115,8 @@
 - type: entity
   id: ProjectilePolyboltCluwne
   parent: ProjectilePolyboltBase
-  name: cluwne polybolt
-  description: knoH KnoH!
+  name: клоун поліболт
+  description: Знай Знай!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -128,8 +128,8 @@
 - type: entity
   id: ProjectileIcicle
   parent: BaseBullet
-  name: Icicle
-  description: Brrrrr.
+  name: Бурулька
+  description: Бррррр.
   noSpawn: true
   components:
   - type: Sprite
@@ -144,8 +144,8 @@
 - type: entity
   parent: ProjectilePolyboltBase
   id: ProjectilePolyboltBread
-  name: bread polybolt
-  description: Nooo, I don't wanna be bread!
+  name: хлібний поліболт
+  description: Ні, я не хочу бути хлібом!
   noSpawn: true
   components:
   - type: PolymorphOnCollide

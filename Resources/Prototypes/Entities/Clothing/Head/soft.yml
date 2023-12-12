@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatBluesoft
-  name: blue cap
-  description: "It's a baseball hat in a tasteless blue colour."
+  name: синя шапка
+  description: "Це бейсболка несмачного блакитного кольору."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bluesoft.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatBluesoftFlipped
-  name: blue cap flipped
-  description: "It's a baseball hat in a tasteless blue colour. Flipped."
+  name: синя шапка перекинута
+  description: "Це бейсболка несмачного блакитного кольору. Перевернуто."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bluesoft_flipped.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatCargosoft
-  name: cargo cap
-  description: "It's a baseball hat painted in Cargo colours."
+  name: вантажна кепка
+  description: "Це бейсболка, пофарбована в кольори Карго."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/cargosoft.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatCargosoftFlipped
-  name: cargo cap flipped
-  description: "It's a baseball hat painted in Cargo colours. Flipped."
+  name: кепка карго перевернута
+  description: "Це бейсболка, пофарбована в кольори карго. Перевернуто."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/cargosoft_flipped.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatQMsoft
-  name: quartermaster's cap
-  description: "It's a baseball hat painted in the Quartermaster's colors."
+  name: інтендантська кашкет
+  description: "Це бейсболка, пофарбована в інтендантські кольори."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/qmsoft.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatQMsoftFlipped
-  name: quartermaster's cap flipped
-  description: "It's a baseball hat painted in the Quartermaster's colors. Flipped."
+  name: інтендантська кашкет перекинута
+  description: "Це бейсболка, пофарбована в інтендантські кольори. Перевернуто."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/qmsoft_flipped.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatCorpsoft
-  name: corporate cap
-  description: A baseball bat in corporation colors.
+  name: корпоративна кепка
+  description: Бейсбольна бита в корпораційних кольорах.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/corpsoft.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatCorpsoftFlipped
-  name: corporate cap flipped
-  description: A baseball bat in corporation colors. Flipped.
+  name: корпоративна кепка перевернута
+  description: Бейсбольна бита в корпораційних кольорах. Перевернуто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/corpsoft_flipped.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatGreensoft
-  name: green cap
-  description: "It's a baseball hat in a tasteless green colour."
+  name: зелена кепка
+  description: "Це бейсболка несмачного зеленого кольору."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greensoft.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatGreensoftFlipped
-  name: green cap flipped
-  description: "It's a baseball hat in a tasteless green colour. Flipped."
+  name: перевернута зелена кепка
+  description: "Це бейсболка несмачного зеленого кольору. Перевернуто."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greensoft_flipped.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatGreysoft
-  name: grey cap
-  description: "It's a baseball hat in a tasteless grey colour."
+  name: сіра кепка
+  description: "Це бейсболка несмачного сірого кольору."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greysoft.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatGreysoftFlipped
-  name: grey cap flipped
-  description: "It's a baseball hat in a tasteless grey colour. Flipped."
+  name: перевернута сіра кепка
+  description: "Це бейсболка несмачного сірого кольору. Перевернуто."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greysoft_flipped.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatMimesoft
-  name: mime cap
-  description: "It's a baseball hat in a tasteless white colour."
+  name: кепка міма
+  description: "Це бейсболка несмачного білого кольору."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/mimesoft.rsi
@@ -149,8 +149,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatMimesoftFlipped
-  name: mime cap flipped
-  description: It's a baseball hat in a tasteless white colour. Flipped.
+  name: перевернута кепка міма
+  description: Це бейсболка несмачного білого кольору. Перевернуто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/mimesoft_flipped.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatOrangesoft
-  name: orange cap
-  description: It's a baseball hat in a good-looking orange colour.
+  name: помаранчева кепка
+  description: Це бейсбольний капелюх гарного помаранчевого кольору.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/orangesoft.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatOrangesoftFlipped
-  name: orange cap flipped
-  description: It's a baseball hat in a good-looking orange colour. Flipped.
+  name: перевернута помаранчева кепка
+  description: Це бейсбольний капелюх гарного помаранчевого кольору. Перевернуто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/orangesoft_flipped.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatPurplesoft
-  name: purple cap
-  description: It's a baseball hat in a tasteless purple colour.
+  name: фіолетова кепка
+  description: Це бейсболка несмачного фіолетового кольору.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/purplesoft.rsi
@@ -198,8 +198,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatPurplesoftFlipped
-  name: purple cap flipped
-  description: It's a baseball hat in a tasteless purple colour. Flipped.
+  name: перевернута фіолетова кепка
+  description: Це бейсболка несмачного фіолетового кольору. Перевернуто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/purplesoft_flipped.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatRedsoft
-  name: red cap
-  description: It's a baseball hat in a tasteless red colour.
+  name: червона кепка
+  description: Це бейсболка несмачного червоного кольору.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/redsoft.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatRedsoftFlipped
-  name: red cap flipped
-  description: It's a baseball hat in a tasteless purple colour. Flipped.
+  name: перевернута червона кепка
+  description: Це бейсболка несмачного червоного кольору. Перевернуто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/redsoft_flipped.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatSecsoft
-  name: security cap
-  description: It's a robust baseball hat in tasteful red colour.
+  name: кепка СБ
+  description: Це міцний бейсбольний капелюх елегантного червоного кольору.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/secsoft.rsi
@@ -242,8 +242,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatSecsoftFlipped
-  name: security cap flipped
-  description: It's a robust baseball hat in tasteful red colour. Flipped.
+  name: перевернута кепка СБ
+  description: Це міцний бейсбольний капелюх елегантного червоного кольору. Перевернуто.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/secsoft_flipped.rsi
@@ -253,8 +253,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatYellowsoft
-  name: yellow cap
-  description: A yellow baseball hat.
+  name: жовта кепка
+  description: Жовта бейсболка.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/yellowsoft.rsi
@@ -264,8 +264,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatYellowsoftFlipped
-  name: yellow cap flipped
-  description: A yellow flipped baseball hat.
+  name: перевернута жовта кепка
+  description: Жовтий перевернутий бейсбольний капелюх.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/yellowsoft_flipped.rsi
@@ -275,8 +275,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatBizarreSoft
-  name: troublemaker's soft
-  description: A truly.. bizarre accessory.
+  name: неспокійник м'який
+  description: Справді... дивний аксесуар.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bizarresoft.rsi
@@ -286,8 +286,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatBizarreSoftFlipped
-  name: troublemaker's soft flipped
-  description: A truly.. bizarre accessory, flipped.
+  name: спотворювач м'який перевернутий
+  description: Справді... химерний аксесуар, перевернутий.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bizarresoft_flipped.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatParamedicsoft
-  name: paramedic cap
-  description: "It's a paramedic's baseball hat with a medical logo."
+  name: кепка фельдшера
+  description: "Це бейсболка фельдшера з медичним логотипом."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/paramedicsoft.rsi
@@ -313,8 +313,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatParamedicsoftFlipped
-  name: paramedic cap flipped
-  description: "It's a paramedic's baseball hat with a medical logo. Flipped."
+  name: кепка фельдшера перевернута
+  description: "Це бейсболка фельдшера з медичним логотипом. Перевернуто."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/paramedicsoft_flipped.rsi

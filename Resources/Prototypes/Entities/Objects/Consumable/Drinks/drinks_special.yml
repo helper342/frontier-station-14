@@ -38,7 +38,7 @@
   parent: DrinkGlassBase
   id: DrinkShotGlass
   name: чарка
-  description: Perfect for slamming down onto the table angrily.
+  description: Ідеально підходить для того, щоб сердито вдаритися по столу.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -69,7 +69,7 @@
   parent: DrinkGlassBase
   id: DrinkJar
   name: банка
-  description: The hipster's cup
+  description: Кубок хіпстера
   components:
   - type: Drink
   - type: Sprite

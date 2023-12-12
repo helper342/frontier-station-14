@@ -1,7 +1,7 @@
 - type: entity
   id: WarpPoint
   parent: MarkerBase
-  name: warp point
+  name: точка порталу
   components:
   - type: WarpPoint
   - type: Sprite
@@ -10,7 +10,7 @@
 - type: entity
   id: WarpPointBeacon
   parent: WarpPoint
-  name: warp point (beacon)
+  name: точка порталу (маяк)
   components:
   - type: NavMapBeacon
   - type: WarpPoint
@@ -19,7 +19,7 @@
 - type: entity
   parent: WarpPoint
   id: WarpPointBombing
-  name: warp point
+  name: точка порталу
   suffix: ninja bombing target
   components:
   - type: BombingTarget
@@ -35,7 +35,7 @@
 - type: entity
   id: WarpPointBeaconBar
   parent: WarpPointBeacon
-  name: warp point (bar)
+  name: точка викривлення (бар)
   components:
   - type: NavMapBeacon
     text: bar
@@ -46,7 +46,7 @@
 - type: entity
   id: WarpPointBeaconCargo
   parent: WarpPointBeacon
-  name: warp point (cargo)
+  name: точка порталу (карго)
   components:
   - type: NavMapBeacon
     text: cargo
@@ -57,7 +57,7 @@
 - type: entity
   id: WarpPointBeaconCommand
   parent: WarpPointBeacon
-  name: warp point (command)
+  name: точка порталу (команда)
   components:
   - type: NavMapBeacon
     text: command
@@ -68,7 +68,7 @@
 - type: entity
   id: WarpPointBeaconEngineering
   parent: WarpPointBeacon
-  name: warp point (engineering)
+  name: точка порталу (інженерія)
   components:
   - type: NavMapBeacon
     text: engineering
@@ -79,7 +79,7 @@
 - type: entity
   id: WarpPointBeaconMedical
   parent: WarpPointBeacon
-  name: warp point (medical)
+  name: точка порталу (медична)
   components:
   - type: NavMapBeacon
     text: medical
@@ -90,7 +90,7 @@
 - type: entity
   id: WarpPointBeaconNeutral
   parent: WarpPointBeacon
-  name: warp point (neutral)
+  name: точка порталу (нейтральна)
   components:
   - type: NavMapBeacon
     text: neutral
@@ -101,7 +101,7 @@
 - type: entity
   id: WarpPointBeaconScience
   parent: WarpPointBeacon
-  name: warp point (science)
+  name: точка порталу (наука)
   components:
   - type: NavMapBeacon
     text: science
@@ -112,7 +112,7 @@
 - type: entity
   id: WarpPointBeaconSecurity
   parent: WarpPointBeacon
-  name: warp point (security)
+  name: точка порталу (безпека)
   components:
   - type: NavMapBeacon
     text: security
@@ -123,7 +123,7 @@
 - type: entity
   id: WarpPointBeaconService
   parent: WarpPointBeacon
-  name: warp point (service)
+  name: точка порталу (сервіс)
   components:
   - type: NavMapBeacon
     text: service

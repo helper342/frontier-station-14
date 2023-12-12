@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: TegCenter
-  name: thermo-electric generator
+  name: термоелектричний генератор
   description: Високоефективний генератор, який використовує передачу енергії між гарячими та холодними газами для виробництва електроенергії.
   parent: BaseMachinePowered
   placement:
@@ -97,7 +97,7 @@
 
 - type: entity
   id: TegCirculator
-  name: circulator
+  name: циркулятор
   description: Пропускає газ через термоелектричний генератор для обміну теплом. Має вхідний і вихідний порт.
   parent: BaseMachine
   placement:

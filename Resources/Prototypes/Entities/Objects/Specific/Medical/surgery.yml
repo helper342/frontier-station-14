@@ -12,10 +12,10 @@
 # Cautery
 
 - type: entity
-  name: cautery
+  name: припікання
   id: Cautery
   parent: BaseToolSurgery
-  description: A surgical tool used to cauterize open wounds.
+  description: Хірургічний інструмент, який використовується для припікання відкритих ран.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/cautery.rsi
@@ -33,10 +33,10 @@
 # Drill
 
 - type: entity
-  name: drill
+  name: дриль
   id: Drill
   parent: BaseToolSurgery
-  description: A surgical drill for making holes into hard material.
+  description: Хірургічний дриль для пророблення отворів у твердому матеріалі.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/drill.rsi
@@ -54,10 +54,10 @@
 # Scalpel
 
 - type: entity
-  name: scalpel
+  name: скальпель
   id: Scalpel
   parent: BaseToolSurgery
-  description: A surgical tool used to make incisions into flesh.
+  description: Хірургічний інструмент, який використовується для надрізів на тілі.
   components:
   - type: Sharp
     butcherDelayModifier: 1.5 # Butchering with a scalpel, regardless of the type, will take 50% longer
@@ -79,10 +79,10 @@
       path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
-  name: shiv
+  name: шив
   id: ScalpelShiv
   parent: Scalpel
-  description: A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
+  description: Загострений шматок скла, затертий до краю та обмотаний скотчем для ручки. # Може стати пристойним інструментом або зброєю з правильними модифікаціями інструментів.
   components:
   - type: Sprite
     state: shiv
@@ -90,10 +90,10 @@
     heldPrefix: shiv
 
 - type: entity
-  name: advanced scalpel
+  name: вдосконалений скальпель
   id: ScalpelAdvanced
   parent: Scalpel
-  description: Made of more expensive materials, sharper and generally more reliable.
+  description: З більш дорогих матеріалів, гостріше і в цілому надійніше.
   components:
   - type: Sprite
     state: advanced
@@ -105,10 +105,10 @@
         Slash: 12
 
 - type: entity
-  name: laser scalpel
+  name: лазерний скальпель
   id: ScalpelLaser
   parent: Scalpel
-  description: A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
+  description: Скальпель, який використовує спрямований лазер для розрізання замість леза, для точнішої хірургії, а також припікання під час різання.
   components:
   - type: Sprite
     state: laser
@@ -118,10 +118,10 @@
 # Scissors
 
 - type: entity
-  name: retractor
+  name: втягувач
   id: Retractor
   parent: BaseToolSurgery
-  description: A surgical tool used to hold open incisions.
+  description: Хірургічний інструмент, який використовується для утримання відкритих розрізів.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scissors.rsi
@@ -131,10 +131,10 @@
   - type: ItemCooldown
 
 - type: entity
-  name: hemostat
+  name: кровоспинний
   id: Hemostat
   parent: Retractor
-  description: A surgical tool used to compress blood vessels to prevent bleeding.
+  description: Хірургічний інструмент, який використовується для стиснення кровоносних судин для запобігання кровотечі.
   components:
   - type: Sprite
     state: hemostat
@@ -142,18 +142,18 @@
     heldPrefix: hemostat
 
   # - type: entity
-  #   name: bone setter
+  #   name: кісткоукладач
   #   id: BoneSetter
   #   parent: Retractor
-  #   description: A surgical tool used for setting bones.
+  #   description: Хірургічний інструмент, який використовується для встановлення кісток.
   #   components:
 # Saws
 
 - type: entity
-  name: metal saw
+  name: пилка по металу
   id: Saw
   parent: BaseToolSurgery
-  description: For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
+  description: Для розрізання деревини та інших предметів на частини. Або розпилювання кісток, у разі потреби.
   components:
   - type: Sharp
   - type: Utensil
@@ -172,10 +172,10 @@
 # No melee for regular saw because have you ever seen someone use a band saw as a weapon? It's dumb.
 
 - type: entity
-  name: choppa
+  name: чоппа
   id: SawImprov
   parent: Saw
-  description: A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
+  description: Жахливе зубчасте лезо, зроблене з усіх бридких гострих предметів, які тільки можна знайти. # Це була б досить пристойна зброя, враховуючи, що є більше місця для деяких модифікацій інструментів.
   components:
   - type: Sprite
     state: improv
@@ -193,10 +193,10 @@
     speed: 0.5
 
 - type: entity
-  name: circular saw
+  name: циркулярна пила
   id: SawElectric
   parent: Saw
-  description: For heavy duty cutting.
+  description: Для важкого різання.
   components:
   - type: Sprite
     state: electric
@@ -214,10 +214,10 @@
     speed: 1.5
 
 - type: entity
-  name: advanced circular saw
+  name: вдосконалена циркулярна пила
   id: SawAdvanced
   parent: Saw
-  description: You think you can cut anything with it.
+  description: Ти думаєш, що ним можна вирізати що завгодно.
   components:
   - type: Sprite
     state: advanced

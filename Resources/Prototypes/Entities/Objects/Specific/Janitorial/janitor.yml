@@ -1,9 +1,9 @@
 # TODO: Add description (1)
 - type: entity
   parent: BaseItem
-  name: mop
+  name: швабра
   id: MopItem
-  description: A mop that can't be stopped, viscera cleanup detail awaits.
+  description: Швабра, яку неможливо зупинити, деталі очищення внутрішніх органів чекають.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/mop.rsi
@@ -40,9 +40,9 @@
 
 - type: entity
   parent: BaseItem
-  name: advanced mop
+  name: вдосконалена швабра
   id: AdvMopItem
-  description: Motorized mop that has a bigger reservoir and quickly replaces reagents inside with water. Automatic Clown Countermeasure not included.
+  description: Моторизована швабра, яка має більший резервуар і швидко замінює реагенти всередині водою. Автоматична протидія клоунам не входить.
   components:
     - type: Sprite
       sprite: Objects/Specific/Janitorial/advmop.rsi
@@ -87,9 +87,9 @@
         - MopAdv
 
 - type: entity
-  name: mop bucket
+  name: відро для швабри
   id: MopBucket
-  description: Holds water and the tears of the janitor.
+  description: Тримає воду і сльози прибиральника.
   components:
   - type: Clickable
   - type: Sprite
@@ -175,7 +175,7 @@
     - Janitorial
 
 - type: entity
-  name: mop bucket
+  name: відро для швабри
   id: MopBucketFull
   parent: MopBucket
   suffix: full
@@ -194,10 +194,10 @@
               Quantity: 600
 
 - type: entity
-  name: wet floor sign
+  name: мокра підлога знак
   id: WetFloorSign
   parent: ClothingOuterBase
-  description: Caution! Wet Floor!
+  description: Обережно! Мокра підлога!
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/wet_floor_sign.rsi
@@ -263,10 +263,10 @@
       - WetFloorSign
 
 - type: entity
-  name: janitorial trolley
+  name: візок прибиральника
   id: JanitorialTrolley
   parent: BaseStructureDynamic
-  description: This is the alpha and omega of sanitation.
+  description: Це альфа і омега санітарії.
   components:
     - type: Sprite
       noRot: true
@@ -297,7 +297,7 @@
           insertOnInteract: false # or it conflicts with bucket logic
           priority: 5 # Higher than bucket slot
         bucket_slot:
-          name: Bucket
+          name: Відро
           whitelist:
             tags:
               - Bucket
@@ -436,8 +436,8 @@
 
 - type: entity
   id: FloorDrain
-  name: drain
-  description: Drains puddles around it. Useful for dumping mop buckets or keeping certain rooms clean.
+  name: дренаж
+  description: Осушує калюжі навколо нього. Корисно для скидання відер для швабр або підтримки чистоти в певних приміщеннях.
   placement:
     mode: SnapgridCenter
   components:
@@ -498,10 +498,10 @@
                 path: /Audio/Effects/metalbreak.ogg
 
 - type: entity
-  name: plunger
+  name: трубочист
   id: Plunger
   parent: BaseItem
-  description: A plunger with a red plastic suction-cup and a wooden handle. Used to unclog drains.
+  description: Плунжер з червоною пластиковою присоскою і дерев'яною ручкою. Використовується для прочищення каналізації.
   components:
     - type: Tag
       tags:
@@ -528,9 +528,9 @@
 
 - type: entity
   parent: BaseItem
-  name: damp rag
+  name: волога ганчірка
   id: RagItem
-  description: For cleaning up messes, you suppose.
+  description: Для прибирання безладу, ви гадаєте.
   components:
     - type: Sprite
       sprite: Objects/Specific/Janitorial/rag.rsi

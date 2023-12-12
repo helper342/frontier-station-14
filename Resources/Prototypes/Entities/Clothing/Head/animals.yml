@@ -2,7 +2,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatAnimalCat
   name: шапка сірого кота
-  description: A cute and fluffy head of a grey cat.
+  description: Мила і пухнаста голівка сірого кота.
   components:
   - type: Sprite
     sprite: Clothing/Head/Animals/cat.rsi
@@ -13,7 +13,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatAnimalCatBrown
   name: шапка коричневого кота
-  description: A cute and fluffy head of a brown cat.
+  description: Мила і пухнаста голова коричневого кота.
   components:
   - type: Sprite
     sprite: Clothing/Head/Animals/cat2.rsi
@@ -24,7 +24,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatAnimalCatBlack
   name: шапка чорного кота
-  description: A cute and fluffy head of a black cat.
+  description: Мила і пухнаста голова чорного котика.
   components:
   - type: Sprite
     sprite: Clothing/Head/Animals/cat3.rsi
@@ -35,7 +35,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatAnimalHeadslime
   name: шапка головного слайма
-  description: A green, sticky headslime, you put it on your head.
+  description: Зелений, липкий головний слиз, ви наносите його собі на голову.
   components:
   - type: Sprite
     sprite: Clothing/Head/Animals/headslime.rsi
@@ -46,7 +46,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatAnimalMonkey
   name: шапка мавпи
-  description: That's a monkey head. It has a hole on a mouth to eat bananas.
+  description: Це голова мавпи. У нього є отвір на роті, щоб їсти банани.
   components:
   - type: Sprite
     sprite: Clothing/Head/Animals/monkey.rsi

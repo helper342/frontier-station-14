@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: AppraisalTool
-  name: appraisal tool
-  description: A beancounter's best friend, with a quantum connection to the galactic market and the ability to appraise even the toughest items.
+  name: інструмент оцінки
+  description: Найкращий друг, який має квантовий зв’язок із галактичним ринком і здатність оцінювати навіть найскладніші предмети.
   components:
     - type: Sprite
       sprite: Objects/Tools/appraisal-tool.rsi

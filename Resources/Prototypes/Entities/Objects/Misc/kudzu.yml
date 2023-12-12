@@ -1,7 +1,7 @@
 - type: entity
   id: Kudzu
-  name: kudzu
-  description: A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  name: кудзу
+  description: Швидкоростуча небезпечна рослина. ЧОМУ ТИ ЗУПИНЯЄШСЯ НА ЦЕ ДИВИТИСЯ?!
   placement:
     mode: SnapgridCenter
     snap:
@@ -105,8 +105,8 @@
 
 - type: entity
   id: FleshKudzu
-  name: tendons
-  description: A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  name: сухожилля
+  description: Швидко зростаюче скупчення м’ясистих сухожиль. ЧОМУ ТИ ЗУПИНЯЄШСЯ НА ЦЕ ДИВИТИСЯ?!
   placement:
     mode: SnapgridCenter
     snap:

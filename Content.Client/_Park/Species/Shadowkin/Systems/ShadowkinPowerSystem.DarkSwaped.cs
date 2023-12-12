@@ -3,7 +3,7 @@ using Robust.Client.Player;
 using Content.Client._Park.Overlays;
 using Content.Client._Park.Overlays.Shaders;
 using Content.Shared._Park.Species.Shadowkin.Components;
-using Robust.Client.GameObjects;
+//using Robust.Client.GameObjects;
 using Content.Shared.Humanoid;
 
 namespace Content.Client._Park.Species.Shadowkin.Systems;
@@ -27,8 +27,8 @@ public sealed class ShadowkinDarkSwappedSystem : EntitySystem
 
         SubscribeLocalEvent<ShadowkinDarkSwappedComponent, ComponentStartup>(OnStartup);
         SubscribeLocalEvent<ShadowkinDarkSwappedComponent, ComponentShutdown>(OnShutdown);
-        SubscribeLocalEvent<ShadowkinDarkSwappedComponent, PlayerAttachedEvent>(OnPlayerAttached);
-        SubscribeLocalEvent<ShadowkinDarkSwappedComponent, PlayerDetachedEvent>(OnPlayerDetached);
+        SubscribeLocalEvent<ShadowkinDarkSwappedComponent, LocalPlayerAttachedEvent>(OnPlayerAttached);
+        SubscribeLocalEvent<ShadowkinDarkSwappedComponent, LocalPlayerDetachedEvent>(OnPlayerDetached);
     }
 
 
@@ -48,12 +48,12 @@ public sealed class ShadowkinDarkSwappedSystem : EntitySystem
         RemoveOverlay();
     }
 
-    private void OnPlayerAttached(EntityUid uid, ShadowkinDarkSwappedComponent component, PlayerAttachedEvent args)
+    private void OnPlayerAttached(EntityUid uid, ShadowkinDarkSwappedComponent component, LocalPlayerAttachedEvent args)
     {
         AddOverlay();
     }
 
-    private void OnPlayerDetached(EntityUid uid, ShadowkinDarkSwappedComponent component, PlayerDetachedEvent args)
+    private void OnPlayerDetached(EntityUid uid, ShadowkinDarkSwappedComponent component, LocalPlayerDetachedEvent args)
     {
         RemoveOverlay();
     }

@@ -11,10 +11,10 @@
     price: 10
 
 - type: entity
-  name: match stick
+  name: сірник
   parent: BaseItem
   id: Matchstick
-  description: A simple match stick, used for lighting fine smokables.
+  description: Простий сірник, який використовується для розпалювання вишуканих курильних виробів.
   components:
   - type: Tag
     tags:
@@ -59,10 +59,10 @@
     price: 1
 
 - type: entity
-  name: match box
+  name: сірникова коробка
   parent: [ SmallboxItem, BaseBagOpenClose ]
   id: Matchbox
-  description: A small box of Almost But Not Quite Plasma Premium Matches.
+  description: Маленька коробка майже, але не зовсім сірників Плазма Преміум.
   components:
   - type: EmitSoundOnLand
     sound:

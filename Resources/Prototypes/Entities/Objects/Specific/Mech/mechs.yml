@@ -87,8 +87,8 @@
 - type: entity
   id: MechRipley
   parent: BaseMech
-  name: Ripley APLU
-  description: Versatile and lightly armored, the Ripley is useful for almost any heavy work scenario. The "APLU" stands for Autonomous Power Loading Unit.
+  name: Ріплі АПЛІ
+  description: Універсальний і легкоброньований, Ріплі стане в пригоді майже для будь-якої важкої роботи. "АПЛІ" розшифровується як автономний блок живлення.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseMech
   id: MechHonker
-  name: H.O.N.K.
-  description: "Produced by \"Tyranny of Honk, INC\", this exosuit is designed as heavy clown-support. Used to spread the fun and joy of life. HONK!"
+  name: Х.О.Н.К.
+  description: "Виготовлений \"Тиранія ХОНК, ІНС\", цей екзокостюм створений як важка опора для клоуна. Використовується для поширення веселощів і радості життя. ХОНК!"
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -168,8 +168,8 @@
 - type: entity
   parent: BaseMech
   id: MechHamtr
-  name: HAMTR
-  description: "An experimental mech which uses a brain–computer interface to connect directly to a hamsters brain."
+  name: ГамлетРіплі
+  description: "Експериментальний механізм, який використовує інтерфейс мозок–комп’ютер для підключення безпосередньо до мозку хом’яка."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -220,8 +220,8 @@
 - type: entity
   parent: BaseMech
   id: MechVim
-  name: Vim
-  description: A minature exosuit from Nanotrasen, developed to let the irreplacable station pets live a little longer.
+  name: ВІМ
+  description: Мініатюрний екзокостюм від Nanotrasen, розроблений, щоб незамінні станційні улюбленці прожили трохи довше.
   components:
   - type: Sprite
     drawdepth: Mobs

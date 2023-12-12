@@ -9,7 +9,7 @@
 
 - type: gameMap
   id: Hospitaller
-  mapName: 'NT Hospitaller'
+  mapName: 'NSF14 Hospitaller'
   mapPath: /Maps/Shuttles/hospitaller.yml
   minPlayers: 0
   stations:
@@ -17,7 +17,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Hospitaller {1}'
+          mapNameTemplate: 'Hospitaller {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

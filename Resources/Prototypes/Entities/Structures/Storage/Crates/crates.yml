@@ -65,7 +65,7 @@
   parent: CrateGenericSteel
   id: CrateRadiation
   name: ящик радіаційного спорядження
-  description: Is not actually lead lined. Do not store your plutonium in this.
+  description: Насправді не свинцевий. Не зберігайте плутоній у цьому місці.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/radiation.rsi
@@ -204,7 +204,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateChemistrySecure
-  name: secure chemistry crate
+  name: безпечний ящик для хімії
   components:
     - type: Icon
       sprite: Structures/Storage/Crates/chemcrate_secure.rsi
@@ -399,7 +399,7 @@
   parent: CrateGeneric
   id: CratePirate
   name: піратська скриня
-  description: A space pirate chest, not for station lubbers.
+  description: Скриня космічного пірата, а не для станційних лубів.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/piratechest.rsi
@@ -424,7 +424,7 @@
   id: CrateToyBox
   name: ящик для іграшок
   suffix: Empty
-  description: A box overflowing with fun.
+  description: Коробка, переповнена веселощами.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/toybox.rsi
@@ -444,7 +444,7 @@
   parent: CrateGeneric
   id: CrateCoffin
   name: гроб
-  description: A comfy coffin, excelent place for the vampires and corpses.
+  description: Зручна труна, відмінне місце для вампірів і трупів.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/coffin.rsi
@@ -482,7 +482,7 @@
   id: CrateWoodenGrave
   name: могила
   suffix: wooden
-  description: Someone died here...
+  description: Тут хтось помер...
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/wooden_grave.rsi
@@ -517,7 +517,7 @@
   id: CrateStoneGrave
   name: могила
   suffix: stone
-  description: Someone died here...
+  description: Тут хтось помер...
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/stone_grave.rsi

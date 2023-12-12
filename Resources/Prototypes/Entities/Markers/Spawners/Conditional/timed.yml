@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: AI Timed Spawner
+  name: AI Часовий спаунер
   id: AITimedSpawner
   parent: MarkerBase
   components:
@@ -20,7 +20,7 @@
       maximumEntitiesSpawned: 5
 
 - type: entity
-  name: Xeno AI Timed Spawner
+  name: Ксено AI Часовий спаунер
   id: XenoAITimedSpawner
   parent: MarkerBase
   components:
@@ -40,7 +40,7 @@
       maximumEntitiesSpawned: 4
 
 - type: entity
-  name: Mouse Timed Spawner
+  name: Створення миші на час
   id: MouseTimedSpawner
   parent: MarkerBase
   components:

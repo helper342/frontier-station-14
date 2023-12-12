@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponSniper
+  name: Базова зброя Снайпер
   parent: BaseItem
   id: BaseWeaponSniper
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
   name: Kardashev-Mosin
   parent: BaseWeaponSniper
   id: WeaponSniperMosin
-  description: A weapon for hunting, or endless trench warfare. Uses .30 rifle ammo.
+  description: Зброя для полювання, або нескінченної окопної війни. Використовує патрони калібру .30.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -52,7 +52,7 @@
   name: Hristov
   parent: BaseWeaponSniper
   id: WeaponSniperHristov
-  description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
+  description: Переносна протитехнічна рушниця. Стріляє бронебійними снарядами калібру 14,5 мм. Використовує протиматеріальні боєприпаси .60.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
@@ -66,10 +66,10 @@
     proto: CartridgeAntiMateriel
 
 - type: entity
-  name: musket
+  name: мушкет
   parent: BaseWeaponSniper
   id: Musket
-  description: This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
+  description: Це мало бути в музеї задовго до вашого народження. Використовує протиматеріальні боєприпаси .60.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/musket.rsi
@@ -87,10 +87,10 @@
     proto: CartridgeAntiMateriel
 
 - type: entity
-  name: flintlock pistol
+  name: кременевий пістолет
   parent: BaseWeaponSniper
   id: WeaponPistolFlintlock
-  description: A pirate's companion. Yarrr! Uses .60 anti-materiel ammo.
+  description: Супутник пірата. Яррр! Використовує протиматеріальні боєприпаси .60.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/flintlock.rsi

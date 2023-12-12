@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: DrinkGlassBase
   id: DrinkMeth
-  name: meth  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
-  description: Just a whole glass of meth.
+  name: мет # пиво це. кава. пиво? кава? be-er? с-о... б-е
+  description: Просто ціла склянка метамфетаміну.
   suffix: DEBUG
   components:
   - type: Tag

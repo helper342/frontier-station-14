@@ -2,10 +2,10 @@
 #1D2L3U4R
 
 - type: entity
-  name: Ian
+  name: Ян
   parent: MobCorgi
   id: MobCorgiIan
-  description: Favorite pet corgi.
+  description: Улюблений вихованець коргі.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -36,10 +36,10 @@
     - VimPilot
 
 - type: entity
-  name: Old Ian
+  name: Старий Ян
   parent: MobCorgiIan
   id: MobCorgiIanOld
-  description: Still the favorite pet corgi. Love his wheels.
+  description: Досі улюблений домашній улюбленець коргі. Люблю його колеса.
   components:
   - type: Sprite
     layers:
@@ -61,10 +61,10 @@
     - id: MaterialHideCorgi
 
 - type: entity
-  name: Lisa
+  name: Ліза
   parent: MobCorgiIan
   id: MobCorgiLisa
-  description: Ian's favorite corgi.
+  description: Улюблений коргі Яна.
   components:
   - type: Sprite
     layers:
@@ -84,10 +84,10 @@
       gender: female
 
 - type: entity
-  name: Runtime
+  name: Час виконання
   parent: MobCat
   id: MobCatRuntime
-  description: Professional mouse hunter. Escape artist.
+  description: Професійний мисливець за мишами. Художник втечі.
   components:
   - type: NpcFactionMember
     factions:
@@ -106,10 +106,10 @@
     - VimPilot
 
 - type: entity
-  name: Exception
+  name: Виняток
   id: MobCatException
   parent: MobCatCalico
-  description: Ask nicely, and maybe they'll give you one of their spare lives.
+  description: Попросіть добре, і, можливо, вони подарують вам одне зі своїх вільних життів.
   components:
   - type: NpcFactionMember
     factions:
@@ -125,10 +125,10 @@
     - VimPilot
 
 - type: entity
-  name: Floppa
+  name: Флоппа
   id: MobCatFloppa
   parent: MobCatCaracal
-  description: He out here.
+  description: Він тут.
   components:
   - type: NpcFactionMember
     factions:
@@ -153,10 +153,10 @@
     - VimPilot
 
 - type: entity
-  name: Bandito
+  name: бандіто
   parent: MobFerret
   id: MobBandito
-  description: Just a silly little guy!
+  description: Просто дурний маленький хлопець!
   components:
   - type: Grammar
     attributes:
@@ -168,10 +168,10 @@
     - VimPilot
 
 - type: entity
-  name: Bingus
+  name: Бінгус
   parent: SimpleMobBase
   id: MobBingus
-  description: Bingus my beloved...
+  description: Бінгус, мій коханий...
   components:
   - type: NpcFactionMember
     factions:
@@ -232,10 +232,10 @@
     - VimPilot
 
 - type: entity
-  name: McGriff
+  name: Макгріфф
   parent: SimpleMobBase
   id: MobMcGriff
-  description: This dog can tell something smells around here, and that something is CRIME!
+  description: Цей пес може сказати, що тут чимось пахне, і це ЗЛОЧИН!
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -295,10 +295,10 @@
     - VimPilot
 
 - type: entity
-  name: Paperwork
+  name: Документообіг
   parent: MobSloth
   id: MobPaperwork
-  description: Took up a new job sorting books in the library after he got transferred from Space Station 13. He seems to be just as slow at this.
+  description: Після того, як його перевели з космічної станції 13, він взявся за нову роботу, сортуючи книги в бібліотеці. Здається, він так само повільний у цьому.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -329,10 +329,10 @@
       gender: male
 
 - type: entity
-  name: Walter
+  name: Вальтер
   parent: SimpleMobBase
   id: MobWalter
-  description: He likes chems and treats. Walter.
+  description: Він любить хімію та ласощі. Вальтер.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -392,10 +392,10 @@
     - VimPilot
 
 - type: entity
-  name: Morty
+  name: Морті
   parent: MobPossum
   id: MobPossumMorty
-  description: The station's resident Didelphis virginiana. A sensitive but resilient kind of guy.
+  description: Мешканець станції Didelphis virginiana. Чуйний, але витривалий хлопець.
   components:
   - type: InteractionPopup
     successChance: 1.0 # Hey, c'mon, this is Morty we're talking about here.
@@ -414,10 +414,10 @@
     - VimPilot
 
 - type: entity
-  name: Morticia
+  name: Мортіція
   parent: MobRaccoon
   id: MobRaccoonMorticia
-  description: A powerful creature of the night. Her eyeshadow is always on point.
+  description: Могутнє створіння ночі. Її тіні завжди на місці.
   components:
   - type: InteractionPopup
     successChance: 0.7
@@ -436,10 +436,10 @@
     - VimPilot
 
 - type: entity
-  name: Alexander
+  name:  Олександр
   parent: MobPig
   id: MobAlexander
-  description: Chef's finest colleague.
+  description: Найкращий колега шеф-кухаря.
   components:
   - type: InteractionPopup
     successChance: 1
@@ -458,10 +458,10 @@
     - VimPilot
 
 - type: entity
-  name: Renault
+  name: Ранаульт
   parent: MobFox
   id: MobFoxRenault
-  description: The captain's trustworthy fox.
+  description: Надійний лис капітана.
   components:
   - type: InteractionPopup
     successChance: 1
@@ -486,10 +486,10 @@
     - VimPilot
 
 - type: entity
-  name: Hamlet
+  name: Гамлет
   parent: MobHamster
   id: MobHamsterHamlet
-  description: A grumpy, cute and fluffy hamster.
+  description: Сварливий, милий і пухнастий хом'як.
   components:
   - type: Sprite
     drawdepth: SmallMobs
@@ -526,10 +526,10 @@
     - VimPilot
 
 - type: entity
-  name: Shiva
+  name: Шива
   parent: MobGiantSpider
   id: MobSpiderShiva
-  description: The first defender of the station.
+  description: Перший захисник ст.
   components:
   - type: InteractionPopup
     successChance: 0.5 # spider is mean
@@ -601,10 +601,10 @@
     - VimPilot
 
 - type: entity
-  name: Willow
+  name: Верба
   parent: MobKangaroo
   id: MobKangarooWillow
-  description: Willow the boxing kangaroo.
+  description: Кенгуру-боксер Віллоу.
   components:
   - type: InteractionPopup
     successChance: 0.8
@@ -631,10 +631,10 @@
     prototypes: [ BoxingKangarooGear ]
 
 - type: entity
-  name: Smile
+  name: Смайл
   id: MobSlimesPet
   parent: MobAdultSlimes
-  description: This masterpiece has gone through thousands of experiments. But it is the sweetest creature in the world. Smile Slime!
+  description: Цей шедевр пройшов через тисячі експериментів. Але це наймиліша істота на світі. Посміхніться, Слайм!
   components:
   - type: Sprite
     layers:
@@ -699,10 +699,10 @@
       gender: female
 
 - type: entity
-  name: Pun Pun
+  name: Пун Пун
   parent: MobMonkey
   id: MobMonkeyPunpun
-  description: A prominent representative of monkeys with unlimited access to alcohol.
+  description: Яскравий представник мавп з необмеженим доступом до алкоголю.
   components:
   - type: GhostRole
     prob: 1

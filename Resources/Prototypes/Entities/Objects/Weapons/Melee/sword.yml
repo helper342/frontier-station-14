@@ -1,8 +1,8 @@
 - type: entity
-  name: captain's sabre
+  name: капітанська шабля
   parent: BaseItem
   id: CaptainSabre
-  description: A ceremonial weapon belonging to the captain of the station.
+  description: Церемонна зброя капітана станції.
   components:
   - type: Sharp
   - type: Sprite
@@ -34,10 +34,10 @@
     - suitStorage
 
 - type: entity
-  name: katana
+  name: катана
   parent: BaseItem
   id: Katana
-  description: Ancient craftwork made with not so ancient plasteel.
+  description: Старовинні ремісничі вироби, виготовлені з не дуже стародавньої пласталі.
   components:
   - type: Sharp
   - type: Tag
@@ -64,10 +64,10 @@
     - suitStorage
 
 - type: entity
-  name: energy katana
+  name: енергетична катана
   parent: Katana
   id: EnergyKatana
-  description: A katana infused with strong energy.
+  description: Катана, наповнена сильною енергією.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/energykatana.rsi
@@ -95,10 +95,10 @@
   - type: Reflect
 
 - type: entity
-  name: machete
+  name: мачете
   parent: BaseItem
   id: Machete
-  description: A large, vicious looking blade.
+  description: Велике, жахливе на вигляд лезо.
   components:
   - type: Sharp
   - type: Tag
@@ -125,10 +125,10 @@
     - suitStorage
 
 - type: entity
-  name: claymore
+  name: клеймор
   parent: BaseItem
   id: Claymore
-  description: An ancient war blade.
+  description: Старовинний бойовий клинок.
   components:
   - type: Sharp
   - type: Sprite
@@ -152,10 +152,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: cutlass
+  name: шабля
   parent: BaseItem
   id: Cutlass
-  description: A wickedly curved blade, often seen in the hands of space pirates.
+  description: Жахливо вигнутий клинок, який часто можна побачити в руках космічних піратів.
   components:
   - type: Sharp
   - type: Tag

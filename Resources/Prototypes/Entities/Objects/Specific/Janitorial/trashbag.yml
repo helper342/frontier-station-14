@@ -1,5 +1,5 @@
 - type: entity
-  name: trash bag
+  name: мішок для сміття
   id: TrashBag
   parent: BaseStorageItem
   components:
@@ -34,9 +34,10 @@
     sprite: Objects/Specific/Janitorial/trashbag.rsi
   - type: Item
     size: 125
+  - type: MagnetPickup # Frontier
 
 - type: entity
-  name: trash bag
+  name: мішок для сміття
   id: TrashBagBlue
   parent: TrashBag
   components:
@@ -50,7 +51,7 @@
     fillBaseName: blue-icon
 
 - type: entity
-  name: spell of all-consuming cleanliness
+  name: заклинання всепоглинаючої чистоти
   id: BagOfSummoningGarbage
   parent: TrashBagBlue
   components:

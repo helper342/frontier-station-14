@@ -2,7 +2,7 @@
   parent: ComputerSurveillanceWirelessCameraMonitor
   id: ComputerTelevision
   name: дерев'яний телевізор
-  description: Finally, some decent reception around here...
+  description: Нарешті тут пристойний прийом...
   components:
   - type: Sprite
     drawdepth: SmallObjects
@@ -32,8 +32,8 @@
 - type: entity
   parent: BaseComputer
   id: WallmountTelescreenFrame
-  name: telescreen frame
-  description: Finally, some decent reception around here...
+  name: рамка телеекрана
+  description: Нарешті тут пристойний прийом...
   components:
   - type: Construction
     graph: WallmountTelescreen
@@ -87,8 +87,8 @@
   parent: WallmountTelescreenFrame
   id: WallmountTelescreen
   suffix: camera monitor
-  name: telescreen
-  description: Finally, some decent reception around here...
+  name: телеекран
+  description: Нарешті тут пристойний прийом...
   components:
   - type: Construction
     graph: WallmountTelescreen
@@ -117,8 +117,8 @@
 - type: entity
   parent: WallmountTelescreenFrame
   id: WallmountTelevisionFrame
-  name: television frame
-  description: Finally, some decent reception around here...
+  name: телевізійний кадр
+  description: Нарешті тут пристойний прийом...
   components:
   - type: Fixtures
     fixtures:
@@ -147,8 +147,8 @@
   parent: WallmountTelevisionFrame
   id: WallmountTelevision
   suffix: entertainment
-  name: television
-  description: Finally, some decent reception around here...
+  name: телебачення
+  description: Нарешті тут пристойний прийом...
   components:
   - type: Construction
     graph: WallmountTelevision

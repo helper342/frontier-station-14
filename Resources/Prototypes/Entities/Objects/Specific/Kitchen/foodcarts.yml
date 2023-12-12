@@ -1,9 +1,9 @@
 - type: entity
-  name: Food Cart
+  name: Візок для їжі
   id: FoodCartBase
   abstract: true
   parent: BaseStructureDynamic
-  description: A cart for food.
+  description: Візок для їжі.
   components:
     - type: Sprite
       netsync: false
@@ -65,10 +65,10 @@
     #      startingItem: PowerCellMedium
   
 - type: entity
-  name: Hot Food Cart
+  name: Візок для гарячої їжі
   id: FoodCartHot
   parent: FoodCartBase
-  description: Get out there and slang some dogs.
+  description: Вийди туди і накинь собак.
   components:
     - type: Sprite
       netSync: false
@@ -86,7 +86,7 @@
     - type: ItemSlots
       slots:
         coldsauce_slot:
-          name: Cold Sauce
+          name: Холодний соус
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -94,7 +94,7 @@
               - Coldsauce
           priority: 6
         hotsauce_slot:
-          name: Hot Sauce
+          name: Гострий соус
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -102,7 +102,7 @@
               - Hotsauce
           priority: 5 
         bbqsauce_slot:
-          name: BBQ Sauce
+          name: Соус барбекю
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -110,7 +110,7 @@
               - BBQsauce
           priority: 4  
         ketchup_slot:
-          name: Ketchup
+          name: Кетчуп
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -146,10 +146,10 @@
         ketchup_slot: !type:ContainerSlot {}
 
 - type: entity
-  name: Cold Food Cart
+  name: Візок для холодної їжі
   id: FoodCartCold
   parent: FoodCartBase
-  description: It's the Ice Cream Man! It's the Ice Cream Man!
+  description: Це Людина-морозиво! Це Людина-морозиво!
   components:
     - type: Sprite
       netSync: false

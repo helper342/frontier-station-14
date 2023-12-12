@@ -1,7 +1,7 @@
 - type: entity
-  name: hypospray
+  name: гіпоспрей
   parent: BaseItem
-  description: A sterile injector for rapid administration of drugs to patients.
+  description: Стерильний інжектор для швидкого введення ліків пацієнтам.
   id: Hypospray
   components:
   - type: Sprite
@@ -28,9 +28,9 @@
     - HighRiskItem
 
 - type: entity
-  name: gorlex hypospray
+  name: горлекс гіпоспрей
   parent: BaseItem
-  description: Using reverse engineered designs from NT, Cybersun produced these in limited quantities for Gorlex Marauder operatives.
+  description: Використовуючи зворотні розробки від NT, Cybersun виготовив їх в обмеженій кількості для оперативників Gorlex Marauder.
   id: SyndiHypo
   components:
   - type: Sprite
@@ -52,9 +52,9 @@
     delay: 0.5
 
 - type: entity
-  name: borghypo
+  name: борг гіпо
   parent: BaseItem
-  description: A sterile injector for rapid administration of drugs to patients. A cheaper and more specialised version for medical borgs.
+  description: Стерильний інжектор для швидкого введення ліків пацієнтам. Дешевша і більш спеціалізована версія для медичних боргів.
   id: BorgHypo
   components:
   - type: Sprite
@@ -75,10 +75,10 @@
     delay: 0.5
 
 - type: entity
-  name: experimental hypospray
+  name: експериментальний гіпоспрей
   suffix: Admeme
   parent: SyndiHypo
-  description: The ultimate application of bluespace technology and rapid chemical administration.
+  description: Максимальне застосування технології блюспейс і швидкого введення хімікатів.
   id: AdminHypo
   components:
     - type: SolutionContainerManager
@@ -89,9 +89,9 @@
       delay: 0.0
 
 - type: entity
-  name: chemical medipen
+  name: хімічний медіпен
   parent: BaseItem
-  description: A sterile injector for rapid administration of drugs to patients. This one can't be refilled.
+  description: Стерильний інжектор для швидкого введення ліків пацієнтам. Цей не можна заправляти.
   id: ChemicalMedipen
   components:
   - type: Sprite
@@ -129,10 +129,10 @@
     solution: pen
 
 - type: entity
-  name: emergency medipen
+  name: невідкладна медична допомога
   parent: ChemicalMedipen
   id: EmergencyMedipen
-  description: A rapid and safe way to stabilize patients in critical condition for personnel without advanced medical knowledge. Beware, as it's easy to overdose on epinephrine and tranexmic acid.
+  description: Швидкий і безпечний спосіб стабілізації пацієнтів у критичному стані для персоналу без передових медичних знань. Будьте обережні, оскільки передозування адреналіну та транексмової кислоти легко отримати.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -147,10 +147,10 @@
     tags: []
 
 - type: entity
-  name: poison auto-injector
+  name: автоінжектор птрути отрути
   parent: ChemicalMedipen
   id: AntiPoisonMedipen
-  description: A rapid dose of anti-poison. Contains ultravasculine and epinephrine.
+  description: Швидка доза проти отрути. Містить ультраваскулін і адреналін.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -170,10 +170,10 @@
     tags: []
 
 - type: entity
-  name: brute auto-injector
+  name: брутальний автоінжектор
   parent: ChemicalMedipen
   id: BruteAutoInjector
-  description: A rapid dose of bicaridine and tranexamic acid, intended for combat applications
+  description: Швидка доза бікаридину та транексамової кислоти, призначена для бойових застосувань
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -196,10 +196,10 @@
     tags: []
 
 - type: entity
-  name: burn auto-injector
+  name: гарячий автоінжектор
   parent: ChemicalMedipen
   id: BurnAutoInjector
-  description: A rapid dose of dermaline and leporazine, intended for combat applications
+  description: Швидка доза дермаліну та лепоразину, призначена для бойових застосувань
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -222,10 +222,10 @@
     tags: []
 
 - type: entity
-  name: rad auto-injector
+  name: автоінжектор рад
   parent: ChemicalMedipen
   id: RadAutoInjector
-  description: A rapid dose of anti-radiation. Contains arithrazine and bicardine.
+  description: Швидка доза антирадіації. Містить аритразин і бікардін.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -248,10 +248,10 @@
     tags: []
 
 - type: entity
-  name: space medipen
+  name: космічний медіпен
   parent: ChemicalMedipen
   id: SpaceMedipen
-  description: Contains a mix of chemicals that protect you from the deadly effects of space.
+  description: Містить суміш хімічних речовин, які захищають вас від смертоносного впливу тиску.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -279,10 +279,10 @@
     tags: []
 
 - type: entity
-  name: stimulant injector
+  name: інжектор стимулятора
   parent: ChemicalMedipen
   id: Stimpack
-  description: Contains enough stimulants for you to have the chemical's effect for 30 seconds. Use it when you're sure you're ready to throw down.
+  description: Містить достатню кількість стимуляторів, щоб хімічна дія діяла протягом 30 секунд. Використовуйте його, коли будете впевнені, що готові кинути.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -308,10 +308,10 @@
     tags: []
 
 - type: entity
-  name: stimulant microinjector
+  name: мікроінжектор стимулятора
   parent: ChemicalMedipen
   id: StimpackMini
-  description: A microinjector of stimulants that give you about fifteen seconds of the chemical's effects.
+  description: Мікроінжектор стимуляторів, який дає вам приблизно п’ятнадцять секунд ефекту хімічної речовини.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -334,10 +334,10 @@
     tags: []
 
 - type: entity
-  name: combat medipen
+  name: бойовий медіпен
   parent: ChemicalMedipen
   id: CombatMedipen
-  description: A single-use medipen containing chemicals that regenerate most types of damage.
+  description: Одноразовий медіпен, що містить хімічні речовини, які регенерують більшість видів ушкоджень.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -365,10 +365,10 @@
     tags: []
 
 - type: entity
-  name: pen
+  name: ручка
   suffix: Hypopen
   parent: Pen # It is just like normal pen, isn't it?
-  description: A dark ink pen.
+  description: Темна чорнильна ручка.
   id: Hypopen
   components:
   - type: SolutionContainerManager
@@ -389,8 +389,8 @@
 - type: entity
   parent: BaseItem
   id: HypopenBox
-  name: hypopen box
-  description: A small box containing a hypopen. Packaging disintegrates when opened, leaving no evidence behind.
+  name: гіпопен бокс
+  description: Невелика коробка, в якій знаходиться гіпопен. При відкритті упаковка розпадається, не залишаючи слідів.
   components:
   - type: Sprite
     sprite: Objects/Storage/penbox.rsi

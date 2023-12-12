@@ -1,10 +1,7 @@
 using Content.Server.Storage.Components;
-using Content.Shared.Hands;
 using Content.Shared.Inventory;
-using Content.Shared.Stacks;
 using Robust.Shared.Map;
 using Robust.Shared.Physics.Components;
-using Robust.Shared.Player;
 using Robust.Shared.Timing;
 
 namespace Content.Shared.Storage.EntitySystems;
@@ -39,7 +36,7 @@ public sealed class MagnetPickupSystem : EntitySystem
 
     private void OnMagnetMapInit(EntityUid uid, MagnetPickupComponent component, MapInitEvent args)
     {
-        component.NextScan = _timing.CurTime + TimeSpan.FromSeconds(1f);
+        component.NextScan = _timing.CurTime;
     }
 
     public override void Update(float frameTime)
@@ -59,10 +56,17 @@ public sealed class MagnetPickupSystem : EntitySystem
             if (storage.StorageUsed >= storage.StorageCapacityMax)
                 continue;
 
-            if (!_inventory.TryGetContainingSlot(uid, out var slotDef))
-                continue;
 
-            if ((slotDef.SlotFlags & comp.SlotFlags) == 0x0)
+            if (!comp.IsFixture)
+            {
+                if (!_inventory.TryGetContainingSlot(uid, out var slotDef))
+                    continue;
+            
+                if ((slotDef.SlotFlags & comp.SlotFlags) == 0x0)
+                    continue;
+            }
+            // Magnet disabled in current fixture anchor state
+            else if (xform.Anchored && !comp.PickupWhenAnchored || !xform.Anchored && !comp.PickupWhenNotAnchored)
                 continue;
 
             var parentUid = xform.ParentUid;

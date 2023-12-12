@@ -1,7 +1,7 @@
 - type: entity
   id: AirAlarm
-  name: air alarm
-  description: An air alarm. Alarms... air?
+  name: повітряна тривога
+  description: Повітряна тривога. Сигналізації... повітря?
   placement:
     mode: SnapgridCenter
     snap:
@@ -106,8 +106,8 @@
 
 - type: entity
   id: AirAlarmAssembly
-  name: air alarm assembly
-  description: An air alarm. Doesn't look like it'll be alarming air any time soon.
+  name: вузол повітряної сигналізації
+  description: Повітряна тривога. Не схоже, що найближчим часом це буде тривожне повітря.
   placement:
     mode: SnapgridCenter
     snap:

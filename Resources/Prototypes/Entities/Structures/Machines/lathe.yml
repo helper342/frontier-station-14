@@ -2,7 +2,7 @@
   id: BaseLathe
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   abstract: true
-  name: lathe
+  name: токарний верстат
   components:
   - type: Appearance
   - type: WiresVisuals
@@ -53,8 +53,8 @@
 - type: entity
   id: Autolathe
   parent: BaseLathe
-  name: autolathe
-  description: It produces items using metal and glass.
+  name: автотокарний верстат
+  description: Виготовляє вироби з металу та скла.
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe.rsi
@@ -172,8 +172,8 @@
 - type: entity
   id: Protolathe
   parent: BaseLathe
-  name: protolathe
-  description: Converts raw materials into useful objects.
+  name: протолат
+  description: Перетворює сировину на корисні предмети.
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe.rsi
@@ -284,8 +284,8 @@
 - type: entity
   id: CircuitImprinter
   parent: BaseLathe
-  name: circuit imprinter
-  description: Prints circuit boards for machines.
+  name: імпринтер схеми
+  description: Друкує друковані плати для машин.
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter.rsi
@@ -393,8 +393,8 @@
 - type: entity
   id: ExosuitFabricator
   parent: BaseLathe
-  name: exosuit fabricator
-  description: Creates parts for robotics and other mechanical needs
+  name: виробник екзокостюмів
+  description: Створює деталі для робототехніки та інших механічних потреб
   components:
   - type: Sprite
     sprite: Structures/Machines/exosuit_fabricator.rsi
@@ -509,14 +509,15 @@
 - type: entity
   id: SecurityTechFab
   parent: BaseLathe
-  name: security techfab
-  description: Prints equipment for use by security crew.
+  name: Техфаб безпеки
+  description: Друкує обладнання для використання охороною.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
     layers:
     - state: icon
       map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: sec
     - state: unlit
       shader: unshaded
       map: ["enum.PowerDeviceVisualLayers.Powered"]
@@ -604,8 +605,8 @@
 - type: entity
   id: AmmoTechFab
   parent: BaseLathe
-  name: ammo techfab
-  description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
+  name: боєприпаси техфаб
+  description: Друкує мінімум куль, який може знадобитися будь-якій бюджетній армії чи збройовій арені. Нічого особливого.
   components:
     - type: Sprite
       sprite: Structures/Machines/techfab.rsi
@@ -645,8 +646,8 @@
 - type: entity
   id: MedicalTechFab
   parent: BaseLathe
-  name: medical techfab
-  description: Prints equipment for use by the medbay.
+  name: медичний техфаб
+  description: Друкує обладнання для медбаю.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -712,8 +713,8 @@
 - type: entity
   parent: BaseLathe
   id: UniformPrinter
-  name: uniform printer
-  description: Prints new or replacement uniforms.
+  name: принтер одягу
+  description: Друкує нову форму або заміну.
   components:
   - type: Transform
     noRot: false
@@ -839,8 +840,8 @@
 - type: entity
   parent: BaseLathe
   id: OreProcessor
-  name: ore processor
-  description: It produces sheets and ingots using ores.
+  name: переробник руди
+  description: Виробляє листи та злитки з руд.
   components:
     - type: Sprite
       sprite: Structures/Machines/ore_processor.rsi
@@ -877,17 +878,14 @@
         - IngotGold30
         - IngotSilver30
         - MaterialBananium10
-    - type: MaterialStorageMagnetPickup
+    - type: MaterialStorageMagnetPickup # Frontier
       range: 0.30
-      whitelist:
-        tags:
-          - Ore
 
 - type: entity
   parent: BaseLathe
   id: Sheetifier
-  name: sheet-meister 2000
-  description: A very sheety machine.
+  name: аркуш-майстер 2000
+  description: Дуже щільна машина.
   components:
   - type: Sprite
     sprite: Structures/Machines/sheetifier.rsi

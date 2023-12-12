@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: BaseShellShotgun
-  name: shell (.50)
+  name: дробь (.50)
   parent: BaseCartridge
   abstract: true
   components:
@@ -25,7 +25,7 @@
 
 - type: entity
   id: ShellShotgunBeanbag
-  name: shell (.50 beanbag)
+  name: дробь (.50)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -40,7 +40,7 @@
 
 - type: entity
   id: ShellShotgunSlug
-  name: shell (.50 slug)
+  name: дробь (.50 slug)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
 
 - type: entity
   id: ShellShotgunFlare
-  name: shell (.50 flare)
+  name: дробь (.50 flare)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 
 - type: entity
   id: ShellShotgun
-  name: shell (.50)
+  name: дробь (.50)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 
 - type: entity
   id: ShellShotgunIncendiary
-  name: shell (.50 incendiary)
+  name: дробь (.50 запальний)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -97,7 +97,7 @@
 
 - type: entity
   id: ShellShotgunPractice
-  name: shell (.50 practice)
+  name: дробь (.50 практичний)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -111,7 +111,7 @@
 
 - type: entity
   id: ShellTranquilizer
-  name: shell (.50 tranquilizer)
+  name: дробь (.50 транквілізатор)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -137,8 +137,8 @@
 #Either the improvised shotgun or its recipe (as of July 2023) will also probably have to be nerfed if you decide to make this craftable.
 - type: entity
   id: ShellShotgunImprovised
-  name: improvised shotgun shell
-  description: A homemade shotgun shell that shoots painful metal shrapnel. The spread is so wide that it couldn't hit the broad side of a barn.
+  name: імпровізована дробовикова дробь
+  description: Саморобна гільза для дробовика, яка стріляє болючими металевими осколками. Розкид настільки широкий, що не міг вдарити по широкій стороні сараю.
   parent: BaseShellShotgun
   components:
   - type: Sprite

@@ -3,7 +3,7 @@
   parent: BaseStructure
   name: жалюзі
   abstract: true
-  description: One shudders to think about what might be behind this shutter.
+  description: Страшно від думки про те, що може бути за ціми жалюзями.
   placement:
     mode: SnapgridCenter
   components:
@@ -72,9 +72,6 @@
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
-  - type: IconSmooth
-    key: walls
-    mode: NoSprite
   - type: DoorSignalControl
   - type: DeviceNetwork
     deviceNetId: Wireless
@@ -126,7 +123,7 @@
   id: ShuttersRadiation
   parent: BaseShutter
   name: радіаційні жалюзі
-  description: Why did they make these shutters radioactive?
+  description: Чому вони зробили ці жалюзі радіоактивними?
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_radiation.rsi
@@ -160,7 +157,7 @@
   id: ShuttersWindow
   parent: BaseShutter
   name: жалюзі вікна
-  description: The Best (TM) place to see your friends explode!
+  description: Найкраще (TM) місце, щоб побачити, як ваші друзі вибухають!
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_window.rsi
@@ -191,8 +188,8 @@
 - type: entity
   id: ShuttersFrame
   parent: BaseStructureDynamic
-  name: shutter frame
-  description: A frame for constructing a shutter.
+  name: затворна рама
+  description: Каркас для виготовлення.
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters.rsi

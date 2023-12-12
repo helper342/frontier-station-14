@@ -57,7 +57,7 @@
 
 - type: entity
   id: Thruster
-  name: thruster
+  name: прискорювач
   parent: [ BaseThruster, ConstructibleMachine ]
   components:
   - type: Thruster
@@ -115,7 +115,7 @@
 
 - type: entity
   id: Gyroscope
-  name: gyroscope
+  name: гіроскоп
   parent: [ BaseThruster, ConstructibleMachine ]
   components:
   - type: Thruster

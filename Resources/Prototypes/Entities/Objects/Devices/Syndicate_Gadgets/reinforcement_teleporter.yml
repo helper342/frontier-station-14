@@ -1,16 +1,16 @@
 - type: entity
   parent: BaseItem
   id: ReinforcementRadioSyndicate
-  name: syndicate reinforcement radio
-  description: Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
+  name: синдикат посилення радіо
+  description: Миттєво викликайте агента синдикату сумнівної якості! Надається лише базове обладнання.
   components:
   - type: Sprite
     sprite: Objects/Devices/communication.rsi
     layers:
     - state: old-radio
   - type: GhostRole
-    name: Syndicate Agent
-    description: Someone needs reinforcements. You, the first person the syndicate could find, will help them.
+    name: Агент синдикату
+    description: Комусь потрібне підкріплення. Ви, перший, кого зможе знайти синдикат, допоможете їм.
     rules: Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.
   - type: GhostRoleMobSpawner
     prototype: MobHumanSyndicateAgent
@@ -31,12 +31,12 @@
 - type: entity
   parent: ReinforcementRadioSyndicate
   id: ReinforcementRadioSyndicateMonkey # Reinforcement radio exclusive to nukeops uplink
-  name: syndicate monkey reinforcement radio
-  description: Calls in a specially trained monkey to assist you.
+  name: синдикат радіо підкріплення мавпи
+  description: Викличте на допомогу спеціально навчену мавпу.
   components:
   - type: GhostRole
-    name: Syndicate Monkey Agent
-    description: Someone needs reinforcements. You, a trained monkey, will help them.
+    name: Синдикат Мавпа агент
+    description: Комусь потрібне підкріплення. Ви, дресирована мавпочка, будете їм допомагати.
     rules: Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.
   - type: GhostRoleMobSpawner
     prototype: MobMonkeySyndicateAgent

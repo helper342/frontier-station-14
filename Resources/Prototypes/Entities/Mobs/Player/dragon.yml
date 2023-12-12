@@ -2,8 +2,8 @@
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   id: BaseMobDragon
   suffix: ""
-  name: space dragon
-  description: A flying leviathan, loosely related to space carps.
+  name: космічний дракон
+  description: Літаючий левіафан, близький до космічних карпів.
   abstract: true
   components:
   - type: GhostRole
@@ -156,18 +156,18 @@
   - type: Butcherable
     spawned:
     - id: FoodMeatDragon
-      amount: 1
-  - type: SalvageMobRestrictions
+      amount: 3
   # half damage, spread evenly
   - type: MeleeWeapon
     damage:
       groups:
         Brute: 12
+  - type: SalvageMobRestrictions # Frontier
 
 - type: entity
   id: ActionSpawnRift
-  name: Summon Carp Rift
-  description: Summons a carp rift that will periodically spawns carps.
+  name: Викликати Карп Ріфт
+  description: Викликає карповий рифт, який періодично породжує карпів.
   noSpawn: true
   components:
   - type: InstantAction
@@ -179,8 +179,8 @@
 
 - type: entity
   id: ActionDevour
-  name: "[color=red]Devour[/color]"
-  description: Attempt to break a structure with your jaws or swallow a creature.
+  name: "[color=red]Пожирати[/color]"
+  description: Спробуйте зламати конструкцію щелепами або проковтнути істоту.
   noSpawn: true
   components:
   - type: EntityTargetAction

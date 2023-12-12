@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFigurineMech
-  name: figurine
-  description: A small miniature.
+  name: статуетка
+  description: Маленька мініатюра.
   abstract: true
   components:
   - type: Sprite
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyRipley
-  name: ripley toy
-  description: Mini-Mecha action figure! 'Mecha No. 1/12' is written on the back.
+  name: весілля Ріплі
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 1/12'.
   components:
   - type: Sprite
     state: ripley
@@ -32,8 +32,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyFireRipley
-  name: fire ripley
-  description: Mini-Mecha action figure! 'Mecha No. 2/12' is written on the back.
+  name: вогонь Ріплі
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 2/12'.
   components:
   - type: Sprite
     state: fireripley
@@ -42,8 +42,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyDeathRipley
-  name: deathripley toy
-  description: Mini-Mecha action figure! 'Mecha No. 3/12' is written on the back.
+  name: Детріплі весілля
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 3/12'.
   components:
   - type: Sprite
     state: deathripley
@@ -52,8 +52,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyGygax
-  name: gygax toy
-  description: Mini-Mecha action figure! 'Mecha No. 4/12' is written on the back.
+  name: гігакс весілля
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 4/12'.
   components:
   - type: Sprite
     state: gygax
@@ -62,8 +62,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyDurand
-  name: durand toy
-  description: Mini-Mecha action figure! 'Mecha No. 5/12' is written on the back.
+  name: стоячи весілля
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 5/12'.
   components:
   - type: Sprite
     state: durand
@@ -72,8 +72,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyHonk
-  name: H.O.N.K. toy
-  description: Mini-Mecha action figure! 'Mecha No. 6/12' is written on the back.
+  name: Х.О.Н.К. весілля
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 6/12'.
   components:
   - type: Sprite
     state: honk
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyMarauder
-  name: marauder toy
-  description: Mini-Mecha action figure! 'Mecha No. 7/12' is written on the back.
+  name: мародерське весілля
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 7/12'.
   components:
   - type: Sprite
     state: marauder
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToySeraph
-  name: seraph toy
-  description: Mini-Mecha action figure! 'Mecha No. 8/12' is written on the back.
+  name: серафимове весілля
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 8/12'.
   components:
   - type: Sprite
     state: seraph
@@ -102,8 +102,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyMauler
-  name: mauler toy
-  description: Mini-Mecha action figure! 'Mecha No. 9/12' is written on the back.
+  name: молотове весілля
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 9/12.
   components:
   - type: Sprite
     state: mauler
@@ -112,8 +112,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyOdysseus
-  name: odysseus toy
-  description: Mini-Mecha action figure! 'Mecha No. 10/12' is written on the back.
+  name: Одіссеєве весілля
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 10/12'.
   components:
   - type: Sprite
     state: odysseus
@@ -122,8 +122,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyPhazon
-  name: phazon toy
-  description: Mini-Mecha action figure! 'Mecha No. 11/12' is written on the back.
+  name: Фазонове весілля
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 11/12'.
   components:
   - type: Sprite
     state: phazon
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyReticence
-  name: reticence toy
-  description: Mini-Mecha action figure! 'Mecha No. 12/12' is written on the back.
+  name: стриманість весілля
+  description: Фігурка Міні-меха! 'Меха №. На звороті написано 12/12'.
   components:
   - type: Sprite
     state: reticence

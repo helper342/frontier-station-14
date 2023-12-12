@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: BaseXenoArtifactItem
-  name: alien artifact
-  description: A strange handheld alien device.
+  name: інопланетний артефакт
+  description: Дивний портативний інопланетний пристрій.
   abstract: true
   components:
   - type: Sprite
@@ -106,8 +106,8 @@
 - type: entity
   id: ArtifactFragment
   parent: BaseItem
-  name: artifact fragment
-  description: A broken piece of an artifact. You could probably repair it if you had more.
+  name: фрагмент артефакту
+  description: Розбитий шматок артефакту. Можливо, ви могли б його відремонтувати, якби у вас було більше.
   components:
   - type: Sprite
     sprite: Objects/Specific/Xenoarchaeology/artifact_fragments.rsi

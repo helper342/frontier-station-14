@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesFlippers
-  name: flippers
-  description: A pair of rubber flippers that improves swimming ability when worn.
+  name: ласти
+  description: Пара гумових ласт, які під час носіння покращують здатність плавати.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/flippers.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesLeather
-  name: leather shoes
-  description: Very stylish pair of boots, made from fine leather.
+  name: шкіряне взуття
+  description: Дуже стильні черевики з тонкої шкіри.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/leather.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSlippers
-  name: slippers
-  description: Fluffy!
+  name: тапочки
+  description: Пухнастий!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/slippers.rsi
@@ -34,9 +34,9 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoeSlippersDuck
-  name: ducky slippers
+  name: качачі тапочки
   # description: You wish these made quacking sounds as you walked.
-  description: Comfy, yet haunted by the ghosts of ducks you fed bread to as a child.
+  description: Комфортний, але переслідуваний привидами качок, яких ви годували хлібом у дитинстві.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/duck-slippers.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesTourist
-  name: tourist shoes
-  description: These cheap sandals don't look very comfortable.
+  name: туристичне взуття
+  description: Ці дешеві босоніжки виглядають не дуже зручно.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/tourist.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesDameDane
-  name: yakuza shoes
-  description: At last...
+  name: взуття якудза
+  description: Нарешті...
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/damedaneshoes.rsi

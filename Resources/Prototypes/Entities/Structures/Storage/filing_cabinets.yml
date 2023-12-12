@@ -3,7 +3,7 @@
   parent: [ BaseStructureDynamic, BaseBagOpenClose ]
   id: filingCabinet
   suffix: Empty
-  description: A cabinet for all your filing needs.
+  description: Шафа для всіх ваших потреб.
   components:
   - type: Storage
     capacity: 80
@@ -43,7 +43,7 @@
       storagebase: !type:Container
 
 - type: entity
-  name: tall cabinet
+  name: високий шафа
   parent: filingCabinet
   id: filingCabinetTall
   suffix: Empty
@@ -62,7 +62,7 @@
   parent: BaseStructureDynamic
   id: filingCabinetDrawer
   suffix: Empty
-  description: A small drawer for all your filing needs, Now with wheels!
+  description: Маленька шухляда для всіх ваших потреб у архівах, тепер із колесами!
   components:
   - type: Storage
     capacity: 50

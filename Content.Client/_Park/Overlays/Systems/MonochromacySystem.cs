@@ -1,4 +1,4 @@
-using Robust.Client.GameObjects;
+//using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
 using Robust.Shared.Network;
@@ -21,8 +21,8 @@ public sealed class MonochromacySystem : EntitySystem
         SubscribeLocalEvent<MonochromacyComponent, ComponentStartup>(OnMonochromacyStartup);
         SubscribeLocalEvent<MonochromacyComponent, ComponentShutdown>(OnMonochromacyShutdown);
 
-        SubscribeLocalEvent<MonochromacyComponent, PlayerAttachedEvent>(OnPlayerAttached);
-        SubscribeLocalEvent<MonochromacyComponent, PlayerDetachedEvent>(OnPlayerDetached);
+        SubscribeLocalEvent<MonochromacyComponent, LocalPlayerAttachedEvent>(OnPlayerAttached);
+        SubscribeLocalEvent<MonochromacyComponent, LocalPlayerDetachedEvent>(OnPlayerDetached);
 
         _overlay = new();
     }
@@ -41,12 +41,12 @@ public sealed class MonochromacySystem : EntitySystem
         }
     }
 
-    private void OnPlayerAttached(EntityUid uid, MonochromacyComponent component, PlayerAttachedEvent args)
+    private void OnPlayerAttached(EntityUid uid, MonochromacyComponent component, LocalPlayerAttachedEvent args)
     {
         _overlayMan.AddOverlay(_overlay);
     }
 
-    private void OnPlayerDetached(EntityUid uid, MonochromacyComponent component, PlayerDetachedEvent args)
+    private void OnPlayerDetached(EntityUid uid, MonochromacyComponent component, LocalPlayerDetachedEvent args)
     {
         _overlayMan.RemoveOverlay(_overlay);
     }

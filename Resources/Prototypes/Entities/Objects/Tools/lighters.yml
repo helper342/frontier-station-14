@@ -1,8 +1,8 @@
 - type: entity
-  name: basic lighter
+  name: базова запальничка
   parent: BaseItem
   id: Lighter
-  description: "A simple plastic cigarette lighter."
+  description: "Проста пластикова запальничка."
   components:
   # Sloth: What is this comment ?????????
   - type: RandomSprite #this has to be before sprite component for the flame to toggle right because weldercomponent behaves weird (and i dont trust myself to fix it right)
@@ -78,10 +78,10 @@
 
 
 - type: entity
-  name: cheap lighter
+  name: дешева запальничка
   parent: Lighter
   id: CheapLighter
-  description: "A dangerously inexpensive plastic lighter, don't burn your thumb!"
+  description: "Небезпечно недорога пластикова запальничка, не обпечіть великий палець!"
   components:
   - type: RandomSprite
     available:

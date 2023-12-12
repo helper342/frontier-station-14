@@ -78,8 +78,8 @@
 - type: entity
   parent: [ MobElementalBase, MobCombat ]
   id: MobQuartzCrab
-  name: quartz crab
-  description: An ore crab made from quartz.
+  name: кварцовий краб
+  description: Рудний краб з кварцу.
   components:
   - type: Sprite
     sprite: Mobs/Elemental/orecrab.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: [ MobElementalBase, MobCombat ]
   id: MobIronCrab
-  name: ore crab
-  description: An ore crab made from iron.
+  name: рудий краб
+  description: Рудний краб із заліза.
   components:
   - type: Sprite
     sprite: Mobs/Elemental/orecrab.rsi
@@ -159,8 +159,8 @@
 - type: entity
   parent: [ MobElementalBase, MobCombat ]
   id: MobUraniumCrab
-  name: ore crab
-  description: An ore crab made from uranium.
+  name: рудий краб
+  description: Рудний краб з урану.
   components:
   - type: Sprite
     sprite: Mobs/Elemental/orecrab.rsi
@@ -206,11 +206,11 @@
     color: "#06DF24"
 
 - type: entity
-  name: Reagent slime
+  name: Реактивний слайм
   id: ReagentSlime
   suffix: Water
   parent: [ MobAdultSlimes, MobCombat ]
-  description: It consists of a liquid, and it wants to dissolve you in itself.
+  description: Він складається з рідини і хоче розчинити вас у собі.
   components:
   - type: NpcFactionMember
     factions:
@@ -276,7 +276,7 @@
     solution: bloodstream
 
 - type: entity
-  name: Reagent Slime Spawner
+  name: спавн реагент слайм
   id: ReagentSlimeSpawner
   parent: MarkerBase
   components:

@@ -1,8 +1,8 @@
 - type: entity
-  name: space tick
+  name: космічна блоха
   id: MobTick
   parent: SimpleSpaceMobBase
-  description: It's a space tick, watch out for its nasty bite. CentCom reports that 90 percent of cargo leg amputations are due to space tick bites.
+  description: Це космічний кліщ, стережіться його неприємного укусу. CentCom повідомляє, що 90 відсотків ампутацій ніг ​​при вантажі відбуваються через укуси космічних кліщів.
   components:
   - type: InputMover
   - type: MobMover

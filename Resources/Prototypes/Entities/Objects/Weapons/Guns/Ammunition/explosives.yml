@@ -2,9 +2,9 @@
 
 - type: entity
   id: CartridgeRocket
-  name: PG-7VL grenade
+  name: граната PG-7VL
   parent: BaseItem
-  description: A 1.5 warhead designed for the RPG-7 launcher. Has tubular shape.
+  description: БЧ 1,5 призначена для пускової установки РПГ-7. Має трубчасту форму.
   components:
   - type: Tag
     tags:
@@ -22,9 +22,9 @@
 
 - type: entity
   id: CartridgeRocketSlow
-  name: PG-7VL grenade "Snail-Rocket"
+  name: граната "Равлик-Ракета" PG-7VL
   parent: BaseItem
-  description: A 1.5 warhead designed for the RPG-7 launcher. It's unusually slow.
+  description: БЧ 1,5 призначена для пускової установки РПГ-7. Це незвично повільно.
   components:
     - type: Tag
       tags:
@@ -44,7 +44,7 @@
 
 - type: entity
   id: BaseGrenade
-  name: base grenade
+  name: основа гранати
   parent: BaseItem
   abstract: true
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   id: GrenadeBaton
-  name: baton grenade
+  name: батон граната
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -74,7 +74,7 @@
 
 - type: entity
   id: GrenadeBlast
-  name: blast grenade
+  name: вибухова граната
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -91,7 +91,7 @@
 
 - type: entity
   id: GrenadeFlash
-  name: flash grenade
+  name: світошумова граната
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -108,7 +108,7 @@
 
 - type: entity
   id: GrenadeFrag
-  name: frag grenade
+  name: осколкові гранати
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -125,7 +125,7 @@
 
 - type: entity
   id: CannonBall
-  name: cannonball
+  name: гарматне ядро
   suffix: Pirate
   parent: BaseGrenade
   components:

@@ -35,10 +35,10 @@
 # NOTE: Rats take up spots 2 and 4 and tails take up 1 and 3. This is important for sprite layering.
 
 - type: entity
-  name: skewer
+  name: шпажка
   parent: BaseItem
   id: FoodKebabSkewer
-  description: A thin rod of metal used to skewer just about anything and cook it.
+  description: Тонкий металевий стрижень, який використовується для наколювання будь-чого та приготування їжі.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/skewer.rsi
@@ -52,10 +52,10 @@
 # Custom Kebab Example
 
 - type: entity
-  name: Hawaiian kebab
+  name: Гавайський кебаб
   parent: FoodSkewerBase
   id: FoodMeatHawaiianKebab
-  description: A delicious kebab made of pineapple, ham and green peppers.
+  description: Смачний шашлик з ананаса, шинки та зеленого перцю.
   components:
   - type: Sprite
     layers:
@@ -74,10 +74,10 @@
     - Fruit
 
 - type: entity
-  name: meat kebab
+  name: м'ясний шашлик
   parent: FoodSkewerBase
   id: FoodMeatKebab
-  description: Delicious meat, on a stick.
+  description: Смачне м'ясо, на паличці.
   components:
   - type: Sprite
     layers:
@@ -91,16 +91,16 @@
     - Meat
 
 - type: entity
-  name: human kebab
+  name: людський шашлик
   parent: FoodMeatKebab
   id: FoodMeatHumanKebab
-  description: Human meat. On a stick!
+  description: Людське м'ясо. На палиці!
 
 - type: entity
-  name: lizard-tail kebab
+  name: шашлик із хвоста ящірки
   parent: FoodSkewerBase
   id: FoodMeatLizardtailKebab
-  description: Severed lizard tail on a stick.
+  description: Відрізаний хвіст ящірки на палиці.
   components:
   - type: Sprite
     layers:
@@ -108,10 +108,10 @@
       - state: skewer-tail1
 
 - type: entity
-  name: rat kebab
+  name: щурячий шашлик
   parent: FoodSkewerBase
   id: FoodMeatRatKebab
-  description: Not so delicious rat meat, on a stick.
+  description: Не дуже смачне щуряче м'ясо, на паличці.
   components:
   - type: Sprite
     layers:
@@ -129,10 +129,10 @@
           Quantity: 5
 
 - type: entity
-  name: double rat kebab
+  name: подвійний щурячий шашлик
   parent: FoodSkewerBase
   id: FoodMeatRatdoubleKebab
-  description: A double serving of not so delicious rat meat, on a stick.
+  description: Подвійна порція не дуже смачного м'яса пацюка, на паличці.
   components:
   - type: Sprite
     layers:
@@ -151,10 +151,10 @@
           Quantity: 10
           
 - type: entity
-  name: fiesta kebab
+  name: фієста кебаб
   parent: FoodSkewerBase
   id: FoodMeatFiestaKebab
-  description: Always a cruise ship party somewhere in the world, right?
+  description: Завжди вечірка на круїзному кораблі десь у світі, чи не так?
   components:
   - type: Sprite
     layers:

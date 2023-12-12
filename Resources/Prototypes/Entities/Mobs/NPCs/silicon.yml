@@ -136,8 +136,8 @@
 - type: entity
   parent: MobSiliconBaseVehicle
   id: MobTaxiBot
-  name: taxibot
-  description: Give a ride?
+  name: таксі-бот
+  description: Підвезти?
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/taxibot.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: MobSiliconBaseVehicle
   id: MobSupplyBot
-  name: supplybot
-  description: Delivers cargo!
+  name: бот постачання
+  description: Доставляє вантаж!
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/supplybot.rsi
@@ -185,8 +185,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobHonkBot
-  name: honkbot
-  description: Horrifying.
+  name: ХОНК-бот
+  description: жахливо.
   components:
   - type: SpamEmitSound
     sound:
@@ -233,8 +233,8 @@
 - type: entity
   parent: MobHonkBot
   id: MobJonkBot
-  name: jonkbot
-  description: Horrifying.
+  name: прикол-бот
+  description: жахливо.
   components:
   - type: SpamEmitSound
     sound:
@@ -265,8 +265,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobCleanBot
-  name: cleanbot
-  description: The creep of automation now threatening space janitors.
+  name: чистий-бот
+  description: Повзуча автоматизація зараз загрожує космічним прибиральникам.
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/cleanbot.rsi
@@ -313,8 +313,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobMedibot
-  name: medibot
-  description: No substitute for a doctor, but better than nothing.
+  name: медібот
+  description: Ніщо не замінить лікаря, але краще, ніж нічого.
   components:
   - type: Medibot
   - type: EmaggableMedibot
@@ -344,8 +344,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobMimeBot
-  name: mimebot
-  description: Why not give mimebot a friendly wave.
+  name: мім-бот
+  description: Чому б не помахати мім-боту дружньо.
   components:
   - type: InventorySlots
   - type: Strippable

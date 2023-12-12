@@ -1,8 +1,8 @@
 - type: entity
-  name: Mimic
+  name: Мімік
   id: MobMimic
   parent: [ SimpleMobBase, MobCombat ]
-  description: Surprise. # When this gets a proper write this should use the object's actual description >:)
+  description: Сюрприз. # Коли це отримує правильний запис, це має використовувати фактичний опис об'єкта >:)
   components:
   - type: Tag
     tags:

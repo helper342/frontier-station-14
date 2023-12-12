@@ -21,7 +21,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerVisible
-  name: ClickTestRotatingCornerVisible
+  name: Клацніть Перевірити видимість обертового кута
   parent: ClickTestBase
   components:
   - type: Clickable
@@ -31,7 +31,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerVisibleNoRot
-  name: ClickTestRotatingCornerVisibleNoRot
+  name: Клацніть «Перевірити поворотний кут, видимий, немає гнилі».
   parent: ClickTestRotatingCornerVisible
   components:
   - type: Sprite
@@ -39,7 +39,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerInvisible
-  name: ClickTestRotatingCornerInvisible
+  name: Клацніть Перевірити невидимий обертовий кут
   parent: ClickTestBase
   components:
   - type: Clickable
@@ -55,7 +55,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerInvisibleNoRot
-  name: ClickTestRotatingCornerInvisibleNoRot
+  name: Клацніть Перевірити невидимий обертовий кут без гнилі
   parent: ClickTestRotatingCornerInvisible
   components:
     - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: ClickTestFixedCornerVisible
-  name: ClickTestFixedCornerVisible
+  name: Клацніть Перевірити видимість фіксованого кута
   parent: ClickTestBase
   components:
   - type: Clickable
@@ -74,7 +74,7 @@
 
 - type: entity
   id: ClickTestFixedCornerInvisible
-  name: ClickTestFixedCornerInvisible
+  name: Натисніть перевірте невидимий фіксований кут
   parent: ClickTestBase
   components:
   - type: Clickable

@@ -3,7 +3,7 @@
   id: ClothingHeadHatHoodBioGeneral
   name: біо капюшон
   suffix: Generic
-  description: A hood that protects the head and face from biological contaminants.
+  description: Капюшон, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/general.rsi
@@ -19,7 +19,7 @@
   id: ClothingHeadHatHoodBioCmo
   name: біо капюшон
   suffix: CMO
-  description: An advanced hood for chief medical officers that protects the head and face from biological contaminants.
+  description: Удосконалений капюшон для головних лікарів, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/cmo.rsi
@@ -31,7 +31,7 @@
   id: ClothingHeadHatHoodBioJanitor
   name: біо капюшон
   suffix: Janitor
-  description: A hood that protects the head and face from biological contaminants.
+  description: Капюшон, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/janitor.rsi
@@ -43,7 +43,7 @@
   id: ClothingHeadHatHoodBioScientist
   name: біо капюшон
   suffix: Science
-  description: A hood that protects the head and face from biological contaminants.
+  description: Капюшон, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/scientist.rsi
@@ -55,7 +55,7 @@
   id: ClothingHeadHatHoodBioSecurity
   name: біо капюшон
   suffix: Security
-  description: A hood that protects the head and face from biological contaminants.
+  description: Капюшон, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/security.rsi
@@ -67,7 +67,7 @@
   id: ClothingHeadHatHoodBioVirology
   name: біо капюшон
   suffix: Virology
-  description: A hood that protects the head and face from biological contaminants.
+  description: Капюшон, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/virology.rsi
@@ -79,7 +79,7 @@
   id: ClothingHeadHatHoodChaplainHood
   name: капеланський капюшон
   noSpawn: true
-  description: Maximum piety in this star system.
+  description: Максимальний пієтет у цій зоряній системі.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/chaplain.rsi
@@ -94,7 +94,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodCulthood
   name: капюшон культу
-  description: There's no cult without cult hoods.
+  description: Немає культу без культових капюшонів.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/cult.rsi
@@ -105,7 +105,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodNunHood
   name: капюшон черниці
-  description: Maximum piety in this star system.
+  description: Максимальний пієтет у цій зоряній системі.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/nun.rsi
@@ -120,7 +120,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodRad
   name: радіаційний капюшон
-  description: A hood of the hazmat suit, designed for protection from high radioactivity.
+  description: Капюшон протизахисного костюма, призначений для захисту від високої радіоактивності.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/rad.rsi
@@ -136,7 +136,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodGoliathCloak
   name: капюшон плаща голіафа
-  description: A hood of a goliath cloak, it is made from the hide of resilient fauna from a distant planet.
+  description: Капюшон плаща-голіафа, виготовлений зі шкури стійкої фауни далекої планети.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/goliathcloak.rsi
@@ -148,7 +148,7 @@
   id: ClothingHeadHatHoodIan
   noSpawn: true
   name: капюшон Іана
-  description: A hood to complete the 'Good boy' look.
+  description: Капюшон для завершення образу «Хороший хлопчик».
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/iansuit.rsi
@@ -163,7 +163,7 @@
   id: ClothingHeadHatHoodCarp
   noSpawn: true
   name: карповий капюшон
-  description: A gnarly hood adorned with plastic space carp teeth.
+  description: Вулуватий капюшон, прикрашений пластиковими космічними зубами коропа.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/carpsuit.rsi
@@ -177,7 +177,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodMoth
   name: маска молі
-  description: A mask in the form of a moths head is usually made of lightweight materials. It mimics the shape of a moths head with large eyes and long antennae. Such masks are often used in cosplay, or when shooting movies and videos.
+  description: Маска у вигляді голови молі зазвичай виготовляється з легких матеріалів. Він імітує форму голови метелика з великими очима і довгими вусиками. Такі маски часто використовують в косплеї, або при зйомках фільмів і відео.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/moth.rsi
@@ -217,7 +217,7 @@
   id: ClothingHeadHatHoodWinterCaptain
   noSpawn: true
   name: Капюшон капітанський зимовий
-  description: An expensive hood, to keep the captain's head warm.
+  description: Дорогий капюшон, щоб зігріти голову капітана.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcaptain.rsi
@@ -251,7 +251,7 @@
   id: ClothingHeadHatHoodWinterCentcom
   noSpawn: true
   name: Капюшон ЦентКому зимовий
-  description: A hood for keeping the central comander's head warm.
+  description: Капюшон для утеплення голови центрального командира.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcentcom.rsi

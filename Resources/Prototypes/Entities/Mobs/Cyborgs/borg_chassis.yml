@@ -28,7 +28,7 @@
 - type: entity
   id: BorgChassisMining
   parent: BaseBorgChassisNT
-  name: salvage cyborg
+  name: рятувальний кіборг
   components:
   - type: Sprite
     layers:
@@ -55,7 +55,7 @@
 - type: entity
   id: BorgChassisEngineer
   parent: BaseBorgChassisNT
-  name: engineer cyborg
+  name: інженер кіборг
   components:
   - type: Sprite
     layers:
@@ -82,7 +82,7 @@
 - type: entity
   id: BorgChassisJanitor
   parent: BaseBorgChassisNT
-  name: janitor cyborg
+  name: прибиральник кіборг
   components:
   - type: Sprite
     layers:
@@ -109,7 +109,7 @@
 - type: entity
   id: BorgChassisMedical
   parent: BaseBorgChassisNT
-  name: medical cyborg
+  name: медичний кіборг
   components:
   - type: Sprite
     layers:
@@ -136,7 +136,7 @@
 - type: entity
   id: BorgChassisService
   parent: BaseBorgChassisNT
-  name: service cyborg
+  name: службовий кіборг
   components:
   - type: Sprite
     layers:

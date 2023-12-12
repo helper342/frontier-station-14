@@ -85,6 +85,9 @@
         whitelist:
           components:
           - PowerCell
+        blacklist:
+          tags:
+          - PotatoBattery
 
 - type: entity
   parent: BaseItemRecharger
@@ -136,7 +139,7 @@
   parent: BaseRecharger
   id: BorgCharger
   name: станція підзарядки кіборгів
-  description: A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
+  description: Стаціонарний зарядний пристрій для різних роботів і кіборгів. Напрочуд просторий.
   components:
   - type: Sprite
     sprite: Structures/Power/borg_charger.rsi

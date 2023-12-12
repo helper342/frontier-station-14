@@ -1,6 +1,6 @@
 - type: entity
-  name: particles
-  description: Accelerated particles.
+  name: частинки
+  description: Прискорені частинки.
   id: ParticlesProjectile
   parent: BaseBullet
   noSpawn: true

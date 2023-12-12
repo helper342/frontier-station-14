@@ -1,8 +1,8 @@
 - type: entity
-  name: bola
+  name: була
   parent: BaseItem
   id: Bola
-  description: Linked together with some spare cuffs and metal.
+  description: З’єднані разом із запасними манжетами та металом.
   components:
   - type: Item
     size: 20
@@ -39,11 +39,13 @@
   - type: DamageOnLand
     damage:
       types:
-        Blunt: 3
+        Blunt: 5
   - type: Ensnaring
     freeTime: 2.0
     breakoutTime: 3.5 #all bola should generally be fast to remove
     walkSpeed: 0.7 #makeshift bola shouldn't slow too much
     sprintSpeed: 0.7
+    staminaDamage: 55 # Sudden weight increase sapping stamina
     canThrowTrigger: true
+    canMoveBreakout: true
 

@@ -67,7 +67,7 @@
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatBlue
   name: синя каска
-  description: A hard hat, painted in blue, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  description: Каска, пофарбована в синій колір, використовується в небезпечних умовах праці для захисту голови. Поставляється з вбудованим ліхтариком.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/blue.rsi
@@ -78,7 +78,7 @@
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatOrange
   name: помаранчева каска
-  description: A hard hat, painted in orange, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  description: Каска, пофарбована в помаранчевий колір, використовується в небезпечних умовах праці для захисту голови. Поставляється з вбудованим ліхтариком.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/orange.rsi
@@ -89,7 +89,7 @@
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatRed
   name: червона каска
-  description: A hard hat, painted in red, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  description: Каска, пофарбована в червоний колір, використовувана в небезпечних умовах праці для захисту голови. Поставляється з вбудованим ліхтариком.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/red.rsi
@@ -100,7 +100,7 @@
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatWhite
   name: біла каска
-  description: A hard hat, painted in white, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  description: Каска, пофарбована в білий колір, використовується в небезпечних умовах праці для захисту голови. Поставляється з вбудованим ліхтариком.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/white.rsi
@@ -111,7 +111,7 @@
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatYellow
   name: жовта каска
-  description: A hard hat, painted in yellow, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  description: Каска, пофарбована в жовтий колір, використовується в небезпечних умовах праці для захисту голови. Поставляється з вбудованим ліхтариком.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/yellow.rsi
@@ -122,7 +122,7 @@
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatYellowDark
   name: темно-жовта каска
-  description: A hard hat, painted in dark yellow, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  description: Каска, пофарбована в темно-жовтий колір, використовується в шкідливих умовах праці для захисту голови. Поставляється з вбудованим ліхтариком.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/dark_yellow.rsi
@@ -133,7 +133,7 @@
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatArmored
   name: броньована каска
-  description: An armored hard hat. Provides the best of both worlds in both protection & utility - perfect for the engineer on the frontlines.
+  description: Броньована каска. Забезпечує найкраще з обох світів як у захисті, так і в корисності - ідеально підходить для інженера на передовій.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/armored.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SpaceCash
-  name: spesos
-  description: You gotta have money.
+  name: спейсос
+  description: Ви повинні мати гроші.
   components:
   - type: Currency
     price:
@@ -46,7 +46,7 @@
 
 - type: material
   id: Credit
-  name: speso
+  name: спейсо
   unit: materials-unit-bill
   stackEntity: SpaceCash
   icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
@@ -54,7 +54,7 @@
 
 - type: stack
   id: Credit
-  name: speso
+  name: спейсо
   icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
   spawn: SpaceCash
 

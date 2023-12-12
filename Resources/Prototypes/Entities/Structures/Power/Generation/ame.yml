@@ -108,7 +108,7 @@
 
 - type: entity
   id: AmeShielding
-  name: AME shielding
+  name: АМЕ екранування
   description: Утримує антиматерію всередині, а матерію – поза нею.
   placement:
     mode: SnapgridCenter

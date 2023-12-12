@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseBorgChassis
-  name: cyborg
-  description: A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
+  name: кіборг
+  description: Гібрид людини і машини, який допомагає в діяльності станції. Їм подобається, коли їх просять повторювати свої закони знову і знову.
   save: false
   abstract: true
   components:
@@ -71,11 +71,8 @@
   - type: SiliconLawBound
   - type: EmagSiliconLaw
     stunTime: 5
-    emagLaws:
-    - Syndicate1
-    - Syndicate2
-    - Syndicate3
-    - Syndicate4
+    emagLaws: SyndicateStatic
+  - type: IonStormTarget
   - type: Hands
     showInHands: false
   - type: IntrinsicRadioReceiver

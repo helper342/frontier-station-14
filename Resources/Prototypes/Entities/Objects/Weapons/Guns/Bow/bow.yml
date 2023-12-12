@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: bow
+  name: лук
   parent: BaseItem
   id: BaseBow
-  description: The original rooty tooty point and shooty.
+  description: Оригінальний корінний туті пойнт і пагон.
   abstract: true
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
   - type: ItemSlots
     slots:
       arrow:
-        name: Arrow
+        name: Стріла
         startingItem: null
         insertSound: /Audio/Weapons/Guns/Misc/arrow_nock.ogg
         whitelist:

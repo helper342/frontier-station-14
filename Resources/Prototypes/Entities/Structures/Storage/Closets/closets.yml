@@ -3,7 +3,7 @@
   id: ClosetTool
   name: шафа для інструментів
   parent: ClosetBase
-  description: It's a storage unit for tools.
+  description: Це місце для зберігання інструментів.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -16,7 +16,7 @@
   id: ClosetRadiationSuit
   name: радіаційна шафа костюма
   parent: ClosetBase
-  description: "More comfortable than radiation poisioning."
+  description: "Більш комфортно, ніж радіаційне отруєння."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -29,7 +29,7 @@
   id: ClosetEmergency
   name: аварійна шафа
   parent: ClosetBase
-  description: It's a storage unit for emergency breath masks and O2 tanks.
+  description: Це блок зберігання для екстрених дихальних масок і баків з O2.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -42,7 +42,7 @@
   id: ClosetFire
   name: пожежна шафа
   parent: ClosetBase
-  description: It's a storage unit for fire-fighting supplies.
+  description: Це місце для зберігання засобів пожежогасіння.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -55,7 +55,7 @@
   id: ClosetBomb
   name: EOD шафа
   parent: ClosetBase
-  description: It's a storage unit for explosion-protective suits.
+  description: Блок зберігання вибухозахисних костюмів.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -70,7 +70,7 @@
   id: ClosetL3
   parent: ClosetBase
   name: шафа для спрорядження 3 рівня біологічної небезпеки
-  description: It's a storage unit for level 3 biohazard gear.
+  description: Це блок зберігання для біологічно небезпечного спорядження 3 рівня.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -116,7 +116,7 @@
   id: ClosetMaintenance
   name: шафа для обслуговування
   parent: ClosetBase
-  description: It's a storage unit.
+  description: Це одиниця зберігання.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -129,7 +129,7 @@
   name: підозріла шафа
   suffix: Bluespace
   parent: ClosetMaintenance
-  description: It's a storage unit... right?
+  description: Це одиниця зберігання... так?
   components:
     - type: BluespaceLocker
       pickLinksFromSameMap: true
@@ -147,7 +147,7 @@
   name: підозріла шафа
   suffix: Bluespace unstable
   parent: ClosetMaintenance
-  description: It's a storage unit... right?
+  description: Це одиниця зберігання... так?
   components:
     - type: BluespaceLocker
       pickLinksFromSameMap: true

@@ -71,7 +71,7 @@
       - ShoesRequiredStepTriggerImmune
 
 - type: entity
-  name: drone
+  name: дрон
   id: Drone
   parent: PlayerSiliconBase
   components:
@@ -96,8 +96,8 @@
       type: SiliconLawBoundUserInterface
   #- type: GhostRole
   #  makeSentient: true
-  #  name: Maintenance Drone
-  #  description: Maintain the station. Ignore other beings except drones.
+  #  name: Технічний дрон
+  #  description: Утримувати станцію. Ігноруйте інших істот, крім трутнів.
   #  rules: |
   #   You are bound by these laws both in-game and out-of-character:
   #   1. You may not involve yourself in the matters of another being, even if such matters conflict with Law Two or Law Three, unless the other being is another Drone.
@@ -106,10 +106,7 @@
   #- type: GhostTakeoverAvailable
   - type: SiliconLawBound
   - type: SiliconLawProvider
-    laws:
-    - Drone1
-    - Drone2
-    - Drone3
+    laws: Drone
   - type: MovementSpeedModifier
     baseWalkSpeed : 5
     baseSprintSpeed : 5
@@ -183,7 +180,7 @@
       - CannotSuicide
 
 - type: entity
-  name: onestar mecha
+  name: онестар меха
   id: Onestar
   parent: PlayerSiliconBase
   components:
@@ -259,6 +256,8 @@
       cell_slot:
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
+  - type: RandomMetadata
+    nameSegments: [names_borg]
 
 - type: entity
   id: PlayerBorgBattery

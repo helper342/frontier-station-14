@@ -6,9 +6,10 @@
   category: Small
   group: Civilian
   shuttlePath: /Maps/Shuttles/svorange.yml
+
 - type: gameMap
   id: svorange
-  mapName: 'SV-Orange'
+  mapName: 'SV Orange'
   mapPath: /Maps/Shuttles/svorange.yml
   minPlayers: 0
   stations:
@@ -16,7 +17,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} SV-Orange {1}'
+          mapNameTemplate: 'Orange {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

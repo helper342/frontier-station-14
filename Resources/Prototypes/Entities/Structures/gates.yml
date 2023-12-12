@@ -17,7 +17,7 @@
   parent: BaseLogicItem
   id: LogicGate
   name: логічні ворота
-  description: A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
+  description: Логічний вентиль з двома входами та одним виходом. Техніки можуть змінити його режим роботи за допомогою викрутки.
   components:
   - type: Sprite
     layers:
@@ -51,7 +51,7 @@
   parent: BaseLogicItem
   id: EdgeDetector
   name: детектор краю
-  description: Splits rising and falling edges into unique pulses and detects how edgy you are.
+  description: Розділяє наростаючі та спадаючі фронти на унікальні імпульси та визначає, наскільки ви різкі.
   components:
   - type: Sprite
     state: edge_detector

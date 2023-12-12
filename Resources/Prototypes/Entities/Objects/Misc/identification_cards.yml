@@ -76,7 +76,7 @@
 - type: entity
   parent: PassengerIDCard
   id: SecurityCadetIDCard
-  name: cadet ID картка
+  name: ID картка кадета
   components:
   - type: PresetIdCard
     job: SecurityCadet
@@ -450,6 +450,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Central Commander
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -499,7 +500,7 @@
 - type: entity
   parent: CentcomIDCard
   id: CentcomIDCardDeathsquad
-  name: deathsquad ID картка
+  name: ID картка ескадрону смерті
   components:
   - type: Sprite
     layers:
@@ -715,7 +716,7 @@
 - type: entity
   parent: IDCardStandard
   id: SeniorEngineerIDCard
-  name: ID картка senior інженера
+  name: ID картка старшого інженера
   components:
   - type: Sprite
     layers:
@@ -727,7 +728,7 @@
 - type: entity
   parent: IDCardStandard
   id: SeniorResearcherIDCard
-  name: ID картка senior науковця
+  name: ID картка старшого науковця
   components:
   - type: Sprite
     layers:
@@ -739,7 +740,7 @@
 - type: entity
   parent: IDCardStandard
   id: SeniorPhysicianIDCard
-  name: ID картка senior медика
+  name: ID картка старшого медика
   components:
   - type: Sprite
     layers:
@@ -751,7 +752,7 @@
 - type: entity
   parent: IDCardStandard
   id: SeniorOfficerIDCard
-  name: ID картка senior офіцера
+  name: ID картка старшого офіцера
   components:
   - type: Sprite
     layers:

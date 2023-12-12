@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AnomalyScanner
-  name: anomaly scanner
-  description: A hand-held scanner built to collect information on various anomalous objects.
+  name: сканер аномалій
+  description: Ручний сканер, створений для збору інформації про різноманітні аномальні об’єкти.
   components:
   - type: Sprite
     sprite: Objects/Specific/Research/anomalyscanner.rsi
@@ -23,8 +23,8 @@
 - type: entity
   id: AnomalyLocatorUnpowered
   parent: BaseItem
-  name: anomaly locator
-  description: A device designed to aid in the locating of anomalies. Did you check the gas miners?
+  name: локатор аномалії
+  description: Пристрій, призначений для виявлення аномалій. Газовиків перевіряли?
   suffix: Unpowered
   components:
   - type: Sprite
@@ -75,8 +75,8 @@
 - type: entity
   id: AnomalyLocatorWideUnpowered
   parent: AnomalyLocatorUnpowered
-  name: wide-spectrum anomaly locator
-  description: A device that looks for anomalies from an extended distance, but has no way to determine the distance to them.
+  name: локатор аномалій широкого спектру
+  description: Пристрій, який шукає аномалії на великій відстані, але не має можливості визначити відстань до них.
   suffix: Unpowered
   components:
   - type: Sprite

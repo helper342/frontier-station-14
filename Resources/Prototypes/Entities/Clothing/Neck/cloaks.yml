@@ -64,7 +64,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakHerald
-  name: herald's cloak
+  name: плащ глашатая
   description: Червоний плащ злого вигляду з шипами на плечах.
   components:
   - type: Sprite

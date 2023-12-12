@@ -1,8 +1,8 @@
 - type: entity
-  name: flashlight
+  name: спалах світла
   parent: BaseItem
   id: FlashlightLantern
-  description: It lights the way to freedom.
+  description: Воно освітлює шлях до свободи.
   components:
   - type: Tag
     tags:
@@ -69,10 +69,10 @@
     price: 15.5
 
 - type: entity
-  name: seclite
+  name: секліт
   parent: FlashlightLantern
   id: FlashlightSeclite
-  description: A robust flashlight used by security.
+  description: Надійний ліхтарик, який використовується охороною.
   components:
   - type: Tag
     tags:

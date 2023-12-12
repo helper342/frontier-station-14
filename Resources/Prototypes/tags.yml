@@ -234,7 +234,7 @@
 
 - type: Tag
   id: CanPilot
-  
+
 - type: Tag
   id: CannonRestrict
 
@@ -840,6 +840,12 @@
   id: PlushieSharkGrey
 
 - type: Tag
+  id: Potato
+
+- type: Tag
+  id: PotatoBattery
+
+- type: Tag
   id: PowerCellSmall
 
 - type: Tag
@@ -923,6 +929,9 @@
 
 - type: Tag
   id: SkeletonMotorcycleKeys
+
+- type: Tag
+  id: SmallAIChip
 
 - type: Tag
   id: SmallMech
@@ -1085,3 +1094,9 @@
 
 - type: Tag
   id: MindShield
+
+- type: Tag
+  id: BloodFood
+
+- type: Tag
+  id: MothFood

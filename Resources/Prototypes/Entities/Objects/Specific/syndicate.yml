@@ -1,9 +1,9 @@
 - type: entity
-  name: telecrystal
+  name: телекристал
   parent: BaseItem
   id: Telecrystal
   suffix: 20 TC
-  description: It seems to be pulsing with suspiciously enticing energies.
+  description: Здається, воно пульсує підозріло привабливою енергією.
   components:
   - type: Sprite
     sprite: Objects/Specific/Syndicate/telecrystal.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseItem
   id: BaseUplinkRadio
-  name: syndicate uplink
-  description: Suspiciously looking old radio...
+  name: синдикат аплінк
+  description: Підозріло виглядає старе радіо...
   suffix: Empty
   components:
   - type: Sprite

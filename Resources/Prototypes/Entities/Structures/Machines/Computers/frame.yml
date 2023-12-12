@@ -46,8 +46,8 @@
 - type: entity
   id: ComputerFrame
   parent: BaseStructureComputer
-  name: computer frame
-  description: A computer under construction.
+  name: основа комп'ютера
+  description: Комп'ютер у стадії розробки.
   components:
   - type: Sprite
     sprite: Structures/Machines/parts.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: BaseStructureComputer
   id: ComputerBroken
-  name: broken computer
-  description: This computer has seen better days.
+  name: зламаний комп'ютер
+  description: Цей комп’ютер бачив кращі дні.
   components:
   - type: Construction
     graph: Computer

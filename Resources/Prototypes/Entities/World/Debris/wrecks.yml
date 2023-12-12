@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseScrapDebris
   parent: BaseDebris
-  name: Scrap Debris
+  name: Уламки брухту
   abstract: true
   components:
     - type: MapGrid
@@ -25,6 +25,8 @@
             prob: 0.3
           - id: SalvageCanisterSpawner
             prob: 0.3
+          - id: SalvageLiquidCanisterSpawner # Frontier
+            prob: 0.03
           - id: SalvageMobSpawner
             prob: 0.3
           - id: SpawnMobBearSalvage
@@ -100,7 +102,7 @@
 - type: entity
   id: ScrapDebrisSmall
   parent: BaseScrapDebris
-  name: Scrap Debris Small
+  name: Уламки брухту малий
   noSpawn: true
   components:
     - type: MapGrid
@@ -110,7 +112,7 @@
 - type: entity
   id: ScrapDebrisMedium
   parent: BaseScrapDebris
-  name: Scrap Debris Medium
+  name: Уламки брухту середній
   noSpawn: true
   components:
     - type: MapGrid
@@ -120,7 +122,7 @@
 - type: entity
   id: ScrapDebrisLarge
   parent: BaseScrapDebris
-  name: Scrap Debris Large
+  name: Уламки брухту великий
   noSpawn: true
   components:
     - type: MapGrid

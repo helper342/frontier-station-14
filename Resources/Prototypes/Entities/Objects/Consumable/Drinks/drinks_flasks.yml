@@ -12,7 +12,7 @@
   parent: FlaskBase
   id: DrinkShinyFlask
   name: близкуча фляга
-  description: A shiny metal flask. It appears to have a Greek symbol inscribed on it.
+  description: Блискуча металева колба. Здається, на ньому вписаний грецький символ.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shinyflask.rsi
@@ -21,7 +21,7 @@
   parent: FlaskBase
   id: DrinkMREFlask
   name: фляга MRE
-  description: An old military flask, filled with the finest contents for soldiers
+  description: Старовинна фляжка, наповнена найкращим вмістом для солдатів
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mreflask.rsi
@@ -40,7 +40,7 @@
   parent: FlaskBase
   id: DrinkDetFlask
   name: інспекторська фляга
-  description: A metal flask with a leather band and golden badge belonging to the inspector.
+  description: Металева фляга зі шкіряним ремінцем і золотим значком інспектора.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/detflask.rsi
@@ -49,7 +49,7 @@
   parent: FlaskBase
   id: DrinkHosFlask
   name: фляга ГП
-  description: A metal flask, fit for a hard working HoS.
+  description: Металева колба, підходить для працьовитого ГП.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/hosflask.rsi
@@ -58,7 +58,7 @@
   parent: FlaskBase
   id: DrinkFlask
   name: фляга кепа
-  description: A metal flask belonging to the captain
+  description: Металева фляга, що належить капітану
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/flask.rsi
@@ -67,7 +67,7 @@
   parent: FlaskBase
   id: DrinkFlaskBar
   name: барна фляга
-  description: A metal flask often given out by the bartender on loan. Don't forget to return it!
+  description: Металева фляга, яку бармен часто дає в борг. Не забудьте повернути!
   components:
     - type: Sprite
       sprite: Objects/Consumable/Drinks/barflask.rsi
@@ -89,7 +89,7 @@
   parent: FlaskBase
   id: DrinkLithiumFlask
   name: літієва фляга
-  description: A flask with a Lithium Atom symbol on it.
+  description: Колба з символом атома літію.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/lithiumflask.rsi
@@ -100,7 +100,7 @@
   parent: FlaskBase
   id: DrinkVacuumFlask
   name: вакуумна фляга
-  description: Keeping your drinks at the perfect temperature since 1892.
+  description: Підтримуйте ідеальну температуру ваших напоїв з 1892 року.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vacuumflask.rsi

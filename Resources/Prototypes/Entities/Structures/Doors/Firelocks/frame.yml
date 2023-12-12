@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: FirelockFrame
   parent: BaseStructureDynamic
-  name: Firelock Frame
-  description: That is a firelock frame.
+  name: Рама протипожежного замка
+  description: Це рама протипожежного замку.
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/firelock.rsi

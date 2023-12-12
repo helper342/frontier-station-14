@@ -53941,7 +53941,7 @@ entities:
     - pos: -13.482979,-24.072556
       parent: 1
       type: Transform
-- proto: ClothingShoesBootsMerc
+- proto: ClothingShoesBootsMercenary
   entities:
   - uid: 6920
     components:

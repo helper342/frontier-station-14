@@ -48,10 +48,10 @@
     - Belt
 
 - type: entity
-  name: retro laser pistol
+  name: ретро лазерний пістолет
   parent: BaseWeaponBatterySmall
   id: WeaponLaserGun
-  description: A weapon using light amplified by the stimulated emission of radiation.
+  description: Зброя, яка використовує світло, підсилене стимульованим випромінюванням.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
@@ -75,10 +75,10 @@
     price: 190
 
 - type: entity
-  name: makeshift laser pistol
+  name: саморобний лазерний пістолет
   parent: BaseWeaponBatterySmall
   id: WeaponMakeshiftLaser
-  description: Better pray it won't burn your hands off.
+  description: Краще моліться, щоб це не обпекло вам руки.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
@@ -98,10 +98,10 @@
     startingCharge: 500
 
 - type: entity
-  name: laser rifle
+  name: лазерна гвинтівка
   parent: BaseWeaponBattery
   id: WeaponLaserCarbine
-  description: Favoured by Nanotrasen Security for being cheap and easy to use.
+  description: Віддає перевагу Nanotrasen Офіцерам за те, що він дешевий і простий у використанні.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
@@ -124,20 +124,20 @@
     fireCost: 55.5
 
 - type: entity
-  name: practice laser rifle
+  name: практика лазерної гвинтівки
   parent: WeaponLaserCarbine
   id: WeaponLaserCarbinePractice
-  description: This modified laser rifle fires harmless beams in the 40-watt range, for target practice.
+  description: Ця модифікована лазерна гвинтівка випускає нешкідливі промені в діапазоні 40 Вт для стрільби.
   components:
   - type: HitscanBatteryAmmoProvider
     proto: RedLaserPractice
     fireCost: 62.5
 
 - type: entity
-  name: pulse pistol
+  name: імпульсний пістолет
   parent: BaseWeaponBatterySmall
   id: WeaponPulsePistol
-  description: A state of the art energy pistol favoured as a sidearm by the NT-ERT operatives.
+  description: Сучасний енергетичний пістолет, який оперативники NT-ERT віддають перевагу як зброю.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
@@ -163,10 +163,10 @@
     startingCharge: 2000
 
 - type: entity
-  name: pulse carbine
+  name: імпульсний карабін
   parent: BaseWeaponBattery
   id: WeaponPulseCarbine
-  description: A high tech energy carbine favoured by the NT-ERT operatives.
+  description: Високотехнологічний енергетичний карабін, улюблений оперативниками NT-ERT.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
@@ -194,10 +194,10 @@
     startingCharge: 5000
 
 - type: entity
-  name: pulse rifle
+  name: імпульсна гвинтівка
   parent: BaseWeaponBattery
   id: WeaponPulseRifle
-  description: A weapon that is almost as infamous as its users.
+  description: Зброя, яка майже така ж ганебна, як і її користувачі.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
@@ -221,10 +221,10 @@
     startingCharge: 40000
 
 - type: entity
-  name: laser cannon
+  name: лазерна гармата
   parent: BaseWeaponBattery
   id: WeaponLaserCannon
-  description: A heavy duty, high powered laser weapon.
+  description: Надпотужна лазерна зброя високої потужності.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
@@ -249,10 +249,10 @@
 
 
 - type: entity
-  name: x-ray cannon
+  name: рентгенівська гармата
   parent: BaseWeaponBattery
   id: WeaponXrayCannon
-  description: An experimental weapon that uses concentrated x-ray energy against its target.
+  description: Експериментальна зброя, яка використовує концентровану рентгенівську енергію проти своєї цілі.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/xray.rsi
@@ -280,10 +280,10 @@
     startingCharge: 4000
 
 - type: entity
-  name: disabler
+  name: дісаблер
   parent: BaseWeaponBatterySmall
   id: WeaponDisabler
-  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
+  description: Зброя самооборони, яка виснажує органічні цілі, послаблюючи їх, поки вони не впадуть.
   components:
     - type: Tag
       tags:
@@ -319,10 +319,10 @@
       - Security
 
 - type: entity
-  name: practice disabler
+  name: практичний дісаблер
   parent: WeaponDisabler
   id: WeaponDisablerPractice
-  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse. This one has been undertuned for cadets.
+  description: Зброя самооборони, яка виснажує органічні цілі, послаблюючи їх, поки вони не впадуть. Цей був адаптований для курсантів.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Battery/practice_disabler.rsi
@@ -342,10 +342,10 @@
       fireCost: 100
 
 - type: entity
-  name: taser
+  name: електрошокер
   parent: BaseWeaponBatterySmall
   id: WeaponTaser
-  description: A low-capacity, energy-based stun gun used by security teams to subdue targets at range.
+  description: Електрошокер малої потужності, який використовується службами безпеки для придушення цілей на відстані.
   components:
   - type: Tag
     tags:
@@ -378,10 +378,10 @@
   - type: Appearance
 
 - type: entity
-  name: antique laser pistol
+  name: старовинний лазерний пістолет
   parent: BaseWeaponBatterySmall
   id: WeaponAntiqueLaser
-  description: This is an antique laser pistol. All craftsmanship is of the highest quality. It is decorated with assistant leather and chrome. The object menaces with spikes of energy.
+  description: Це старовинний лазерний пістолет. Уся майстерність найвищої якості. Він оздоблений асистентською шкірою і хромом. Об'єкт загрожує спалахами енергії.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
@@ -415,10 +415,10 @@
     price: 750
 
 - type: entity
-  name: advanced laser pistol
+  name: вдосконалений лазерний пістолет
   parent: BaseWeaponBatterySmall
   id: WeaponAdvancedLaser
-  description: An experimental high-energy laser pistol with a self-charging nuclear battery.
+  description: Експериментальний високоенергетичний лазерний пістолет з самозарядним ядерним акумулятором.
   components:
   - type: Item
     size: 30  # Intentionally larger than other pistols
@@ -450,10 +450,10 @@
     price: 63
 
 - type: entity
-  name: C.H.I.M.P. handcannon
+  name: C.H.I.M.P. ручна гармата
   parent: BaseWeaponBatterySmall
   id: WeaponPistolCHIMP
-  description: Just because it's a little C.H.I.M.P. doesn't mean it can't punch like an A.P.E.
+  description: Просто тому, що це трохи C.H.I.M.P. не означає, що він не може бити як A.P.E.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
@@ -477,7 +477,7 @@
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: AnomalousParticleDeltaStrong
-    fireCost: 100 
+    fireCost: 100
   - type: BatteryWeaponFireModes
     fireModes:
     - proto: AnomalousParticleDeltaStrong
@@ -489,12 +489,12 @@
   - type: Construction
     graph: UpgradeWeaponPistolCHIMP
     node: start
-      
+
 - type: entity
-  name: experimental C.H.I.M.P. handcannon
+  name: експериментальний C.H.I.M.P. ручна гармата
   parent: WeaponPistolCHIMP
   id: WeaponPistolCHIMPUpgraded
-  description: This C.H.I.M.P. seems to have a greater punch than is usual...
+  description: Цей C.H.I.M.P. здається, має більший удар, ніж зазвичай...
   components: 
   - type: BatteryWeaponFireModes
     fireModes:
@@ -503,15 +503,15 @@
     - proto: AnomalousParticleEpsilonStrong
       fireCost: 100
     - proto: AnomalousParticleOmegaStrong
-      fireCost: 100     
+      fireCost: 100
     - proto: AnomalousParticleZetaStrong
       fireCost: 100
 
 - type: entity
-  name: Eye of a behonker
+  name: Око бехонкера
   parent: BaseWeaponBatterySmall
   id: WeaponBehonkerLaser
-  description: The eye of a behonker, it fires a laser when squeezed.
+  description: Око бехонкера, воно запускає лазер при стисканні.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/behonker_eye.rsi

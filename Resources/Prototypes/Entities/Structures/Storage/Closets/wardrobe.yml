@@ -3,7 +3,7 @@
   id: WardrobeBase
   parent: ClosetBase
   abstract: true
-  description: It's a storage unit for standard-issue Nanotrasen attire.
+  description: Це одиниця зберігання для стандартного одягу Nanotrasen.
 
 # Colored
 
@@ -12,7 +12,7 @@
   id: WardrobeBlue
   parent: WardrobeBase
   name: блакитний гардероб
-  description: "A wardrobe packed with stylish blue clothing."
+  description: "Гардероб, набитий стильним синім одягом."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -25,7 +25,7 @@
   id: WardrobePink
   parent: WardrobeBase
   name: рожевий гардероб
-  description: "A wardrobe packed with fabulous pink clothing."
+  description: "Гардероб, наповнений чарівним рожевим одягом."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -38,7 +38,7 @@
   id: WardrobeBlack
   parent: WardrobeBase
   name: чорний гардероб
-  description: "A wardrobe packed with stylish black clothing."
+  description: "Гардероб, наповнений стильним чорним одягом."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -51,7 +51,7 @@
   id: WardrobeGreen
   parent: WardrobeBase
   name: зелений гардероб
-  description: "A wardrobe packed with stylish green clothing."
+  description: "Гардероб, наповнений стильним зеленим одягом."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -76,7 +76,7 @@
   id: WardrobeYellow
   parent: WardrobeBase
   name: жовтий гардероб
-  description: "A wardrobe packed with stylish yellow clothing."
+  description: "Гардероб, набитий стильним жовтим одягом."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -89,7 +89,7 @@
   id: WardrobeWhite
   parent: WardrobeBase
   name: біла шафа
-  description: "A wardrobe packed with stylish white clothing."
+  description: "Гардероб, наповнений стильним білим одягом."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -102,7 +102,7 @@
   id: WardrobeGrey
   parent: WardrobeBase
   name: сірий гардероб
-  description: "A wardrobe packed with a tide of grey clothing."
+  description: "Гардероб, набитий хвилею сірого одягу."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -115,7 +115,7 @@
   id: WardrobeMixed
   parent: WardrobeBase
   name: змішаний гардероб
-  description: "A wardrobe packed with a mix of colorful clothing."
+  description: "Гардероб, наповнений різноманітним різнокольоровим одягом."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -151,31 +151,31 @@
   id: ClosetJanitor
   parent: WardrobeMixed
   name: охоронна шафа
-  description: It's a storage unit for janitorial clothes and gear.
+  description: Це місце для зберігання одягу та спорядження прибиральника.
 
 - type: entity
   id: WardrobeFormal
   parent: WardrobeBlack
   name: офіційна шафа
-  description: It's a storage unit for formal clothing.
+  description: Це місце для зберігання офіційного одягу.
 
 - type: entity
   id: ClosetChef
   parent: WardrobeBlack
   name: шафа шеф-кухаря
-  description: It's a storage unit for foodservice garments and mouse traps.
+  description: Це місце для зберігання одягу для громадського харчування та мишоловок.
 
 - type: entity
   id: WardrobeChapel
   parent: WardrobeBlack
   name: гардероб капелана
-  description: It's a storage unit for Nanotrasen-approved religious attire.
+  description: Це одиниця зберігання релігійного одягу, затвердженого Nanotrasen.
 
 - type: entity
   id: ClosetLegal
   parent: WardrobeBlue
   name: юридична шафа
-  description: It's a storage unit for courtroom apparel and items.
+  description: Це сховище для одягу та предметів судового залу.
 
 - type: entity
   id: WardrobeCargo
@@ -186,7 +186,7 @@
   id: WardrobeSalvage
   parent: WardrobeMixed
   name: шахтарська шафа
-  description: Notably not salvaged.
+  description: Зокрема, не врятовано.
 
 - type: entity
   id: WardrobeEngineering

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DeskBell
-  name: desk bell
-  description: The cornerstone of any customer service job. You feel an unending urge to ring it.
+  name: настільний дзвінок
+  description: Наріжний камінь будь-якої роботи з обслуговування клієнтів. Ви відчуваєте нескінченне бажання подзвонити.
   components:
   - type: Sprite
     sprite: Objects/Misc/desk_bell.rsi
@@ -45,3 +45,5 @@
     damage:
       types:
         Blunt: 4
+  - type: StaticPrice # Frontier
+    price: 10

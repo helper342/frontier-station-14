@@ -104,7 +104,7 @@
 - type: entity
   id: IntercomAssesmbly
   name: інтерком в зборі
-  description: An intercom. It doesn't seem very helpful right now.
+  description: Домофон. Зараз це не дуже корисно.
   components:
   - type: WallMount
   - type: Clickable

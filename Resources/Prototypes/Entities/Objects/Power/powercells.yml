@@ -33,8 +33,8 @@
   - type: Riggable
 
 - type: entity
-  name: potato battery
-  description: Someone's stuck two nails and some wire in a large potato. Somehow it provides a little charge.
+  name: картопляна батарея
+  description: Хтось застромив два цвяхи і трохи дроту у велику картоплину. Якось це забезпечує невеликий заряд.
   id: PowerCellPotato
   parent: BasePowerCell
   components:
@@ -42,12 +42,19 @@
     layers:
     - state: potato
   - type: Battery
-    maxCharge: 200
-    startingCharge: 200
+    maxCharge: 70
+    startingCharge: 70
+  - type: Tag
+    tags:
+      - DroneUsable
+      - PotatoBattery
+  - type: Construction
+    graph: PowerCellPotato
+    node: potatobattery
 
 - type: entity
-  name: small-capacity power cell
-  description: A rechargeable power cell. This is the cheapest kind you can find.
+  name: елемент живлення малої ємності
+  description: Перезаряджуваний елемент живлення. Це найдешевший вид, який ви можете знайти.
   id: PowerCellSmall
   suffix: Full
   parent: BasePowerCell
@@ -87,8 +94,8 @@
     startingCharge: 0
 
 - type: entity
-  name: medium-capacity power cell
-  description: A rechargeable power cell. This is the popular and reliable version.
+  name: елемент живлення середньої потужності
+  description: Перезаряджуваний елемент живлення. Це популярна і надійна версія.
   id: PowerCellMedium
   suffix: Full
   parent: BasePowerCell
@@ -127,8 +134,8 @@
     startingCharge: 0
 
 - type: entity
-  name: high-capacity power cell
-  description: A rechargeable standardized power cell. This premium brand stores up to 50% more energy than the competition.
+  name: елемент живлення великої ємності
+  description: Перезаряджуваний стандартизований елемент живлення. Цей бренд преміум-класу зберігає на 50% більше енергії, ніж конкуренти.
   id: PowerCellHigh
   suffix: Full
   parent: BasePowerCell
@@ -165,8 +172,8 @@
     startingCharge: 0
 
 - type: entity
-  name: hyper-capacity power cell
-  description: A rechargeable standardized power cell. This one looks like a rare and powerful prototype.
+  name: елемент живлення гіперємності
+  description: Перезаряджуваний стандартизований елемент живлення. Цей виглядає як рідкісний і потужний прототип.
   id: PowerCellHyper
   suffix: Full
   parent: BasePowerCell
@@ -203,8 +210,8 @@
     startingCharge: 0
 
 - type: entity
-  name: small microreactor cell
-  description: A rechargeable standardized microreactor cell. Intended for low-power devices, it slowly recharges by itself.
+  name: малий мікрореактор
+  description: Перезаряджуваний стандартизований мікрореакторний елемент. Призначений для малопотужних пристроїв, повільно заряджається сам.
   id: PowerCellMicroreactor
   suffix: Full
   parent: BasePowerCell
@@ -224,8 +231,8 @@
       autoRechargeRate: 0.16667 #takes about 5 minutes to charge itself back to full
 
 - type: entity
-  name: antique power cell prototype
-  description: A small cell that self recharges. Used in old laser arms research.
+  name: старовинний прототип елемента живлення
+  description: Маленький елемент, який самостійно заряджається. Використовувався в старих дослідженнях лазерної зброї.
   id: PowerCellAntiqueProto
   parent: BasePowerCell
   components:

@@ -12,7 +12,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorPurple
   name: фіолетові рукавички
-  description: Regular purple gloves that do not keep you from frying.
+  description: Звичайні фіолетові рукавички, які не вбережуть вас від електрики.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/purple.rsi
@@ -25,7 +25,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorRed
   name: червоні рукавички
-  description: Regular red gloves that do not keep you from frying.
+  description: Звичайні червоні рукавички, які не вбережуть вас від електрики.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/red.rsi
@@ -38,7 +38,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorBlack
   name: чорні рукавички
-  description: Regular black gloves that do not keep you from frying.
+  description: Звичайні чорні рукавички, які не вбережуть вас від електрики.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/black.rsi
@@ -57,7 +57,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorBlue
   name: сині рукавички
-  description: Regular blue gloves that do not keep you from frying.
+  description: Звичайні сині рукавички, які не вбережуть від електрики.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/blue.rsi
@@ -70,7 +70,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorBrown
   name: коричневі рукавички
-  description: Regular brown gloves that do not keep you from frying.
+  description: Звичайні коричневі рукавички, які не вбережуть вас від електрики.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/brown.rsi
@@ -83,7 +83,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorGray
   name: сірі рукавички
-  description: Regular grey gloves that do not keep you from frying.
+  description: Звичайні сірі рукавички, які не вбережуть вас від електрики.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/gray.rsi
@@ -96,7 +96,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorGreen
   name: зелені рукавички
-  description: Regular green gloves that do not keep you from frying.
+  description: Звичайні зелені рукавички, які не вбережуть вас від електрики.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/green.rsi
@@ -109,7 +109,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorLightBrown
   name: світло-коричневі рукавички
-  description: Regular light brown gloves that do not keep you from frying.
+  description: Звичайні світло-коричневі рукавички, які не вбережуть від електрики.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/lightbrown.rsi
@@ -122,7 +122,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorOrange
   name: помаранчеві рукавички
-  description: Regular orange gloves that do not keep you from frying.
+  description: Звичайні помаранчеві рукавички, які не вбережуть від електрики.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/orange.rsi
@@ -135,7 +135,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorWhite
   name: білі рукавички
-  description: Those gloves look fancy.
+  description: Ці рукавички виглядають шикарно.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/white.rsi

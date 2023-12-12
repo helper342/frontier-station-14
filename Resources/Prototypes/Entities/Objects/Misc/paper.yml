@@ -1,8 +1,8 @@
 - type: entity
-  name: paper
+  name: папір
   parent: BaseItem
   id: Paper
-  description: 'A piece of white paper.'
+  description: 'Аркуш білого паперу.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -62,10 +62,10 @@
     price: 0 # Stop fax copy abuse.
 
 - type: entity
-  name: office paper
+  name: офісний папір
   parent: Paper
   id: PaperOffice
-  description: 'A plain sheet of office paper.'
+  description: 'Звичайний аркуш офісного паперу.'
   components:
   - type: PaperVisuals
     backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
@@ -74,10 +74,10 @@
     contentMargin: 16.0, 16.0, 16.0, 16.0
 
 - type: entity
-  name: artifact analyzer printout
+  name: роздруківка аналізатора артефактів
   parent: Paper
   id: PaperArtifactAnalyzer
-  description: 'The readout of a device forgotten to time'
+  description: 'Зчитування пристрою, забутого на час'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -105,12 +105,12 @@
     maxWritableArea: 400.0, 0.0
 
 - type: entity
-  name: captain's thoughts
-  #name: station representative thoughts
+  name: думки капітана
+  #name: думки представника станції
   parent: Paper
   id: PaperCaptainsThoughts
-  description: "A page of the captain's journal. In luxurious lavender."
-  #description: "A page of the station representative journal. In luxurious lavender."
+  description: "Сторінка журналу капітана. У розкішній лаванді."
+  #description: "Сторінка журналу представника станції. У розкішній лаванді."
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -132,10 +132,10 @@
     contentMargin: 32.0, 16.0, 32.0, 0.0
 
 - type: entity
-  name: cargo invoice
+  name: вантажна накладна
   parent: Paper
   id: PaperCargoInvoice
-  description: 'A single unit of bureaucracy.'
+  description: 'Єдина одиниця бюрократії.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -162,8 +162,8 @@
 - type: entity
   id: PaperCargoBountyManifest
   parent: PaperCargoInvoice
-  name: bounty manifest
-  description: A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
+  name: маніфест винагороди
+  description: Паперова етикетка, яка позначає ящик як такий, що містить нагороду. Продавши ящик із цією міткою, ви отримаєте винагороду.
   components:
   - type: CargoBountyLabel
   - type: StaticPrice
@@ -173,10 +173,10 @@
     - CargoBounties
 
 - type: entity
-  name: character sheet
+  name: лист характеру
   parent: Paper
   id: PaperCNCSheet # legally gray zone of using "D&D" and "DND"
-  description: 'A sheet for your Carps and Crypts characters.'
+  description: 'Аркуш для ваших персонажів Карп і Склепи.'
   components:
   - type: Paper
     contentSize: 10000
@@ -223,7 +223,7 @@
 - type: entity
   parent: Paper
   id: NukeCodePaper
-  name: nuclear authentication codes
+  name: ядерні коди автентифікації
   components:
   - type: NukeCodePaper
     allNukesAvailable: true
@@ -237,10 +237,10 @@
   - type: NukeCodePaper
 
 - type: entity
-  name: pen
+  name: ручка
   parent: BaseItem
   id: Pen
-  description: 'A dark ink pen.'
+  description: 'Темна чорнильна ручка.'
   components:
   - type: Tag
     tags:
@@ -271,10 +271,10 @@
     price: 1
 
 - type: entity
-  name: Cybersun pen
+  name: Ручка Кіберсонце
   parent: BaseItem
   id: CyberPen
-  description: A high-tech pen straight from Cybersun's legal department, capable of refracting hard-light at impossible angles through its diamond tip in order to write.
+  description: Високотехнологічна ручка безпосередньо від юридичного відділу Кіберсонце, здатна заломлювати яскраве світло під неможливими кутами через алмазний кінчик, щоб писати.
   components:
   - type: Tag
     tags:
@@ -314,10 +314,10 @@
     price: 20
 
 - type: entity
-  name: captain's fountain pen
+  name: капітанська авторучка
   parent: Pen
   id: PenCap
-  description: 'A luxurious fountain pen for the captain of the station.'
+  description: 'Розкішна авторучка для капітана станції.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -326,10 +326,10 @@
     price: 10
 
 - type: entity
-  name: Centcom pen
+  name: Ручка ЦК
   parent: CyberPen
   id: PenCentcom
-  description: In an attempt to keep up with the "power" of the cybersun bureaucracy, NT made a replica of cyber pen, in their corporate style.
+  description: Намагаючись не відставати від «влади» кіберсонячної бюрократії, NT зробили копію кіберручки у своєму фірмовому стилі.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -339,10 +339,10 @@
     heldPrefix: pen_centcom
 
 - type: entity
-  name: hop's fountain pen
+  name: авторучка хміль
   parent: Pen
   id: PenHop
-  description: 'A luxurious fountain pen for the hop of the station.'
+  description: 'Розкішна авторучка для стрибка станції.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -365,8 +365,8 @@
 - type: entity
   id: BoxFolderBase
   parent: BoxBase
-  name: folder
-  description: A folder filled with top secret paperwork.
+  name: папка
+  description: Папка, наповнена надсекретною документацією.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -489,8 +489,8 @@
 - type: entity
   id: BoxFolderClipboard
   parent: BoxFolderBase
-  name: clipboard
-  description: The weapon of choice for those on the front lines of bureaucracy.
+  name: дошка кліпу
+  description: Найкраща зброя для тих, хто на передовій бюрократії.
   components:
   - type: Sprite
     sprite: Objects/Misc/clipboard.rsi
@@ -547,8 +547,8 @@
 - type: entity
   id: BoxFolderQmClipboard
   parent: BoxFolderBase
-  name: requisition digi-board
-  description: A bulky electric clipboard, filled with shipping orders and financing details. With so many compromising documents, you ought to keep this safe.
+  name: заявка цифрова дошка
+  description: Громіздкий електричний буфер обміну, наповнений замовленнями на доставку та деталями фінансування. З такою кількістю компрометуючих документів, ви повинні зберегти це в безпеці.
   components:
   - type: Sprite
     sprite: Objects/Misc/qm_clipboard.rsi
@@ -576,7 +576,7 @@
         insertOnInteract: true
   - type: Item
     sprite: Objects/Misc/qm_clipboard.rsi
-    size: 30
+    size: 10 # Frontier
   - type: Clothing
     slots: [belt]
     quickEquip: false
@@ -616,10 +616,10 @@
 
 # Stamps
 - type: entity
-  name: generic rubber stamp
+  name: загальний штамп
   parent: BaseItem
   id: RubberStampBase
-  description: A rubber stamp for stamping important documents.
+  description: Штамп гумовий для проштампування важливих документів.
   abstract: true
   components:
   - type: Stamp
@@ -640,7 +640,7 @@
     price: 3
 
 - type: entity
-  name: alternate rubber stamp
+  name: альтернативний штамп
   parent: RubberStampBase
   id: RubberStampBaseAlt
   abstract: true
@@ -655,7 +655,7 @@
         maxdistance: 5
 
 - type: entity
-  name: captain's rubber stamp
+  name: капітанський штамп
   parent: RubberStampBase
   id: RubberStampCaptain
   suffix: DO NOT MAP
@@ -669,7 +669,7 @@
     state: stamp-cap
 
 - type: entity
-  name: CentCom rubber stamp
+  name: ЦентКом штамп
   parent: RubberStampBase
   id: RubberStampCentcom
   suffix: DO NOT MAP
@@ -683,7 +683,7 @@
     state: stamp-centcom
 
 - type: entity
-  name: chaplain's rubber stamp
+  name: штамп капелана
   parent: RubberStampBase
   id: RubberStampChaplain
   suffix: DO NOT MAP
@@ -697,7 +697,7 @@
     state: stamp-chaplain
 
 - type: entity
-  name: clown's rubber stamp
+  name: клоун штамп
   parent: RubberStampBase
   id: RubberStampClown
   suffix: DO NOT MAP
@@ -714,7 +714,7 @@
       - ClownRubberStamp
 
 - type: entity
-  name: chief engineer's rubber stamp
+  name: штамп головного інженера
   parent: RubberStampBase
   id: RubberStampCE
   suffix: DO NOT MAP
@@ -728,7 +728,7 @@
     state: stamp-ce
 
 - type: entity
-  name: chief medical officer's rubber stamp
+  name: штамп головного медичного лікаря
   parent: RubberStampBase
   id: RubberStampCMO
   suffix: DO NOT MAP
@@ -742,7 +742,7 @@
     state: stamp-cmo
 
 - type: entity
-  name: station representative's rubber stamp
+  name: штамп представника станції
   parent: RubberStampBase
   id: RubberStampHop
   suffix: DO NOT MAP
@@ -756,7 +756,7 @@
     state: stamp-hop
 
 - type: entity
-  name: sheriff's rubber stamp
+  name: штамп шерифа
   parent: RubberStampBase
   id: RubberStampHos
   suffix: DO NOT MAP
@@ -770,7 +770,7 @@
     state: stamp-hos
 
 - type: entity
-  name: mime's rubber stamp
+  name: мім штамп
   parent: RubberStampBase
   id: RubberStampMime
   suffix: DO NOT MAP
@@ -785,7 +785,7 @@
     state: stamp-mime
 
 - type: entity
-  name: quartermaster's rubber stamp
+  name: інтендантський штамп
   parent: RubberStampBase
   id: RubberStampQm
   suffix: DO NOT MAP
@@ -799,7 +799,7 @@
     state: stamp-qm
 
 - type: entity
-  name: research director's rubber stamp
+  name: штамп керівника досліджень
   parent: RubberStampBase
   id: RubberStampRd
   suffix: DO NOT MAP
@@ -813,7 +813,7 @@
     state: stamp-rd
 
 - type: entity
-  name: trader's rubber stamp
+  name: трейдер штамп
   parent: RubberStampBase
   id: RubberStampTrader
   components:
@@ -826,7 +826,7 @@
     state: stamp-trader
 
 - type: entity
-  name: syndicate rubber stamp
+  name: синдикат штамп
   parent: RubberStampBase
   id: RubberStampSyndicate
   suffix: DO NOT MAP
@@ -840,7 +840,7 @@
     state: stamp-syndicate
 
 - type: entity
-  name: bailiff's rubber stamp
+  name: штамп судового пристава
   parent: RubberStampBase
   id: RubberStampWarden
   suffix: DO NOT MAP
@@ -854,7 +854,7 @@
     state: stamp-warden
 
 - type: entity
-  name: APPROVED rubber stamp
+  name: Затверджено штамп
   parent: RubberStampBaseAlt
   id: RubberStampApproved
   components:
@@ -867,7 +867,7 @@
     state: stamp-ok
 
 - type: entity
-  name: DENIED rubber stamp
+  name: Відмовлено штамп
   parent: RubberStampBaseAlt
   id: RubberStampDenied
   components:

@@ -1,8 +1,8 @@
 - type: entity
   id: PottedPlantBase
   parent: BaseStructureDynamic
-  name: potted plant
-  description: A little bit of nature contained in a pot.
+  name: рослина в горщику
+  description: Трішки природи в горщику.
   abstract: true
   components:
   - type: Transform
@@ -113,8 +113,8 @@
 - type: entity
   id: PottedPlantBioluminscent #PottedPlant9 but i didn't want map conflicts
   parent: PottedPlantBase
-  name: "bioluminescent potted plant"
-  description: "It produces light!"
+  name: "біолюмінесцентна кімнатна рослина"
+  description: "Він виробляє світло!"
   components:
   - type: Sprite
     state: plant-09
@@ -125,7 +125,7 @@
 - type: entity
   id: PottedPlant10
   parent: PottedPlantBase
-  description: A pretty piece of nature contained in a pot.
+  description: Гарний шматочок природи в горщику.
   components:
   - type: Sprite
     state: plant-10
@@ -231,8 +231,8 @@
 - type: entity
   id: PottedPlantRD #PottedPlant25
   parent: PottedPlantBase
-  name: "RD's potted plant"
-  description: "A gift from the botanical staff, presented after the RD's reassignment. There's a tag on it that says \"Y'all come back now, y'hear?\"\nIt doesn't look very healthy..."
+  name: "Рослина в горщику РД"
+  description: "Подарунок від ботанічного персоналу, подарований після перепризначення РД. На ньому є ярлик із написом \"Ви зараз повернетеся, чуєте?\"\nЦе виглядає не дуже здорово..."
   components:
   - type: Sprite
     state: plant-25
@@ -242,8 +242,8 @@
 - type: entity
   id: PottedPlant26
   parent: PottedPlantBase
-  name: plastic potted plant
-  description: A fake, cheap looking, plastic tree. Perfect for people who kill every plant they touch.
+  name: рослина в пластиковому горщику
+  description: Підробка, дешеве пластикове дерево. Ідеально підходить для людей, які вбивають кожну рослину, до якої торкаються.
   components:
   - type: Sprite
     state: plant-26

@@ -27,10 +27,10 @@
       path: /Audio/Items/Culinary/chop.ogg
 
 - type: entity
-  name: kitchen knife
+  name: кухонний ніж
   parent: BaseKnife
   id: KitchenKnife
-  description: A general purpose Chef's Knife made by Asters Merchant Guild. Guaranteed to stay sharp for years to come..
+  description: Кухарський ніж загального призначення, виготовлений Гільдією торговців Астерс. Гарантовано залишатиметься різким протягом багатьох років..
   components:
   - type: Tag
     tags:
@@ -47,10 +47,10 @@
     - Chef
 
 - type: entity
-  name: butcher's cleaver
+  name: м'ясний тесак
   parent: BaseKnife
   id: ButchCleaver
-  description: A huge blade used for chopping and chopping up meat. This includes clowns and clown-by-products.
+  description: Величезне лезо, яке використовується для рубання та подрібнення м’яса. Сюди входять клоуни та побічні продукти клоунів.
   components:
   - type: Tag
     tags:
@@ -73,10 +73,10 @@
     - Chef
 
 - type: entity
-  name: combat knife
+  name: бойовий ніж
   parent: BaseKnife
   id: CombatKnife
-  description: A deadly knife intended for melee confrontations.
+  description: Смертоносний ніж, призначений для рукопашних зіткнень.
   components:
   - type: Tag
     tags:
@@ -99,10 +99,10 @@
     malus: 0.225
 
 - type: entity
-  name: survival knife
+  name: ніж для виживання
   parent: CombatKnife
   id: SurvivalKnife
-  description: Weapon of first and last resort for combatting space carp.
+  description: Перший і останній засіб боротьби з космічним карпом.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/survival_knife.rsi
@@ -113,10 +113,10 @@
     sprite: Objects/Weapons/Melee/survival_knife.rsi
 
 - type: entity
-  name: kukri knife
+  name: ніж кайкрі
   parent: CombatKnife
   id: KukriKnife
-  description: Professionals have standards. Be polite. Be efficient. Have a plan to kill everyone you meet.
+  description: У професіоналів є стандарти. Бути ввічливими. Будь ефективним. Майте план вбити всіх, кого зустрінете.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/kukri_knife.rsi
@@ -132,10 +132,10 @@
     sprite: Objects/Weapons/Melee/kukri_knife.rsi
 
 - type: entity
-  name: shiv
+  name: шив
   parent: BaseKnife
   id: Shiv
-  description: A crude weapon fashioned from a piece of cloth and a glass shard.
+  description: Груба зброя, виготовлена ​​з шматка тканини та осколка скла.
   components:
   - type: Tag
     tags:
@@ -161,10 +161,10 @@
     malus: 0.225
 
 - type: entity
-  name: reinforced shiv
+  name: посилений шив
   parent: Shiv
   id: ReinforcedShiv
-  description: A crude weapon fashioned from a piece of cloth and a reinforced glass shard.
+  description: Груба зброя, виготовлена ​​з шматка тканини та армованого осколка скла.
   components:
   - type: Construction
     graph: ReinforcedShiv
@@ -182,10 +182,10 @@
     sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
 
 - type: entity
-  name: plasma shiv
+  name: плазмовий шив
   parent: Shiv
   id: PlasmaShiv
-  description: A crude weapon fashioned from a piece of cloth and a plasma glass shard.
+  description: Груба зброя, виготовлена ​​з шматка тканини та осколка плазмового скла.
   components:
   - type: Construction
     graph: PlasmaShiv
@@ -201,10 +201,10 @@
     sprite: Objects/Weapons/Melee/plasma_shiv.rsi
 
 - type: entity
-  name: uranium shiv
+  name: урановий шив
   parent: Shiv
   id: UraniumShiv
-  description: A crude weapon fashioned from a piece of cloth and a uranium glass shard. Violates the geneva convention!
+  description: Груба зброя, виготовлена ​​з шматка тканини та осколка уранового скла. Порушує Женевську конвенцію!
   components:
   - type: Construction
     graph: UraniumShiv

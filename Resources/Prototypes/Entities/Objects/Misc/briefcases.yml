@@ -2,7 +2,7 @@
   parent: BaseStorageItem
   abstract: true
   id: BriefcaseBase
-  description: Useful for carrying items in your hands.
+  description: Корисно для носіння предметів у ваших руках.
   components:
   - type: Item
     size: 60
@@ -13,10 +13,10 @@
     - Briefcase
 
 - type: entity
-  name: brown briefcase
+  name: коричневий портфель
   parent: BriefcaseBase
   id: BriefcaseBrown
-  description: A handy briefcase.
+  description: Зручний портфель.
   components:
   - type: Sprite
     sprite: Objects/Storage/Briefcases/briefcase_brown.rsi
@@ -29,7 +29,7 @@
   abstract: true
   id: BriefcaseSyndieBase
   suffix: Syndicate, Empty
-  description: Useful for carrying items in your hands.
+  description: Корисно для носіння предметів у ваших руках.
   components:
   - type: Item
     size: 80
@@ -40,10 +40,10 @@
     - Briefcase
 
 - type: entity
-  name: brown briefcase
+  name: коричневий портфель
   parent: BriefcaseSyndieBase
   id: BriefcaseSyndie
-  description: A handy briefcase.
+  description: Зручний портфель.
   components:
   - type: Sprite
     sprite: Objects/Storage/Briefcases/briefcase_brown.rsi

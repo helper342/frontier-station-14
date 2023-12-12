@@ -2,7 +2,7 @@
   parent: ClothingUniformBase
   id: UniformShortsRed
   name: боксерські шорти
-  description: These are shorts, not boxers.
+  description: Це шорти, а не боксери.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Shorts/Color/red.rsi
@@ -13,7 +13,7 @@
   parent: ClothingUniformBase
   id: UniformShortsRedWithTop
   name: боксерські шорти з топом
-  description: These are shorts, not boxers.
+  description: Це шорти, а не боксери.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Shorts/Color/red_female.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ResearchDisk
-  name: research point disk (1000)
-  description: A disk for the R&D server containing 1000 points.
+  name: дослідницький диск (1000)
+  description: Диск для РНД сервера на 1000 точок.
   components:
   - type: Sprite
     sprite: Objects/Specific/Research/researchdisk.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk5000
-  name: research point disk (5000)
-  description: A disk for the R&D server containing 5000 points.
+  name: дослідницький диск (5000)
+  description: Диск для РНД сервера на 5000 точок.
   components:
   - type: ResearchDisk
     points: 5000
@@ -26,8 +26,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk10000
-  name: research point disk (10000)
-  description: A disk for the R&D server containing 10000 points.
+  name: дослідницький диск (10000)
+  description: Диск для РНД сервера, що містить 10000 точок.
   components:
   - type: ResearchDisk
     points: 10000
@@ -37,9 +37,9 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDiskDebug
-  name: research point disk
+  name: дослідницький точковий диск
   suffix: DEBUG, DO NOT MAP
-  description: A disk for the R&D server containing all the points you could ever need.
+  description: Диск для сервера досліджень і розробок, що містить усі пункти, які вам можуть знадобитися.
   components:
   - type: ResearchDisk
     unlockAllTech: true
@@ -47,8 +47,8 @@
 - type: entity
   parent: BaseItem
   id: TechnologyDisk
-  name: technology disk
-  description: A disk for the R&D server containing research technology.
+  name: технологічний диск
+  description: Диск для сервера досліджень і розробок, що містить дослідницьку технологію.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

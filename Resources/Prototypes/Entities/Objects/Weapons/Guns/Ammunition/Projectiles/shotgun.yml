@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: PelletShotgunSlug
-  name: pellet (.50 slug)
+  name: дробь (.50 slug)
   noSpawn: true
   parent: BaseBullet
   components:
@@ -30,7 +30,7 @@
 
 - type: entity
   id: PelletShotgun
-  name: pellet (.50)
+  name: дробь (.50)
   noSpawn: true
   parent: BaseBullet
   components:
@@ -44,7 +44,7 @@
 
 - type: entity
   id: PelletShotgunIncendiary
-  name: pellet (.50 incendiary)
+  name: дробь (запалювальна .50)
   noSpawn: true
   parent: BaseBulletIncendiary
   components:
@@ -59,7 +59,7 @@
 
 - type: entity
   id: PelletShotgunPractice
-  name: pellet (.50 practice)
+  name: дробь (.50 практичні)
   noSpawn: true
   parent: BaseBulletPractice
   components:
@@ -73,7 +73,7 @@
 
 - type: entity
   id: PelletShotgunImprovised
-  name: improvised pellet
+  name: імпровізована дробь
   noSpawn: true
   parent: BaseBullet
   components:
@@ -88,7 +88,7 @@
 
 - type: entity
   id: PelletShotgunTranquilizer
-  name: pellet (.50 tranquilizer)
+  name: дробь (.50 транквілізатор)
   noSpawn: true
   parent: BaseBulletPractice
   components:
@@ -115,7 +115,7 @@
 
 - type: entity
   id: PelletShotgunFlare
-  name: pellet (.50 flare)
+  name: дробь (.50 flare)
   noSpawn: true
   components:
   - type: CollisionWake

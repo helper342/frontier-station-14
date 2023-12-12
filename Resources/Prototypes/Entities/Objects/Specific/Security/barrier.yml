@@ -1,7 +1,7 @@
 - type: entity
-  name: deployable barrier
+  name: розгорнутий бар'єр
   id: DeployableBarrier
-  description: A deployable barrier. Swipe your ID card to lock/unlock it.
+  description: Розсувний бар'єр. Проведіть пальцем по ідентифікаційній картці, щоб заблокувати/розблокувати її.
   parent: BaseStructure
   components:
   - type: Transform

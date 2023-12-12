@@ -1,6 +1,6 @@
 - type: entity
-  name: dart
-  description: light throwing dart for playing darts. Don't get in the eye!
+  name: дротик
+  description: легкий метальний дротик для гри в дартс. Не потрапити в очі!
   parent: BaseItem
   id: Dart
   components:

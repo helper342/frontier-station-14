@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponLightMachineGun
+  name: Базова зброя Легкий кулемет
   parent: BaseItem
   id: BaseWeaponLightMachineGun
-  description: A rooty tooty point and shooty.
+  description: Коренеподібний зубчастий гострий і стрілчастий.
   abstract: true
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
   name: L6 SAW
   id: WeaponLightMachineGunL6
   parent: BaseWeaponLightMachineGun
-  description: A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses .30 rifle ammo.
+  description: Досить традиційно зроблений LMG з приємно лакованою дерев'яною пістолетною рукояткою. Використовує патрони калібру .30.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi

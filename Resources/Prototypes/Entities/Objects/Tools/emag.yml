@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Emag
-  name: cryptographic sequencer
-  description: The all-in-one hacking solution. The thinking man's lockpick. The iconic EMAG.
+  name: криптографічний секвенсор
+  description: Універсальне рішення для злому. Відмичка мислячої людини.
   components:
   - type: Emag
   - type: LimitedCharges
@@ -19,8 +19,8 @@
   parent: BaseItem
   id: EmagUnlimited
   suffix: Unlimited
-  name: cryptographic sequencer
-  description: The all-in-one hacking solution. The thinking man's lockpick. The iconic EMAG.
+  name: криптографічний секвенсор
+  description: Універсальне рішення для злому. Відмичка мислячої людини.
   components:
   - type: Emag
   - type: Sprite

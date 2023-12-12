@@ -1,8 +1,8 @@
 - type: entity
-  name: Civilian
+  name: Цивільний
   parent: BaseMobHuman
   id: MobCivilian
-  description: A miserable pile of secrets.
+  description: Жалюгідна купа таємниць.
   components:
   - type: InputMover
   - type: MobMover
@@ -13,7 +13,7 @@
     - NanoTrasen
 
 - type: entity
-  name: Salvager
+  name: Салвагер
   parent: BaseMobHuman
   id: MobSalvager
   components:
@@ -30,10 +30,10 @@
         task: SimpleHumanoidHostileCompound
 
 - type: entity
-  name: Spirate
+  name: Спірат
   parent: BaseMobHuman
   id: MobSpirate
-  description: Yarr!
+  description: Ярр!
   components:
   - type: NpcFactionMember
     factions:
@@ -52,8 +52,8 @@
   suffix: Dead
   save: false # mobs are currently not saveable.
   id: SalvageHumanCorpse
-  name: unidentified corpse
-  description: I think he's dead.
+  name: невпізнаний труп
+  description: Я думаю, що він мертвий.
   components:
   - type: RandomHumanoidAppearance
     randomizeName: false
@@ -70,8 +70,8 @@
 - type: entity
   parent: MobHuman
   id: MobCluwne
-  name: person
-  description: A polymorphed unfortunate.
+  name: людина
+  description: Поліморфний нещасний.
   components:
   - type: Cluwne
   - type: Speech

@@ -1,8 +1,8 @@
 - type: entity
   id: BaseBorgModule
   parent: BaseItem
-  name: borg module
-  description: A piece of tech that gives cyborgs new abilities.
+  name: модуль борг
+  description: Технологія, яка дає кіборгам нові здібності.
   abstract: true
   components:
   - type: Sprite
@@ -25,8 +25,8 @@
 
 - type: entity
   id: ActionBorgSwapModule
-  name: Swap Module
-  description: Select this module, enabling you to use the tools it provides.
+  name: Модуль обміну
+  description: Виберіть цей модуль, щоб ви могли використовувати інструменти, які він надає.
   noSpawn: true
   components:
   - type: InstantAction
@@ -83,7 +83,7 @@
 - type: entity
   id: BorgModuleCable
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: cable cyborg module
+  name: кабельний модуль кіборг
   components:
   - type: Sprite
     layers:
@@ -100,7 +100,7 @@
 - type: entity
   id: BorgModuleFireExtinguisher
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: fire extinguisher cyborg module
+  name: модуль кіборг вогнегасник
   components:
   - type: Sprite
     layers:
@@ -113,7 +113,7 @@
 - type: entity
   id: BorgModuleGPS
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: GPS cyborg module
+  name: GPS-модуль кіборг
   components:
   - type: Sprite
     layers:
@@ -127,7 +127,7 @@
 - type: entity
   id: BorgModuleRadiationDetection
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: radiation detection cyborg module
+  name: модуль кіборг детектор радіації
   components:
   - type: Sprite
     layers:
@@ -140,7 +140,7 @@
 - type: entity
   id: BorgModuleTool
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: tool cyborg module
+  name: Інструмент кіборг модуль
   components:
   - type: Sprite
     layers:
@@ -157,7 +157,7 @@
 - type: entity
   id: BorgModuleAppraisal
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: appraisal cyborg module
+  name: оціночний кіборг модуль
   components:
   - type: Sprite
     layers:
@@ -170,7 +170,7 @@
 - type: entity
   id: BorgModuleMining
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: mining cyborg module
+  name: модуль майнінг-кіборг
   components:
   - type: Sprite
     layers:
@@ -184,7 +184,7 @@
 - type: entity
   id: BorgModuleGrapplingGun
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: grappling gun cyborg module
+  name: кіборг-модуль зброї
   components:
   - type: Sprite
     layers:
@@ -198,7 +198,7 @@
 - type: entity
   id: BorgModuleAdvancedTool
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: advanced tool cyborg module
+  name: вдосконалений інструментальний модуль кіборг
   components:
   - type: Sprite
     layers:
@@ -213,7 +213,7 @@
 - type: entity
   id: BorgModuleGasAnalyzer
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: gas analyzer cyborg module
+  name: модуль кіборг газоаналізатора
   components:
   - type: Sprite
     layers:
@@ -226,7 +226,7 @@
 - type: entity
   id: BorgModuleConstruction
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: construction cyborg module
+  name: будівельний модуль кіборг
   components:
   - type: Sprite
     layers:
@@ -241,7 +241,7 @@
 - type: entity
   id: BorgModuleRCD
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: RCD cyborg module
+  name: Модуль УЗО кіборг
   components:
   - type: Sprite
     layers:
@@ -255,7 +255,7 @@
 - type: entity
   id: BorgModuleLightReplacer
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: light replacer cyborg module
+  name: модуль заміни світла кіборг
   components:
   - type: Sprite
     layers:
@@ -268,7 +268,7 @@
 - type: entity
   id: BorgModuleCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: cleaning cyborg module
+  name: очищення модуль кіборг
   components:
   - type: Sprite
     layers:
@@ -283,7 +283,7 @@
 - type: entity
   id: BorgModuleTrashCollection
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: trash collection cyborg module
+  name: модуль збору сміття кіборг
   components:
   - type: Sprite
     layers:
@@ -297,7 +297,7 @@
 - type: entity
   id: BorgModuleDiagnosis
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: diagnosis cyborg module
+  name: модуль діагностики кіборг
   components:
   - type: Sprite
     layers:
@@ -311,7 +311,7 @@
 - type: entity
   id: BorgModuleTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: treatment cyborg module
+  name: модуль лікування кіборг
   components:
   - type: Sprite
     layers:
@@ -328,7 +328,7 @@
 - type: entity
   id: BorgModuleDefibrillator
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: defibrillator cyborg module
+  name: модуль кіборг дефібрилятор
   components:
   - type: Sprite
     layers:
@@ -341,7 +341,7 @@
 - type: entity
   id: BorgModuleAdvancedTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: advanced treatment cyborg module
+  name: розширений модуль лікування кіборг
   components:
   - type: Sprite
     layers:
@@ -359,7 +359,7 @@
 - type: entity
   id: BorgModuleArtifact
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: artifact cyborg module
+  name: модуль артефактного сканеру кіборга
   components:
   - type: Sprite
     layers:
@@ -372,7 +372,7 @@
 - type: entity
   id: BorgModuleAnomaly
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: anomaly cyborg module
+  name: аномальний сканер кіборг модуль
   components:
   - type: Sprite
     layers:
@@ -387,7 +387,7 @@
 - type: entity
   id: BorgModuleLiteracy
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: literacy cyborg module
+  name: модуль грамотності кіборг
   components:
   - type: Sprite
     layers:
@@ -401,7 +401,7 @@
 - type: entity
   id: BorgModuleMusique
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: musique cyborg module
+  name: модуль музика кіборг
   components:
   - type: Sprite
     layers:
@@ -414,7 +414,7 @@
 - type: entity
   id: BorgModuleGardening
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: gardening cyborg module
+  name: модуль кіборг садівництва
   components:
   - type: Sprite
     layers:
@@ -430,7 +430,7 @@
 - type: entity
   id: BorgModuleHarvesting
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: harvesting cyborg module
+  name: збиральний кіборг модуль
   components:
   - type: Sprite
     layers:
@@ -445,7 +445,7 @@
 - type: entity
   id: BorgModuleClowning
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: clowning cyborg module
+  name: модуль клоунади-кіборга
   components:
   - type: Sprite
     layers:

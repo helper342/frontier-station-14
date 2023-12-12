@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructureDynamic
   id: BaseHardBomb
-  description: Just keep talking and nobody will explode.
-  name: hardbomb
+  description: Просто продовжуйте говорити, і ніхто не вибухне.
+  name: жорстка бомба
   components:
     - type: Appearance
     - type: WiresVisuals
@@ -52,8 +52,8 @@
 - type: entity
   parent: BaseHardBomb
   id: TrainingBomb
-  name: training bomb
-  description: A bomb for dummies, manual not included.
+  name: навчальна бомба
+  description: Бомба для манекенів, інструкція не входить.
   components:
     - type: Wires
       layoutId: Defusable
@@ -94,8 +94,8 @@
 - type: entity
   parent: BaseHardBomb
   id: SyndicateBomb
-  name: syndicate bomb
-  description: A bomb for Syndicate operatives and agents alike. The real deal, no more training, get to it!
+  name: синдикатна бомба
+  description: Бомба як для оперативників, так і для агентів Синдикату. Справжня справа, більше ніяких тренувань, приступайте до справи!
   components:
     - type: Sprite
       sprite: Structures/Machines/bomb.rsi
@@ -130,9 +130,9 @@
 - type: entity
   parent: SyndicateBomb
   id: DebugHardBomb
-  name: debug bomb
+  name: налагоджувальна бомба адміна
   suffix: DEBUG
-  description: Holy shit this is gonna explode
+  description: Боже чортове, це вибухне.
   components:
     - type: Defusable
       disposable: true

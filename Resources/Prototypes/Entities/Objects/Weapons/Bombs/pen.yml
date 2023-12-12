@@ -1,8 +1,8 @@
 - type: entity
-  name: pen
+  name: ручка
   suffix: Exploding
   parent: Pen
-  description: A dark ink pen.
+  description: Темна чорнильна ручка.
   id: PenExploding
   components:
   - type: OnUseTimerTrigger
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseItem
   id: PenExplodingBox
-  name: exploding pen box
-  description: A small box containing an exploding pen. Packaging disintegrates when opened, leaving no evidence behind.
+  name: коробка для ручок, що вибухає
+  description: Невелика коробочка з ручкою, що вибухає. При відкритті упаковка розпадається, не залишаючи слідів.
   components:
   - type: Sprite
     sprite: Objects/Storage/penbox.rsi

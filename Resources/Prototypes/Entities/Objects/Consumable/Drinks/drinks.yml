@@ -78,8 +78,8 @@
 
 # Transformable container - normal glass
 - type: entity
-  name: metamorphic glass
-  description: A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.
+  name: метаморфічний стакан
+  description: Метаморфічна склянка, яка автоматично магічно перетворюється на склянку, придатну для напою всередині. Знизу є відшліфований номер патенту.
   parent: DrinkGlassBase
   id: DrinkGlass
   components:
@@ -110,8 +110,8 @@
     price: 1
 
 - type: entity
-  name: Coupe glass
-  description: A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.
+  name: стакан купе
+  description: Класичне скло для купе з тонким горлом, символ крихких етикеток на ящиках по всій галактиці.
   parent: DrinkGlassBase
   id: DrinkGlassCoupeShaped
   components:
@@ -140,8 +140,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkAbsintheGlass
-  name: absinthe glass
-  description: Wormwood, anise, oh my.
+  name: абсент
+  description: Полин, аніс, боже.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -156,8 +156,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkAcidSpitGlass
-  name: acid spit glass
-  description: A drink from the company archives. Made from live aliens.
+  name: стакан кислоти
+  description: Напій з архіву компанії. Зроблені з живих прибульців.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -172,8 +172,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkAleGlass
-  name: ale glass
-  description: A freezing pint of delicious ale
+  name: Ель
+  description: Замерзаюча пінта смачного елю
   components:
   - type: SolutionContainerManager
     solutions:
@@ -188,8 +188,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkAlliesCocktail
-  name: allies cocktail
-  description: A drink made from your allies.
+  name: коктейль союзників
+  description: Напій із ваших союзників.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -204,8 +204,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkAloe
-  name: aloe glass
-  description: Very, very, very good.
+  name: алое
+  description: Дуже, дуже, дуже добре.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -220,8 +220,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkAmasecGlass
-  name: amasec glass
-  description: Always handy before COMBAT!!!
+  name: амазековий стакан
+  description: Завжди під рукою перед БОЄМ!!!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -236,8 +236,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkAndalusia
-  name: andalusia glass
-  description: A nice drink with a strange name.
+  name: Андалусія
+  description: Гарний напій з дивною назвою.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -252,8 +252,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkAntifreeze
-  name: anti-freeze glass
-  description: The ultimate refreshment.
+  name: Антифриз
+  description: Неперевершене освіження.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -269,8 +269,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkAtomicBombGlass
-  name: atomic bomb glass
-  description: We cannot take legal responsibility for your actions after imbibing.
+  name: Атомна бомба
+  description: Ми не можемо нести юридичну відповідальність за ваші дії після вживання.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -286,8 +286,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkB52Glass
-  name: b-52 glass
-  description: Coffee, Irish Cream, and cognac. You will get bombed.
+  name: Б-52
+  description: Кава, Ірландський крем і коньяк. Вас розбомблять.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -303,8 +303,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBahamaMama
-  name: bahama mama glass
-  description: Tropical cocktail.
+  name: БагамаМама
+  description: Тропічний коктейль.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -320,8 +320,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBananaHonkGlass
-  name: banana honk glass
-  description: A drink from Banana Heaven.
+  name: Банана ХОНК
+  description: Напій з бананового раю.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -337,8 +337,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBarefootGlass
-  name: barefoot glass
-  description: Barefoot and pregnant.
+  name: Босоніж
+  description: Босоніж і пити добре.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -354,8 +354,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBeepskySmashGlass
-  name: beepsky smash glass
-  description: Heavy, hot and strong. Just like the Iron fist of the LAW.
+  name: Бібскі
+  description: Важкий, гарячий і сильний. Так само, як Залізна рука ЗАКОНУ.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -371,8 +371,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBeerglass
-  name: beer glass
-  description: A freezing pint of beer.
+  name: стакан пива
+  description: Замерзаюча пінта пива.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -387,8 +387,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBerryJuice
-  name: berry juice
-  description: Berry juice. Or maybe it's jam. Who cares?
+  name: ягідний сік
+  description: Ягідний сік. А може це варення. Кому це цікаво?
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -404,8 +404,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBlackRussianGlass
-  name: black russian glass
-  description: For the lactose-intolerant. Still as classy as a White Russian.
+  name: чорний росіянин
+  description: Для людей з непереносимістю лактози. Все ще такий же стильний, як білий росіянин.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -421,8 +421,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBlueCuracaoGlass
-  name: blue curacao
-  description: Exotically blue, fruity drink, distilled from oranges.
+  name: блакитний кюрасао
+  description: Екзотично блакитний, фруктовий напій, дистильований з апельсинів.
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -438,8 +438,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBloodyMaryGlass
-  name: bloody mary glass
-  description: Tomato juice, mixed with Vodka and a lil' bit of lime. Tastes like liquid murder.
+  name: кривава Мері
+  description: Томатний сік, змішаний з горілкою і трохи лайма. На смак як рідке вбивство.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -455,8 +455,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBooger
-  name: booger
-  description: Ewww...
+  name: бугер
+  description: Еууу...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -472,8 +472,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkBraveBullGlass
-  name: brave bull glass
-  description: Tequilla and coffee liquor, brought together in a mouthwatering mixture. Drink up.
+  name: хоробрий бик
+  description: Текіла та кавовий лікер, об’єднані в апетитну суміш. Допити.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -489,8 +489,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkCarrotJuice
-  name: carrot juice
-  description: It's just like a carrot but without crunching.
+  name: морквяний сік
+  description: Це як морква, але без хрускоту.
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -506,8 +506,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkChocolateGlass
-  name: hot chocolate
-  description: A heated drink consisting melted chocolate and heated milk.
+  name: гарячий шоколад
+  description: Підігрітий напій, що складається з розтопленого шоколаду та підігрітого молока.
   components:
   - type: Drink
   - type: Sprite
@@ -516,8 +516,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkCoffee
-  name: coffee
-  description: Don't drop it, or you'll send scalding liquid and glass shards everywhere.
+  name: кава
+  description: Не кидайте його, інакше ви розшлете гарячу рідину та осколки скла всюди.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -532,8 +532,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkCognacGlass
-  name: cognac glass
-  description: Damn, you feel like some kind of French aristocrat just by holding this.
+  name: коньяк
+  description: Блін, ти відчуваєш себе якимось французьким аристократом, просто тримаючи це в руках.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -548,8 +548,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkCream
-  name: cream
-  description: Ewwww...
+  name: крем
+  description: еуууу...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -564,8 +564,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkCubaLibreGlass
-  name: cuba libre glass
-  description: A classic mix of rum and cola.
+  name: куба лібре
+  description: Класична суміш рому та коли.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -580,8 +580,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkDeadRumGlass
-  name: deadrum glass
-  description: Popular with the sailors. Not very popular with everyone else.
+  name: глухий кут
+  description: Популярний серед моряків. Не дуже популярний серед інших.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -597,8 +597,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkDemonsBlood
-  name: demons blood
-  description: Just looking at this thing makes the hair at the back of your neck stand up.
+  name: кров демонів
+  description: Від одного погляду на цю штуку волосся на потилиці стає дибки.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -614,8 +614,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkDevilsKiss
-  name: devil's kiss
-  description: Creepy time!
+  name: поцілунок диявола
+  description: Моторошний час!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -631,8 +631,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkDoctorsDelightGlass
-  name: the doctor's delight
-  description: A healthy mixture of juices, guaranteed to keep you healthy until the next toolboxing takes place.
+  name: радість лікаря
+  description: Корисна суміш соків, яка гарантовано збереже ваше здоров’я до наступного збору інструментів.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -648,8 +648,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkDriestMartiniGlass
-  name: driest martini glass
-  description: Only for the experienced. You think you see sand floating in the glass.
+  name: сухий мартіні
+  description: Тільки для досвідчених. Вам здається, що ви бачите пісок, що плаває в склянці.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -665,8 +665,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkDrGibbGlass
-  name: Dr. Gibb glass
-  description: Dr. Gibb. Not as dangerous as the name might imply.
+  name: Доктор Гібб
+  description: Доктор Гібб. Не такий небезпечний, як може випливати з назви.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -682,8 +682,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkErikaSurprise
-  name: erika surprise
-  description: The surprise is, it's green!
+  name: Еріка сюрприз
+  description: Сюрприз, він зелений!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -699,8 +699,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkFourteenLokoGlass
-  name: Fourteen loko glass
-  description: This is a container of Fourteen Loko, it appears to be of the highest quality. The drink, not the container.
+  name: Чотирнадцять локо
+  description: Це контейнер чотирнадцяти Локо, здається, він найвищої якості. Напій, а не тара.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -716,8 +716,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGargleBlasterGlass
-  name: pan-galactic gargle blaster
-  description: Does... does this mean that Arthur and Ford are on the ship? Oh joy.
+  name: пан-галактичний бластер
+  description: Чи... це означає, що Артур і Форд на кораблі? О радість.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -733,8 +733,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGinGlass
-  name: Gin
-  description: Crystal clear Griffeater gin.
+  name: Джин
+  description: Кришталево чистий джин Гриффоїд.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -750,8 +750,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGinFizzGlass
-  name: gin fizz glass
-  description: Refreshingly lemony, deliciously dry.
+  name: джин шипить
+  description: Освіжаючий лимонний, смачно сухий.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -767,8 +767,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGinTonicglass
-  name: gin and tonic
-  description: A mild but still great cocktail. Drink up, like a true Englishman.
+  name: джин-тонік
+  description: М'який, але чудовий коктейль. Випийте, як справжній англієць.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -784,8 +784,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGoldschlagerGlass
-  name: goldschlager glass
-  description: 100 proof that teen girls will drink anything with gold in it.
+  name: голдшлагер
+  description: 100 доказів того, що дівчата-підлітки вип’ють усе, що містить золото.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -801,8 +801,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGrapeJuice
-  name: grape juice
-  description: It's grrrrrape!
+  name: виноградний сік
+  description: Це гррррр!
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -818,8 +818,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGrapeSodaGlass
-  name: grape soda glass
-  description: Looks like a delicious drink!
+  name: виноградна сода
+  description: Виглядає як смачний напій!
   components:
   - type: Drink
   - type: Sprite
@@ -828,8 +828,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGreenTeaGlass
-  name: green tea glass
-  description: Tasty green tea. It has antioxidants; it's good for you!
+  name: зелений чай
+  description: Смачний зелений чай. Має антиоксиданти; це добре для вас!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -845,8 +845,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGrenadineGlass
-  name: grenadine syrup glass
-  description: Sweet and tangy, a bar syrup used to add color or flavor to drinks.
+  name: сироп гренадин
+  description: Солодкий і гострий, батончиковий сироп, який використовується для додання кольору або смаку напоям.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -862,8 +862,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGrogGlass
-  name: grog glass
-  description: A fine and cepa drink for Space.
+  name: грог
+  description: Вишуканий напій для космосу.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -879,8 +879,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkHippiesDelightGlass
-  name: hippies' delight glass
-  description: A drink enjoyed by people during the 1960's.
+  name: захоплення хіпі
+  description: Напій, яким насолоджувалися люди в 1960-х роках.
   components:
   - type: Drink
   - type: Sprite
@@ -889,8 +889,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkHoochGlass
-  name: hooch
-  description: You've really hit rock bottom now... your liver packed its bags and left last night.
+  name: хуч
+  description: Тепер ви справді досягли дна... ваша печінка спакувала свої валізи й пішла минулої ночі.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -906,8 +906,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkIcedCoffeeGlass
-  name: iced coffee glass
-  description: A drink to perk you up and refresh you!
+  name: кава з льодом
+  description: Напій, який підбадьорить і освіжить!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -923,8 +923,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkIcedGreenTeaGlass
-  name: iced green tea glass
-  description: It looks like green tea with ice. One might even call it iced green tea.
+  name: холодний зелений чай
+  description: Схоже на зелений чай з льодом. Можна навіть назвати це холодним зеленим чаєм.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -940,8 +940,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkIcedTeaGlass
-  name: iced tea
-  description: A refreshing southern beverage.
+  name: холодний чай
+  description: Освіжаючий південний напій.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -957,8 +957,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkIcedBeerGlass
-  name: iced beer glass
-  description: A beer so frosty, the air around it freezes.
+  name: холодне пиво
+  description: Пиво таке морозне, що повітря навколо нього замерзає.
   components:
   - type: Drink
   - type: Sprite
@@ -967,8 +967,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkIceGlass
-  name: ice glass
-  description: Generally, you're supposed to put something else in there too...
+  name: лід
+  description: Загалом, ви повинні помістити туди ще щось...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -983,8 +983,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkIceCreamGlass
-  name: ice cream glass
-  description: A glass full of good old ice cream. Might want a spoon.
+  name: морозиво
+  description: Стакан старого доброго морозива. Може знадобиться ложка.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1001,8 +1001,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkIrishCarBomb
-  name: irish car bomb
-  description: An irish car bomb.
+  name: ірландська замінована машина
+  description: Ірландська замінована машина.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1017,8 +1017,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkIrishCoffeeGlass
-  name: irish coffee glass
-  description: Coffee and alcohol. More fun than a Mimosa to drink in the morning.
+  name: ірландська кава
+  description: Кава та алкоголь. Пити вранці веселіше, ніж мімозу.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1033,8 +1033,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkIrishCreamGlass
-  name: irish cream glass
-  description: It's cream, mixed with whiskey. What else would you expect from the Irish?
+  name: ірландський крем
+  description: Це вершки, змішані з віскі. Чого ще можна очікувати від ірландців?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1049,8 +1049,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkCoffeeLiqueurGlass
-  name: Coffee Liqueur glass
-  description: DAMN, THIS THING LOOKS ROBUST
+  name: Кавовий лікер
+  description: БЛЯК, ЦЯ РІЧ ВИГЛЯДАЄ НАДІЙНОЮ
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1065,8 +1065,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkKiraSpecial
-  name: kira special
-  description: Long live the guy who everyone had mistaken for a girl. Baka!
+  name: Спеціальна кіра
+  description: Хай живе хлопець, якого всі приймали за дівчину. Бака!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1082,8 +1082,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkLemonadeGlass
-  name: lemonade glass
-  description: Oh the nostalgia...
+  name: лимонад
+  description: Ой ностальгія...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1099,8 +1099,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkLemonJuice
-  name: lemon juice
-  description: Sour...
+  name: лимонний сік
+  description: Кислий...
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -1116,8 +1116,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkLemonLime
-  name: lemon lime
-  description: A tangy substance made of 0.5% natural citrus!
+  name: лимонний лайм
+  description: Гостра субстанція з 0,5% натуральних цитрусових!
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -1133,8 +1133,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkLimeJuice
-  name: lime juice
-  description: It's some sweet-sour lime juice.
+  name: сік лайма
+  description: Це якийсь кисло-солодкий сік лайма.
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -1150,8 +1150,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkLongIslandIcedTeaGlass
-  name: long island iced tea glass
-  description: The liquor cabinet, brought together in a delicious mix. Intended for middle-aged alcoholic women only.
+  name: Лонг-Айленд холодний чай
+  description: Кабінет для алкогольних напоїв, об’єднаний у смачний мікс. Призначений виключно для алкоголічок середнього віку.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1167,8 +1167,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkManhattanGlass
-  name: manhattan glass
-  description: The Detective's undercover drink of choice. He never could stomach gin...
+  name: Манхеттен
+  description: Напій детектива під прикриттям. Він ніколи не міг переварити джин...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1184,8 +1184,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkManhattanProjectGlass
-  name: manhattan project glass
-  description: A scientist's drink of choice, for pondering ways to blow up the station.
+  name: Манхеттенський проект
+  description: Напій, який вибирають вчені, щоб обдумати способи підірвати станцію.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1201,8 +1201,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkManlyDorfGlass
-  name: the manly dorf glass
-  description: A manly concotion made from Ale and Beer. Intended for true men only.
+  name: мужній дорф
+  description: Мужній напій з елю та пива. Призначений лише для справжніх чоловіків.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1217,8 +1217,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkMargaritaGlass
-  name: margarita glass
-  description: On the rocks with salt on the rim. Arriba~!
+  name: Маргарита
+  description: На камені з сіллю на краю. Арріба~!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1234,8 +1234,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkMartiniGlass
-  name: classic martini glass
-  description: Damn, the bartender even stirred it, not shook it.
+  name: класичний мартіні
+  description: Блін, бармен навіть помішав, а не покачав.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1251,8 +1251,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkMeadGlass
-  name: mead glass
-  description: A Viking's beverage, though a cheap one.
+  name: медовуха
+  description: Напій вікінгів, хоч і дешевий.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1268,8 +1268,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkMilkshake
-  name: milkshake
-  description: Glorious brainfreezing mixture.
+  name: молочний коктейль
+  description: Чудова суміш для заморожування мізків.
   components:
   - type: Drink
   - type: Sprite
@@ -1278,8 +1278,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkMojito
-  name: mojito
-  description: Fresh from Spesscuba.
+  name: мохіто
+  description: Свіже від Spesscuba.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1295,8 +1295,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkNeurotoxinGlass
-  name: neurotoxin glass
-  description: A drink that is guaranteed to knock you silly.
+  name: нейротоксин
+  description: Напій, який гарантовано зведе вас з дурня.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1312,8 +1312,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkNothing
-  name: nothing
-  description: Absolutely nothing.
+  name: нічого
+  description: Абсолютно нічого.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1329,8 +1329,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkNTCahors
-  name: neotheology cahors whine
-  description: It looks like wine, but more dark.
+  name: неотеологія кагор нити
+  description: Схоже на вино, але більш темне.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1346,8 +1346,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkNuclearColaGlass
-  name: nuclear cola glass
-  description: Don't cry, Don't raise your eye, It's only nuclear wasteland.
+  name: ядерна кола
+  description: Не плач, Не піднімай очей, Це лише ядерна пустка.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1363,8 +1363,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkOrangeJuice
-  name: orange juice
-  description: Vitamins! Yay!
+  name: апельсиновий сік
+  description: Вітаміни! ура!
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -1380,8 +1380,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkPatronGlass
-  name: patron glass
-  description: Drinking patron in the bar, with all the subpar ladies.
+  name: меценат
+  description: П'яний відвідувач у барі, з усіма негідними дамами.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1397,8 +1397,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkPoisonBerryJuice
-  name: poison berry juice
-  description: Looks like some deadly juice.
+  name: отруйний ягідний сік
+  description: Схоже на якийсь смертельний сік.
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -1414,8 +1414,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkPoisonWineGlass
-  name: poison wine glass
-  description: A black ichor with an oily purple sheer on top. Are you sure you should drink this?
+  name: отруйне вино
+  description: Чорний іхор з маслянисто-фіолетовим відтінком зверху. Ти впевнений, що маєш це випити?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1431,8 +1431,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkPoscaGlass
-  name: posca glass
-  description: Poor warriors' drink from a forgotten era.
+  name: покса
+  description: Напій бідних воїнів із забутої епохи.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1448,8 +1448,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkRedMeadGlass
-  name: red mead glass
-  description: A true Viking's beverage, though its color is strange.
+  name: червона медовуха
+  description: Справжній вікінгський напій, хоч і дивний колір.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1465,8 +1465,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkRewriter
-  name: rewriter
-  description: The secret of the sanctuary of the Libarian...
+  name: переписувач
+  description: Таємниця святилища Лібарського...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1482,8 +1482,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkRootBeerGlass
-  name: root beer glass
-  description: Fizzy, foamy, and full of sweet, non-caffienated goodness.
+  name: корінь пива
+  description: Газований, пінистий і насичений солодкістю без кофеїну.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1500,8 +1500,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkRootBeerFloatGlass
-  name: root beer float glass
-  description: Fizzy, foamy, and now with ice cream on top! Amazing!
+  name: корінь пивний поплавок
+  description: Газоване, пінисте, а тепер і з морозивом! Дивовижний!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1518,8 +1518,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkRumGlass
-  name: rum glass
-  description: Now you want to Pray for a pirate suit, don't you?
+  name: ром
+  description: Тепер ви хочете помолитися за піратський костюм, чи не так?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1535,8 +1535,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkSakeGlass
-  name: sake glass
-  description: Wine made from rice, it's sake!
+  name: саке
+  description: Вино з рису, це саке!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1552,8 +1552,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkSbitenGlass
-  name: sbiten glass
-  description: A spicy mix of Vodka and Spice. Very hot.
+  name: збитий
+  description: Пряна суміш горілки і спецій. Дуже гаряче.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1569,8 +1569,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkScrewdriverCocktailGlass
-  name: screwdriver glass
-  description: A simple, yet superb mixture of Vodka and orange juice. Just the thing for the tired engineer.
+  name: викрутка
+  description: Проста, але чудова суміш горілки та апельсинового соку. Саме для втомленого інженера.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1586,8 +1586,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkCogChampBase
-  name: cogchamp glass
-  description: This mix of Cognac, Screwdriver and Welding Fuel will have you seeing His light surely!
+  name: гокчамп
+  description: Ця суміш коньяку, викрутки та зварювального палива змусить вас побачити Його світло!
   components:
     - type: SolutionContainerManager
       solutions:
@@ -1603,8 +1603,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkSuiDreamGlass
-  name: sui dream glass
-  description: A froofy, fruity, and sweet mixed drink. Understanding the name only brings shame.
+  name: Мрія Сю
+  description: Змішаний напій із фруктовим та солодким ароматом. Розуміння назви приносить тільки сором.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1620,8 +1620,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkEmeraldGlass
-  name: melon liquor
-  description: A relatively sweet and fruity 46 proof liquor.
+  name: динний лікер
+  description: Відносно солодкий і фруктовий лікер із міцністю 46.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1637,8 +1637,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkMoonshineGlass
-  name: moonshine
-  description: You've really hit rock bottom now... your liver packed its bags and left last night.
+  name: самогон
+  description: Тепер ви справді досягли дна... ваша печінка спакувала свої валізи й пішла минулої ночі. Але дід всеодно краще бадяжить
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1654,8 +1654,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkGlassWhite
-  name: milk
-  description: White and nutritious goodness!
+  name: молоко
+  description: Білий і поживний добро!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1670,8 +1670,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkSilencerGlass
-  name: silencer glass
-  description: A drink from Mime Heaven.
+  name: глушник
+  description: Напій від Мім Небес.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1687,8 +1687,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkSingulo
-  name: singulo
-  description: A blue-space beverage!
+  name: сингуло
+  description: Напій синього космосу!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1704,8 +1704,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkSnowWhite
-  name: snow white
-  description: A cold refreshment.
+  name: Білосніжка
+  description: Холодний напій.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1721,8 +1721,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkSoyLatte
-  name: soy latte
-  description: A nice and refreshing beverage while you are reading.
+  name: соєве латте
+  description: Приємний і освіжаючий напій під час читання.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1738,8 +1738,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkSpaceUpGlass
-  name: space-up glass
-  description: Space-up. It helps keep your cool.
+  name: пробіл вгору
+  description: Пробіл вгору. Це допомагає зберігати спокій.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1755,8 +1755,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkSpaceMountainWindGlass
-  name: space mountain wind glass
-  description: Space Mountain Wind. As you know, there are no mountains in space, only wind.
+  name: космос гірський вітер
+  description: Космічний гірський вітер. Як відомо, в космосі немає гір, є тільки вітер.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1772,8 +1772,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkSyndicatebomb
-  name: syndicate bomb
-  description: Tastes like terrorism!
+  name: синдикатна бомба
+  description: На смак тероризм!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1788,8 +1788,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTeaGlass
-  name: tea glass
-  description: Tasty black tea. It has antioxidants; it's good for you!
+  name: чай
+  description: Смачний чорний чай. Має антиоксиданти; це добре для вас!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1804,8 +1804,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTeapot
-  name: teapot  # short and stout
-  description: An elegant teapot. It simply oozes class.
+  name: чайник # короткий і кремезний
+  description: Елегантний чайник. Це просто виділяє клас.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1820,8 +1820,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTequilaGlass
-  name: tequila glass
-  description: Now all that's missing is the weird colored shades!
+  name: текіла
+  description: Тепер не вистачає лише дивних кольорових відтінків!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1837,8 +1837,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTequilaSunriseGlass
-  name: tequila sunrise glass
-  description: Oh great, now you feel nostalgic about sunrises back on Terra...
+  name: текіла схід сонця
+  description: О, чудово, тепер ти відчуваєш ностальгію щодо світанку на Террі...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1854,8 +1854,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkThreeMileIslandGlass
-  name: three mile island glass
-  description: A glass of this is sure to prevent a meltdown.
+  name: тримильний острів
+  description: Склянка цього напевно запобіжить розплавленню.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1871,8 +1871,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTomatoJuice
-  name: tomato juice
-  description: Are you sure this is tomato juice?
+  name: томатного соку
+  description: Ви впевнені, що це томатний сік?
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -1888,8 +1888,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkToxinsSpecialGlass
-  name: toxins special glass
-  description: Woah, this thing is on FIRE
+  name: токсини спец
+  description: Ого, ця штука горить
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1905,8 +1905,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkVermouthGlass
-  name: vermouth glass
-  description: You wonder why you're even drinking this straight.
+  name: вермут
+  description: Ви дивуєтесь, чому ви взагалі п’єте це просто.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1922,8 +1922,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkVodkaGlass
-  name: vodka glass
-  description: Number one drink and fueling choice for Russians worldwide.
+  name: горілка
+  description: Напій і заправка номер один для всього світу.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1939,8 +1939,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkVodkaMartiniGlass
-  name: vodka martini glass
-  description: A bastardisation of the classic martini. Still great.
+  name: горілка мартіні
+  description: Виродження класичного мартіні. Все ще чудово.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1956,8 +1956,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkVodkaTonicGlass
-  name: vodka tonic glass
-  description: For when a gin and tonic isn't russian enough.
+  name: горілчаний тонік
+  description: Коли джин-тонік недостатньо російський.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1973,8 +1973,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWaterJug
-  name: water jug
-  description: Stay hydrated
+  name: глечик для води
+  description: Залишайтеся гідратованим
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1990,8 +1990,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWatermelonJuice
-  name: watermelon juice
-  description: Delicious juice made from watermelon.
+  name: кавунового соку
+  description: Смачний сік з кавуна.
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -2007,8 +2007,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWhiskeyColaGlass
-  name: whiskey cola glass
-  description: An innocent-looking mixture of cola and Whiskey. Delicious.
+  name: віскі кола
+  description: Невинна на вигляд суміш коли та віскі. Смачно.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2023,8 +2023,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWhiskeyGlass
-  name: whiskey glass
-  description: The silky, smoky whiskey goodness inside makes the drink look very classy.
+  name: віскі
+  description: Шовковистий, димчастий смак віскі всередині робить напій дуже стильним.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2039,8 +2039,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWhiskeySodaGlass
-  name: whiskey soda glass
-  description: Ultimate refreshment.
+  name: соди віскі
+  description: Остаточне освіження.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2056,8 +2056,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWhiteRussianGlass
-  name: white russian glass
-  description: A very nice looking drink. But that's just, like, your opinion, man.
+  name: білий росіянин
+  description: Дуже гарний на вигляд напій. Але це лише твоя думка, чоловіче.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2073,8 +2073,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWineGlass
-  name: wine glass
-  description: A very classy looking drink.
+  name: вино
+  description: Дуже стильний напій.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2091,7 +2091,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeBlue
-  name: blue milkshake
+  name: синій молочний коктейль
   description: ''
   components:
   - type: Drink
@@ -2101,7 +2101,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeEmpty
-  name: shakeempty
+  name: шейкер
   description: ''
   components:
   - type: Drink
@@ -2111,7 +2111,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeMeat
-  name: meat shake
+  name: м'ясний коктейль
   description: ''
   components:
   - type: Drink
@@ -2121,7 +2121,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeRobo
-  name: robo shake
+  name: робо коктейль
   description: ''
   components:
   - type: Drink
@@ -2131,7 +2131,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeWhite
-  name: white shake
+  name: білий шейк
   description: ''
   components:
   - type: Drink
@@ -2141,8 +2141,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkRamen
-  name: cup ramen
-  description: Just add 10ml boiling water. A taste that reminds you of your school years.
+  name: чашка рамену
+  description: Просто додайте 10 мл окропу. Смак, який нагадує шкільні роки.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2163,8 +2163,8 @@
 - type: entity
   parent: DrinkRamen
   id: DrinkHellRamen
-  name: hell ramen
-  description: Just add 10ml boiling water. Super spicy flavor.
+  name: пекельний рамен
+  description: Просто додайте 10 мл окропу. Супер гострий смак.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2179,8 +2179,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTheMartinez
-  name: The Martinez glass
-  description: The edgerunner legend.  Remembered by a drink, Forgotten by a drunk.
+  name: Мартінес
+  description: Легенда про кращого бігуна. Згаданий випивкою, Забутий п’яним.
   components:
     - type: SolutionContainerManager
       solutions:

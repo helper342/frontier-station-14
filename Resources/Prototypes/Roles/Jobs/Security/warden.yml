@@ -18,9 +18,11 @@
   - Brig
   - External
   - Detective
+  - Mercenary # Frontier
+  - Captain # Frontier
   special:
   - !type:AddImplantSpecial
-    implants: [ MindShieldImplant, TrackingImplant ]
+    implants: [ MindShieldImplant, TrackingImplant ] # Frontier
 
 - type: startingGear
   id: WardenGear
@@ -32,9 +34,11 @@
     eyes: ClothingEyesGlassesSecurity
     outerClothing: ClothingOuterCoatWarden
     id: WardenPDA
-    ears: ClothingHeadsetSecurity
+    ears: ClothingHeadsetAltSecurityWarden # Frontier
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58Nonlethal
+    pocket2: HoloprojectorSecurity # Frontier
+    gloves: ClothingHandsGlovesCombat # Frontier
   innerClothingSkirt: ClothingUniformJumpskirtWarden
   satchel: ClothingBackpackSatchelSecurityFilled
   duffelbag: ClothingBackpackDuffelSecurityFilled
