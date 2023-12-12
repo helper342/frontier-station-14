@@ -22,7 +22,7 @@
 #Mercenary web vest
 - type: entity
   parent: ClothingOuterStorageBase #web vest so it should have some pockets for ammo
-  id: ClothingOuterVestWebMerc
+  id: ClothingOuterVestWebMercenary # Frontier - Merc to Mercenary
   name: жилет для найманців
   description: Високоякісний броньований жилет з міцного синтетичного матеріалу. Він напрочуд гнучкий і легкий, незважаючи на потужну броню.
   components:

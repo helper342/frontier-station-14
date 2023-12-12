@@ -26,7 +26,7 @@
 #Mercenary Helmet
 - type: entity
   parent: ClothingHeadHelmetBasic
-  id: ClothingHeadHelmetMerc
+  id: ClothingHeadHelmetMercenary # Frontier - Name fix
   name: шолом найманця
   description: Бойовий шолом зазвичай використовується найманцями, він міцний, легкий і пахне порохом і джунглями.
   components:
