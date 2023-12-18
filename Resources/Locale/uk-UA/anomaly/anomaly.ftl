@@ -25,6 +25,14 @@ anomaly-scanner-particle-unstable = - [color=plum]Нестабільний ти�
 anomaly-scanner-particle-containment = - [color=goldenrod]Тип утримання:[/color] {$type}
 anomaly-scanner-pulse-timer = Час до наступного імпульсу: [color=gray]{$time}[/color]
 
+anomaly-sync-connected = Аномалію успішно приєднано
+anomaly-sync-disconnected = Зʼєднання до аномалії втрачено!
+anomaly-sync-no-anomaly = Нема аномалії в радіусі..
+anomaly-sync-examine-connected = Його [color=darkgreen]приєднано[/color] до аномалії.
+anomaly-sync-examine-not-connected = Його [color=darkred]не приєднано[/color] до аномалії.
+anomaly-sync-connect-verb-text = Приєднати аномалію
+anomaly-sync-connect-verb-message = Приєднати найближчу аномалію до {THE($machine)}.
+
 anomaly-generator-ui-title = Генератор аномалій
 anomaly-generator-fuel-display = Паливо:
 anomaly-generator-cooldown = Заспокоєння: [color=gray]{$time}[/color]

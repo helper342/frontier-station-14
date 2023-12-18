@@ -19,7 +19,7 @@
     walkModifier: 0.9
     sprintModifier: 0.9
   - type: Item
-    size: 65
+    size: Huge
   - type: Tag
     tags:
     - Hardsuit

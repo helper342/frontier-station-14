@@ -382,6 +382,8 @@
   - type: IconSmooth
     key: walls
     base: plasma
+  - type: RadiationBlocker
+    resistance: 5
 
 - type: entity
   parent: BaseWall
@@ -452,6 +454,7 @@
     - type: Tag
       tags:
         - Wall
+        - RCDDeconstructWhitelist
     - type: Destructible
       thresholds:
         - trigger:
@@ -517,10 +520,15 @@
         !type:DamageTrigger
         damage: 600
       behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/metalbreak.ogg
       - !type:ChangeConstructionNodeBehavior
         node: girder
       - !type:DoActsBehavior
         acts: ["Destruction"]
+    destroySound:
+      path: /Audio/Effects/metalbreak.ogg
   - type: IconSmooth
     key: walls
     base: reinf_over
@@ -674,11 +682,11 @@
     state: state0
   - type: Damageable
     damageContainer: Inorganic
-    damageModifierSet: Metallic
+    damageModifierSet: StrongMetallic
   - type: Physics
     bodyType: Static
   - type: Reflect
-    reflectProb: 0.1
+    reflectProb: 1
   - type: Pullable
   - type: Airtight
     noAirWhenFullyAirBlocked: false
@@ -710,6 +718,8 @@
         !type:DamageTrigger
         damage: 300
       behaviors:
+      - !type:ChangeConstructionNodeBehavior
+        node: girder
       - !type:PlaySoundBehavior
         sound:
           path: /Audio/Effects/metalbreak.ogg
@@ -755,6 +765,25 @@
   - type: IconSmooth
     key: walls
     base: state
+
+- type: entity
+  parent: WallSolid
+  id: WallShuttleInterior
+  name: shuttle wall
+  suffix: Interior
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/shuttleinterior.rsi
+  - type: Icon
+    sprite: Structures/Walls/shuttleinterior.rsi
+  - type: Construction
+    graph: Girder
+    node: shuttleInteriorWall
+  - type: IconSmooth
+    key: walls
+    base: state
+  - type: Reflect
+    reflectProb: 1
 
 - type: entity
   parent: BaseWall
@@ -894,6 +923,8 @@
   - type: IconSmooth
     key: walls
     base: uranium
+  - type: RadiationBlocker
+    resistance: 6
 
 - type: entity
   parent: BaseWall
@@ -967,6 +998,9 @@
           MaterialWebSilk:
             min: 1
             max: 1
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/woodhit.ogg
   - type: IconSmooth
     key: walls
     base: wall

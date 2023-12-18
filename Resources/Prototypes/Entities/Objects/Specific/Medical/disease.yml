@@ -1,11 +1,11 @@
 - type: entity
   parent: BaseItem
   id: DiseaseSwab
-  name: стерильний тампон
+  name: стерильна паличка
   description: Використовується для взяття та перенесення проб. Стерильний до відкриття. Тільки для одноразового використання.
   components:
   - type: Item
-    size: 1
+    size: Tiny
   - type: Sprite
     sprite: Objects/Specific/Medical/mouth_swab.rsi
     state: icon
@@ -26,7 +26,7 @@
   description: Запобігає захворіти людям, які ще НЕ хворіють на це захворювання.
   components:
   - type: Item
-    size: 3
+    size: Tiny
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
     state: salpen

@@ -23,7 +23,7 @@
     - key: enum.PaperUiKey.Key
       type: PaperBoundUserInterface
   - type: Item
-    size: 1
+    size: Tiny
   - type: Tag
     tags:
     - Document
@@ -251,7 +251,7 @@
   - type: Item
     sprite: Objects/Misc/bureaucracy.rsi
     heldPrefix: pen
-    size: 2
+    size: Tiny
   - type: PhysicalComposition
     materialComposition:
       Steel: 25
@@ -266,7 +266,7 @@
       path: /Audio/_NF/Items/Pen/pen_sign.ogg
       params:
         volume: -2
-        maxdistance: 5
+        maxDistance: 5
   - type: StaticPrice
     price: 1
 
@@ -297,7 +297,7 @@
   - type: Item
     sprite: Objects/Misc/bureaucracy.rsi
     heldPrefix: overpriced_pen
-    size: 2
+    size: Tiny
   - type: Pen
     mode: PenWrite
   - type: Stamp
@@ -309,7 +309,7 @@
       path: /Audio/_NF/Items/Pen/pen_sign.ogg
       params:
         volume: -2
-        maxdistance: 5
+        maxDistance: 5
   - type: StaticPrice
     price: 20
 
@@ -358,7 +358,7 @@
       path: /Audio/_NF/Items/Pen/pen_sign.ogg
       params:
         volume: -2
-        maxdistance: 5
+        maxDistance: 5
   - type: StaticPrice
     price: 10
 
@@ -386,9 +386,12 @@
 #      black: "#3f3f3f"
   - type: Item
     sprite: Objects/Misc/bureaucracy.rsi
-    size: 5
+    size: Small
+    shape: null
   - type: Storage
-    capacity: 10
+    maxItemSize: Small
+    grid:
+    - 0,0,4,3
     whitelist:
       tags:
         - Document
@@ -518,13 +521,14 @@
         insertOnInteract: false
   - type: Item
     sprite: Objects/Misc/clipboard.rsi
-    size: 10
+    size: Small
   - type: Clothing
     slots: [belt]
     quickEquip: false
     sprite: Objects/Misc/clipboard.rsi
   - type: Storage
-    capacity: 20
+    grid:
+    - 0,0,5,3
     whitelist:
       tags:
         - Document
@@ -576,13 +580,14 @@
         insertOnInteract: true
   - type: Item
     sprite: Objects/Misc/qm_clipboard.rsi
-    size: 10 # Frontier
+    size: Normal
   - type: Clothing
     slots: [belt]
     quickEquip: false
     sprite: Objects/Misc/qm_clipboard.rsi
   - type: Storage
-    capacity: 90
+    grid:
+    - 0,0,4,3
     quickInsert: true
     whitelist:
       tags:
@@ -630,17 +635,15 @@
       path: /Audio/Items/Stamp/thick_stamp_sub.ogg
       params:
         volume: -2
-        maxdistance: 5
+        maxDistance: 5
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
     state: stamp-mime
   - type: Item
-    size: 3
-  - type: StaticPrice
-    price: 3
+    size: Tiny
 
 - type: entity
-  name: альтернативний штамп
+  name: alternate rubber stamp
   parent: RubberStampBase
   id: RubberStampBaseAlt
   abstract: true
@@ -652,7 +655,7 @@
       path: /Audio/Items/Stamp/automatic_stamp.ogg
       params:
         volume: -2
-        maxdistance: 5
+        maxDistance: 5
 
 - type: entity
   name: капітанський штамп

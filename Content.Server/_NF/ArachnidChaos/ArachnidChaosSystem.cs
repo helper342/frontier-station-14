@@ -6,6 +6,7 @@ using Content.Shared.Inventory;
 using Content.Shared.Nutrition.Components;
 using Content.Shared.Nutrition.EntitySystems;
 using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 using Content.Shared.Audio;
 using Content.Server.Body.Components;
 using Content.Shared.ArachnidChaos;
@@ -27,6 +28,8 @@ namespace Content.Server.ArachnidChaos
         [Dependency] private readonly MobStateSystem _mobStateSystem = default!;
         [Dependency] private readonly BloodstreamSystem _bloodstreamSystem = default!;
         [Dependency] private readonly IAdminLogManager _adminLogger = default!;
+        [Dependency] private readonly SharedAudioSystem _audio = default!;
+        [Dependency] private readonly FoodSystem _food = default!;
 
         public override void Initialize()
         {
@@ -89,7 +92,8 @@ namespace Content.Server.ArachnidChaos
                 return;
 
             _bloodstreamSystem.TryModifyBloodLevel(args.Args.Target.Value, -5, bloodstream);
-            SoundSystem.Play("/Audio/Items/drink.ogg", Filter.Pvs(args.Args.User), args.Args.User, AudioHelpers.WithVariation(0.15f));
+            // _audio.PlayPvs("/Audio/Items/drink.ogg", Filter.Pvs(args.Args.User), args.Args.User, AudioHelpers.WithVariation(0.15f));
+            _audio.PlayPvs("/Audio/Items/drink.ogg", args.Args.User, AudioHelpers.WithVariation(0.15f));
             _hunger.ModifyHunger(args.Args.User, 5, hunger);
 
             _adminLogger.Add(LogType.Action, LogImpact.Medium, $"{ToPrettyString(args.Args.User):actor} drank blood from {ToPrettyString(args.Args.Target.Value):actor}");
@@ -125,11 +129,9 @@ namespace Content.Server.ArachnidChaos
                 return false;
             }
 
-            if (_inventorySystem.TryGetSlotEntity(user, "mask", out var maskUid) &&
-            EntityManager.TryGetComponent<IngestionBlockerComponent>(maskUid, out var blocker) &&
-            blocker.Enabled)
+            if (_food.IsMouthBlocked(user))
             {
-                _popupSystem.PopupEntity(Loc.GetString("hairball-mask", ("mask", maskUid)), user, user, Shared.Popups.PopupType.SmallCaution);
+                _popupSystem.PopupEntity(Loc.GetString("hairball-mask", ("mask", user)), user, user, Shared.Popups.PopupType.SmallCaution);
                 return false;
             }
 

@@ -13,6 +13,9 @@
   placementMode: SnapgridCenter
   canRotate: false
   canBuildInImpassable: false
+  entityWhitelist:
+    tags:
+    - SpiderCraft
   conditions:
     - !type:TileNotBlocked
 
@@ -31,6 +34,9 @@
   placementMode: SnapgridCenter
   canRotate: false
   canBuildInImpassable: false
+  entityWhitelist:
+    tags:
+    - SpiderCraft
   conditions:
     - !type:TileNotBlocked
 
@@ -49,6 +55,9 @@
   placementMode: SnapgridCenter
   canRotate: false
   canBuildInImpassable: false
+  entityWhitelist:
+    tags:
+    - SpiderCraft
   conditions:
     - !type:TileNotBlocked
 
@@ -66,9 +75,12 @@
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
+  entityWhitelist:
+    tags:
+    - SpiderCraft
 
 - type: construction
-  name: web ящик
+  name: web crate
   id: CrateWeb
   graph: WebStructures
   startNode: start
@@ -82,9 +94,12 @@
   placementMode: SnapgridCenter
   canRotate: false
   canBuildInImpassable: false
+  entityWhitelist:
+    tags:
+    - SpiderCraft
 
 - type: construction
-  name: web двері
+  name: web door
   id: WebDoor
   graph: WebStructures
   startNode: start
@@ -97,23 +112,8 @@
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  name: web nest
-  id: WebNest
-  graph: WebStructures
-  startNode: start
-  targetNode: nest
-  category: construction-category-furniture
-  description: Fun fact, you eating spiders in your sleep is false.
-  icon:
-    sprite: Structures/Web/nest.rsi
-    state: icon
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
+  entityWhitelist:
+    tags:
+    - SpiderCraft
   conditions:
     - !type:TileNotBlocked

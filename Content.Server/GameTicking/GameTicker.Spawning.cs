@@ -25,7 +25,8 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
-
+using Content.Shared.Storage;
+using Content.Shared.Storage.EntitySystems;
 
 namespace Content.Server.GameTicking
 {
@@ -35,9 +36,13 @@ namespace Content.Server.GameTicking
         [Dependency] private readonly SharedJobSystem _jobs = default!;
         [Dependency] private readonly LoadoutSystem _loadout = default!;
         [Dependency] private readonly InventorySystem _inventory = default!;
+        [Dependency] private readonly SharedStorageSystem _storage = default!;
 
         [ValidatePrototypeId<EntityPrototype>]
         public const string ObserverPrototypeName = "MobObserver";
+
+        [ValidatePrototypeId<EntityPrototype>]
+        public const string AdminObserverPrototypeName = "AdminObserver";
 
         /// <summary>
         /// How many players have joined the round through normal methods.
@@ -208,7 +213,7 @@ namespace Content.Server.GameTicking
             _mind.SetUserId(newMind, data.UserId);
 
             var jobPrototype = _prototypeManager.Index<JobPrototype>(jobId);
-            var job = new JobComponent { PrototypeId = jobId };
+            var job = new JobComponent { Prototype = jobId };
             _roles.MindAddRole(newMind, job, silent: silent);
             var jobName = _jobs.MindTryGetJobName(newMind);
 
@@ -231,7 +236,6 @@ namespace Content.Server.GameTicking
                     playDefaultSound: false);
             }
 
-            // who tf is perma oWo
             if (player.UserId == new Guid("{e887eb93-f503-4b65-95b6-2f282c014192}"))
             {
                 EntityManager.AddComponent<OwOAccentComponent>(mob);
@@ -244,14 +248,24 @@ namespace Content.Server.GameTicking
                 var failedLoadouts = _loadout.ApplyCharacterLoadout(mob, jobPrototype, character);
 
                 // Try to find back-mounted storage apparatus
+                // if (_inventory.TryGetSlotEntity(mob, "back", out var item) &&
+                //     EntityManager.TryGetComponent<StorageComponent>(item, out var inventory))
+                //     // Try inserting the entity into the storage, if it can't, it leaves the loadout item on the ground
+                //     foreach (var loadout in failedLoadouts)
+                //         // Check if the item can fit in the storage
+                //         if (EntityManager.TryGetComponent<ItemComponent>(loadout, out var itemComp) &&
+                //             inventory.StorageUsed + itemComp.Size <= inventory.StorageCapacityMax)
+                //             inventory.Container.Insert(loadout);
+
+                // Try to find back-mounted storage apparatus
                 if (_inventory.TryGetSlotEntity(mob, "back", out var item) &&
                     EntityManager.TryGetComponent<StorageComponent>(item, out var inventory))
                     // Try inserting the entity into the storage, if it can't, it leaves the loadout item on the ground
                     foreach (var loadout in failedLoadouts)
-                        // Check if the item can fit in the storage
                         if (EntityManager.TryGetComponent<ItemComponent>(loadout, out var itemComp) &&
-                            inventory.StorageUsed + itemComp.Size <= inventory.StorageCapacityMax)
-                            inventory.Container.Insert(loadout);
+                            _storage.CanInsert(item.Value, loadout, out _, inventory, itemComp))
+                            _storage.Insert(item.Value, loadout, out _);
+
             }
 
 

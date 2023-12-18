@@ -97,7 +97,7 @@ namespace Content.Client.LateJoin
                     {
                         new TextureRect
                         {
-                            StyleClasses = { OptionButton.StyleClassOptionButton },
+                            StyleClasses = { OptionButton.StyleClassOptionTriangle },
                             Margin = new Thickness(8, 0),
                             HorizontalAlignment = HAlignment.Center,
                             VerticalAlignment = VAlignment.Center,
@@ -115,6 +115,7 @@ namespace Content.Client.LateJoin
                             {
                                 new Label()
                                 {
+                                    StyleClasses = { "LabelBig" },
                                     Text = name,
                                     Align = Label.AlignMode.Center,
                                 },

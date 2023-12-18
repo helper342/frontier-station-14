@@ -7,11 +7,11 @@
   components:
   - type: Sprite
     layers:
-      - state: icon
-        map: [ "enum.GunVisualLayers.Base" ]
+    - state: icon
+      map: [ "enum.GunVisualLayers.Base" ]
   - type: Item
     # If you update this also update the bulldog's size.
-    size: 30
+    size: Large
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
     quickEquip: false
@@ -58,7 +58,7 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    size: 30
+    size: Large
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
     quickEquip: false
@@ -103,8 +103,12 @@
   name: двостволка
   parent: BaseWeaponShotgun
   id: WeaponShotgunDoubleBarreled
-  description: Безсмертна класика. Використовує гільзи калібру .50.
+  description: An immortal classic. Uses .50 shotgun shells.
   components:
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,0
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
   - type: Gun
@@ -158,27 +162,34 @@
   name: Kammerer
   parent: BaseWeaponShotgun
   id: WeaponShotgunKammerer
-  description: Коли старий дизайн Remington зустрічається з сучасними матеріалами, це результат. Улюблена зброя ополченців у багатьох світах. Використовує гільзи калібру .50.
+  description: When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses .50 shotgun shells.
   components:
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,0
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: BallisticAmmoProvider
     capacity: 4
+  - type: Tag
+    tags:
+    - WeaponShotgunKammerer
 
 - type: entity
-  name: обріз рушниця
+  name: обріз-рушниця
   parent: BaseWeaponShotgun
   id: WeaponShotgunSawn
-  description: Чудово! Використовує гільзи калібру .50.
+  description: Groovy! Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
   - type: Item
-    size: 10
+    size: Small
   - type: Gun
     fireRate: 4
   - type: BallisticAmmoProvider
@@ -206,14 +217,15 @@
   name: саморобний пістолет
   parent: BaseWeaponShotgun
   id: WeaponShotgunHandmade
-  description: Виглядає ненадійно. Використовує гільзи калібру .50.
+  description: Looks unreliable. Uses .50 shotgun shells.
   components:
+  - type: Item
+    size: Small
+    storedRotation: 90
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/hm_pistol.rsi
-  - type: Item
-    size: 10
   - type: Gun
     fireRate: 4
   - type: BallisticAmmoProvider
@@ -228,27 +240,35 @@
   parent: BaseWeaponShotgun
   id: WeaponShotgunBlunderbuss
   suffix: Pirate
-  description: Смертельно з близької відстані.
+  description: Deadly at close range.
   components:
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,0
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
   - type: Gun
     fireRate: 2
   - type: BallisticAmmoProvider
     capacity: 1
+  - type: StaticPrice
+    price: 0
 
 - type: entity
   name: саморобна рушниця
   parent: BaseWeaponShotgun
   id: WeaponShotgunImprovised
-  description: Рушниця ручної роботи, у якій використовуються патрони калібру .50. Він може вмістити лише один патрон у патроннику.
+  description: A shitty, hand-made shotgun that uses .50 shotgun shells. It can only hold one round in the chamber.
   components:
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,0
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
-  - type: Item
-    size: 75
   - type: Gun
     fireRate: 4 #No reason to stifle the firerate since you have to manually reload every time anyways.
   - type: BallisticAmmoProvider
@@ -258,7 +278,7 @@
     graph: ImprovisedShotgunGraph
     node: shotgun
   - type: StaticPrice
-    price: 400
+    price: 20
 
 - type: entity
   name: саморобна рушниця

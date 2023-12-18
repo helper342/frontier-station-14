@@ -27,8 +27,9 @@ using Content.Shared.DoAfter;
 using Content.Server.Emp;
 using Content.Server.DeviceLinking.Events;
 using Content.Server.DeviceLinking.Systems;
-using Robust.Shared.Random;
 using Content.Shared.Inventory;
+using Robust.Shared.Random;
+using Robust.Shared.Audio.Systems;
 
 namespace Content.Server.Light.EntitySystems
 {
@@ -138,7 +139,7 @@ namespace Content.Server.Light.EntitySystems
                     if (damage != null)
                         _adminLogger.Add(LogType.Damaged, $"{ToPrettyString(args.User):user} burned their hand on {ToPrettyString(args.Target):target} and received {damage.Total:damage} damage");
 
-                    _audio.Play(light.BurnHandSound, Filter.Pvs(uid), uid, true);
+                    _audio.PlayEntity(light.BurnHandSound, Filter.Pvs(uid), uid, true);
 
                     args.Handled = true;
                     return;
@@ -289,7 +290,7 @@ namespace Content.Server.Light.EntitySystems
                         if (time > light.LastThunk + ThunkDelay)
                         {
                             light.LastThunk = time;
-                            _audio.Play(light.TurnOnSound, Filter.Pvs(uid), uid, true, AudioParams.Default.WithVolume(-10f));
+                            _audio.PlayEntity(light.TurnOnSound, Filter.Pvs(uid), uid, true, AudioParams.Default.WithVolume(-10f));
                         }
                     }
                     else
@@ -351,7 +352,9 @@ namespace Content.Server.Light.EntitySystems
         private void OnPowerChanged(EntityUid uid, PoweredLightComponent component, ref PowerChangedEvent args)
         {
             // TODO: Power moment
-            if (MetaData(uid).EntityPaused)
+            var metadata = MetaData(uid);
+
+            if (metadata.EntityPaused || TerminatingOrDeleted(uid, metadata))
                 return;
 
             UpdateLight(uid, component);

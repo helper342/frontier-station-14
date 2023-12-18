@@ -24,8 +24,8 @@
   components:
   - type: StorageFill
     contents:
-#        - id: NitrogenTankFilled
-#        - id: OxygenTankFilled
+        - id: NitrogenTankFilled
+        - id: OxygenTankFilled
         - id: AirTankFilled
         - id: ClothingOuterHardsuitEVA
         - id: ClothingHeadHelmetEVALarge
@@ -41,8 +41,8 @@
   components:
   - type: StorageFill
     contents:
-#        - id: NitrogenTankFilled
-#        - id: OxygenTankFilled
+        - id: NitrogenTankFilled
+        - id: OxygenTankFilled
         - id: AirTankFilled
         - id: ClothingOuterSuitEmergency
         - id: ClothingMaskBreath
@@ -96,7 +96,7 @@
         - id: ClothingMaskGas
         - id: JetpackBlackFilled # Frontier
         - id: HandheldGPSBasic # Frontier
-        - id: ClothingShoesBootsMagPirateFilled # Frontier
+        - id: ClothingShoesBootsMagPirate # Frontier
 
 #NTSRA Voidsuit
 - type: entity
@@ -188,7 +188,7 @@
         - id: ClothingMaskBreath
         - id: JetpackSecurityFilled # Frontier
         - id: HandheldGPSBasic # Frontier
-        - id: ClothingShoesBootsMagCombatFilled # Frontier
+        - id: ClothingShoesBootsMagCombat # Frontier
   - type: AccessReader
     access: [["Security"]]
 
@@ -264,7 +264,7 @@
         - id: ClothingOuterHardsuitSecurityRed
         - id: ClothingMaskGasSwat
         - id: HandheldGPSBasic # Frontier
-        - id: ClothingShoesBootsMagCombatFilled # Frontier
+        - id: ClothingShoesBootsMagCombat # Frontier
   - type: AccessReader
     access: [["HeadOfSecurity"]]
 
@@ -283,7 +283,7 @@
         - id: ClothingMaskBreath
         - id: JetpackSecurityFilled # Frontier
         - id: HandheldGPSBasic # Frontier
-        - id: ClothingShoesBootsMagCombatFilled # Frontier
+        - id: ClothingShoesBootsMagCombat # Frontier
   - type: AccessReader
     access: [["Armory"]]
 
@@ -358,7 +358,7 @@
         - id: JetpackBlackFilled # Frontier
         - id: HandheldGPSBasic # Frontier
         - id: HandheldGPSBasic # Frontier
-        - id: ClothingShoesBootsMagPirateFilled # Frontier
+        - id: ClothingShoesBootsMagPirate # Frontier
 
 #Wizard
 - type: entity

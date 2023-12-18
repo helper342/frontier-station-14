@@ -2,12 +2,12 @@
 #TODO: Assimilate these into the same RSI.
 - type: entity
   parent: BaseItem
-  id: ModularReceiver 
+  id: ModularReceiver
   name: модульний приймач
-  description: Важлива частина, яка використовується при створенні вогнепальної зброї. #Можна використати кращий опис, але я не божевільний, тому я не можу цього зробити.
+  description: Важлива частина, яка використовується при створенні вогнепальної зброї. #Could use a better description, but I'm not a gun nut so I can't really do that.
   components:
 #    - type: Item
-#      size: 15
+#      size: Normal
     - type: Sprite
       sprite: Objects/Misc/modular_receiver.rsi
       state: icon
@@ -20,10 +20,10 @@
   parent: BaseItem
   id: RifleStock
   name: приклад рушниці
-  description: Міцний дерев'яний приклад, який використовується при створенні вогнепальної зброї. #Само, як і вище
+  description: Міцний дерев'яний приклад, який використовується при створенні вогнепальної зброї. #Same as above
   components:
 #    - type: Item
-#      size: 25
+#      size: Normal
     - type: Sprite
       sprite: Objects/Misc/rifle_stock.rsi
       state: icon

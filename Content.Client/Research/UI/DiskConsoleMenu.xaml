@@ -19,6 +19,9 @@
                 <Label Name="TotalLabel"
                        HorizontalAlignment="Center">
                 </Label>
+                <Label Name="CostLabel"
+                       HorizontalAlignment="Center">
+                </Label>
                 <BoxContainer MinHeight="20"></BoxContainer>
                 <Button
                     Name="PrintButton"

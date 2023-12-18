@@ -40,7 +40,7 @@ namespace Content.Server.Mobs
             // 1. Are we in crit and suffocating?
             if (component.CurrentState == Shared.Mobs.MobState.Critical && TryComp<RespiratorComponent>(uid, out var respirator))
             {
-                _respirator.AttemptCPR(uid, respirator, args.User);
+                // _respirator.AttemptCPR(uid, respirator, args.User);
                 args.Handled = true;
                 return;
             }
@@ -48,7 +48,8 @@ namespace Content.Server.Mobs
             // 2. Are we sleeping?
             if (TryComp<SleepingComponent>(uid, out var sleeping))
             {
-                _sleepingSystem.WakeWithHands(uid, sleeping, args.User);
+                // _sleepingSystem.WakeWithHands(uid, sleeping, args.User);
+                _sleepingSystem.TryWaking(uid, user: args.User);
                 args.Handled = true;
                 return;
             }
@@ -65,7 +66,7 @@ namespace Content.Server.Mobs
             // 4. Are we huggable/pettable?
             if (TryComp<InteractionPopupComponent>(uid, out var popup))
             {
-                _hug.TryHug(uid, popup, args.User);
+                _hug.OnInteractHand(uid, popup, args);
                 args.Handled = true;
                 return;
             }

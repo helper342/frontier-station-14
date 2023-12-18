@@ -1283,7 +1283,7 @@ entities:
       type: Transform
     - count: 15
       type: Stack
-    - size: 15
+    - size: Normal
       type: Item
 - proto: ShuttersNormalOpen
   entities:

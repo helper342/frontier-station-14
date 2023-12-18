@@ -131,7 +131,7 @@
   - type: ItemCooldown
 
 - type: entity
-  name: кровоспинний
+  name: гемостат
   id: Hemostat
   parent: Retractor
   description: Хірургічний інструмент, який використовується для стиснення кровоносних судин для запобігання кровотечі.
@@ -142,10 +142,10 @@
     heldPrefix: hemostat
 
   # - type: entity
-  #   name: кісткоукладач
+  #   name: bone setter
   #   id: BoneSetter
   #   parent: Retractor
-  #   description: Хірургічний інструмент, який використовується для встановлення кісток.
+  #   description: A surgical tool used for setting bones.
   #   components:
 # Saws
 

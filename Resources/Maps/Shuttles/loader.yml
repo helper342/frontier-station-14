@@ -3459,7 +3459,7 @@ entities:
       type: MetaData
     - parent: 13
       type: Transform
-    - size: 5
+    - size: Small
       type: Item
     - count: 5
       type: Stack

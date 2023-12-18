@@ -41,7 +41,7 @@
 - type: entity
   id: SpawnPointQuartermaster
   parent: SpawnPointJobBase
-  name: Інтендантський
+  name: quartermaster
   components:
   - type: SpawnPoint
     job_id: Quartermaster
@@ -66,7 +66,7 @@
 - type: entity
   id: SpawnPointSalvageSpecialist
   parent: SpawnPointJobBase
-  name: Фахівець з порятунку
+  name: salvagespecialist
   components:
   - type: SpawnPoint
     job_id: SalvageSpecialist
@@ -116,7 +116,7 @@
 - type: entity
   id: SpawnPointSecurityCadet
   parent: SpawnPointAssistant
-  name: Курсант охорони
+  name: кадет
   components:
   - type: SpawnPoint
     job_id: SecurityCadet

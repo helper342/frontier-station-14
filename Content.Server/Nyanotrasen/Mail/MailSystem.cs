@@ -2,6 +2,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading;
 using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
@@ -722,7 +723,7 @@ namespace Content.Server.Mail
                 _handsSystem.PickupOrDrop(user, entity);
             }
 
-            _itemSystem.SetSize(uid, 1);
+            _itemSystem.SetSize(uid, "Tiny");
             _tagSystem.AddTag(uid, "Trash");
             _tagSystem.AddTag(uid, "Recyclable");
             _tagSystem.AddTag(uid, "ClothMade"); // Frontier - Make it so moth can eat open mail.

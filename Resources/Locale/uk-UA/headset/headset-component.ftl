@@ -14,6 +14,7 @@ chat-radio-security = СБ
 chat-radio-service = Сервіс
 chat-radio-supply = Карго
 chat-radio-syndicate = Синдикат
+chat-radio-freelance = Фріланс
 
 # not headset but whatever
 chat-radio-handheld = Handheld

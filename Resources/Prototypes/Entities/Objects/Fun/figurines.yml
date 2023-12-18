@@ -450,8 +450,17 @@
 - type: entity
   parent: BaseFigurine
   id: ToySkeleton
-  name: фігура скелета
-  description: Налякав тебе!
+  name: skeleton figure
+  description: Spooked ya!
   components:
   - type: Sprite
     state: skeletonprize
+
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineThief
+  name: thief character figure
+  description: Hiding in the shadows...
+  components:
+  - type: Sprite
+    state: thiefcharacter

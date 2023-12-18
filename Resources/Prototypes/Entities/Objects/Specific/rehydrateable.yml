@@ -1,9 +1,11 @@
 - type: entity
   parent: BaseItem
   id: MonkeyCube
-  name: куб мавпи
-  description: Просто додайте води!
+  name: monkey cube
+  description: Just add water!
   components:
+  - type: Item
+    size: Tiny
   - type: SolutionContainerManager
     solutions:
       cube:
@@ -109,10 +111,12 @@
 - type: entity
   parent: BaseItem
   id: SyndicateSponge
-  name: куб мавпи
+  name: monkey cube
   suffix: Syndicate
-  description: Просто додайте води!
+  description: Just add water!
   components:
+  - type: Item
+    size: Tiny
   - type: SolutionContainerManager
     solutions:
       cube:

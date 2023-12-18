@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
@@ -592,7 +593,7 @@ namespace Content.Server.Kitchen.EntitySystems
             // Determine how much solution to spend on this item.
             var solutionQuantity = FixedPoint2.Min(
                 component.Solution.Volume,
-                itemComponent.Size * component.SolutionSizeCoefficient);
+                (itemComponent.Size == "Tiny" ? 1 : 5) * component.SolutionSizeCoefficient);
 
             if (component.Whitelist != null && component.Whitelist.IsValid(item, EntityManager) ||
                 beingEvent.TurnIntoFood)

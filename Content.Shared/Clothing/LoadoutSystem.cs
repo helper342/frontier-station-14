@@ -24,7 +24,6 @@ public sealed class LoadoutSystem : EntitySystem
         SubscribeLocalEvent<LoadoutComponent, MapInitEvent>(OnMapInit);
     }
 
-
     private void OnMapInit(EntityUid uid, LoadoutComponent component, MapInitEvent args)
     {
         if (component.Prototypes == null)

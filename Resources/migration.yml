@@ -127,6 +127,7 @@ MagazineBoxRifleHighVelocity: MagazineBoxRifle
 MagazineCaselessRifleHighVelocity: MagazineCaselessRifle
 MagazineCaselessRifleShortHighVelocity: MagazineCaselessRifleShort
 MagazineLightRifleHighVelocity: MagazineLightRifle
+MagazineMagnumSubMachineGunHighVelocity: MagazineMagnumSubMachineGun
 MagazinePistolCaselessRifleHighVelocity: MagazinePistolCaselessRifle
 MagazinePistolHighCapacityHighVelocity: MagazinePistolHighCapacity
 MagazinePistolHighVelocity: MagazinePistol
@@ -180,3 +181,15 @@ ClothingOuterVestWebMerc: ClothingOuterVestWebMercenary
 ClothingBeltMercWebbing: ClothingBeltMercenaryWebbing
 ClothingHeadHelmetMerc: ClothingHeadHelmetMercenary
 ClothingHeadBandMerc: ClothingHeadBandMercenary
+# 2023-12-10
+SpawnPointSeniorResearcher: null
+SpawnPointSeniorOfficer: null
+SpawnPointSeniorEngineer: null
+SpawnPointSeniorPhysician: null
+
+# 2023-12-12
+#No this is not the CMO hardsuit, their prototype IDs were just confusingly similar
+ClothingOuterHardsuitMedic: ClothingOuterHardsuitSyndieMedic
+
+# 2023-12-13
+VendingMachineSmartFridge: SmartFridge

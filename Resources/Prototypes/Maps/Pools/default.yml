@@ -3,6 +3,7 @@
   maps:
   - Frontier
   - Aspid
+  - Atlas
   - Bagel
   - Barratry
   - Box
@@ -11,6 +12,7 @@
 #  - Europa
 # - Fland
   - Kettle
+  - Gemini
   - Marathon
   - Meta
   - Omega

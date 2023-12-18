@@ -4,7 +4,7 @@
     sprite: Objects/Materials/Sheets/glass.rsi
     state: glass_3
   product: CrateMaterialGlass
-  cost: 5000 # TODO: Lower the cost back when possible
+  cost: 1000
   category: Materials
   group: market
 
@@ -14,7 +14,7 @@
     sprite: Objects/Materials/Sheets/metal.rsi
     state: steel_3
   product: CrateMaterialSteel
-  cost: 3000 # TODO: Lower the cost back when possible
+  cost: 1000
   category: Materials
   group: market
 
@@ -24,7 +24,7 @@
     sprite: Objects/Materials/Sheets/other.rsi
     state: plastic_3
   product: CrateMaterialPlastic
-  cost: 5000 # TODO: Lower the cost back when possible
+  cost: 1500
   category: Materials
   group: market
 
@@ -34,7 +34,7 @@
     sprite: Objects/Materials/Sheets/metal.rsi
     state: plasteel_3
   product: CrateMaterialPlasteel
-  cost: 7500 # TODO: Lower the cost back when possible
+  cost: 3000
   category: Materials
   group: market
 
@@ -44,7 +44,7 @@
     sprite: Objects/Materials/materials.rsi
     state: cloth_3
   product: CrateMaterialTextiles
-  cost: 2000
+  cost: 1000
   category: Materials
   group: market
 
@@ -54,7 +54,7 @@
     sprite: Objects/Materials/Sheets/other.rsi
     state: plasma_3
   product: CrateMaterialPlasma
-  cost: 3000 # TODO: Lower the cost back when possible
+  cost: 2000
   category: Materials
   group: market
 
@@ -65,6 +65,16 @@
     state: cardboard_3
   product: CrateMaterialCardboard
   cost: 750
+  category: Materials
+  group: market
+
+- type: cargoProduct
+  id: PaperMaterial
+  icon:
+    sprite: Objects/Materials/Sheets/other.rsi
+    state: paper_3
+  product: CrateMaterialPaper
+  cost: 1000
   category: Materials
   group: market
 

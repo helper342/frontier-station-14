@@ -4,7 +4,7 @@
     sprite: Clothing/Head/Helmets/bombsuit.rsi
     state: icon
   product: CrateEmergencyExplosive
-  cost: 700
+  cost: 650
   category: Emergency
   group: market
 
@@ -14,7 +14,7 @@
     sprite: Objects/Misc/fire_extinguisher.rsi
     state: fire_extinguisher_closed
   product: CrateEmergencyFire
-  cost: 2800
+  cost: 1500
   category: Emergency
   group: market
 
@@ -24,7 +24,7 @@
     sprite: Clothing/Mask/breath.rsi
     state: icon
   product: CrateEmergencyInternals
-  cost: 620
+  cost: 500
   category: Emergency
   group: market
 
@@ -44,7 +44,7 @@
     sprite: Structures/Wallmounts/signs.rsi
     state: radiation
   product: CrateEmergencyRadiation
-  cost: 1400
+  cost: 1000
   category: Emergency
   group: market
 
@@ -64,7 +64,7 @@
     sprite: Objects/Tanks/red.rsi
     state: icon
   product: CrateSlimepersonLifeSupport
-  cost: 400
+  cost: 300
   category: Emergency
   group: market
 
@@ -74,6 +74,6 @@
     sprite: Clothing/Head/Hoods/Bio/general.rsi
     state: icon
   product: CrateGenericBiosuit
-  cost: 1100
+  cost: 800
   category: Emergency
   group: market

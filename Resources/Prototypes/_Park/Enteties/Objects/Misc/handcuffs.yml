@@ -5,7 +5,7 @@
   description: One of the first creations after finding Shadowkin, these were used to contain the Shadowkin during research so they didn't teleport away.
   components:
   - type: Item
-    size: 20
+    size: Normal
   - type: Handcuff
     cuffedRSI: SimpleStation14/Clothing/OuterClothing/Misc/shadowkin_restraints.rsi
     breakoutTime: 40

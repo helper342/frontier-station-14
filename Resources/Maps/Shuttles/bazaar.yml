@@ -2620,7 +2620,7 @@ entities:
       pos: 0.5,12.5
       parent: 1
       type: Transform
-- proto: ClothingBackpackMerc
+- proto: ClothingBackpackMercenary
   entities:
   - uid: 773
     components:

@@ -82,15 +82,15 @@
     contents:
       - id: ClothingOuterHardsuitAtmos
       - id: ClothingMaskGasAtmos
-#      - id: NitrogenTankFilled
-#      - id: OxygenTankFilled
+      - id: NitrogenTankFilled
+      - id: OxygenTankFilled
       - id: AirTankFilled
       - id: ClothingOuterSuitAtmosFire
       - id: ClothingHeadHelmetAtmosFire
       - id: GasAnalyzer
       - id: MedkitOxygenFilled
       - id: HolofanProjector
-#      - id: DoorRemoteFirefight
+      - id: DoorRemoteFirefight
       - id: ClothingShoesBootsMag # Frontier
       - id: ClothingHandsGlovesColorYellow # Frontier
       - id: trayScanner # Frontier
@@ -111,7 +111,7 @@
       - id: GasAnalyzer
       - id: MedkitOxygenFilled
       - id: HolofanProjector
-#      - id: DoorRemoteFirefight
+      - id: DoorRemoteFirefight
       - id: ClothingHandsGlovesColorYellow # Frontier
       - id: trayScanner # Frontier
       - id: ClothingBeltUtilityEngineering # Frontier
@@ -126,8 +126,8 @@
       - id: ClothingOuterHardsuitEngineering
       - id: ClothingHandsGlovesColorYellow
       - id: ClothingMaskGas
-#      - id: NitrogenTankFilled
-#      - id: OxygenTankFilled
+      - id: NitrogenTankFilled
+      - id: OxygenTankFilled
       - id: AirTankFilled
       - id: ClothingShoesBootsMag
       - id: trayScanner # Frontier

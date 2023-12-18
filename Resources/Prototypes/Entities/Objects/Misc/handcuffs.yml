@@ -5,7 +5,8 @@
   parent: BaseItem
   components:
   - type: Item
-    size: 3
+    size: Small
+    storedRotation: 90
   - type: Handcuff
     cuffedRSI: Objects/Misc/handcuffs.rsi
     bodyIconState: body-overlay
@@ -33,8 +34,6 @@
   id: Cablecuffs
   parent: Handcuffs
   components:
-  - type: Item
-    size: 5
   - type: Handcuff
     breakoutTime: 15
     cuffedRSI: Objects/Misc/cablecuffs.rsi
@@ -63,13 +62,11 @@
     price: 6
 
 - type: entity
-  name: застібки
-  description: Міцні одноразові пластикові застібки-блискавки, ідеальні для стримування буйних ув'язнених.
+  name: zipties
+  description: Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
   id: Zipties
   parent: Handcuffs
   components:
-  - type: Item
-    size: 2
   - type: Handcuff
     breakoutTime: 20  # halfway between improvised cablecuffs and metal ones
     cuffedRSI: Objects/Misc/cablecuffs.rsi  # cablecuffs will look fine
@@ -98,7 +95,7 @@
   abstract: true
   components:
   - type: Item
-    size: 2
+    size: Small
   - type: Tag
     tags:
     - Trash
@@ -136,7 +133,7 @@
   description: Використовується для стримування тих, хто може завдати шкоди собі або іншим.
   components:
   - type: Item
-    size: 20
+    size: Normal
   - type: Handcuff
     cuffedRSI: Clothing/OuterClothing/Misc/straight_jacket.rsi
     breakoutTime: 100

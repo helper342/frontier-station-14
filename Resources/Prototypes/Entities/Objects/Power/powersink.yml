@@ -5,7 +5,7 @@
   description: Витягує величезну кількість електроенергії з мережі.
   components:
     - type: Item
-      size: 150
+      size: Huge
     - type: NodeContainer
       examinable: true
       nodes:

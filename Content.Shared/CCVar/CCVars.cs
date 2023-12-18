@@ -15,7 +15,7 @@ namespace Content.Shared.CCVar
         ///     Change this to have the changelog and rules "last seen" date stored separately.
         /// </summary>
         public static readonly CVarDef<string> ServerId =
-            CVarDef.Create("server.id", "new_frontier", CVar.REPLICATED | CVar.SERVER);
+            CVarDef.Create("server.id", "unknown_server_id", CVar.REPLICATED | CVar.SERVER);
 
         /// <summary>
         ///     Name of the rules txt file in the "Resources/Server Info" dir. Include the extension.
@@ -27,7 +27,7 @@ namespace Content.Shared.CCVar
         ///     A loc string for what should be displayed as the title on the Rules window.
         /// </summary>
         public static readonly CVarDef<string> RulesHeader =
-            CVarDef.Create("server.rules_header", "Frontier Server Rules", CVar.REPLICATED | CVar.SERVER);
+            CVarDef.Create("server.rules_header", "ui-rules-header", CVar.REPLICATED | CVar.SERVER);
 
         /*
          * Ambience
@@ -67,26 +67,19 @@ namespace Content.Shared.CCVar
         /// Ambience volume.
         /// </summary>
         public static readonly CVarDef<float> AmbienceVolume =
-            CVarDef.Create("ambience.volume", 0.0f, CVar.ARCHIVE | CVar.CLIENTONLY);
-
-        // Midi is on engine so deal
-        public const float MidiMultiplier = 3f;
-
-        public const float AmbienceMultiplier = 2f;
+            CVarDef.Create("ambience.volume", 0.50f, CVar.ARCHIVE | CVar.CLIENTONLY);
 
         /// <summary>
         /// Ambience music volume.
         /// </summary>
         public static readonly CVarDef<float> AmbientMusicVolume =
-            CVarDef.Create("ambience.music_volume", 0.0f, CVar.ARCHIVE | CVar.CLIENTONLY);
-
-        public const float AmbientMusicMultiplier = 2f;
+            CVarDef.Create("ambience.music_volume", 0.50f, CVar.ARCHIVE | CVar.CLIENTONLY);
 
         /// <summary>
         /// Lobby / round end music volume.
         /// </summary>
         public static readonly CVarDef<float> LobbyMusicVolume =
-            CVarDef.Create("ambience.lobby_music_volume", 0.0f, CVar.ARCHIVE | CVar.CLIENTONLY);
+            CVarDef.Create("ambience.lobby_music_volume", 0.50f, CVar.ARCHIVE | CVar.CLIENTONLY);
 
         /*
          * Status
@@ -113,14 +106,14 @@ namespace Content.Shared.CCVar
         ///     Close to how long you expect a round to last, so you'll probably have to tweak this on downstreams.
         /// </summary>
         public static readonly CVarDef<float>
-            EventsRampingAverageEndTime = CVarDef.Create("events.ramping_average_end_time", 100f, CVar.ARCHIVE | CVar.SERVERONLY);
+            EventsRampingAverageEndTime = CVarDef.Create("events.ramping_average_end_time", 40f, CVar.ARCHIVE | CVar.SERVERONLY);
 
         /// <summary>
         ///     Average ending chaos modifier for the ramping event scheduler.
         ///     Max chaos chosen for a round will deviate from this
         /// </summary>
         public static readonly CVarDef<float>
-            EventsRampingAverageChaos = CVarDef.Create("events.ramping_average_chaos", 4f, CVar.ARCHIVE | CVar.SERVERONLY);
+            EventsRampingAverageChaos = CVarDef.Create("events.ramping_average_chaos", 6f, CVar.ARCHIVE | CVar.SERVERONLY);
 
         /*
          * Game
@@ -142,7 +135,7 @@ namespace Content.Shared.CCVar
         ///     Controls the duration of the lobby timer in seconds. Defaults to 2 minutes and 30 seconds.
         /// </summary>
         public static readonly CVarDef<int>
-            GameLobbyDuration = CVarDef.Create("game.lobbyduration", 180, CVar.ARCHIVE);
+            GameLobbyDuration = CVarDef.Create("game.lobbyduration", 150, CVar.ARCHIVE);
 
         /// <summary>
         ///     Controls if players can latejoin at all.
@@ -154,7 +147,7 @@ namespace Content.Shared.CCVar
         ///     Controls the default game preset.
         /// </summary>
         public static readonly CVarDef<string>
-            GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "adventure", CVar.ARCHIVE);
+            GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "secret", CVar.ARCHIVE);
 
         /// <summary>
         ///     Controls if the game can force a different preset if the current preset's criteria are not met.
@@ -203,7 +196,7 @@ namespace Content.Shared.CCVar
         /// Is map rotation enabled?
         /// </summary>
         public static readonly CVarDef<bool>
-            GameMapRotation = CVarDef.Create("game.map_rotation", false, CVar.SERVERONLY);
+            GameMapRotation = CVarDef.Create("game.map_rotation", true, CVar.SERVERONLY);
 
         /// <summary>
         /// If roles should be restricted based on time.
@@ -222,7 +215,7 @@ namespace Content.Shared.CCVar
         /// Does nothing without <see cref="StationOffset"/> as true.
         /// </summary>
         public static readonly CVarDef<float> MaxStationOffset =
-            CVarDef.Create("game.maxstationoffset", 500.0f);
+            CVarDef.Create("game.maxstationoffset", 1000.0f);
 
         /// <summary>
         ///     Whether a random rotation will be applied to the station on roundstart.
@@ -589,6 +582,16 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<int> DatabasePgConcurrency =
             CVarDef.Create("database.pg_concurrency", 8, CVar.SERVERONLY);
 
+        /// <summary>
+        /// Milliseconds to asynchronously delay all PostgreSQL database operations with.
+        /// </summary>
+        /// <remarks>
+        /// This is intended for performance testing. It works different from <see cref="DatabaseSqliteDelay"/>,
+        /// as the lag is applied after acquiring the database lock.
+        /// </remarks>
+        public static readonly CVarDef<int> DatabasePgFakeLag =
+            CVarDef.Create("database.pg_fake_lag", 0, CVar.SERVERONLY);
+
         // Basically only exists for integration tests to avoid race conditions.
         public static readonly CVarDef<bool> DatabaseSynchronous =
             CVarDef.Create("database.sync", false, CVar.SERVERONLY);
@@ -667,6 +670,8 @@ namespace Content.Shared.CCVar
             CVarDef.Create("audio.admin_chat_sound_path", "/Audio/Items/pop.ogg", CVar.ARCHIVE | CVar.CLIENT | CVar.REPLICATED);
         public static readonly CVarDef<float> AdminChatSoundVolume =
             CVarDef.Create("audio.admin_chat_sound_volume", -5f, CVar.ARCHIVE | CVar.CLIENT | CVar.REPLICATED);
+        public static readonly CVarDef<string> AHelpSound =
+            CVarDef.Create("audio.ahelp_sound", "/Audio/Effects/adminhelp.ogg", CVar.ARCHIVE | CVar.CLIENTONLY);
 
         /*
          * HUD
@@ -680,6 +685,9 @@ namespace Content.Shared.CCVar
 
         public static readonly CVarDef<bool> CombatModeIndicatorsPointShow =
             CVarDef.Create("hud.combat_mode_indicators_point_show", true, CVar.ARCHIVE | CVar.CLIENTONLY);
+
+        public static readonly CVarDef<bool> LoocAboveHeadShow =
+            CVarDef.Create("hud.show_looc_above_head", true, CVar.ARCHIVE | CVar.CLIENTONLY);
 
         public static readonly CVarDef<float> HudHeldItemOffset =
             CVarDef.Create("hud.held_item_offset", 28f, CVar.ARCHIVE | CVar.CLIENTONLY);
@@ -960,7 +968,7 @@ namespace Content.Shared.CCVar
         ///     Whether gas differences will move entities.
         /// </summary>
         public static readonly CVarDef<bool> SpaceWind =
-            CVarDef.Create("atmos.space_wind", true, CVar.SERVERONLY);
+            CVarDef.Create("atmos.space_wind", false, CVar.SERVERONLY);
 
         /// <summary>
         ///     Divisor from maxForce (pressureDifference * 2.25f) to force applied on objects.
@@ -986,7 +994,7 @@ namespace Content.Shared.CCVar
         ///     A "throwing" atmospheric pressure difference ignores this limit, but not the max. velocity limit.
         /// </summary>
         public static readonly CVarDef<float> SpaceWindMaxPushForce =
-            CVarDef.Create("atmos.space_wind_max_push_force", 25f, CVar.SERVERONLY);
+            CVarDef.Create("atmos.space_wind_max_push_force", 20f, CVar.SERVERONLY);
 
         /// <summary>
         ///     Whether monstermos tile equalization is enabled.
@@ -1004,9 +1012,12 @@ namespace Content.Shared.CCVar
         /// <summary>
         ///     Whether monstermos explosive depressurization will rip tiles..
         ///     Needs <see cref="MonstermosEqualization"/> and <see cref="MonstermosDepressurization"/> to be enabled to work.
+		///     WARNING: This cvar causes MAJOR contrast issues, and usually tends to make any spaced scene look very cluttered.
+		///     This not only usually looks strange, but can also reduce playability for people with impaired vision. Please think twice before enabling this on your server.
+		///     Also looks weird on slow spacing for unrelated reasons. If you do want to enable this, you should probably turn on instaspacing.
         /// </summary>
         public static readonly CVarDef<bool> MonstermosRipTiles =
-            CVarDef.Create("atmos.monstermos_rip_tiles", true, CVar.SERVERONLY);
+            CVarDef.Create("atmos.monstermos_rip_tiles", false, CVar.SERVERONLY);
 
         /// <summary>
         ///     Whether explosive depressurization will cause the grid to gain an impulse.
@@ -1028,7 +1039,7 @@ namespace Content.Shared.CCVar
         ///     unless we truncate it somewhere.
         /// </summary>
         public static readonly CVarDef<float> AtmosSpacingMinGas =
-            CVarDef.Create("atmos.mmos_min_gas", 1.0f, CVar.SERVERONLY);
+            CVarDef.Create("atmos.mmos_min_gas", 2.0f, CVar.SERVERONLY);
 
         /// <summary>
         ///     How much wind can go through a single tile before that tile doesn't depressurize itself
@@ -1076,6 +1087,22 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<float> AtmosTickRate =
             CVarDef.Create("atmos.tickrate", 15f, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     Scale factor for how fast things happen in our atmosphere
+        ///     simulation compared to real life. 1x means pumps run at 1x
+        ///     speed. Players typically expect things to happen faster
+        ///     in-game.
+        /// </summary>
+        public static readonly CVarDef<float> AtmosSpeedup =
+            CVarDef.Create("atmos.speedup", 1f, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     Like atmos.speedup, but only for gas and reaction heat values. 64x means
+        ///     gases heat up and cool down 64x faster than real life.
+        /// </summary>
+        public static readonly CVarDef<float> AtmosHeatScale =
+            CVarDef.Create("atmos.heat_scale", 1f, CVar.SERVERONLY);
 
         /*
          * MIDI instruments
@@ -1171,7 +1198,7 @@ namespace Content.Shared.CCVar
         ///     If the playercount is below this number, the whitelist will not apply.
         /// </summary>
         public static readonly CVarDef<int> WhitelistMinPlayers =
-            CVarDef.Create("whitelist.min_players", 32, CVar.SERVERONLY);
+            CVarDef.Create("whitelist.min_players", 7, CVar.SERVERONLY);
 
         /// <summary>
         ///     If the playercount is above this number, the whitelist will not apply.
@@ -1199,7 +1226,7 @@ namespace Content.Shared.CCVar
         ///     See vote.enabled, but specific to preset votes
         /// </summary>
         public static readonly CVarDef<bool> VotePresetEnabled =
-            CVarDef.Create("vote.preset_enabled", false, CVar.SERVERONLY);
+            CVarDef.Create("vote.preset_enabled", true, CVar.SERVERONLY);
 
         /// <summary>
         ///     See vote.enabled, but specific to map votes
@@ -1223,7 +1250,7 @@ namespace Content.Shared.CCVar
         ///     The delay which two votes of the same type are allowed to be made by separate people, in seconds.
         /// </summary>
         public static readonly CVarDef<float> VoteSameTypeTimeout =
-            CVarDef.Create("vote.same_type_timeout", 600f, CVar.SERVERONLY);
+            CVarDef.Create("vote.same_type_timeout", 200f, CVar.SERVERONLY);
 
 
         /// <summary>
@@ -1283,10 +1310,16 @@ namespace Content.Shared.CCVar
             CVarDef.Create("shuttle.camera_rotation_locked", false, CVar.REPLICATED);
 
         /// <summary>
+        /// Whether the arrivals terminal should be on a planet map.
+        /// </summary>
+        public static readonly CVarDef<bool> ArrivalsPlanet =
+            CVarDef.Create("shuttle.arrivals_planet", true, CVar.SERVERONLY);
+
+        /// <summary>
         /// Whether the arrivals shuttle is enabled.
         /// </summary>
         public static readonly CVarDef<bool> ArrivalsShuttles =
-            CVarDef.Create("shuttle.arrivals", false, CVar.SERVERONLY);
+            CVarDef.Create("shuttle.arrivals", true, CVar.SERVERONLY);
 
         /// <summary>
         /// The map to use for the arrivals station.
@@ -1366,20 +1399,20 @@ namespace Content.Shared.CCVar
         ///     ex. a call time of 10min and turning point of 0.5 means the shuttle cannot be recalled after 5 minutes.
         /// </summary>
         public static readonly CVarDef<float> EmergencyRecallTurningPoint =
-            CVarDef.Create("shuttle.recall_turning_point", 0.1f, CVar.SERVERONLY);
+            CVarDef.Create("shuttle.recall_turning_point", 0.8f, CVar.SERVERONLY);
 
         /// <summary>
         ///     Time in minutes after round start to auto-call the shuttle. Set to zero to disable.
         /// </summary>
         public static readonly CVarDef<int> EmergencyShuttleAutoCallTime =
-            CVarDef.Create("shuttle.auto_call_time", 360, CVar.SERVERONLY);
+            CVarDef.Create("shuttle.auto_call_time", 90, CVar.SERVERONLY);
 
         /// <summary>
         ///     Time in minutes after the round was extended (by recalling the shuttle) to call
         ///     the shuttle again.
         /// </summary>
         public static readonly CVarDef<int> EmergencyShuttleAutoCallExtensionTime =
-            CVarDef.Create("shuttle.auto_call_extension_time", 55, CVar.SERVERONLY);
+            CVarDef.Create("shuttle.auto_call_extension_time", 30, CVar.SERVERONLY);
 
         /*
          * Crew Manifests
@@ -1533,6 +1566,12 @@ namespace Content.Shared.CCVar
 
         public static readonly CVarDef<bool> ChatShowTypingIndicator =
             CVarDef.Create("chat.show_typing_indicator", true, CVar.CLIENTONLY);
+
+        public static readonly CVarDef<bool> ChatEnableFancyBubbles =
+            CVarDef.Create("chat.enable_fancy_bubbles", true, CVar.CLIENTONLY | CVar.ARCHIVE, "Toggles displaying fancy speech bubbles, which display the speaking character's name.");
+
+        public static readonly CVarDef<bool> ChatFancyNameBackground =
+            CVarDef.Create("chat.fancy_name_background", false, CVar.CLIENTONLY | CVar.ARCHIVE, "Toggles displaying a background under the speaking character's name.");
 
         /// <summary>
         /// A message broadcast to each player that joins the lobby.
@@ -1711,6 +1750,22 @@ namespace Content.Shared.CCVar
             CVarDef.Create("control.toggle_walk", false, CVar.CLIENTONLY | CVar.ARCHIVE);
 
         /*
+         * STORAGE
+         */
+
+        /// <summary>
+        /// Whether or not the storage UI is static and bound to the hotbar, or unbound and allowed to be dragged anywhere.
+        /// </summary>
+        public static readonly CVarDef<bool> StaticStorageUI =
+            CVarDef.Create("control.static_storage_ui", true, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+        /// <summary>
+        /// Whether or not the storage window uses a transparent or opaque sprite.
+        /// </summary>
+        public static readonly CVarDef<bool> OpaqueStorageWindow =
+            CVarDef.Create("control.opaque_storage_background", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+        /*
          * UPDATE
          */
 
@@ -1728,7 +1783,7 @@ namespace Content.Shared.CCVar
         /// The time you must spend reading the rules, before the "Request" button is enabled
         /// </summary>
         public static readonly CVarDef<float> GhostRoleTime =
-            CVarDef.Create("ghost.role_time", 5f, CVar.REPLICATED);
+            CVarDef.Create("ghost.role_time", 3f, CVar.REPLICATED);
 
         /*
          * Fire alarm
@@ -1856,7 +1911,7 @@ namespace Content.Shared.CCVar
         ///     The maximum amount of time the entity GC can process, in ms.
         /// </summary>
         public static readonly CVarDef<int> GCMaximumTimeMs =
-            CVarDef.Create("entgc.maximum_time_ms", 10, CVar.SERVERONLY);
+            CVarDef.Create("entgc.maximum_time_ms", 5, CVar.SERVERONLY);
 
         /*
          * Replays
@@ -1896,5 +1951,12 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<string> ReplayAutoRecordTempDir =
             CVarDef.Create("replay.auto_record_temp_dir", "", CVar.SERVERONLY);
+
+        /*
+         * Miscellaneous
+         */
+
+        public static readonly CVarDef<bool> GatewayGeneratorEnabled =
+            CVarDef.Create("gateway.generator_enabled", true);
     }
 }

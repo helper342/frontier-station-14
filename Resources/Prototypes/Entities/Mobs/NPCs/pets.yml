@@ -84,10 +84,26 @@
       gender: female
 
 - type: entity
-  name: Час виконання
+  name: Puppy Ian
+  parent: MobCorgiPuppy
+  id: MobCorgiIanPup
+  description: Favourite puppy corgi. Awww.
+  components:
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: male
+  - type: Butcherable # A puppy? You monster...
+    spawned:
+    - id: FoodMeatCorgi
+      amount: 2
+    - id: MaterialHideCorgi
+
+- type: entity
+  name: Runtime
   parent: MobCat
   id: MobCatRuntime
-  description: Професійний мисливець за мишами. Художник втечі.
+  description: Professional mouse hunter. Escape artist.
   components:
   - type: NpcFactionMember
     factions:
@@ -489,7 +505,7 @@
   name: Гамлет
   parent: MobHamster
   id: MobHamsterHamlet
-  description: Сварливий, милий і пухнастий хом'як.
+  description: Сварливий, милий і пухнастий омак.
   components:
   - type: Sprite
     drawdepth: SmallMobs
@@ -719,6 +735,7 @@
       amount: 3
     - id: DrinkTequilaBottleFull
       amount: 1
+  - type: Flashable
   - type: Tag
     tags:
     - CannotSuicide

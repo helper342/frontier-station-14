@@ -4,12 +4,9 @@
   noSpawn: true
   components:
   - type: Stomach
-    # specialDigestible:
-    #   tags:
-    #   - MothFood
-    #   - Fruit
-    #   - Pill
-    #   - Crayon
+    specialDigestible:
+      tags:
+      - ClothMade
   - type: SolutionContainerManager
     solutions:
       stomach:

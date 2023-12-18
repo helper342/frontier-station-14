@@ -1,6 +1,6 @@
 ## Action menu stuff (left panel, with hotbars etc)
 
-ui-actionmenu-title = Діʼ
+ui-actionmenu-title = Дії
 ui-actionmenu-filter-label = Фільтри: {$selectedLabels}
 ui-actionmenu-filter-button = Фільтер
 ui-actionmenu-search-bar-placeholder-text = Пошук

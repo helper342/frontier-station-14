@@ -13,6 +13,7 @@ using Content.Shared.RCD.Components;
 using Content.Shared.Tag;
 using Content.Shared.Tiles;
 using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Network;
@@ -171,7 +172,7 @@ public sealed class RCDSystem : EntitySystem
         {
             //Floor mode just needs the tile to be a space tile (subFloor)
             case RcdMode.Floors:
-                if (!_floors.CanPlaceTile(gridId.Value, mapGrid, null, out var reason))
+                if (!_floors.CanPlaceTile(gridId.Value, mapGrid, out var reason))
                 {
                     _popup.PopupClient(reason, user, user);
                     return;
@@ -221,7 +222,6 @@ public sealed class RCDSystem : EntitySystem
 
         _audio.PlayPredicted(comp.SuccessSound, uid, user);
         _charges.UseCharge(uid);
-
         args.Handled = true;
     }
 

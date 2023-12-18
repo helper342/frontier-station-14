@@ -3,10 +3,12 @@
 - type: entity
   id: AsteroidRock
   parent: BaseStructure
-  name: астероїдна скеля
+  name: asteroid rock
   suffix: Low Ore Yield
-  description: Скелястий астероїд.
+  description: A rocky asteroid.
   components:
+  - type: PlacementReplacement
+    key: walls
   - type: SoundOnGather
   - type: Gatherable
     whitelist:
@@ -55,6 +57,8 @@
   - type: OreVein
     oreChance: 0.2
     oreRarityPrototypeId: RandomOreDistributionStandard
+  - type: RadiationBlocker
+    resistance: 2
 
 - type: entity
   id: AsteroidRockMining
@@ -199,6 +203,8 @@
     - type: OreVein
       oreChance: 0.05
       oreRarityPrototypeId: RandomOreDistributionStandard
+    - type: RadiationBlocker
+      resistance: 2
 
 # Ore veins
 - type: entity
@@ -382,6 +388,7 @@
 # Basalt variants
 - type: entity
   id: WallRockBasalt
+  name: basalt
   parent: WallRock
   components:
     - type: Sprite

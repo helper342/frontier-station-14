@@ -112,7 +112,7 @@ public sealed class WeatherOverlay : Overlay
                 foreach (var tile in grid.Comp.GetTilesIntersecting(worldAABB))
                 {
                     // Ignored tiles for stencil
-                    if (_weather.CanWeatherAffect(grid, tile, weatherIgnoreQuery, bodyQuery))
+                    if (_weather.CanWeatherAffect(grid, tile))
                     {
                         continue;
                     }

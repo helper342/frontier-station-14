@@ -25,7 +25,7 @@
     back: ClothingBackpackEngineeringFilled
     shoes: ClothingShoesBootsWork
     id: TechnicalAssistantPDA
-#    belt: ClothingBeltUtilityEngineering # Frontier - Moved to locker
+    belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
   innerClothingSkirt: ClothingUniformJumpskirtColorYellow
   satchel: ClothingBackpackSatchelEngineeringFilled

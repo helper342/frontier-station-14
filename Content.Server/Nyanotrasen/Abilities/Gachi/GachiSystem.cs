@@ -9,12 +9,15 @@ using Content.Shared.Mobs;
 using Robust.Shared.Audio;
 using Robust.Shared.Player;
 using Robust.Shared.Random;
+using Robust.Server.Audio;
 
 namespace Content.Server.Abilities.Gachi
 {
     public sealed class GachiSystem : EntitySystem
     {
         [Dependency] private readonly IRobustRandom _random = default!;
+        [Dependency] private readonly AudioSystem _audio = default!;
+
         public override void Initialize()
         {
             base.Initialize();
@@ -50,10 +53,10 @@ namespace Content.Server.Abilities.Gachi
 
                 if (_random.Prob(0.01f))
                 {
-                    SoundSystem.Play( "/Audio/Effects/Gachi/ripears.ogg", Filter.Pvs(uid), AudioParams.Default.WithVolume(8f));
+                    _audio.PlayPvs("/Audio/Effects/Gachi/ripears.ogg", uid, AudioParams.Default.WithVolume(8f));
                     return;
                 }
-                SoundSystem.Play(component.PainSound.GetSound(), Filter.Pvs(uid), uid);
+                _audio.PlayPvs(component.PainSound.GetSound(), uid, AudioParams.Default.WithVolume(-2f));
 
             }
         }
@@ -70,7 +73,7 @@ namespace Content.Server.Abilities.Gachi
             {
                 FixedPoint2 newMultiplier = component.Multiplier - 0.25;
                 component.Multiplier = (float) FixedPoint2.Max(FixedPoint2.Zero, newMultiplier);
-                SoundSystem.Play(component.HitOtherSound.GetSound(), Filter.Pvs(uid), uid);
+                _audio.PlayPvs(component.HitOtherSound.GetSound(), uid, AudioParams.Default.WithVolume(-2f));
             }
         }
 
@@ -78,7 +81,7 @@ namespace Content.Server.Abilities.Gachi
         {
             if (args.NewMobState == Shared.Mobs.MobState.Critical)
             {
-                SoundSystem.Play("/Audio/Effects/Gachi/knockedhimout.ogg", Filter.Pvs(uid), uid);
+                _audio.PlayPvs("/Audio/Effects/Gachi/knockedhimout.ogg", uid, AudioParams.Default.WithVolume(-2f));
             }
         }
 

@@ -13,7 +13,7 @@
     - NanoTrasen
 
 - type: entity
-  name: Салвагер
+  name: Salvager
   parent: BaseMobHuman
   id: MobSalvager
   components:

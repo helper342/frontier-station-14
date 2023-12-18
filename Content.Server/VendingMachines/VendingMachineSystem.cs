@@ -24,6 +24,7 @@ using Content.Shared.Throwing;
 using Content.Shared.VendingMachines;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
@@ -38,7 +39,7 @@ namespace Content.Server.VendingMachines
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
         [Dependency] private readonly AccessReaderSystem _accessReader = default!;
         [Dependency] private readonly AppearanceSystem _appearanceSystem = default!;
-        [Dependency] private readonly AudioSystem _audioSystem = default!;
+        [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
         [Dependency] private readonly BankSystem _bankSystem = default!;
         [Dependency] private readonly CargoSystem _cargo = default!;
         [Dependency] private readonly PopupSystem _popupSystem = default!;

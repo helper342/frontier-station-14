@@ -8,7 +8,7 @@
       sprite: Objects/Specific/Hydroponics/seeds.rsi
       state: seed
     - type: Item
-      size: 2
+      size: Tiny
     - type: StaticPrice
       price: 20
 
@@ -109,6 +109,15 @@
     - type: StaticPrice
       price: 1
 
+- type: entity
+  parent: SeedBase
+  name: packet of lemoon seeds
+  id: LemoonSeeds
+  components:
+    - type: Seed
+      seedId: lemoon
+    - type: Sprite
+      sprite: Objects/Specific/Hydroponics/lemoon.rsi
 
 - type: entity
   parent: SeedBase
@@ -631,6 +640,27 @@
       sprite: Objects/Specific/Hydroponics/bungo.rsi
     - type: StaticPrice
       price: 1
+
+- type: entity
+  parent: SeedBase
+  id: PeaSeeds
+  name: packet of pea pods
+  description: "These humble plants were once a vital part in the study of genetics."
+  components:
+    - type: Seed
+      seedId: pea
+    - type: Sprite
+      sprite: Objects/Specific/Hydroponics/pea.rsi
+
+- type: entity
+  parent: SeedBase
+  name: packet of pumpkin seeds
+  id: PumpkinSeeds
+  components:
+    - type: Seed
+      seedId: pumpkin
+    - type: Sprite
+      sprite: Objects/Specific/Hydroponics/pumpkin.rsi
 
 - type: entity
   parent: SeedBase

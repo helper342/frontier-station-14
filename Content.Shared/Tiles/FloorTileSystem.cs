@@ -10,6 +10,7 @@ using Content.Shared.Physics;
 using Content.Shared.Popups;
 using Content.Shared.Stacks;
 using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Network;
@@ -125,7 +126,7 @@ public sealed class FloorTileSystem : EntitySystem
             {
                 var gridUid = mapGrid.Owner;
 
-                if (!CanPlaceTile(gridUid, mapGrid, currentTileDefinition, out var reason))
+                if (!CanPlaceTile(gridUid, mapGrid, out var reason))
                 {
                     _popup.PopupClient(reason, args.User, args.User);
                     return;
@@ -178,15 +179,15 @@ public sealed class FloorTileSystem : EntitySystem
         var variant = (byte) (_timing.CurTick.Value % ((ContentTileDefinition) _tileDefinitionManager[tileId]).Variants);
         mapGrid.SetTile(location.Offset(new Vector2(offset, offset)), new Tile(tileId, 0, variant));
 
-        _audio.PlayPredicted(placeSound, location, user, AudioHelpers.WithVariation(0.125f, _random));
+        _audio.PlayPredicted(placeSound, location, user);
     }
 
-    public bool CanPlaceTile(EntityUid gridUid, MapGridComponent component, ContentTileDefinition? currentTileDefinition, [NotNullWhen(false)] out string? reason)
+    public bool CanPlaceTile(EntityUid gridUid, MapGridComponent component, [NotNullWhen(false)] out string? reason)
     {
         var ev = new FloorTileAttemptEvent();
         RaiseLocalEvent(gridUid, ref ev);
 
-        if ((HasComp<ProtectedGridComponent>(gridUid) || ev.Cancelled) && currentTileDefinition?.ID == "Lattice")
+        if (HasComp<ProtectedGridComponent>(gridUid) || ev.Cancelled)
         {
             reason = Loc.GetString("invalid-floor-placement");
             return false;

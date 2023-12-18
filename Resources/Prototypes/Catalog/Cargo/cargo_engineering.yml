@@ -54,7 +54,7 @@
     sprite: Objects/Tanks/Jetpacks/blue.rsi
     state: icon
   product: CrateEngineeringJetpack
-  cost: 2000
+  cost: 1000
   category: Engineering
   group: market
 
@@ -64,7 +64,7 @@
     sprite: Objects/Tanks/Jetpacks/mini.rsi
     state: icon
   product: CrateEngineeringMiniJetpack
-  cost: 1250
+  cost: 750
   category: Engineering
   group: market
 

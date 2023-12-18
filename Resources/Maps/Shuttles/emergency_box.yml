@@ -2353,9 +2353,6 @@ entities:
       type: Transform
     - enabled: True
       type: PointLight
-    - enabled: True
-      type: AmbientSound
-    - type: ActiveEmergencyLight
   - uid: 435
     components:
     - pos: -6.5,7.5
@@ -2363,9 +2360,6 @@ entities:
       type: Transform
     - enabled: True
       type: PointLight
-    - enabled: True
-      type: AmbientSound
-    - type: ActiveEmergencyLight
 - proto: EmergencyOxygenTankFilled
   entities:
   - uid: 496

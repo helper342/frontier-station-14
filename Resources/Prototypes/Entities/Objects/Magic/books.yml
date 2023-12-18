@@ -89,9 +89,11 @@
 
 - type: entity
   id: ScrollRunes
-  name: сувій рун
+  name: scroll of runes
   parent: BaseSpellbook
   components:
+  - type: Item
+    size: Normal
   - type: Sprite
     sprite: Objects/Magic/magicactions.rsi
     layers:

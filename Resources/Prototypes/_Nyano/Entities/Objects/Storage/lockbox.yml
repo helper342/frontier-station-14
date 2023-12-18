@@ -12,9 +12,11 @@
       map: ["enum.StorageVisualLayers.Lock"]
       shader: unshaded
   - type: Item
-    size: 60
+    size: Huge
   - type: Storage
-    capacity: 60
+    maxItemSize: Normal # 
+    grid:
+    - 0,0,4,3
   - type: Lock
   - type: AccessReader
   - type: Appearance

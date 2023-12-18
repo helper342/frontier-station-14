@@ -21,8 +21,8 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitMercenary
     back: ClothingBackpackMercenaryFilled
-#    shoes: ClothingShoesBootsMercenaryFilled
-    shoes: ClothingShoesBootsMagMercenaryFilled # Give this only to new spawns
+    shoes: ClothingShoesBootsMercenaryFilled
+    # shoes: ClothingShoesBootsMagMercenaryFilled # Give this only to new spawns
     mask: ClothingMaskGasMercenary
     eyes: ClothingEyesGlassesMercenary
     gloves: ClothingHandsMercenaryGlovesCombat

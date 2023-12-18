@@ -132,8 +132,8 @@
     spawnsLeft: 2
     spawnsProto: MobCarpDragon
     spawnRiftAction: ActionSpawnRift
-  # - type: GenericAntag
-    # rule: Dragon
+  - type: GenericAntag
+    rule: Dragon
   - type: GuideHelp
     guides:
     - MinorAntagonists
@@ -156,8 +156,7 @@
   - type: Butcherable
     spawned:
     - id: FoodMeatDragon
-      amount: 3
-  # half damage, spread evenly
+      amount: 1
   - type: MeleeWeapon
     damage:
       groups:

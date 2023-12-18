@@ -47,10 +47,12 @@
       - key: enum.StorageUiKey.Key
         type: StorageBoundUserInterface
     - type: Storage
-      capacity: 30
+      maxItemSize: Normal
+      grid:
+      - 0,0,7,4
     - type: TileFrictionModifier
-      modifier: 0.4 # makes it slide 
-    
+      modifier: 0.4 # makes it slide
+
 # Add this if freezing/heating container/objects thermodynamics becomes a thing
 
     #- type: PowerCellSlot
@@ -73,11 +75,11 @@
     - type: Sprite
       netSync: false
       noRot: true
-      sprite: Objects/Specific/Kitchen/food_carts.rsi 
+      sprite: Objects/Specific/Kitchen/food_carts.rsi
       layers:
         - state: stand-food
     - type: Storage
-      blacklist: 
+      blacklist:
         tags:
           - Coldsauce
           - Hotsauce
@@ -160,3 +162,4 @@
     - type: ContainerContainer
       containers:
         storagebase: !type:Container
+    - type: AntiRottingContainer

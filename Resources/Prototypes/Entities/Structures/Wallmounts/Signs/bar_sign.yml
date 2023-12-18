@@ -81,9 +81,6 @@
   id: BarSignMaidCafe
   name: Мейд кафе
   description: З поверненням, господарю!
-  components:
-  - type: BarSign
-    current: MaidCafe
 
 - type: entity
   parent: BaseBarSign

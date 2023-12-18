@@ -63,13 +63,13 @@
     tags:
       - Smokable
   - type: Item
-    size: 1
+    size: Tiny
 
 - type: entity
   name: листя тютюну
   parent: ProduceBase
   id: LeavesTobacco
-  description: "Висушіть їх, щоб зробити кілька димів."
+  description: "Висушіть їх, щоб зробити кілька самокруток."
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/tobacco.rsi
@@ -121,4 +121,4 @@
     tags:
       - Smokable
   - type: Item
-    size: 1
+    size: Tiny

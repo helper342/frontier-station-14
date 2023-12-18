@@ -22,6 +22,23 @@ public sealed partial class IdCardConsoleComponent : Component
     [DataField]
     public ItemSlot TargetIdSlot = new();
 
+    [Serializable, NetSerializable]
+    public sealed class WriteToTargetIdMessage : BoundUserInterfaceMessage
+    {
+        public readonly string FullName;
+        public readonly string JobTitle;
+        public readonly List<string> AccessList;
+        public readonly string JobPrototype;
+
+        public WriteToTargetIdMessage(string fullName, string jobTitle, List<string> accessList, string jobPrototype)
+        {
+            FullName = fullName;
+            JobTitle = jobTitle;
+            AccessList = accessList;
+            JobPrototype = jobPrototype;
+        }
+    }
+
     // Put this on shared so we just send the state once in PVS range rather than every time the UI updates.
 
     [DataField, AutoNetworkedField]
@@ -50,6 +67,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Maintenance",
         "Medical",
         "Mercenary", // Frontier
+        "Lawyer",
         "Quartermaster",
         "Research",
         "ResearchDirector",

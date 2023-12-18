@@ -1,11 +1,11 @@
 - type: entity
-  name: була
+  name: bola
   parent: BaseItem
   id: Bola
-  description: З’єднані разом із запасними манжетами та металом.
+  description: Linked together with some spare cuffs and metal.
   components:
   - type: Item
-    size: 20
+    size: Normal
   - type: Sprite
     sprite: Objects/Weapons/Throwable/bola.rsi
     state: icon

@@ -7,17 +7,13 @@
   - type: StorageFill
     contents:
       - id: ColoredLightTubeRed
-        amount: 4
+        amount: 2
       - id: ColoredLightTubeFrostyBlue
-        amount: 4
-      - id: ColoredLightTubeBlackLight
-        amount: 4
+        amount: 2
   - type: Sprite
     layers:
       - state: box
       - state: lighttube
-  - type: Storage
-    capacity: 60
     whitelist:
       components:
       - LightBulb

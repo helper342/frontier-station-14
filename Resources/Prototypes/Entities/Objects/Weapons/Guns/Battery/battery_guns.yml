@@ -5,7 +5,7 @@
   components:
   - type: Sprite
   - type: Item
-    size: 50
+    size: Huge
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
     quickEquip: false
@@ -37,7 +37,7 @@
   abstract: true
   components:
   - type: Item
-    size: 10
+    size: Small
   - type: Tag
     tags:
     - Sidearm
@@ -62,10 +62,8 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: HitscanBatteryAmmoProvider
-    proto: RedLaser
-    fireCost: 83.3
-  - type: Item
-    size: 15
+    proto: RedMediumLaser
+    fireCost: 62.5
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -91,7 +89,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
   - type: HitscanBatteryAmmoProvider
-    proto: RedLightLaser
+    proto: RedLaser
     fireCost: 62.5
   - type: Battery
     maxCharge: 500
@@ -114,20 +112,20 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
   - type: Item
-    size: 30
+    size: Large
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
   - type: HitscanBatteryAmmoProvider
-    proto: RedMediumLaser
-    fireCost: 55.5
+    proto: RedLaser
+    fireCost: 62.5
 
 - type: entity
-  name: практика лазерної гвинтівки
+  name: practice laser rifle
   parent: WeaponLaserCarbine
   id: WeaponLaserCarbinePractice
-  description: Ця модифікована лазерна гвинтівка випускає нешкідливі промені в діапазоні 40 Вт для стрільби.
+  description: This modified laser rifle fires harmless beams in the 40-watt range, for target practice.
   components:
   - type: HitscanBatteryAmmoProvider
     proto: RedLaserPractice
@@ -269,7 +267,7 @@
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
     proto: XrayLaser
-    fireCost: 200
+    fireCost: 100
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -415,13 +413,13 @@
     price: 750
 
 - type: entity
-  name: вдосконалений лазерний пістолет
+  name: advanced laser pistol
   parent: BaseWeaponBatterySmall
   id: WeaponAdvancedLaser
-  description: Експериментальний високоенергетичний лазерний пістолет з самозарядним ядерним акумулятором.
+  description: An experimental high-energy laser pistol with a self-charging nuclear battery.
   components:
   - type: Item
-    size: 30  # Intentionally larger than other pistols
+    size: Normal  # Intentionally larger than other pistols
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
     layers:

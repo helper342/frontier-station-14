@@ -204,11 +204,6 @@ public sealed class EventManagerSystem : EntitySystem
             return false;
         }
 
-        if (playerCount > stationEvent.MaximumPlayers)
-        {
-            return false;
-        }
-
         return true;
     }
 }

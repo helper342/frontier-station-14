@@ -147,7 +147,6 @@ public sealed partial class GeneralStationRecordConsoleWindow : DefaultWindow
                 item.Selected = true;
             }
         }
-
         _isPopulating = false;
 
         RecordListing.SortItemsByText();

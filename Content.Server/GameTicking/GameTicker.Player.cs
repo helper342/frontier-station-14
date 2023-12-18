@@ -34,7 +34,7 @@ namespace Content.Server.GameTicking
                 if (args.NewStatus != SessionStatus.Disconnected)
                 {
                     mind.Session = session;
-                    _pvsOverride.AddSessionOverride(mindId.Value, session);
+                    _pvsOverride.AddSessionOverride(GetNetEntity(mindId.Value), session);
                 }
 
                 DebugTools.Assert(mind.Session == session);
@@ -103,7 +103,7 @@ namespace Content.Server.GameTicking
                     }
                     else
                     {
-                        if (_actor.Attach(mind.CurrentEntity, session))
+                        if (_playerManager.SetAttachedEntity(session, mind.CurrentEntity))
                         {
                             PlayerJoinGame(session);
                         }
@@ -123,7 +123,7 @@ namespace Content.Server.GameTicking
                     _chatManager.SendAdminAnnouncement(Loc.GetString("player-leave-message", ("name", args.Session.Name)));
                     if (mind != null)
                     {
-                        _pvsOverride.ClearOverride(mindId!.Value);
+                        _pvsOverride.ClearOverride(GetNetEntity(mindId!.Value));
                         mind.Session = null;
                     }
 
@@ -156,7 +156,7 @@ namespace Content.Server.GameTicking
             }
         }
 
-        private HumanoidCharacterProfile GetPlayerProfile(ICommonSession p)
+        public HumanoidCharacterProfile GetPlayerProfile(ICommonSession p)
         {
             return (HumanoidCharacterProfile) _prefsManager.GetPreferences(p.UserId).SelectedCharacter;
         }

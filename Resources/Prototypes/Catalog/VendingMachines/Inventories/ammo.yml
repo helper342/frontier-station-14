@@ -12,5 +12,13 @@
     BoxBeanbag: 15
     BoxShellTranquilizer: 15
     BoxShotgunPractice: 15
+    MagazineBoxRiflePractice: 3
+    MagazineBoxRifleRubber: 3
+    MagazineBoxCaselessRiflePractice: 3
+    MagazineBoxCaselessRifleRubber: 3
+    MagazineBoxMagnumPractice: 3
+    MagazineBoxMagnumRubber: 3
+    MagazineBoxPistolPractice: 3
+    MagazineBoxPistolRubber: 3
   emaggedInventory:
     WeaponPistolViper: 1

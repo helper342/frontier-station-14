@@ -1,16 +1,16 @@
 #When adding new hardsuits, please try to keep the organization consistent with hardsuit.yml (if possible.)
 
-#For now, since locational damage is not a thing, all "combat" hardsuits (with the exception of the deathsquad hardsuit) have the equvilent of a helmet in terms of armor. This is so people don't need to wear both regular, on-station helmets and hardsuits to get full protection.
-#Generally, unless you're adding something like caustic damage, you should probably avoid messing with armor outside of the above scenario.
+#For now, since locational damage is not a thing, all "combat" hardsuits (with the exception of the deathsquad hardsuit) have the equvilent of a helmet in terms of armor.
+#This is so people don't need to wear both regular, on-station helmets and hardsuits to get full protection.
+#Generally, unless you're adding something like caustic damage, you should probably avoid messing with armor here outside of the above scenario.
 
 #CREW HARDSUITS
 #Standard Hardsuit
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitBasic
-  noSpawn: true
   name: звичайний шолом космокосюма
-  description: Зовнішній на вигляд шолом, який забезпечує незначний захист від більшості джерел пошкоджень.
+  description: A basic-looking hardsuit helmet that provides minor protection against most sources of damage.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/basic.rsi
@@ -21,9 +21,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitAtmos
-  noSpawn: true
   name: шолом атмосферного космокостюма
-  description: Спеціальний жорсткий шолом, розроблений для роботи в умовах низького тиску та високої температури.
+  description: A special hardsuit helmet designed for working in low-pressure, high thermal environments.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/atmospherics.rsi
@@ -61,9 +60,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineering
-  noSpawn: true
   name: шолом інженерного космокостюма
-  description: Інженерний жорсткий шолом, розроблений для роботи в умовах низького тиску з високою радіоактивністю.
+  description: An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/engineering.rsi
@@ -79,7 +77,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSpatio
-  noSpawn: true
   name: шолом космокосюма космонавта
   description: Міцний шолом, призначений для складних промислових операцій у космосі.
   components:
@@ -114,7 +111,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSalvage
-  noSpawn: true
   name: шолом космокостюма експедитора
   description: Спеціальний шолом, призначений для роботи в небезпечному середовищі з низьким тиском. Має посилене покриття для зустрічі з дикою природою та подвійні прожектори.
   components:
@@ -133,7 +129,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecurity
-  noSpawn: true
   name: шолом охоронного космокостюма
   description: Броньований шолом для безпеки.
   components:
@@ -183,7 +178,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBrigmedic
-  noSpawn: true
   name: шолом космокостюма брігмеда
   description: Легкий шолом хардкостюма Brigmedic. Захищає від вірусів і клоунів.
   components:
@@ -210,7 +204,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitWarden
-  noSpawn: true
   name: каска судового пристава
   description: Модифікований шолом ОМОН. Дивно зручно.
   components:
@@ -235,7 +228,6 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitCap
-  noSpawn: true
   name: шолом капітанського космокостюма
   description: Спеціальний жорсткий шолом, виготовлений для капітана станції.
   components:
@@ -251,7 +243,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineeringWhite
-  noSpawn: true
   name: шолом космокостюма ГІ
   description: Спеціальний шолом, виготовлений для головного інженера станції.
   components:
@@ -269,7 +260,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitMedical
-  noSpawn: true
   name: шолом космокостюма ГЛ
   description: Легкий медичний шолом, який не сковує рухи голови.
   components:
@@ -287,7 +277,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitRd
-  noSpawn: true
   name: шолом експерементального наукового космокостюма
   description: Легкий жорсткий шолом, який не сковує рухи голови.
   components:
@@ -305,7 +294,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecurityRed
-  noSpawn: true
   name: шолом космокостюма шерифа
   description: Захисний жорсткий шолом із найновішим надсекретним програмним забезпеченням NT-HUD. Належить Шерифу.
   components:
@@ -330,7 +318,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
-  noSpawn: true
   name: люксовий шолом шахтарського космокостюма
   description: Відремонтований шахтарський шолом із атласною амортизацією та додатковою (непрацюючою) антеною, тому що ти такий екстра.
   components:
@@ -350,7 +337,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndie
-  noSpawn: true
   name: криваво-червоний шолом космокостюма
   description: Удосконалений шолом червоного кольору, призначений для роботи в спецопераціях.
   components:
@@ -375,7 +361,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieMedic
-  noSpawn: true
   name: шолом джагера сайберсан
   description: Виготовлений зі стисненої червоної речовини, цей шолом був розроблений на хромосферному заводі Тау.
   components:
@@ -400,7 +385,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieElite
-  noSpawn: true
   name: елітний шолом синдиката
   description: Варіант криваво-червоного шолома, розробленого Gorlex Marauders, щоб бути винятково вогнестійким і стійким до тиску.
   components:
@@ -427,7 +411,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieCommander
-  noSpawn: true
   name: шолом командуючого синдиката
   description: Спеціальний шолом синдикату, розроблений для командирів оперативних загонів синдикату.
   components:
@@ -452,7 +435,6 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitCybersun
-  noSpawn: true
   name: джеггернаутський шолом кіберсонце
   description: Виготовлений зі стисненої червоної речовини, цей шолом був розроблений на хромосферному заводі Тау.
   components:
@@ -475,7 +457,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitWizard
-  noSpawn: true
   name: шолом космокостюма чаклуна
   description: Чудернацький шолом, інкрустований самоцвітами, випромінює магічну енергію.
   components:
@@ -500,7 +481,6 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitLing
-  noSpawn: true
   name: космічний шолом з органіки
   description: Космічна біомаса тканини, стійкої до тиску та температури.
   components:
@@ -516,7 +496,6 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitPirateEVA
-  noSpawn: true
   name: шолом EVA дальнього космоса
   suffix: Pirate
   description: Шолом EVA для глибокого космосу, дуже важкий, але забезпечує хороший захист.
@@ -533,7 +512,6 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitPirateCap
-  noSpawn: true
   name: шолом космокосюма капітана піратів
   suffix: Pirate
   description: Спеціальний жорсткий шолом, виготовлений для капітана піратського корабля.
@@ -551,7 +529,6 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndieCommander
   id: ClothingHeadHelmetHardsuitERTLeader
-  noSpawn: true
   name: шолом космокосюма лідера ERT
   description: Спеціальний шолом, який носять члени групи швидкого реагування.
   components:
@@ -573,7 +550,6 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTEngineer
-  noSpawn: true
   name: шолом космокостюма лидера ERT
   components:
   - type: Sprite
@@ -594,7 +570,6 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndieElite
   id: ClothingHeadHelmetHardsuitERTMedical
-  noSpawn: true
   name: шолом космокосюма медика ERT
   components:
   - type: Sprite
@@ -608,7 +583,6 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTSecurity
-  noSpawn: true
   name: шолом космокосюма охоронця ERT
   components:
   - type: Sprite
@@ -629,7 +603,6 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTJanitor
-  noSpawn: true
   name: шолом космокосюма прибиральника ERT
   components:
   - type: Sprite
@@ -643,7 +616,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetCBURN
-  noSpawn: true
   name: шолом екзокосюма CBURN
   description: Стійкий до тиску та вогнетривкий капюшон, який носять спеціальні очисні пристрої.
   components:
@@ -682,7 +654,6 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitDeathsquad
-  noSpawn: true
   name: шолом космокосюма ескадрону смерті
   description: Міцний шолом для спеціальних операцій.
   components:
@@ -708,7 +679,6 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitClown
-  noSpawn: true
   name: шолом космокостюма клоуна
   description: Шолом клоуна.
   components:

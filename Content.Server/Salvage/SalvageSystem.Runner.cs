@@ -109,7 +109,7 @@ public sealed partial class SalvageSystem
             Announce(args.MapUid, Loc.GetString("salvage-expedition-announcement-dungeon", ("direction", component.DungeonLocation.GetDir())));
 
         component.Stage = ExpeditionStage.Running;
-        Dirty(component);
+        Dirty(args.MapUid, component);
     }
 
     private void OnFTLStarted(ref FTLStartedEvent ev)
@@ -164,7 +164,7 @@ public sealed partial class SalvageSystem
             else if (comp.Stage < ExpeditionStage.MusicCountdown && remaining < TimeSpan.FromMinutes(2))
             {
                 // TODO: Some way to play audio attached to a map for players.
-                comp.Stream = _audio.PlayGlobal(comp.Sound, Filter.BroadcastMap(Comp<MapComponent>(uid).MapId), true);
+                comp.Stream = _audio.PlayGlobal(comp.Sound, Filter.BroadcastMap(Comp<MapComponent>(uid).MapId), true).Value.Entity;
                 comp.Stage = ExpeditionStage.MusicCountdown;
                 Dirty(uid, comp);
                 Announce(uid, Loc.GetString("salvage-expedition-announcement-countdown-minutes", ("duration", TimeSpan.FromMinutes(2).Minutes)));

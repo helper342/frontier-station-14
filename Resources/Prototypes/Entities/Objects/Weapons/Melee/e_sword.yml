@@ -30,7 +30,7 @@
       types:
         Blunt: 4.5
   - type: Item
-    size: 5
+    size: Small
     sprite: Objects/Weapons/Melee/e_sword.rsi
   - type: UseDelay
     delay: 1.0
@@ -95,7 +95,7 @@
       types:
         Blunt: 1
   - type: Item
-    size: 2
+    size: Tiny
     sprite: Objects/Weapons/Melee/e_dagger.rsi
   - type: UseDelay
     delay: 1.0
@@ -126,8 +126,10 @@
   id: EnergyDaggerBox
   name: ящик електронного кинджала
   suffix: E-Dagger
-  description: Невелика коробка з електронним кинджалом. При відкритті упаковка розпадається, не залишаючи слідів.
+  description: A small box containing an e-dagger. Packaging disintegrates when opened, leaving no evidence behind.
   components:
+  - type: Item
+    size: Tiny
   - type: Sprite
     sprite: Objects/Storage/penbox.rsi
     state: e_dagger
@@ -161,14 +163,14 @@
         shader: unshaded
         map: [ "blade" ]
   - type: Item
-    size: 5
+    size: Small
     sprite: Objects/Weapons/Melee/e_cutlass.rsi
 
 - type: entity
   name: Подвійний енергетичний меч
   parent: EnergySword
   id: EnergySwordDouble
-  description: Стажери Команди синдикату вважали, що одного леза на енергетичному мечі недостатньо. Це можна зберігати в кишенях. Генерал Кенобі!
+  description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
   components:
   - type: Wieldable
   - type: EnergySword
@@ -198,7 +200,7 @@
         shader: unshaded
         map: [ "blade" ]
   - type: Item
-    size: 10
+    size: Small
     sprite: Objects/Weapons/Melee/e_sword_double.rsi
   - type: Reflect
     enabled: true

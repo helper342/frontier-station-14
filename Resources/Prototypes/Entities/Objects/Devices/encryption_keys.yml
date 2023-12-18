@@ -83,7 +83,7 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCommand
-  name: ключ шифрування контролю трафіку
+  name: ключ шифрування командування
   description: Ключ шифрування для каналу управління космічним трафіком.
   components:
   - type: EncryptionKey
@@ -174,7 +174,7 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeySecurity
-  name: ключ шифрування ДНПШ
+  name: ключ шифрування служби безпеки
   description: Ключ шифрування, який використовується "Департаментом Нового Прикордонного Шерифа".
   components:
   - type: EncryptionKey
@@ -189,7 +189,7 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyService
-  name: службовий ключ шифрування
+  name: сервісний ключ шифрування
   description: Ключ шифрування, який використовується обслуговуючим персоналом, який має підтримувати станцію заповненою, щасливою та чистою.
   components:
   - type: EncryptionKey
@@ -230,3 +230,18 @@
     layers:
     - state: crypt_silver
     - state: rd_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyFreelance
+  name: freelancer encryption key
+  description: An encryption key used by freelancers, who may or may not have an affiliation. It looks like its worn out.
+  components:
+    - type: EncryptionKey
+      channels:
+        - Freelance
+      defaultChannel: Freelance
+    - type: Sprite
+      layers:
+        - state: crypt_rusted
+        - state: pirate_label

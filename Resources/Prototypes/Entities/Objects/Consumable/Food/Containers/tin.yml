@@ -6,7 +6,7 @@
   abstract: true
   parent: [FoodBase, FoodOpenableBase]
   id: FoodTinBase
-  name: олово
+  name: банка
   description: Банка чогось, щільно закрита.
   components:
   - type: SolutionContainerManager
@@ -37,7 +37,7 @@
   - type: Item
     sprite: Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet
-    size: 2 # Frontier - 3 to 2 size
+    size: Tiny
   - type: DamageOnLand
     damage:
       types:
@@ -66,15 +66,14 @@
   - type: Item
     sprite: Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet
-    size: 3
-  - type: Tag
-    tags:
-      - Trash
+    size: Tiny
   - type: PhysicalComposition
     materialComposition:
       Steel: 100
-  - type: StaticPrice
-    price: 1
+  - type: Tag
+    tags:
+    - Trash
+
 # Tins
 
 # Need something that you can open these tins with. I suggest a prying or cutting tool.

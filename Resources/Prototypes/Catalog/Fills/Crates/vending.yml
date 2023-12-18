@@ -9,6 +9,7 @@
 
 - type: entity
   id: CrateVendingMachineRestockChefvendFilled
+  name: ChefVend restock crate
   parent: CratePlasticBiodegradable
   components:
   - type: StorageFill

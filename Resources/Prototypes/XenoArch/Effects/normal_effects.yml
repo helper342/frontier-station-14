@@ -242,7 +242,7 @@
 
 - type: artifactEffect
   id: EffectRadiate
-  targetDepth: 5
+  targetDepth: 1
   effectHint: artifact-effect-hint-release
   components:
   - type: RadiationSource
@@ -357,20 +357,20 @@
   components:
   - type: RandomTeleportArtifact
 
-#- type: artifactEffect
-#  id: EffectFoamGood
-#  targetDepth: 2
-#  effectHint: artifact-effect-hint-biochemical
-#  components:
-#  - type: FoamArtifact
-#    reagents:
-#    - Dermaline
-#    - Arithrazine
-#    - Bicaridine
-#    - Inaprovaline
-#    - Kelotane
-#    - Dexalin
-#    - Omnizine
+- type: artifactEffect
+  id: EffectFoamGood
+  targetDepth: 2
+  effectHint: artifact-effect-hint-biochemical
+  components:
+  - type: FoamArtifact
+    reagents:
+    - Dermaline
+    - Arithrazine
+    - Bicaridine
+    - Inaprovaline
+    - Kelotane
+    - Dexalin
+    - Omnizine
 
 - type: artifactEffect
   id: EffectChemicalPuddleRare
@@ -421,6 +421,14 @@
     polymorphPrototypeName: ArtifactLizard
 
 - type: artifactEffect
+  id: EffectPolyLuminous
+  targetDepth: 3
+  effectHint: artifact-effect-hint-polymorph
+  components:
+  - type: PolyArtifact
+    polymorphPrototypeName: ArtifactLuminous
+
+- type: artifactEffect
   id: EffectHealAll
   targetDepth: 3
   effectHint: artifact-effect-hint-environment
@@ -438,7 +446,7 @@
 
 - type: artifactEffect
   id: EffectRadiateStrong
-  targetDepth: 6
+  targetDepth: 3
   effectHint: artifact-effect-hint-release
   components:
   - type: RadiationSource
@@ -488,26 +496,26 @@
       prob: 0.5
       maxAmount: 3
 
-#- type: artifactEffect
-#  id: EffectFoamDangerous
-#  targetDepth: 3
-#  effectHint: artifact-effect-hint-biochemical
-#  components:
-#  - type: FoamArtifact
-#    minFoamAmount: 20
-#    maxFoamAmount: 30
-#    reagents:
-#    - Tritium
-#    - Plasma
-#    - SulfuricAcid
-#    - SpaceDrugs
-#    - Nocturine
-#    - MuteToxin
-#    - Napalm
-#    - CarpoToxin
-#    - ChloralHydrate
-#    - Mold
-#    - Amatoxin
+- type: artifactEffect
+  id: EffectFoamDangerous
+  targetDepth: 3
+  effectHint: artifact-effect-hint-biochemical
+  components:
+  - type: FoamArtifact
+    minFoamAmount: 20
+    maxFoamAmount: 30
+    reagents:
+    - Tritium
+    - Plasma
+    - SulfuricAcid
+    - SpaceDrugs
+    - Nocturine
+    - MuteToxin
+    - Napalm
+    - CarpoToxin
+    - ChloralHydrate
+    - Mold
+    - Amatoxin
 
 - type: artifactEffect
   id: EffectIgnite
@@ -549,10 +557,9 @@
   - type: Explosive
     deleteAfterExplosion: false
     explosionType: Default
-    totalIntensity: 300
+    totalIntensity: 500
     intensitySlope: 2.5
     maxIntensity: 50
-    canCreateVacuum: false
 
 - type: artifactEffect
   id: EffectSingulo

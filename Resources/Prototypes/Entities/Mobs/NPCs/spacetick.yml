@@ -84,6 +84,7 @@
     accent: genericAggressive
   - type: Speech
     speechVerb: SmallMob
+  - type: NonSpreaderZombie
 
 - type: entity
   id: MobTickSalvage
@@ -94,6 +95,7 @@
     prob: 0
     name: ghost-role-information-salvage-tick-name
     description: ghost-role-information-salvage-tick-description
+  - type: GhostTakeoverAvailable
   - type: SalvageMobRestrictions
 
 - type: entity

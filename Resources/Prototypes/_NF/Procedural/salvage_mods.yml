@@ -7,12 +7,12 @@
     - Lava
     - Snow
 
-- type: salvageDungeonMod
-  id: CaveFactory
-  proto: CaveFactory
-  biomes:
-    - Caves
-    - Grasslands
+# - type: salvageDungeonMod
+#   id: CaveFactory
+#   proto: CaveFactory
+#   biomes:
+#     - Caves
+#     - Grasslands
 
 - type: salvageDungeonMod
   id: MedSci

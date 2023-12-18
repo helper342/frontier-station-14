@@ -128,7 +128,7 @@ public sealed record SalvageMission(
     public DifficultyRating Difficulty = Difficulty;
 
     /// <summary>
-    /// <see cref="SalvageDungeonMod"/> to be used.
+    /// <see cref="SalvageDungeonModPrototype"/> to be used.
     /// </summary>
     public readonly string Dungeon = Dungeon;
 

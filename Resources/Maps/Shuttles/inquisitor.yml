@@ -2029,7 +2029,7 @@ entities:
       type: Transform
     - count: 5
       type: Stack
-    - size: 5
+    - size: Small
       type: Item
     - canCollide: False
       type: Physics
@@ -2075,7 +2075,7 @@ entities:
       type: Transform
     - count: 5
       type: Stack
-    - size: 5
+    - size: Small
       type: Item
     - canCollide: False
       type: Physics
@@ -2087,7 +2087,7 @@ entities:
       type: Transform
     - count: 5
       type: Stack
-    - size: 5
+    - size: Small
       type: Item
     - canCollide: False
       type: Physics
@@ -2218,7 +2218,7 @@ entities:
       type: Transform
     - count: 5
       type: Stack
-    - size: 5
+    - size: Small
       type: Item
     - canCollide: False
       type: Physics
@@ -5665,7 +5665,7 @@ entities:
       type: Transform
     - count: 2
       type: Stack
-    - size: 2
+    - size: Tiny
       type: Item
     - canCollide: False
       type: Physics

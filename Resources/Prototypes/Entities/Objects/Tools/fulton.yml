@@ -28,7 +28,7 @@
           mask:
             - Impassable
     - type: Item
-      size: 30
+      size: Normal
     - type: Foldable
       folded: true
     - type: Clickable
@@ -55,12 +55,12 @@
   id: Fulton
   parent: BaseItem
   suffix: Full
-  name: Фултон
-  description: Використовується для вилучення контейнерів, предметів або примусового залучення людей на вашу оперативну базу.
+  name: fulton
+  description: Used to extract containers, items, or forcibly recruit people into your base of operations.
   components:
   - type: Fulton
   - type: Item
-    size: 20
+    size: Normal
   - type: Stack
     stackType: Fulton
     count: 10
@@ -86,11 +86,11 @@
 - type: entity
   id: Fulton1
   parent: Fulton
-  name: Фултон
+  name: fulton
   suffix: One
   components:
   - type: Item
-    size: 2
+    size: Small
   - type: Stack
     count: 1
 

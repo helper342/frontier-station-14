@@ -108,11 +108,11 @@ accent-dwarf-words-replace-34 = da
 accent-dwarf-words-35 = mom
 accent-dwarf-words-replace-35 = maw
 
-accent-dwarf-words-36 = newbie
-accent-dwarf-words-replace-36 = greenbeard
+accent-dwarf-words-36 = новачок
+accent-dwarf-words-replace-36 = зеленобородий
 
-accent-dwarf-words-37 = noob
-accent-dwarf-words-replace-37 = greenbeard
+accent-dwarf-words-37 = нуб
+accent-dwarf-words-replace-37 = зеленобородий
 
 accent-dwarf-words-38 = noobie
 accent-dwarf-words-replace-38 = greenbeard
@@ -120,8 +120,8 @@ accent-dwarf-words-replace-38 = greenbeard
 accent-dwarf-words-39 = professional
 accent-dwarf-words-replace-39 = greybeard
 
-accent-dwarf-words-40 = veteran
-accent-dwarf-words-replace-40 = greybeard
+accent-dwarf-words-40 = ветеран
+accent-dwarf-words-replace-40 = сіробородий
 
 accent-dwarf-words-41 = fuck
 accent-dwarf-words-replace-41 = sod
@@ -411,8 +411,8 @@ accent-dwarf-words-replace-135 = benae
 accent-dwarf-words-136 = aint
 accent-dwarf-words-replace-136 = benae
 
-accent-dwarf-words-137 = zombie
-accent-dwarf-words-replace-137 = rotter
+accent-dwarf-words-137 = зомбі
+accent-dwarf-words-replace-137 = гнильці
 
 accent-dwarf-words-138 = zomb
 accent-dwarf-words-replace-138 = rotter
@@ -438,8 +438,8 @@ accent-dwarf-words-replace-144 = dobber
 accent-dwarf-words-145 = stupid
 accent-dwarf-words-replace-145 = diteit
 
-accent-dwarf-words-146 = officer
-accent-dwarf-words-replace-146 = bobby
+accent-dwarf-words-146 = офіцер
+accent-dwarf-words-replace-146 = бобі
 
 accent-dwarf-words-147 = seccie
 accent-dwarf-words-replace-147 = bobby

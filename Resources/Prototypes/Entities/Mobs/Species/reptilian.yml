@@ -10,8 +10,8 @@
   - type: Hunger
     starvationDamage:
       types:
-        Cold: 0.1
-        Bloodloss: 0.1
+        Cold: 0.5
+        Bloodloss: 0.5
   - type: Puller
     needsHands: false
   - type: Thirst
@@ -42,19 +42,14 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: Scale
-  - type: SizeAttributeWhitelist
-    tall: true
-    tallscale: 1.2
-    tallDensity: 220
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Weapons/slash.ogg
+      path: /Audio/Weapons/pierce.ogg
     angle: 30
-    animation: WeaponArcClaw
+    animation: WeaponArcPunch
     damage:
       types:
-        Slash: 4
-        Blunt: 1
+        Piercing: 5
   - type: Temperature
     heatDamageThreshold: 400
     coldDamageThreshold: 285

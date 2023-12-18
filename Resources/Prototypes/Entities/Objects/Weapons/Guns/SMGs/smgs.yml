@@ -7,7 +7,7 @@
   components:
   - type: Sprite
   - type: Item
-    size: 30
+    size: Large
   - type: Clothing
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
     quickEquip: false
@@ -138,7 +138,7 @@
             tags:
               - MagazinePistolSubMachineGun
         gun_chamber:
-          name: палата
+          name: Затвор
           startingItem: CartridgePistol
           priority: 1
           whitelist:

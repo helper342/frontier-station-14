@@ -21,6 +21,8 @@
   components:
   - type: Utensil
     breakChance: 0.20
+  - type: StaticPrice
+    price: 0
   - type: Tag
     tags:
      - Plastic

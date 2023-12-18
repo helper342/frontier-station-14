@@ -8,7 +8,7 @@ ent-CrateNPCCat = Cat crate
     .desc = A crate containing a single cat.
 
 ent-CrateNPCChicken = Chicken crate
-    .desc = A crate containing two fully grown chickens.
+    .desc = A crate containing four fully grown chickens.
 
 ent-CrateNPCCrab = Crab crate
     .desc = A crate containing three huge crabs.
@@ -18,6 +18,9 @@ ent-CrateNPCDuck = Duck crate
 
 ent-CrateNPCCorgi = Corgi crate
     .desc = A crate containing a single corgi.
+
+ent-CrateNPCPuppyCorgi = Puppy Corgi crate
+    .desc = A crate containing a single puppy corgi. Awww.
 
 ent-CrateNPCCow = Cow crate
     .desc = A crate containing a single cow.
@@ -32,7 +35,7 @@ ent-CrateNPCGorilla = Gorilla crate
     .desc = A crate containing a single gorilla.
 
 ent-CrateNPCMonkeyCube = Monkey cube crate
-    .desc = A crate containing a single box of monkey cubes.
+    .desc = A crate containing three boxes of monkey cubes.
 
 ent-CrateNPCMouse = Mice crate
     .desc = A crate containing five mice.
@@ -42,6 +45,9 @@ ent-CrateNPCParrot = Parrot crate
 
 ent-CrateNPCPenguin = Penguin crate
     .desc = A crate containing two penguins.
+
+ent-CrateNPCMothroach = Crate of mothroaches
+    .desc = A crate containing six mothroaches.
 
 ent-CrateNPCPig = Pig crate
     .desc = A crate containing a single pig.
