@@ -4,14 +4,12 @@
   noSpawn: true
   components:
   - type: Stomach
-    # specialDigestible:
-    #   tags:
-    #   - Fruit
-    #   - Meat
-    #   - Pill
-    #   - Crayon
-    #   - Egg
-    #   - Bread
+    specialDigestible:
+      tags:
+      - Fruit
+      - Meat
+      - Pill
+      - Crayon
   - type: SolutionContainerManager
     solutions:
       stomach:

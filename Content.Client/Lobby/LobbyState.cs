@@ -207,7 +207,7 @@ namespace Content.Client.Lobby
 
             if (_gameTicker.ServerInfoBlob != null)
             {
-                //_lobby!.ServerInfo.SetInfoBlob(_gameTicker.ServerInfoBlob);
+                _lobby!.ServerInfo.SetInfoBlob(_gameTicker.ServerInfoBlob);
             }
 
             if (_gameTicker.LobbySong == null)

@@ -1,3 +1,4 @@
+# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_meal.yml & food_single.yml
 # Base
 
 - type: entity
@@ -18,15 +19,13 @@
         maxVol: 40
         reagents:
         - ReagentId: Nutriment
-          Quantity: 15
+          Quantity: 30
         - ReagentId: Vitamin
           Quantity: 5
-        - ReagentId: Flavorol
-          Quantity: 15
   - type: SliceableFood
     count: 8
   - type: Item
-    size: 8
+    size: Normal
   - type: Tag
     tags:
     - Pizza
@@ -51,13 +50,11 @@
         maxVol: 6
         reagents:
         - ReagentId: Nutriment
-          Quantity: 3
+          Quantity: 5
         - ReagentId: Vitamin
           Quantity: 0.8
-        - ReagentId: Flavorol
-          Quantity: 3
   - type: Item
-    size: 1
+    size: Tiny
   - type: Tag
     tags:
     - Pizza

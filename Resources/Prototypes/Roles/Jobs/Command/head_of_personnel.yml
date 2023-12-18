@@ -11,7 +11,7 @@
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
   requireAdminNotify: true
-  supervisors: job-supervisors-centcom # Frontier
+  supervisors: job-supervisors-captain
   canBeAntag: false
   access:
   - Command
@@ -63,12 +63,13 @@
     shoes: ClothingShoesColorBrown
     head: ClothingHeadHatHopcap
     id: HoPPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCommand
     eyes: ClothingEyesGlassesSunglasses
-    belt: BoxFolderQmClipboard # Frontier
+    belt: BoxFolderClipboard # Frontier
     neck: ClothingNeckCloakHop # Frontier
     outerClothing: ClothingOuterWinterHoP # Frontier
     pocket1: WeaponDisabler # Frontier
+    gloves: ClothingHandsGlovesHop
   innerClothingSkirt: ClothingUniformJumpskirtHoP
   satchel: ClothingBackpackSatchelHOPFilled
   duffelbag: ClothingBackpackDuffelHOPFilled

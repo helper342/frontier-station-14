@@ -4,8 +4,6 @@
   id: BoxMedicalTrackingImplants
   description: Медичний страховий набір імплантатів.
   components:
-  - type: Item
-    size: 60
   - type: StorageFill
     contents:
       - id: MedicalTrackingImplanter
@@ -14,8 +12,6 @@
         amount: 1
       - id: PaperMedicalInsurance
         amount: 1
-  - type: Storage
-    capacity: 60
   - type: Sprite
     layers:
       - state: box

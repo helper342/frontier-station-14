@@ -81,6 +81,20 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
+    
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesJensen
+  name: jensen glasses
+  description: A pair of yellow tinted folding glasses. You never asked for these.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/jensen.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/jensen.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingEyesBase
@@ -113,7 +127,7 @@
 
 - type: entity
   parent: ClothingEyesBase
-  id: ClothingEyesGlassesSunglasses
+  id: ClothingEyesGlassesCosmeticSunglasses
   name: сонцезахисні окуляри
   description: Корисно як для безпеки, так і для вантажів.
   components:
@@ -130,10 +144,18 @@
     - WhitelistChameleon
 
 - type: entity
+  parent: ClothingEyesGlassesCosmeticSunglasses
+  id: ClothingEyesGlassesSunglasses
+  components:
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesSecurity
-  name: сонцезахисні окуляри охорони
-  description: Дивно стародавня технологія, яка використовується для створення елементарного покриву очей. Покращене екранування блокує багато спалахів. Часто носять працівники бюджетної безпеки.
+  name: security sunglasses
+  description: Strangely ancient technology used to help provide rudimentary eye cover. Enhanced shielding blocks many flashes. Often worn by budget security officers.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/secglasses.rsi

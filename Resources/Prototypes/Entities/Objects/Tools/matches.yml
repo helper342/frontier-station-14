@@ -4,17 +4,16 @@
   abstract: true
   components:
   - type: Storage
-    capacity: 10
+    grid:
+    - 0,0,6,1
   - type: Item
-    size: 10
-  - type: StaticPrice
-    price: 10
+    size: Small
 
 - type: entity
-  name: сірник
+  name: match stick
   parent: BaseItem
   id: Matchstick
-  description: Простий сірник, який використовується для розпалювання вишуканих курильних виробів.
+  description: A simple match stick, used for lighting fine smokables.
   components:
   - type: Tag
     tags:
@@ -28,7 +27,7 @@
   - type: Item
     sprite: Objects/Tools/matches.rsi
     heldPrefix: unlit
-    size: 1
+    size: Tiny
   - type: Matchstick
     duration: 10
     igniteSound:
@@ -86,13 +85,14 @@
   - type: Item
     sprite: Objects/Tools/matches.rsi
     heldPrefix: matchbox
-    size: 5
+    size: Small
   - type: Storage
-    capacity: 5
+    grid:
+    - 0,0,2,1
   - type: StorageFill
     contents:
       - id: Matchstick
-        amount: 5
+        amount: 6
   - type: ItemCounter
     count:
       tags: [Matchstick]

@@ -11,10 +11,16 @@
 
 - type: entity
   id: BriefcaseSyndieSniperBundleFilled
-  name: Коричневий портфель
+  name: brown briefcase
   parent: BriefcaseSyndie
   suffix: SniperBundle
   components:
+  - type: Item
+    size: Ginormous
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,6,3
   - type: StorageFill
     contents:
       - id: WeaponSniperHristov

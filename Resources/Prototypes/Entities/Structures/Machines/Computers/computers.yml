@@ -103,7 +103,9 @@
     tags:
       - Syndicate
   - type: RadarConsole
-    maxRange: 512
+    maxRange: 1536
+  - type: WorldLoader
+    radius: 1536
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -372,6 +374,9 @@
       state: rd_key
   - type: ResearchClient
   - type: ResearchConsole
+  - type: ActiveRadio
+    channels:
+    - Science
   - type: TechnologyDatabase
   - type: ActivatableUI
     key: enum.ResearchConsoleUiKey.Key
@@ -387,7 +392,7 @@
   - type: Computer
     board: ResearchComputerCircuitboard
   - type: AccessReader
-#    access: [["Research"]]
+    access: [["Research"]]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -696,7 +701,7 @@
       Brute:
         path:
           "/Audio/Effects/glass_hit.ogg"
-  - type: Computer
+  # - type: Computer
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver
@@ -722,6 +727,8 @@
     - key: enum.CargoConsoleUiKey.Orders
       type: CargoOrderConsoleBoundUserInterface
   - type: LitOnPowered
+  - type: Computer
+    board: CargoRequestComputerCircuitboard
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -875,7 +882,7 @@
       energy: 1.6
       color: "#b89f25"
     - type: AccessReader
-#      access: [["Salvage"]]
+      access: [["Salvage"]]
 
 - type: entity
   parent: BaseComputer

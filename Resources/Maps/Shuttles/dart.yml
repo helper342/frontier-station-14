@@ -1190,6 +1190,13 @@ entities:
     - pos: -4.4936705,5.6566277
       parent: 1
       type: Transform
+- proto: BoxEncryptionKeySecurity
+  entities:
+  - uid: 981
+    components:
+    - pos: -4.3061705,5.4847527
+      parent: 1
+      type: Transform
 - proto: BoxTrashbag
   entities:
   - uid: 853
@@ -3154,9 +3161,6 @@ entities:
       type: Transform
     - enabled: True
       type: PointLight
-    - enabled: True
-      type: AmbientSound
-    - type: ActiveEmergencyLight
   - uid: 885
     components:
     - rot: -1.5707963267948966 rad
@@ -3165,9 +3169,6 @@ entities:
       type: Transform
     - enabled: True
       type: PointLight
-    - enabled: True
-      type: AmbientSound
-    - type: ActiveEmergencyLight
   - uid: 888
     components:
     - pos: 2.5,-7.5
@@ -3175,9 +3176,6 @@ entities:
       type: Transform
     - enabled: True
       type: PointLight
-    - enabled: True
-      type: AmbientSound
-    - type: ActiveEmergencyLight
   - uid: 889
     components:
     - rot: 3.141592653589793 rad
@@ -3186,9 +3184,6 @@ entities:
       type: Transform
     - enabled: True
       type: PointLight
-    - enabled: True
-      type: AmbientSound
-    - type: ActiveEmergencyLight
   - uid: 890
     components:
     - rot: 1.5707963267948966 rad
@@ -3197,9 +3192,6 @@ entities:
       type: Transform
     - enabled: True
       type: PointLight
-    - enabled: True
-      type: AmbientSound
-    - type: ActiveEmergencyLight
   - uid: 892
     components:
     - rot: 3.141592653589793 rad
@@ -3208,9 +3200,14 @@ entities:
       type: Transform
     - enabled: True
       type: PointLight
-    - enabled: True
-      type: AmbientSound
-    - type: ActiveEmergencyLight
+
+- proto: EncryptionKeyCommand
+  entities:
+  - uid: 982
+    components:
+    - pos: -4.7592955,5.4378777
+      parent: 1
+      type: Transform
 - proto: ExtinguisherCabinetFilled
   entities:
   - uid: 15

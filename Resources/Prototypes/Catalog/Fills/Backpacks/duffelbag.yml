@@ -33,17 +33,19 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
   id: ClothingBackpackDuffelSyndicateFilledMedical
-  name: синдикатський хірургічний речовий мішок
-  description: Велика сумка, що містить повний набір хірургічних інструментів.
+  name: syndicate surgical duffel bag
+  description: A large duffel bag containing a full suite of surgical tools.
   components:
-    - type: StorageFill
-      contents:
-        - id: Hemostat
-        - id: SawAdvanced
-        - id: Drill
-        - id: Cautery
-        - id: Retractor
-        - id: ScalpelAdvanced
+  - type: StorageFill
+    contents:
+      - id: Hemostat
+      - id: SawAdvanced
+      - id: Drill
+      - id: Cautery
+      - id: Retractor
+      - id: ScalpelAdvanced
+      - id: ClothingHandsGlovesNitrile
+      - id: EmergencyRollerBedSpawnFolded
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -198,22 +200,25 @@
   name: піжамний мішок Syndicate
   description: Містить 3 пари синдикатних піжам і 3 плюшеві подарунки для чудового ночівлі.
   components:
-    - type: StorageFill
-      contents:
-        - id: ClothingUniformJumpsuitPyjamaSyndicateRed
-        - id: ClothingUniformJumpsuitPyjamaSyndicateBlack
-        - id: ClothingUniformJumpsuitPyjamaSyndicatePink
-        - id: ClothingHeadPyjamaSyndicateRed
-        - id: ClothingHeadPyjamaSyndicateBlack
-        - id: ClothingHeadPyjamaSyndicatePink
-        - id: ClothingShoesSlippers
-          amount: 3
-        - id: BedsheetSyndie
-          amount: 3
-        - id: PlushieCarp
-        - id: PlushieNuke
-        - id: PlushieLizard
-        - id: PlushieSharkBlue
+  - type: Storage
+    grid:
+    - 0,0,8,4
+  - type: StorageFill
+    contents:
+      - id: ClothingUniformJumpsuitPyjamaSyndicateRed
+      - id: ClothingUniformJumpsuitPyjamaSyndicateBlack
+      - id: ClothingUniformJumpsuitPyjamaSyndicatePink
+      - id: ClothingHeadPyjamaSyndicateRed
+      - id: ClothingHeadPyjamaSyndicateBlack
+      - id: ClothingHeadPyjamaSyndicatePink
+      - id: ClothingShoesSlippers
+        amount: 3
+      - id: BedsheetSyndie
+        amount: 3
+      - id: PlushieCarp
+      - id: PlushieNuke
+      - id: PlushieLizard
+      - id: PlushieSharkBlue
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -318,6 +323,8 @@
         - id: CombatMedipen
         - id: MicroBombImplanter
         - id: SyndiHypo
+        - id: PinpointerSyndicateNuclear
+        - id: DeathAcidifierImplanter
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle

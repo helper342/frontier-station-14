@@ -40,7 +40,7 @@
       types:
         Piercing: 4
   - type: Item
-    size: 2
+    size: Tiny
     sprite: Objects/Fun/Darts/dart_red.rsi
   - type: ItemCooldown
   - type: SolutionContainerManager

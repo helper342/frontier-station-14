@@ -7,19 +7,18 @@
     weight: 10
     startDelay: 30
     duration: 35
-    minimumPlayers: 55
   - type: AnomalySpawnRule
 
-# - type: entity
-  # id: BluespaceArtifact
-  # parent: BaseGameRule
-  # noSpawn: true
-  # components:
-  # - type: StationEvent
-    # weight: 5
-    # startDelay: 30
-    # duration: 35
-  # - type: BluespaceArtifactRule
+- type: entity
+  id: BluespaceArtifact
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    weight: 5
+    startDelay: 30
+    duration: 35
+  - type: BluespaceArtifactRule
 
 - type: entity
   id: BluespaceLocker
@@ -27,7 +26,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 0
+    weight: 1
     reoccurrenceDelay: 5
     earliestStart: 1
     duration: 1
@@ -75,9 +74,9 @@
   - type: StationEvent
     weight: 5
     duration: 1
-    earliestStart: 45
+    earliestStart: 40
     reoccurrenceDelay: 60
-    minimumPlayers: 4
+    minimumPlayers: 5
   - type: RandomSpawnRule
     prototype: SpawnPointGhostDragon
 
@@ -91,21 +90,21 @@
     duration: 1
     earliestStart: 30
     reoccurrenceDelay: 60
-    minimumPlayers: 4
+    minimumPlayers: 10
   - type: NinjaSpawnRule
 
-# - type: entity
-  # parent: BaseGameRule
-  # id: RevenantSpawn
-  # noSpawn: true
-  # components:
-  # - type: StationEvent
-    # weight: 7.5
-    # duration: 1
-    # earliestStart: 45
-    # minimumPlayers: 20
-  # - type: RandomSpawnRule
-    # prototype: MobRevenant
+- type: entity
+  parent: BaseGameRule
+  id: RevenantSpawn
+  noSpawn: true
+  components:
+  - type: StationEvent
+    weight: 7.5
+    duration: 1
+    earliestStart: 45
+    minimumPlayers: 20
+  - type: RandomSpawnRule
+    prototype: MobRevenant
 
 - type: entity
   id: FalseAlarm
@@ -142,9 +141,9 @@
   components:
   - type: StationEvent
     earliestStart: 15
-    minimumPlayers: 2
+    minimumPlayers: 5
     weight: 5
-    startDelay: 50
+    startDelay: 40
     duration: 240
   - type: KudzuGrowthRule
 
@@ -192,6 +191,21 @@
       prob: 0.005
 
 - type: entity
+  id: CockroachMigration
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    weight: 5
+    duration: 50
+  - type: VentCrittersRule
+    entries:
+    - id: MobCockroach
+      prob: 0.03
+    - id: MobMothroach
+      prob: 0.008
+
+- type: entity
   id: PowerGridCheck
   parent: BaseGameRule
   noSpawn: true
@@ -228,7 +242,7 @@
   components:
   - type: StationEvent
     weight: 10
-    minimumPlayers: 25
+    minimumPlayers: 5
     startAnnouncement: station-event-solar-flare-start-announcement
     endAnnouncement: station-event-solar-flare-end-announcement
     startAudio:
@@ -243,6 +257,15 @@
     - Common
     - Service
     - Traffic # Frontier
+    extraChannels:
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    extraCount: 2
     lightBreakChancePerSecond: 0.0003
     doorToggleChancePerSecond: 0.001
 
@@ -269,7 +292,7 @@
   components:
   - type: StationEvent
     id: VentCritters
-    earliestStart: 15
+    earliestStart: 10
     minimumPlayers: 2
     weight: 5
     duration: 60
@@ -293,7 +316,7 @@
     startAnnouncement: station-event-aliens-spawn-announcement
     startAudio:
       path: /Audio/Announcements/aliens-ua.ogg
-    earliestStart: 20
+    earliestStart: 30
     minimumPlayers: 2
     weight: 5
     duration: 60
@@ -315,7 +338,7 @@
     startAnnouncement: station-event-aliens-spawn-announcement
     startAudio:
       path: /Audio/Announcements/aliens-ua.ogg
-    earliestStart: 20
+    earliestStart: 30
     minimumPlayers: 2
     weight: 5
     duration: 60
@@ -332,7 +355,7 @@
   - type: StationEvent
     earliestStart: 20
     minimumPlayers: 15
-    weight: 2
+    weight: 1
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -346,7 +369,7 @@
   components:
   - type: StationEvent
     earliestStart: 50
-    weight: 2.5
+    weight: 5
     duration: 1
   - type: ZombieRule
     minStartDelay: 0 #let them know immediately
@@ -361,10 +384,10 @@
   noSpawn: true
   components:
   - type: StationEvent
-    earliestStart: 30
+    earliestStart: 45
     weight: 5
-    minimumPlayers: 5
-    reoccurrenceDelay: 25
+    minimumPlayers: 10
+    reoccurrenceDelay: 30
     duration: 1
   - type: LoneOpsSpawnRule
 
@@ -432,20 +455,20 @@
     - id: MobMothroach
       prob: 0.05
 
-# - type: entity
-  # id: ImmovableRodSpawn
-  # parent: BaseGameRule
-  # noSpawn: true
-  # components:
-  # - type: StationEvent
-    # startAnnouncement: station-event-immovable-rod-start-announcement
-    # startAudio:
-      # path: /Audio/Announcements/attention.ogg
-    # weight: 1
-    # duration: 1
-    # earliestStart: 45
-    # minimumPlayers: 20
-  # - type: ImmovableRodRule
+- type: entity
+  id: ImmovableRodSpawn
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-immovable-rod-start-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    weight: 1
+    duration: 1
+    earliestStart: 45
+    minimumPlayers: 15
+  - type: ImmovableRodRule
 
 - type: entity
   noSpawn: true

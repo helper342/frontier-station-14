@@ -34,7 +34,7 @@
         - id: ClothingMaskBreathMedicalSecurity
         - id: JetpackSecurityFilled
         - id: HandheldGPSBasic
-        - id: ClothingShoesBootsMagCombatFilled # Frontier
+        - id: ClothingShoesBootsMagCombat # Frontier
   - type: AccessReader
     access: [["Security"]]
 

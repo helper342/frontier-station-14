@@ -59,7 +59,7 @@
         Slash: 2.5
   - type: GunRequiresWield
   - type: Item
-    size: 150
+    size: Ginormous
   - type: DisarmMalus
   - type: Tool
     qualities:
@@ -87,19 +87,20 @@
       types:
         Slash: 6.5
   - type: Item
-    size: 10
+    size: Small
   - type: Tag
     tags:
     - Knife
   - type: StaticPrice
     price: 95.5
 
+
 # Like a crusher... but better
 - type: entity
-  name: подрібнювач меча
+  name: crusher glaive
   parent: WeaponCrusher
   id: WeaponCrusherGlaive
-  description: Рання конструкція протокінетичного прискорювача у формі глефи.
+  description: An early design of the proto-kinetic accelerator, in glaive form.
   components:
   - type: Tag
     tags:
@@ -121,7 +122,7 @@
     wideAnimationRotation: -135
     attackRate: 1.25
   - type: Item
-    size: 150
+    size: Ginormous
   - type: StaticPrice
     price: 285
   - type: Clothing

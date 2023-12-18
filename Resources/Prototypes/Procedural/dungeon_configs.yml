@@ -101,7 +101,8 @@
     - !type:RoomEntrancePostGen
       entities:
         - CableApcExtension
-        - AirlockSecurityGlass
+        - AirlockSecurityGlassLocked
+
     - !type:EntranceFlankPostGen
       entities:
         - Grille

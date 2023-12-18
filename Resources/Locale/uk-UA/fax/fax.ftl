@@ -9,6 +9,7 @@ fax-machine-dialog-field-name = Ім'я
 
 fax-machine-ui-window = Факс
 fax-machine-ui-send-button = Надіслати
+fax-machine-ui-copy-button = Зробити копію
 fax-machine-ui-refresh-button = Перезавантажити
 fax-machine-ui-no-peers = No Peers
 fax-machine-ui-to = До:

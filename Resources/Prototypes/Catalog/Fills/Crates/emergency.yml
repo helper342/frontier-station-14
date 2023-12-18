@@ -1,6 +1,6 @@
 - type: entity
   id: CrateEmergencyExplosive
-  parent: CrateScienceSecure
+  parent: CrateSecgear
   components:
   - type: StorageFill
     contents:

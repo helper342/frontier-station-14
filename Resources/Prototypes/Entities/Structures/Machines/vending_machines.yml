@@ -187,8 +187,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MarketModifier
-    mod: 5
+  - type: AccessReader
+    access: [["Bar"]]
   - type: GuideHelp
     guides:
     - Bartender
@@ -249,6 +249,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Service"]]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -659,6 +661,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Service"]]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -748,6 +752,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Engineering"]]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -783,6 +789,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
     mod: 5
+  - type: AccessReader
+    access: [["Medical"]]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -818,6 +826,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
     mod: 5
+  - type: AccessReader
+    access: [["Hydroponics"]]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1207,6 +1217,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
     mod: 5
+  - type: AccessReader
+    access: [["Research"]]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1335,6 +1347,8 @@
     color: "#9dc5c9"
   - type: MarketModifier
     mod: 10
+  - type: AccessReader
+    access: [["Salvage"]]
   - type: GuideHelp
     guides:
     - Salvage
@@ -1412,6 +1426,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
     mod: 5
+  - type: AccessReader
+    access: [["Medical"]]
   - type: GuideHelp
     guides:
     - Medical
@@ -1441,6 +1457,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Hydroponics"]]
 
 - type: entity
   parent: VendingMachine
@@ -1465,6 +1483,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Lawyer"]]
 
 - type: entity
   parent: VendingMachine
@@ -1515,6 +1535,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Bar"]]
 
 - type: entity
   parent: VendingMachine
@@ -1537,6 +1559,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Chapel"]]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1565,6 +1589,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Cargo"]]
 
 - type: entity
   parent: VendingMachine
@@ -1589,6 +1615,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Medical"]]
 
 - type: entity
   parent: VendingMachine
@@ -1613,6 +1641,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Chemistry"]]
 
 - type: entity
   parent: VendingMachine
@@ -1637,8 +1667,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-#  - type: AccessReader # Frontier
-#    access: [["Service"]]
+  - type: AccessReader
+    access: [["Service"]]
 
 - type: entity
   parent: VendingMachine
@@ -1663,6 +1693,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Engineering"]]
 
 - type: entity
   parent: VendingMachine
@@ -1687,6 +1719,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Engineering"]]
 
 - type: entity
   parent: VendingMachine
@@ -1711,6 +1745,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Kitchen"]]
 
 - type: entity
   parent: VendingMachine
@@ -1735,6 +1771,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Detective"]]
 
 - type: entity
   parent: VendingMachine
@@ -1759,6 +1797,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Janitor"]]
 
 - type: entity
   parent: VendingMachine
@@ -1783,6 +1823,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Research"]]
 
 - type: entity
   parent: VendingMachine
@@ -1808,7 +1850,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
-#    access: [["NuclearOperative"], ["SyndicateAgent"]]
+    access: [["NuclearOperative"], ["SyndicateAgent"]]
 
 - type: entity
   parent: VendingMachine
@@ -1833,6 +1875,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Research"]]
 
 - type: entity
   parent: VendingMachine
@@ -1857,6 +1901,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Medical"]]
 
 - type: entity
   parent: VendingMachine
@@ -1881,6 +1927,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Medical"]]
 
 - type: entity
   parent: VendingMachine
@@ -1942,6 +1990,8 @@
     pack: HappyHonkAds
   - type: MarketModifier
     mod: 5
+  - type: AccessReader
+    access: [["Kitchen"], ["Theatre"]]
 
 # Gas Tank Dispenser
 
@@ -1987,7 +2037,7 @@
     brokenState: broken
     normalState: normal
     denyState: deny
-    ejectDelay: 3
+    ejectDelay: 2
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/chemvend.rsi
     layers:
@@ -1997,6 +2047,25 @@
       map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Chemistry"]]
   - type: GuideHelp
     guides:
     - Chemicals
+
+- type: entity
+  parent: VendingMachineChemicals
+  id: VendingMachineChemicalsSyndicate
+  name: SyndieJuice
+  description: Not made with freshly squeezed syndies I hope.
+  components:
+  - type: VendingMachine
+    pack: ChemVendInventorySyndicate
+    offState: off
+    brokenState: broken
+    normalState: normal
+    denyState: deny
+    ejectDelay: 2
+  - type: AccessReader
+    access: [["SyndicateAgent"]]
+

@@ -153,7 +153,7 @@
   - type: MachinePart
     part: PowerCell
     rating: 3
-
+    
 - type: entity
   id: PowerCellHighPrinted
   suffix: Empty
@@ -191,7 +191,7 @@
   - type: MachinePart
     part: PowerCell
     rating: 4
-
+    
 - type: entity
   id: PowerCellHyperPrinted
   suffix: Empty
@@ -210,29 +210,45 @@
     startingCharge: 0
 
 - type: entity
-  name: малий мікрореактор
-  description: Перезаряджуваний стандартизований мікрореакторний елемент. Призначений для малопотужних пристроїв, повільно заряджається сам.
-  id: PowerCellMicroreactor
-  suffix: Full
   parent: BasePowerCell
+  id: PowerCellMicroreactor
+  name: microreactor power cell
+  description: A rechargeable standardized microreactor cell. Has lower capacity but slowly recharges by itself.
+  suffix: Full
   components:
-    - type: Sprite
-      layers:
-      - map: [ "enum.PowerCellVisualLayers.Base" ]
-        state: microreactor
-      - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
-        state: o2
-        shader: unshaded
-    - type: Battery
-      maxCharge: 50
-      startingCharge: 50
-    - type: BatterySelfRecharger
-      autoRecharge: true
-      autoRechargeRate: 0.16667 #takes about 5 minutes to charge itself back to full
+  - type: Sprite
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: microreactor
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
+      shader: unshaded
+  - type: Battery
+    maxCharge: 720
+    startingCharge: 720
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 12 # takes 1 minute to charge itself back to full
 
 - type: entity
-  name: старовинний прототип елемента живлення
-  description: Маленький елемент, який самостійно заряджається. Використовувався в старих дослідженнях лазерної зброї.
+  parent: PowerCellMicroreactor
+  id: PowerCellMicroreactorPrinted
+  suffix: Empty
+  components:
+  - type: Sprite
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: microreactor
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
+      shader: unshaded
+      visible: false
+  - type: Battery
+    startingCharge: 0
+
+- type: entity
+  name: antique power cell prototype
+  description: A small cell that self recharges. Used in old laser arms research.
   id: PowerCellAntiqueProto
   parent: BasePowerCell
   components:

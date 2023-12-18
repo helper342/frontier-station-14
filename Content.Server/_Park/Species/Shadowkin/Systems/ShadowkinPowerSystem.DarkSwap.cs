@@ -17,6 +17,7 @@ using Content.Shared.Stealth;
 using Content.Shared.Stealth.Components;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 using Content.Shared.Ghost;
 using Robust.Shared.Prototypes;
 

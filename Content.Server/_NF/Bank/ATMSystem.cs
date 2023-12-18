@@ -6,6 +6,7 @@ using Content.Shared.Bank.Components;
 using Content.Shared.Bank.Events;
 using Content.Shared.Coordinates;
 using Content.Shared.Stacks;
+using Robust.Shared.Audio.Systems;
 using Robust.Server.GameObjects;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;

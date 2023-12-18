@@ -91,22 +91,22 @@
   components:
   - type: StorageFill
     contents:
-#      - id: ClothingHandsGlovesLeather # Frontier
-#      - id: ClothingOuterApronBotanist # Frontier
-#      - id: ClothingHeadBandBotany # Frontier
-#      - id: HydroponicsToolClippers # Frontier
-#      - id: HydroponicsToolSpade # Frontier
-#      - id: HydroponicsToolMiniHoe # Frontier
-#      - id: RobustHarvestChemistryBottle # Frontier
-#      - id: ClothingBeltPlant # Frontier
       - id: ClothingBeltPlantFilled # Frontier
+      - id: ClothingHandsGlovesLeather
+      - id: ClothingOuterApronBotanist
+      - id: ClothingHeadBandBotany
+      - id: HydroponicsToolClippers
+      - id: HydroponicsToolSpade
+      - id: HydroponicsToolMiniHoe
+      - id: RobustHarvestChemistryBottle
+        prob: 0.3
+      - id: ClothingBeltPlant
       - id: PlantBag ##Some maps don't have nutrivend
       - id: BoxMouthSwab
-#      - id: HandLabeler
-#      - id: ClothingUniformOveralls # Frontier
-#      - id: ClothingHeadHatTrucker # Frontier
-#        prob: 0.1
-      - id: ClothingHeadsetService # Frontier
+      - id: HandLabeler
+      - id: ClothingUniformOveralls
+      - id: ClothingHeadHatTrucker
+        prob: 0.1
 
 - type: entity
   id: LockerBotanistLoot
@@ -124,3 +124,13 @@
         prob: 0.5
       - id: NettleSeeds
         prob: 0.7
+
+- type: entity
+  id: ClosetJanitorBombFilled
+  parent: ClosetJanitorBomb
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadHelmetJanitorBombSuit
+      - id: ClothingOuterSuitJanitorBomb

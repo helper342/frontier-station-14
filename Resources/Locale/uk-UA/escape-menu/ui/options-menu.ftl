@@ -1,53 +1,70 @@
 ## General stuff
 
-ui-options-title = Game Options
-ui-options-tab-graphics = Graphics
-ui-options-tab-controls = Controls
-ui-options-tab-audio = Audio
-ui-options-tab-network = Network
+ui-options-title = Налаштування гри
+ui-options-tab-graphics = Графіка
+ui-options-tab-controls = Управління
+ui-options-tab-audio = Аудіо
+ui-options-tab-network = Звʼязок
+ui-options-tab-misc = Загальне
 
-ui-options-apply = Apply
+ui-options-apply = Прийняти
 ui-options-reset-all = Reset All
 ui-options-default = Default
 
+# Misc/General menu
+
+ui-options-discordrich = Включити широкий зміст дискорду
+ui-options-general-discord = Дискорд
+ui-options-general-cursor = Курсор
+ui-options-general-speech = Розмови
+ui-options-general-storage = Сховище
+
 ## Audio menu
 
-ui-options-master-volume = Master Volume:
-ui-options-midi-volume = MIDI (Instrument) Volume:
-ui-options-ambient-music-volume = Ambient music volume:
-ui-options-ambience-volume = Ambience volume:
-ui-options-lobby-volume = Lobby & Round-end volume:
-ui-options-ambience-max-sounds = Ambience simultaneous sounds:
-ui-options-lobby-music = Lobby & Round-end Music
-ui-options-restart-sounds = Round Restart Sounds
-ui-options-event-music = Event Music
-ui-options-admin-sounds = Play Admin Sounds
-ui-options-volume-label = Volume
+ui-options-master-volume = Основна гучність:
+ui-options-midi-volume = MIDI (Інструменти) гучність:
+ui-options-ambient-music-volume = Фонова музика:
+ui-options-ambience-volume = Фонові звуки:
+ui-options-lobby-volume = Лобі та звуки кінця раунду:
+ui-options-ambience-max-sounds = Фонові випадкові звуки:
+ui-options-lobby-music = Музика лобі та кінця раунду
+ui-options-restart-sounds = Звуки рестарту раунду
+ui-options-event-music = Музика івентів
+ui-options-admin-sounds = Звук звернень адмінів
+ui-options-volume-label = Гучність
 ui-options-volume-percent = { TOSTRING($volume, "P0") }
 
 ## Graphics menu
 
-ui-options-show-held-item = Show held item next to cursor?
-ui-options-show-combat-mode-indicators = Show combat mode indicators with cursor?
+ui-options-show-held-item = Show held item next to cursor
+ui-options-show-combat-mode-indicators = Show combat mode indicators with cursor
+ui-options-opaque-storage-window = Enable opaque storage window
+ui-options-show-looc-on-head = Показувати ЛООС повідомлення над головами персонажів
+ui-options-fancy-speech = Show names in speech bubbles
+ui-options-fancy-name-background = Включити фон на імена бульбашки чату
 ui-options-vsync = VSync
 ui-options-fullscreen = Fullscreen
 ui-options-lighting-label = Lighting Quality:
-ui-options-lighting-very-low = Very Low
-ui-options-lighting-low = Low
-ui-options-lighting-medium = Medium
-ui-options-lighting-high = High
-ui-options-scale-label = UI Scale:
-ui-options-scale-auto = Automatic ({ TOSTRING($scale, "P0") })
+ui-options-lighting-very-low = Дуже низькі
+ui-options-lighting-low = Низькі
+ui-options-lighting-medium = Середні
+ui-options-lighting-high = Високі
+ui-options-scale-label = Масштаб UI:
+ui-options-scale-auto = Авто ({ TOSTRING($scale, "P0") })
 ui-options-scale-75 = 75%
 ui-options-scale-100 = 100%
 ui-options-scale-125 = 125%
 ui-options-scale-150 = 150%
 ui-options-scale-175 = 175%
 ui-options-scale-200 = 200%
-ui-options-hud-theme = HUD Theme:
-ui-options-hud-theme-default = Default
-ui-options-hud-theme-modernized = Modernized
-ui-options-hud-theme-classic = Classic
+ui-options-hud-theme = Тема HUD:
+ui-options-hud-theme-default = Звичайна
+ui-options-hud-theme-plasmafire = Plasmafire
+ui-options-hud-theme-slimecore = Slimecore
+ui-options-hud-theme-clockwork = Clockwork
+ui-options-hud-theme-retro = Retro
+ui-options-hud-theme-minimalist = Minimalist
+ui-options-hud-theme-eris = Eris
 ui-options-vp-stretch = Stretch viewport to fit game window
 ui-options-vp-scale = Fixed viewport scale: x{ $scale }
 ui-options-vp-integer-scaling = Prefer integer scaling (might cause black bars/clipping)
@@ -57,7 +74,7 @@ ui-options-vp-integer-scaling-tooltip = If this option is enabled, the viewport 
                                         of the viewport is not visible.
 ui-options-vp-low-res = Low-resolution viewport
 ui-options-parallax-low-quality = Low-quality Parallax (background)
-ui-options-fps-counter = Show FPS counter
+ui-options-fps-counter = Показати лічильник FPS
 ui-options-vp-width = Viewport width: { $width }
 ui-options-hud-layout = HUD layout:
 
@@ -65,9 +82,9 @@ ui-options-hud-layout = HUD layout:
 
 ui-options-binds-reset-all = Reset ALL keybinds
 ui-options-binds-explanation = Click to change binding, right-click to clear
-ui-options-unbound = Unbound
+ui-options-unbound = Відвʼязати
 ui-options-bind-reset = Reset
-ui-options-key-prompt = Press a key...
+ui-options-key-prompt = Натисніть кнопку...
 
 ui-options-header-movement = Movement
 ui-options-header-camera = Camera
@@ -107,9 +124,14 @@ ui-options-function-alt-activate-item-in-world = Alternative activate item in wo
 ui-options-function-drop = Drop item
 ui-options-function-examine-entity = Examine
 ui-options-function-swap-hands = Swap hands
+ui-options-function-move-stored-item = Move stored item
+ui-options-function-rotate-stored-item = Rotate stored item
+ui-options-static-storage-ui = Static storage UI
 
 ui-options-function-smart-equip-backpack = Smart-equip to backpack
 ui-options-function-smart-equip-belt = Smart-equip to belt
+ui-options-function-open-backpack = Open backpack
+ui-options-function-open-belt = Open belt
 ui-options-function-throw-item-in-hand = Throw item
 ui-options-function-try-pull-object = Pull object
 ui-options-function-move-pulled-object = Move pulled object

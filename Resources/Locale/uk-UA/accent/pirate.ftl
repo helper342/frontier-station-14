@@ -3,8 +3,8 @@ accent-pirate-prefix-2 = Гр-р-р
 accent-pirate-prefix-3 = Ар-р-р
 accent-pirate-prefix-3 = Яар-г-х
 
-accent-pirate-replaced-1 = my
-accent-pirate-replacement-1 = me
+accent-pirate-replaced-1 = мій
+accent-pirate-replacement-1 = міʼ
 
 accent-pirate-replaced-2 = you
 accent-pirate-replacement-2 = ya
@@ -39,8 +39,8 @@ accent-pirate-replacement-11 = oye
 accent-pirate-replaced-12 = гроші
 accent-pirate-replacement-12 = дублони
 
-accent-pirate-replaced-13 = cash
-accent-pirate-replacement-13 = doubloons
+accent-pirate-replaced-13 = долари
+accent-pirate-replacement-13 = дублони
 
 accent-pirate-replaced-14 = ящик
 accent-pirate-replacement-14 = скриня
@@ -90,8 +90,8 @@ accent-pirate-replacement-28 = landlubber
 accent-pirate-replaced-29 = капітан
 accent-pirate-replacement-29 = кеп
 
-accent-pirate-replaced-30 = pistol
-accent-pirate-replacement-30 = flintlock
+accent-pirate-replaced-30 = пістолет
+accent-pirate-replacement-30 = пістоль
 
 accent-pirate-replaced-31 = rifle
 accent-pirate-replacement-31 = musket

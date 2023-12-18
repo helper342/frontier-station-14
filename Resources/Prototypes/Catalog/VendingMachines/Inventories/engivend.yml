@@ -9,3 +9,5 @@
     InflatableDoorStack1: 8
     PowerCellMedium: 15
 #    NetworkConfigurator: 15
+    NetworkConfigurator: 5
+    BoxInflatable: 2

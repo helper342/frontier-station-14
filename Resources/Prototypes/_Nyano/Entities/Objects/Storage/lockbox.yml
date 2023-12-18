@@ -12,7 +12,7 @@
       map: ["enum.StorageVisualLayers.Lock"]
       shader: unshaded
   - type: Item
-    size: 60
+    size: Huge
   - type: Storage
     capacity: 60
   - type: Lock

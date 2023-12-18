@@ -1,14 +1,9 @@
 - type: entity
   parent: BoxCardboard
-  name: коробка для кубиків мавпи
+  name: monkey cube box
   id: MonkeyCubeBox
-  description: Кубики мавпи бренду Drymate. Просто додайте води!
+  description: Drymate brand monkey cubes. Just add water!
   components:
-  - type: Storage
-    whitelist:
-      tags:
-      - MonkeyCube
-    capacity: 30
   - type: StorageFill
     contents:
       - id: MonkeyCubeWrapped
@@ -16,18 +11,16 @@
   - type: Sprite
     sprite: Objects/Misc/monkeycube.rsi
     state: box
-  - type: StaticPrice
-    price: 20
-  - type: VendPrice
-    price: 900 # 150 per monkey (Meat worth 200)
 
 - type: entity
   parent: BaseItem
-  name: куб мавпи
+  name: monkey cube
   suffix: Wrapped
   id: MonkeyCubeWrapped
-  description: Розгорніть це, щоб отримати куб мавпи.
+  description: Unwrap this to get a monkey cube.
   components:
+  - type: Item
+    size: Tiny
   - type: SpawnItemsOnUse
     items:
       - id: MonkeyCube
@@ -39,21 +32,18 @@
   - type: Tag
     tags:
     - MonkeyCube
-  - type: StaticPrice
-    price: 55 # The same price as dead (-20)
 
 - type: entity
   parent: BoxCardboard
-  name: коробка для кубиків мавпи
+  name: monkey cube box
   suffix: Syndicate
   id: SyndicateSpongeBox
-  description: Кубики мавпи бренду Drymate. Просто додайте води!
+  description: Drymate brand monkey cubes. Just add water!
   components:
   - type: Storage
     whitelist:
       tags:
       - MonkeyCube
-    capacity: 30
   - type: StorageFill
     contents:
       - id: SyndicateSpongeWrapped
@@ -61,15 +51,13 @@
   - type: Sprite
     sprite: Objects/Misc/monkeycube.rsi
     state: box
-  - type: StaticPrice
-    price: 0 # Syndicate
 
 - type: entity
   parent: BaseItem
-  name: куб мавпи
+  name: monkey cube
   suffix: Wrapped, Syndicate
   id: SyndicateSpongeWrapped
-  description: Розгорніть це, щоб отримати куб мавпи.
+  description: Unwrap this to get a monkey cube.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -79,8 +67,8 @@
   - type: Sprite
     sprite: Objects/Misc/monkeycube.rsi
     state: wrapper
+  - type: Item
+    size: Tiny
   - type: Tag
     tags:
     - MonkeyCube
-  - type: StaticPrice
-    price: 0 # Syndicate

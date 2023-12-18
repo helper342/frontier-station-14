@@ -70,15 +70,6 @@ public sealed partial class StationEventComponent : Component
     public int MinimumPlayers;
 
     /// <summary>
-    ///     How many players need to be present on station for the event to not run
-    /// </summary>
-    /// <remarks>
-    ///     To avoid running safe events with high-pop
-    /// </remarks>
-    [DataField("maximumPlayers")]
-    public int MaximumPlayers = 999;
-
-    /// <summary>
     ///     How many times this even can occur in a single round
     /// </summary>
     [DataField("maxOccurrences")]

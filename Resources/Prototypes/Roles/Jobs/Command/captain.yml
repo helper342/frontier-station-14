@@ -49,8 +49,8 @@
     gloves: ClothingHandsGlovesCaptain
     outerClothing: ClothingOuterArmorCaptainCarapace
     id: CaptainPDA
-    # ears: ClothingHeadsetAltCommand
-    ears: ClothingHeadsetGrey
+    ears: ClothingHeadsetAltCommand
+    # ears: ClothingHeadsetGrey
   innerClothingSkirt: ClothingUniformJumpskirtCaptain
   satchel: ClothingBackpackSatchelCaptainFilled
   duffelbag: ClothingBackpackDuffelCaptainFilled

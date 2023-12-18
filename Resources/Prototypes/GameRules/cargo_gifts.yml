@@ -93,7 +93,7 @@
       weight: 8
       startDelay: 10
       duration: 120
-      minimumPlayers: 70
+      minimumPlayers: 10
       earliestStart: 20
     - type: CargoGiftsRule
       description: cargo-gift-cleaning
@@ -114,7 +114,7 @@
       startDelay: 10
       duration: 120
       earliestStart: 20
-      minimumPlayers: 80
+      minimumPlayers: 8
     - type: CargoGiftsRule
       description: cargo-gift-medical-supply
       sender: cargo-gift-default-sender
@@ -122,6 +122,8 @@
       gifts:
         MedicalSupplies: 1
         MedicalChemistrySupplies: 1
+        EmergencyBruteKit: 1
+        EmergencyAdvancedKit: 1
         MedicalBiosuit: 1
 
 - type: entity
@@ -134,7 +136,7 @@
       startDelay: 10
       duration: 120
       earliestStart: 10
-      minimumPlayers: 70
+      minimumPlayers: 8
     - type: CargoGiftsRule
       description: cargo-gift-space-protection
       sender: cargo-gift-default-sender
@@ -142,6 +144,7 @@
       gifts:
         EmergencyInternalsLarge: 2
         EmergencyInflatablewall: 1
+        EmergencyAdvancedKit: 1
         MedicalBiosuit: 1
         EmergencyO2Kit: 1
 
@@ -155,13 +158,15 @@
       startDelay: 10
       duration: 120
       earliestStart: 20
-      minimumPlayers: 70
+      minimumPlayers: 7
     - type: CargoGiftsRule
       description: cargo-gift-fire-protection
       sender: cargo-gift-default-sender
       dest: cargo-gift-dest-supp
       gifts:
         EmergencyFire: 2
+        EmergencyBurnKit: 1
+        EmergencyBruteKit: 1
 
 - type: entity
   id: GiftsSecurityGuns
@@ -173,12 +178,13 @@
       startDelay: 10
       duration: 120
       earliestStart: 20
-      minimumPlayers: 4
+      minimumPlayers: 10
     - type: CargoGiftsRule
       description: cargo-gift-security-guns
       sender: cargo-gift-default-sender
       dest: cargo-gift-dest-sec
       gifts:
+        SecurityArmor: 3
         ArmorySmg: 1
         ArmoryShotgun: 1
         ArmoryLaser: 1
@@ -193,10 +199,12 @@
       startDelay: 10
       duration: 120
       earliestStart: 20
-      minimumPlayers: 5
+      minimumPlayers: 10
     - type: CargoGiftsRule
       description: cargo-gift-security-riot
       sender: cargo-gift-default-sender
       dest: cargo-gift-dest-sec
       gifts:
         SecurityRiot: 2
+        SecurityRestraints: 2
+        SecurityNonLethal: 2

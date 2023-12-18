@@ -14,8 +14,6 @@
         hard: true
         mask:
         - MachineMask
-        layer:
-        - MachineLayer
   - type: Anchorable
   - type: Pullable
   - type: Sprite

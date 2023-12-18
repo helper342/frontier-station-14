@@ -25,6 +25,7 @@
       - id: PlushieHampter
       - id: PlushieMoth
       - id: PlushieShadowkin
+      - id: PlushiePenguin
 
 - type: entity
   id: CrateFunInstrumentsVariety
@@ -272,6 +273,7 @@
       - id: ClothingShoesClownLarge
       - id: ClothingHeadHatMagician
       - id: BeachBall
+      - id: ClothingShoesSkates
 
 - type: entity
   id: CrateFunBikeHornImplants

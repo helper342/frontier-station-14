@@ -101,7 +101,7 @@
       map: ["enum.SolutionContainerLayers.Fill"]
   - type: Item
     sprite: Objects/Specific/Medical/medipen.rsi
-    size: 3
+    size: Tiny
   - type: SolutionContainerManager
     solutions:
       pen:
@@ -291,7 +291,6 @@
       map: ["enum.SolutionContainerLayers.Fill"]
   - type: Item
     sprite: Objects/Specific/Medical/medipen.rsi
-    size: 10
   - type: SolutionContainerManager
     solutions:
       pen:
@@ -303,7 +302,7 @@
     solutionName: pen
     transferAmount: 30
   - type: StaticPrice
-    price: 100
+    price: 500
   - type: Tag
     tags: []
 
@@ -320,7 +319,7 @@
       map: ["enum.SolutionContainerLayers.Fill"]
   - type: Item
     sprite: Objects/Specific/Medical/medipen.rsi
-    size: 5
+    size: Tiny
   - type: SolutionContainerManager
     solutions:
       pen:
@@ -346,7 +345,6 @@
       map: ["enum.SolutionContainerLayers.Fill"]
   - type: Item
     sprite: Objects/Specific/Medical/medipen.rsi
-    size: 5
   - type: SolutionContainerManager
     solutions:
       pen:
@@ -392,6 +390,8 @@
   name: гіпопен бокс
   description: Невелика коробка, в якій знаходиться гіпопен. При відкритті упаковка розпадається, не залишаючи слідів.
   components:
+  - type: Item
+    size: Tiny
   - type: Sprite
     sprite: Objects/Storage/penbox.rsi
     state: hypopen

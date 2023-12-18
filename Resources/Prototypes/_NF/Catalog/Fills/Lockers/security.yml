@@ -36,7 +36,7 @@
       - id: ClothingMaskBreathMedicalSecurity
       - id: JetpackSecurityFilled
       - id: HandheldGPSBasic
-      - id: ClothingShoesBootsMagCombatFilled
+      - id: ClothingShoesBootsMagCombat
       - id: Hypospray # Frontier
 
 # - type: entity

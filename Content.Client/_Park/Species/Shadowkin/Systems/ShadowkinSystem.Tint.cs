@@ -5,6 +5,7 @@ using Content.Client._Park.Overlays.Shaders;
 using Content.Shared._Park.Species.Shadowkin.Components;
 using Robust.Client.GameObjects;
 using Content.Shared.GameTicking;
+using Robust.Shared.Player;
 using Content.Shared.Humanoid;
 
 namespace Content.Client._Park.Species.Shadowkin.Systems;

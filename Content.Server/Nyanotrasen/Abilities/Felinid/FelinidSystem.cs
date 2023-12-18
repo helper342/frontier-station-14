@@ -2,6 +2,8 @@ using Content.Shared.Actions;
 using Content.Shared.Audio;
 using Content.Shared.StatusEffect;
 using Content.Shared.Throwing;
+using Content.Shared.Nutrition.Components;
+using Content.Shared.Nutrition.EntitySystems;
 using Content.Shared.Item;
 using Content.Shared.Inventory;
 using Content.Shared.Hands;
@@ -18,6 +20,7 @@ using Robust.Shared.Random;
 using Robust.Shared.Prototypes;
 using Content.Shared.Nutrition.EntitySystems;
 using Content.Shared.Nyanotrasen.Abilities;
+using Robust.Server.Audio;
 
 namespace Content.Server.Abilities.Felinid
 {
@@ -32,6 +35,8 @@ namespace Content.Server.Abilities.Felinid
         [Dependency] private readonly PopupSystem _popupSystem = default!;
         [Dependency] private readonly InventorySystem _inventorySystem = default!;
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
+        [Dependency] private readonly AudioSystem _audio = default!;
+        [Dependency] private readonly FoodSystem _food = default!;
 
         public override void Initialize()
         {
@@ -99,16 +104,17 @@ namespace Content.Server.Abilities.Felinid
 
         private void OnHairball(EntityUid uid, FelinidComponent component, HairballActionEvent args)
         {
-            if (_inventorySystem.TryGetSlotEntity(uid, "mask", out var maskUid) &&
-            EntityManager.TryGetComponent<IngestionBlockerComponent>(maskUid, out var blocker) &&
-            blocker.Enabled)
+            if (_food.IsMouthBlocked(uid))
+            // if (_inventorySystem.TryGetSlotEntity(uid, "mask", out var maskUid) &&
+            // EntityManager.TryGetComponent<IngestionBlockerComponent>(maskUid, out var blocker) &&
+            // blocker.Enabled)
             {
-                _popupSystem.PopupEntity(Loc.GetString("hairball-mask", ("mask", maskUid)), uid, uid);
+                _popupSystem.PopupEntity(Loc.GetString("hairball-mask", ("mask", uid)), uid, uid);
                 return;
             }
 
             _popupSystem.PopupEntity(Loc.GetString("hairball-cough", ("name", Identity.Entity(uid, EntityManager))), uid);
-            SoundSystem.Play("/Audio/Nyanotrasen/Voice/Felinid/hairball.ogg", Filter.Pvs(uid), uid, AudioHelpers.WithVariation(0.15f));
+            _audio.PlayPvs("/Audio/Nyanotrasen/Voice/Felinid/hairball.ogg", uid, AudioHelpers.WithVariation(0.15f));
 
             EnsureComp<CoughingUpHairballComponent>(uid);
             args.Handled = true;
@@ -128,11 +134,9 @@ namespace Content.Server.Abilities.Felinid
                 return;
             }
 
-            if (_inventorySystem.TryGetSlotEntity(uid, "mask", out var maskUid) &&
-            EntityManager.TryGetComponent<IngestionBlockerComponent>(maskUid, out var blocker) &&
-            blocker.Enabled)
+            if (_food.IsMouthBlocked(uid))
             {
-                _popupSystem.PopupEntity(Loc.GetString("hairball-mask", ("mask", maskUid)), uid, uid, Shared.Popups.PopupType.SmallCaution);
+                _popupSystem.PopupEntity(Loc.GetString("hairball-mask", ("mask", uid)), uid, uid, Shared.Popups.PopupType.SmallCaution);
                 return;
             }
 
@@ -145,7 +149,7 @@ namespace Content.Server.Abilities.Felinid
             Del(component.PotentialTarget.Value);
             component.PotentialTarget = null;
 
-            SoundSystem.Play("/Audio/Items/eatfood.ogg", Filter.Pvs(uid), uid, AudioHelpers.WithVariation(0.15f));
+            _audio.PlayPvs("/Audio/Items/eatfood.ogg", uid, AudioHelpers.WithVariation(0.15f));
 
             _hunger.ModifyHunger(uid, 70f, hunger);
             _actionsSystem.RemoveAction(uid, component.EatMouseAction);

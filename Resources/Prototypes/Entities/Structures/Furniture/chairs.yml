@@ -67,10 +67,19 @@
     node: chair
 
 - type: entity
-  name: стілець
+  name: chair
+  id: ChairGreyscale
+  parent: Chair
+  suffix: White
+  components:
+  - type: Sprite
+    state: chair-greyscale
+
+- type: entity
+  name: stool
   id: Stool
   parent: SeatBase
-  description: Нанести встик.
+  description: Apply butt.
   components:
   - type: Anchorable
   - type: Sprite
@@ -305,7 +314,7 @@
       map: ["foldedLayer"]
       visible: false
   - type: Item
-    size: 50
+    size: Huge
   - type: Appearance
   - type: MeleeWeapon
     damage:

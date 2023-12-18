@@ -197,7 +197,8 @@
   - type: Clothing
     sprite: Clothing/Head/Hats/chefhat.rsi
   - type: Storage
-    capacity: 5
+    grid:
+    - 0,0,0,0
   - type: UserInterface
     interfaces:
       - key: enum.StorageUiKey.Key
@@ -751,7 +752,7 @@
         offset: "0, 0.12"
     sprite: Clothing/Head/Hats/magician.rsi
   - type: Item
-    size: 10
+    size: Normal
     sprite: Clothing/Head/Hats/magician.rsi
   - type: Storage
     capacity: 10
@@ -782,9 +783,25 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadHatCentcomcap
+  name: CentCom cap
+  description: An extravagant, fancy Central Commander cap.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/comcap.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/comcap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - HamsterWearable
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadHatGladiator
-  name: Гладіаторський шолом
-  description: Захищає голову від різких попелястих вітрів та іграшкових списів.
+  name: Gladiator helmet
+  description: Protects the head from harsh ash winds and toy spears.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/gladiator.rsi

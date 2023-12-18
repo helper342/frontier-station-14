@@ -1653,7 +1653,7 @@ entities:
       type: Transform
     - count: 6
       type: Stack
-    - size: 6
+    - size: Small
       type: Item
 - proto: SheetSteel1
   entities:

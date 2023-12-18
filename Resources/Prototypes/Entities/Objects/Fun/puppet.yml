@@ -14,11 +14,14 @@
   - type: DoAfter
   - type: VentriloquistPuppet
   - type: Item
-    size: 30
+    size: Normal
   - type: Muted
   - type: TypingIndicator
     proto: robot
   - type: Actions
+  - type: MobState
+    allowedStates:
+      - Alive
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Weapons/boxingpunch1.ogg

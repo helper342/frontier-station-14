@@ -24,7 +24,7 @@
         - ReagentId: Fat
           Quantity: 5
   - type: Item
-    size: 5
+    size: Tiny
   - type: Fixtures
     fixtures:
       fix1:
@@ -229,7 +229,7 @@
           Quantity: 9
   - type: SliceableFood
     count: 3
-    slice: FoodMeatPenguinCutletSlice
+    slice: FoodMeatPenguinCutlet
   - type: Construction
     graph: PenguinSteak
     node: start
@@ -508,11 +508,31 @@
           Quantity: 1
 
 - type: entity
-  name: сире м'ясо ксено
+  name: raw snake meat
+  parent: FoodMeatBase
+  id: FoodMeatSnake
+  description: A long piece of snake meat, hopefully not poisonous.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+  - type: Sprite
+    state: snake
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 10
+        - ReagentId: Toxin
+          Quantity: 2
+
+- type: entity
+  name: raw xeno meat
   # not raw since acid kills bacteria or something, same as xeno
   parent: FoodMeatBase
   id: FoodMeatXeno
-  description: Плитка ксено-м’яса, полита кислотою.
+  description: A slab of xeno meat, dripping with acid.
   components:
   - type: FlavorProfile
     flavors:

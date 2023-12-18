@@ -30,15 +30,15 @@
     sprayVelocity: 2
     spraySound:
       path: /Audio/Effects/spray2.ogg
-  - type: TrashOnEmpty
+  - type: TrashOnSolutionEmpty
     solution: spray
 
 - type: entity
-  name: мега спрей пляшка
+  name: mega spray bottle
   id: MegaSprayBottle
   parent: SprayBottle
   suffix: Empty
-  description: Величезний флакон з розпилювачем, який має неперевершену ефективність у прибиранні.
+  description: A huge spray bottle, capable of unrivaled janitorial power.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/janitorial.rsi

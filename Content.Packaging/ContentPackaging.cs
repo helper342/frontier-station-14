@@ -18,12 +18,12 @@ public static class ContentPackaging
 
         var inputPass = graph.Input;
 
-        await RobustClientPackaging.WriteContentAssemblies(
-            inputPass,
-            contentDir,
-            "Content.Client",
-            new[] { "Content.Client", "Content.Shared", "Content.Shared.Database" },
-            cancel);
+        // await RobustClientPackaging.WriteContentAssemblies(
+        //     inputPass,
+        //     contentDir,
+        //     "Content.Client",
+        //     new[] { "Content.Client", "Content.Shared", "Content.Shared.Database" },
+        //     cancel);
 
         await RobustClientPackaging.WriteClientResources(contentDir, inputPass, cancel);
 

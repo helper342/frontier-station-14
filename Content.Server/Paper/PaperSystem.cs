@@ -15,6 +15,7 @@ using Content.Server.Access.Systems;
 using Content.Shared.Hands;
 using static Content.Shared.Paper.SharedPaperComponent;
 using Content.Shared.Verbs;
+using Robust.Shared.Audio.Systems;
 
 namespace Content.Server.Paper
 {

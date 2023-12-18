@@ -43,7 +43,7 @@ namespace Content.Client.Administration.UI.CustomControls
             PopulateList(_adminSystem.PlayerList);
             FilterLineEdit.OnTextChanged += _ => FilterList();
             _adminSystem.PlayerListChanged += PopulateList;
-            BackgroundPanel.PanelOverride = new StyleBoxFlat {BackgroundColor = new Color(32, 38, 32)};
+            BackgroundPanel.PanelOverride = new StyleBoxFlat {BackgroundColor = new Color(32, 32, 40)};
         }
 
         private void PlayerListItemPressed(BaseButton.ButtonEventArgs? args, ListData? data)
@@ -60,7 +60,7 @@ namespace Content.Client.Administration.UI.CustomControls
             }
             else if (args.Event.Function == EngineKeyFunctions.UseSecondary && selectedPlayer.NetEntity != null)
             {
-                _uiManager.GetUIController<VerbMenuUIController>().OpenVerbMenu(_entManager.GetEntity(selectedPlayer.NetEntity.Value));
+                _uiManager.GetUIController<VerbMenuUIController>().OpenVerbMenu(selectedPlayer.NetEntity.Value, true);
             }
         }
 
@@ -122,7 +122,6 @@ namespace Content.Client.Administration.UI.CustomControls
                     }
                 }
             });
-            button.EnableAllKeybinds = true;
             button.AddStyleClass(ListContainer.StyleClassListContainerButton);
         }
     }

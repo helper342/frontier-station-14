@@ -1,3 +1,4 @@
+# When adding new drinks also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\drinks_bottles.yml
 - type: entity
   parent: DrinkBase
   id: DrinkBottleBaseFull
@@ -12,6 +13,8 @@
         maxVol: 100
   - type: Sprite
     state: icon
+  - type: Item
+    size: Normal
   - type: DamageOnLand
     damage:
       types:
@@ -43,7 +46,7 @@
     qualities:
     - Rolling
     speed: 0.75 # not as good as a rolling pin but does the job
-  - type: TrashOnEmpty
+  - type: TrashOnSolutionEmpty
     solution: drink
   - type: StaticPrice
     price: 16
@@ -95,9 +98,24 @@
 
 - type: entity
   parent: DrinkBottleBaseFull
+  id: DrinkChampagneBottleFull
+  name: champagne bottle
+  description: Only people devoid of imagination can't find an excuse for champagne.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Champagne
+          Quantity: 100
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/champagnebottle.rsi
+
+- type: entity
+  parent: DrinkBottleBaseFull
   id: DrinkCognacBottleFull
-  name: пляшка коньяку
-  description: Солодкий і сильноалкогольний напій, виготовлений після численних дистиляцій і багаторічної витримки. Цього разу ви могли б так само не кричати «ЛІННЯ».
+  name: cognac bottle
+  description: A sweet and strongly alchoholic drink, made after numerous distillations and years of maturing. You might as well not scream 'SHITCURITY' this time.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -390,24 +408,9 @@
 
 - type: entity
   parent: DrinkBottleBaseFull
-  id: DrinkChampagneBottleFull
-  name: пляшка шампанського
-  description: Тільки люди, позбавлені фантазії, не можуть знайти виправдання для шампанського.
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        reagents:
-        - ReagentId: Champagne
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/champagnebottle.rsi
-
-- type: entity
-  parent: DrinkBottleBaseFull
   id: DrinkWaterBottleFull
-  name: пляшка води
-  description: Проста чиста вода невідомого походження. Ви думаєте, що, можливо, не хочете цього знати.
+  name: water bottle
+  description: Simple clean water of unknown origin. You think that maybe you dont want to know it.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -419,112 +422,3 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/waterbottle.rsi
-
-# Cartons, TODO: this needs to be moved elsewhere eventually, since cartons shouldnt smash into glass shards
-
-- type: entity
-  parent: DrinkBottleBaseFull
-  id: DrinkJuiceLimeCarton
-  name: сік лайма
-  description: Кисло-солодка доброта.
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: JuiceLime
-          Quantity: 50
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/limejuice.rsi
-  - type: StaticPrice
-    price: 13
-
-- type: entity
-  parent: DrinkBottleBaseFull
-  id: DrinkJuiceOrangeCarton
-  name: апельсиновий сік
-  description: Насичений вітамінами та смакотою!
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: JuiceOrange
-          Quantity: 50
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/orangejuice.rsi
-  - type: StaticPrice
-    price: 13
-
-- type: entity
-  parent: DrinkBottleBaseFull
-  id: DrinkJuiceTomatoCarton
-  name: томатного соку
-  description: Ну, принаймні, це схоже на томатний сік. Ви не можете сказати з усім цим почервонінням.
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: JuiceTomato
-          Quantity: 50
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/tomatojuice.rsi
-  - type: StaticPrice
-    price: 13
-
-- type: entity
-  parent: DrinkBottleBaseFull
-  id: DrinkCreamCarton
-  name: Молочні вершки
-  description: Це вершки. Виготовляється з молока. Що ще ви думали там знайти?
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 50
-        reagents:
-        - ReagentId: Cream
-          Quantity: 50
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/cream.rsi
-
-- type: entity
-  parent: DrinkBottleBaseFull
-  id: DrinkMilkCarton
-  name: молоко
-  description: Біла непрозора рідина, що виробляється молочними залозами ссавців.
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 100
-        reagents:
-        - ReagentId: Milk
-          Quantity: 100
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/milk.rsi
-
-- type: entity
-  parent: DrinkBottleBaseFull
-  id: DrinkSoyMilkCarton
-  name: соєве молоко
-  description: Біла та поживна соя!
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 100
-        reagents:
-        - ReagentId: MilkSoy
-          Quantity: 100
-  - type: Drink
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/soymilk.rsi

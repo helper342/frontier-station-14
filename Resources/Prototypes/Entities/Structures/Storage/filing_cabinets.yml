@@ -1,12 +1,14 @@
 - type: entity
-  name: картотека
+  name: filing cabinet
   parent: [ BaseStructureDynamic, BaseBagOpenClose ]
   id: filingCabinet
   suffix: Empty
-  description: Шафа для всіх ваших потреб.
+  description: A cabinet for all your filing needs.
   components:
   - type: Storage
-    capacity: 80
+    grid:
+    - 0,0,9,3
+    maxItemSize: Normal
     whitelist:
       tags:
         - Document
@@ -58,14 +60,16 @@
   - type: Appearance
 
 - type: entity
-  name: ящик комода
+  name: chest drawer
   parent: BaseStructureDynamic
   id: filingCabinetDrawer
   suffix: Empty
-  description: Маленька шухляда для всіх ваших потреб у архівах, тепер із колесами!
+  description: A small drawer for all your filing needs, Now with wheels!
   components:
   - type: Storage
-    capacity: 50
+    grid:
+    - 0,0,7,2
+    maxItemSize: Normal
     whitelist:
       tags:
         - Document

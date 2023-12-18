@@ -31,10 +31,8 @@
         reagents:
         - ReagentId: Water
           Quantity: 50
-  - type: TrashOnEmpty
+  - type: TrashOnSolutionEmpty
     solution: drink
-  - type: StaticPrice
-    price: 12.5
 
 - type: entity
   parent: FlaskBase
@@ -66,13 +64,11 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlaskBar
-  name: барна фляга
-  description: Металева фляга, яку бармен часто дає в борг. Не забудьте повернути!
+  name: bar flask
+  description: A metal flask often given out by the bartender on loan. Don't forget to return it!
   components:
     - type: Sprite
       sprite: Objects/Consumable/Drinks/barflask.rsi
-    - type: StaticPrice
-      price: 1
 
 - type: entity
   parent: FlaskBase

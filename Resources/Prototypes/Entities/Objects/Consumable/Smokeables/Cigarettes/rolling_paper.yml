@@ -2,14 +2,15 @@
   parent: BaseStorageItem
   name: пачка рулонного паперу
   id: PackPaperRolling
-  description: Пачка тонких аркушів паперу, які використовуються для виготовлення вишуканих коптильних виробів.
+  description: A pack of thin pieces of paper used to make fine smokeables.
   components:
   - type: Storage
+    grid:
+    - 0,0,3,1
     whitelist:
       tags:
       - RollingPaper
       - CigFilter
-    capacity: 20
   - type: StorageFill
     contents:
       - id: PaperRolling
@@ -31,7 +32,6 @@
       tags:
       - RollingPaper
       - CigFilter
-    capacity: 32
   - type: StorageFill
     contents:
       - id: PaperRolling
@@ -54,7 +54,7 @@
     state: cigpaper
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/paper.rsi
-    size: 5
+    size: Tiny
   - type: Tag
     tags:
     - RollingPaper
@@ -68,13 +68,11 @@
   components:
     - type: Stack
       count: 1
-    - type: Item
-      size: 1
 
 - type: entity
   id: CigaretteFilter
   name: сигаретний фільтр
-  description: Смужка твердого паперу, яка використовується як фільтр для сигарет ручної роботи.
+  description: A strip of firm paper used as a filter for handmade cigarettes.
   suffix: Full
   parent: BaseItem
   components:
@@ -86,7 +84,7 @@
     state: cigfilter
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/paper.rsi
-    size: 10
+    size: Tiny
   - type: Tag
     tags:
     - CigFilter
@@ -99,5 +97,3 @@
   components:
     - type: Stack
       count: 1
-    - type: Item
-      size: 2

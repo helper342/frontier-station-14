@@ -23,6 +23,7 @@
   id: BaseTorso
   name: "тулуб"
   parent: BasePart
+  abstract: true
   components:
   - type: BodyPart
     partType: Torso
@@ -31,6 +32,7 @@
   id: BaseHead
   name: "голова"
   parent: BasePart
+  abstract: true
   components:
   - type: BodyPart
     partType: Head
@@ -45,6 +47,7 @@
   id: BaseLeftArm
   name: "ліва рука"
   parent: BasePart
+  abstract: true
   components:
   - type: BodyPart
     partType: Arm
@@ -54,6 +57,7 @@
   id: BaseRightArm
   name: "права рука"
   parent: BasePart
+  abstract: true
   components:
   - type: BodyPart
     partType: Arm
@@ -63,6 +67,7 @@
   id: BaseLeftHand
   name: "ліва рука"
   parent: BasePart
+  abstract: true
   components:
   - type: BodyPart
     partType: Hand
@@ -72,6 +77,7 @@
   id: BaseRightHand
   name: "права рука"
   parent: BasePart
+  abstract: true
   components:
   - type: BodyPart
     partType: Hand
@@ -81,6 +87,7 @@
   id: BaseLeftLeg
   name: "ліва нога"
   parent: BasePart
+  abstract: true
   components:
   - type: BodyPart
     partType: Leg
@@ -91,6 +98,7 @@
   id: BaseRightLeg
   name: "права нога"
   parent: BasePart
+  abstract: true
   components:
   - type: BodyPart
     partType: Leg
@@ -101,6 +109,7 @@
   id: BaseLeftFoot
   name: "ліва нога"
   parent: BasePart
+  abstract: true
   components:
   - type: BodyPart
     partType: Foot
@@ -110,6 +119,7 @@
   id: BaseRightFoot
   name: "права нога"
   parent: BasePart
+  abstract: true
   components:
   - type: BodyPart
     partType: Foot

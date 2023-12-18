@@ -10,7 +10,7 @@ namespace Content.Shared.Station;
 public abstract class SharedStationSpawningSystem : EntitySystem
 {
     [Dependency] protected readonly InventorySystem InventorySystem = default!;
-    [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
+    [Dependency] private   readonly SharedHandsSystem _handsSystem = default!;
 
     /// <summary>
     /// Equips starting gear onto the given entity.

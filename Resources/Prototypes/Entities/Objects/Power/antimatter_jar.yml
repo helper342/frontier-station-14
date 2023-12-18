@@ -5,7 +5,7 @@
   description: Герметично закрита банка з антиматерією для використання в реакторі з антиматерією.
   components:
   - type: Item
-    size: 5
+    size: Normal
     sprite: Objects/Power/AME/ame_jar.rsi
   - type: Sprite
     sprite: Objects/Power/AME/ame_jar.rsi

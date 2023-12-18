@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesBootsMag
-  name: магнітні ботінки
+  name: магнітні черевики
   description: Магнітні черевики, які часто використовуються під час позашляховиків, щоб гарантувати, що користувач залишається безпечно прикріпленим до автомобіля.
   components:
     - type: Sprite
@@ -32,7 +32,7 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagAdv
-  name: просунуті магнітні ботінки
+  name: просунуті магнітні черевики
   description: Сучасні магнітні черевики, які не гальмують свого власника.
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagBlinding
-  name: магнітні ботінки сліпучої швидкості
+  name: магнітні черевики сліпучої швидкості
   description: Вони виглядатимуть привабливо на такому транспортнику, як ви.
   components:
   - type: ClothingSpeedModifier
@@ -70,7 +70,7 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesBootsMagSyndie
-  name: криваво-червоні магнітні ботінки
+  name: криваво-червоні магнітні черевики
   description: Магнітні чоботи зі зворотною інженерією, які мають потужну магнітну силу та вбудовані двигуни.
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
 
 - type: entity
   id: ActionBaseToggleMagboots
-  name: Перемикач магнітних ботінків
+  name: Перемикач магнітних черевиків
   description: Вмикає та вимикає магнітні ботінки.
   noSpawn: true
   components:

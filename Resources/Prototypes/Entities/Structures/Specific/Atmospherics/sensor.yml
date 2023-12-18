@@ -87,7 +87,7 @@
   description: Датчик повітря в зборі. Збірка датчиків повітря?
   components:
     - type: Item
-      size: 10
+      size: Small
     - type: Anchorable
     - type: Construction
       graph: AirSensor

@@ -1,10 +1,10 @@
 - type: entity
-  name: "пункт"
+  name: "item"
   id: BaseItem
   abstract: true
   components:
   - type: Item
-    size: 5
+    size: Small
   - type: Clickable
   - type: InteractionOutline
   - type: MovedByPressure

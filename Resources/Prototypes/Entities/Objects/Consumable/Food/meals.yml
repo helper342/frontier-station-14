@@ -1,3 +1,4 @@
+# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_meal.yml
 # A bunch of different meals. This stuff doesn't come off their plates because
 # it's assembled on them. Or they just don't have plates.
 
@@ -334,11 +335,13 @@
 # Tastes like meat, butter.
 
 - type: entity
-  name: ребра для барбекю
+  name: bbq ribs
   parent: FoodMealBase
   id: FoodMealRibs
-  description: Реберця для барбекю, вкриті корисним соусом для барбекю. Найменш веганська річ, яка коли-небудь існувала.
+  description: BBQ ribs, slathered in a healthy coating of BBQ sauce. The least vegan thing to ever exist.
   components:
+  - type: Food
+    trash: FoodKebabSkewer
   - type: FlavorProfile
     flavors:
       - meaty
@@ -602,20 +605,20 @@
     tags:
     - Fruit
 
-- type: entity
-  name: м'який тако
-  parent: FoodMealBase
-  id: FoodMealSoftTaco
-  description: Відкусіть!
-  components:
-  - type: FlavorProfile
-    flavors:
-      - cheesy
-      - tomato
-      - meaty
-      - onion
-  - type: Sprite
-    state: softtaco
+# - type: entity
+#   name: м'який тако
+#   parent: FoodMealBase
+#   id: FoodMealSoftTaco
+#   description: Відкусіть!
+#   components:
+#   - type: FlavorProfile
+#     flavors:
+#       - cheesy
+#       - tomato
+#       - meaty
+#       - onion
+#   - type: Sprite
+#     state: softtaco
 
 
 - type: entity

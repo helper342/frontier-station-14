@@ -5,7 +5,7 @@
   description: Цікавий дизайн.
   components:
   - type: Item
-    size: 2
+    size: Tiny
   - type: Tag
     tags:
     - VehicleKey

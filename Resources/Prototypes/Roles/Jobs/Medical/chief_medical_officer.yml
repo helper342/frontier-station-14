@@ -6,8 +6,17 @@
   description: job-description-cmo
   playTimeTracker: JobChiefMedicalOfficer
   requirements:
+    - !type:RoleTimeRequirement
+      role: JobChemist
+      time: 10800 #3 hrs
+    - !type:RoleTimeRequirement
+      role: JobMedicalDoctor
+      time: 2100 #6 hrs
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 36000 #10 hrs
     - !type:OverallPlaytimeRequirement
-      time: 10800
+      time: 14000 #40 hrs
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
@@ -20,6 +29,7 @@
   - Maintenance
   - Chemistry
   - ChiefMedicalOfficer
+  - Brig
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -33,6 +43,7 @@
     jumpsuit: ClothingUniformJumpsuitCMO
     back: ClothingBackpackCMOFilled
     shoes: ClothingShoesColorBrown
+    outerClothing: ClothingOuterCoatLabCmo
     id: CMOPDA
     ears: ClothingHeadsetCMO
     belt: ClothingBeltMedicalFilled

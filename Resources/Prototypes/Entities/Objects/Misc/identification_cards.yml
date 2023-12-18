@@ -3,7 +3,7 @@
   id: IDCardStandard
   name: ID картка
   description: Картка, необхідна для доступу до різних зон на борту станції.
-  noSpawn: true
+  abstract: true
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi
@@ -12,7 +12,9 @@
     - idcard
     sprite: Objects/Misc/id_cards.rsi
   - type: Item
+    size: Small
     heldPrefix: default
+    storedRotation: -90
   - type: Access
   - type: IdCard
   - type: StationRecordKeyStorage
@@ -219,15 +221,17 @@
   components:
     - type: Sprite
       layers:
-        - state: default
+        - state: silver
         - state: idquartermaster
+    - type: Item
+      heldPrefix: silver
     - type: PresetIdCard
       job: Quartermaster
 
 - type: entity
   parent: IDCardStandard
   id: ResearchIDCard
-  name: ID картка науки
+  name: ID картка науковця
   components:
   - type: Sprite
     layers:
@@ -458,19 +462,83 @@
 - type: entity
   parent: CentcomIDCard
   id: ERTLeaderIDCard
-  name: ERT ID картка
+  name: ERT лідер ID картка
   components:
   - type: Sprite
     layers:
     - state: gold
-    - state: ert_commander # we have the sprites but don't need individual ID entities for now.
+    - state: ert_commander
+  - type: IdCard
+    jobTitle: ERT Company Commander
   - type: Item
     heldPrefix: gold
 
 - type: entity
+  parent: ERTLeaderIDCard
+  id: ERTChaplainIDCard
+  name: ERT Chaplain ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: ert_chaplain # we have the sprite for the id but dont have chaplain ERT equipment for now.
+  - type: IdCard
+    jobTitle: ERT Soul Officer
+  - type: Item
+    heldPrefix: blue
+
+- type: entity
+  parent: ERTChaplainIDCard
+  id: ERTEngineerIDCard
+  name: ERT Engineer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: ert_engineer
+  - type: IdCard
+    jobTitle: ERT Field Engineer
+
+- type: entity
+  parent: ERTChaplainIDCard
+  id: ERTJanitorIDCard
+  name: ERT Janitor ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: ert_janitor
+  - type: IdCard
+    jobTitle: ERT Custodian
+
+- type: entity
+  parent: ERTChaplainIDCard
+  id: ERTMedicIDCard
+  name: ERT Medic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: ert_medic
+  - type: IdCard
+    jobTitle: ERT Medical Doctor
+
+- type: entity
+  parent: ERTChaplainIDCard
+  id: ERTSecurityIDCard
+  name: ERT Security ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: ert_security
+  - type: IdCard
+    jobTitle: ERT Field Officer
+
+- type: entity
   parent: IDCardStandard
   id: CentcomIDCardSyndie
-  name: ID картка Офіцера ЦК
+  name: command officer ID card
   suffix: Fake
   components:
   - type: Sprite
@@ -582,15 +650,23 @@
   - type: ActivatableUI
     key: enum.AgentIDCardUiKey.Key
     inHandsOnly: true
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+  - type: ChameleonClothing
+    slot: [idcard]
+    default: PassengerIDCard
   - type: UserInterface
     interfaces:
       - key: enum.AgentIDCardUiKey.Key
         type: AgentIDCardBoundUserInterface
+      - key: enum.ChameleonUiKey.Key
+        type: ChameleonBoundUserInterface
   - type: StaticPrice
     price: 200
 
 - type: entity
-  name: ID картка пасажира
+  name: passenger ID card
   parent: AgentIDCard
   id: NukieAgentIDCard
   suffix: Nukie
@@ -628,8 +704,21 @@
 
 - type: entity
   parent: IDCardStandard
+  id: PirateIDCard
+  name: pirate ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: pirate
+  - type: Access
+    tags:
+    - NuclearOperative
+    - SyndicateAgent
+
+- type: entity
+  parent: IDCardStandard
   id: PsychologistIDCard
-  name: ID картка психолога
+  name: psychologist ID card
   components:
   - type: Sprite
     layers:
@@ -689,15 +778,16 @@
 - type: entity
   parent: CentcomIDCard
   id: CBURNIDcard
-  name: CBURN ID картка
+  name: CBURN ID card
+  suffix: CBURN
   components:
   - type: Sprite
     layers:
-    - state: gold
-    - state: idcentcom
+    - state: centcom
   - type: Item
-    heldPrefix: gold
-
+    heldPrefix: blue
+  - type: IdCard
+    jobTitle: Centcom Quarantine Officer
 
 - type: entity
   parent: IDCardStandard

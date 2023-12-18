@@ -3,12 +3,16 @@ objectives-round-end-result = {$count ->
     *[other] There were {$count} {MAKEPLURAL($agent)}.
 }
 
+objectives-round-end-result-in-custody = {$custody} з {$count} {MAKEPLURAL($agent)} було затримано.
+
 objectives-player-user-named = [color=White]{$name}[/color] ([color=gray]{$user}[/color])
 objectives-player-user = [color=gray]{$user}[/color]
 objectives-player-named = [color=White]{$name}[/color]
 
-objectives-no-objectives = {$title} was a {$agent}.
-objectives-with-objectives = {$title} was a {$agent} who had the following objectives:
+objectives-no-objectives = [bold][color=red]{$custody}[/color]{$title} були {$agent}.
+objectives-with-objectives = [bold][color=red]{$custody}[/color]{$title} були {$agent} і мали наступні завдання:
 
-objectives-condition-success = {$condition} | [color={$markupColor}]Success![/color]
-objectives-condition-fail = {$condition} | [color={$markupColor}]Failure![/color] ({$progress}%)
+objectives-objective-success = {$objective} | [color={$markupColor}]Успіх![/color]
+objectives-objective-fail = {$objective} | [color={$markupColor}]Невдача![/color] ({$progress}%)
+
+objectives-in-custody = | ЗАТРИМАНО |

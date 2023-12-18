@@ -1,3 +1,4 @@
+# When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_single.yml
 # Base
 
 - type: entity
@@ -19,7 +20,7 @@
         - ReagentId: Flavorol
           Quantity: 10
   - type: Item
-    size: 5
+    size: Small
 
 # Kebabs
 
@@ -91,16 +92,16 @@
     - Meat
 
 - type: entity
-  name: людський шашлик
+  name: human kebab
   parent: FoodMeatKebab
   id: FoodMeatHumanKebab
-  description: Людське м'ясо. На палиці!
+  description: Human meat. On a stick!
 
 - type: entity
-  name: шашлик із хвоста ящірки
+  name: lizard-tail kebab
   parent: FoodSkewerBase
   id: FoodMeatLizardtailKebab
-  description: Відрізаний хвіст ящірки на палиці.
+  description: Severed lizard tail on a stick.
   components:
   - type: Sprite
     layers:

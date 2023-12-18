@@ -11,6 +11,8 @@ using Content.Server.DoAfter;
 using Content.Shared.Storage;
 using Content.Shared.Tag;
 using Robust.Shared.Containers;
+using Content.Shared.Storage;
+using Content.Shared.Storage.EntitySystems;
 
 namespace Content.Server.Item.PseudoItem
 {
@@ -20,6 +22,7 @@ namespace Content.Server.Item.PseudoItem
         [Dependency] private readonly ItemSystem _itemSystem = default!;
         [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
         [Dependency] private readonly TagSystem _tagSystem = default!;
+        [Dependency] private readonly SharedStorageSystem _storage = default!;
 
     [ValidatePrototypeId<TagPrototype>]
     private const string PreventTag = "PreventLabel";public override void Initialize()
@@ -44,8 +47,11 @@ namespace Content.Server.Item.PseudoItem
             if (!TryComp<StorageComponent>(args.Target, out var targetStorage))
                 return;
 
-            if (component.Size > targetStorage.StorageCapacityMax - targetStorage.StorageUsed)
-                return;
+            // if (!_storage.CanInsert(uid, targetStorage, true))
+            //     return;
+
+            // if (component.Size > targetStorage.StorageCapacityMax - targetStorage.StorageUsed)
+            //     return;
 
             if (Transform(args.Target).ParentUid == uid)
                 return;
@@ -124,12 +130,12 @@ namespace Content.Server.Item.PseudoItem
             if (!Resolve(storageUid, ref storage))
                 return false;
 
-            if (component.Size > storage.StorageCapacityMax - storage.StorageUsed)
-                return false;
+            // if (component.Size > storage.StorageCapacityMax - storage.StorageUsed)
+            //     return false;
 
             var item = EnsureComp<ItemComponent>(toInsert);
             _tagSystem.TryAddTag(toInsert, PreventTag);
-        _itemSystem.SetSize(toInsert, component.Size, item);
+        // _itemSystem.SetSize(toInsert, component.Size, item);
 
             if (!_storageSystem.Insert(storageUid, toInsert, out _, storageComp: storage))
             {

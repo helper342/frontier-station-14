@@ -13,6 +13,7 @@ using Robust.Server.Containers;
 using Robust.Shared.Containers;
 using Robust.Shared.Enums;
 using Robust.Shared.Map;
+using Robust.Shared.Audio.Systems;
 
 namespace Content.Server.CryoSleep;
 
