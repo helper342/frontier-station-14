@@ -137,3 +137,8 @@
   license: "CC0-1.0"
   copyright: "Samuel Gremaud on freesound.org"
   source: "https://freesound.org/people/SamuelGremaud/sounds/455375/"
+
+- files: ["light_tube_on.ogg"]
+  license: "CC0-1.0"
+  copyright: "test"
+  source: "https://freesound.org/people/SamuelGremaud/sounds/455375/"
