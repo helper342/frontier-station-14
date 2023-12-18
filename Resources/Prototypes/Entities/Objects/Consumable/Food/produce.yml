@@ -1421,7 +1421,7 @@
   description: Круглий зелений предмет, який можна нарізати та з’їсти.
   components:
   - type: Item
-    size: 10
+    size: Small
   - type: FlavorProfile
     flavors:
       - watermelon

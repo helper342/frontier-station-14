@@ -13,7 +13,9 @@
     quickEquip: false
     slots: [belt]
   - type: Storage
-    capacity: 120
+    maxItemSize: Normal # 
+    grid:
+    - 0,0,4,3
     whitelist:
       components:
         - Mail
