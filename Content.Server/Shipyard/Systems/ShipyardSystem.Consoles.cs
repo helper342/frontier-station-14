@@ -163,7 +163,8 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
         if (TryComp<AccessComponent>(targetId, out var newCap))
         {
             var newAccess = newCap.Tags.ToList();
-            newAccess.Add($"Captain");
+            newAccess.Add($"Mercenary");
+            // newAccess.Add($"Captain");
 
             if (ShipyardConsoleUiKey.Security == (ShipyardConsoleUiKey) args.UiKey)
             {
@@ -183,7 +184,7 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
         var channel = component.ShipyardChannel;
 
         if (ShipyardConsoleUiKey.Security != (ShipyardConsoleUiKey) args.UiKey)
-            _idSystem.TryChangeJobTitle(targetId, $"Captain", idCard, player);
+            _idSystem.TryChangeJobTitle(targetId, $"Mercenary", idCard, player);
         else
             channel = component.SecurityShipyardChannel;
 
@@ -206,7 +207,7 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
                     continue;
 
                 _records.RemoveRecord(stationUid, keyStorage.Key.Value);
-                _records.CreateGeneralRecord((EntityUid) shuttleStation, targetId, record.Name, record.Age, record.Species, record.Gender, $"Captain", record.Fingerprint, record.DNA);
+                _records.CreateGeneralRecord((EntityUid) shuttleStation, targetId, record.Name, record.Age, record.Species, record.Gender, $"Mercenary", record.Fingerprint, record.DNA);
                 recSuccess = true;
                 break;
             }
@@ -216,7 +217,7 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
             {
                 TryComp<FingerprintComponent>(player, out var fingerprintComponent);
                 TryComp<DnaComponent>(player, out var dnaComponent);
-                _records.CreateGeneralRecord((EntityUid) shuttleStation, targetId, profile.Name, profile.Age, profile.Species, profile.Gender, $"Captain", fingerprintComponent!.Fingerprint, dnaComponent!.DNA);
+                _records.CreateGeneralRecord((EntityUid) shuttleStation, targetId, profile.Name, profile.Age, profile.Species, profile.Gender, $"Mercenary", fingerprintComponent!.Fingerprint, dnaComponent!.DNA);
             }
         }
         _records.Synchronize(shuttleStation!.Value);

@@ -73,7 +73,7 @@ namespace Content.Client.Access.UI
             if (newJobTitle.Length > MaxJobTitleLength)
                 newJobTitle = newJobTitle[..MaxJobTitleLength];
 
-            SendMessage(new WriteToTargetIdMessage(
+            SendMessage(new SharedIdCardSystem.WriteToTargetIdMessage(
                 newFullName,
                 newJobTitle,
                 newAccessList,

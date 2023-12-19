@@ -3,7 +3,6 @@ using Content.Shared.Hands.Components;
 using Content.Shared.Interaction.Components;
 using Content.Shared.Silicons.Borgs.Components;
 using Robust.Shared.Containers;
-using Robust.Shared.Utility;
 
 namespace Content.Server.Silicons.Borgs;
 
