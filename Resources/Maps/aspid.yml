@@ -48878,7 +48878,7 @@ entities:
     - pos: -15.469988,66.40932
       parent: 1
       type: Transform
-- proto: ClothingBeltMercWebbing
+- proto: ClothingBeltMercenaryWebbing
   entities:
   - uid: 7776
     components:
@@ -49412,7 +49412,7 @@ entities:
     - pos: 0.020136356,5.691236
       parent: 1
       type: Transform
-- proto: ClothingOuterVestWebMerc
+- proto: ClothingOuterVestWebMercenary
   entities:
   - uid: 7772
     components:
@@ -49450,7 +49450,7 @@ entities:
     - pos: -13.482979,-24.072556
       parent: 1
       type: Transform
-- proto: ClothingShoesBootsMerc
+- proto: ClothingShoesBootsMercenary
   entities:
   - uid: 6920
     components:
@@ -49695,6 +49695,98 @@ entities:
       pos: -9.5,29.5
       parent: 1
       type: Transform
+- proto: ComputerBankATM
+  entities:
+  - uid: 8566
+    components:
+    - pos: 3.5,10.5
+      parent: 1
+      type: Transform
+    - containers:
+        bank-ATM-cashSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
+  - uid: 8571
+    components:
+    - pos: -13.5,-5.5
+      parent: 1
+      type: Transform
+    - containers:
+        bank-ATM-cashSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
+  - uid: 8578
+    components:
+    - pos: -29.5,-9.5
+      parent: 1
+      type: Transform
+    - containers:
+        bank-ATM-cashSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
+  - uid: 8581
+    components:
+    - pos: 45.5,-10.5
+      parent: 1
+      type: Transform
+    - containers:
+        bank-ATM-cashSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
+  - uid: 8582
+    components:
+    - pos: 48.5,39.5
+      parent: 1
+      type: Transform
+    - containers:
+        bank-ATM-cashSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
+  - uid: 8583
+    components:
+    - pos: 9.5,66.5
+      parent: 1
+      type: Transform
+    - containers:
+        bank-ATM-cashSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
 - proto: computerBodyScanner
   entities:
   - uid: 1620
@@ -49926,6 +50018,11 @@ entities:
       pos: -45.5,21.5
       parent: 1
       type: Transform
+  - uid: 8565
+    components:
+    - pos: -0.5,11.5
+      parent: 1
+      type: Transform
 - proto: ComputerResearchAndDevelopment
   entities:
   - uid: 325
@@ -49953,6 +50050,72 @@ entities:
       pos: -42.5,25.5
       parent: 1
       type: Transform
+- proto: ComputerShipyard
+  entities:
+  - uid: 8563
+    components:
+    - pos: -1.5,11.5
+      parent: 1
+      type: Transform
+    - containers:
+        ShipyardConsole-targetId: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
+- proto: ComputerShipyardExpedition
+  entities:
+  - uid: 8564
+    components:
+    - pos: 0.5,11.5
+      parent: 1
+      type: Transform
+    - containers:
+        ShipyardConsole-targetId: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
+- proto: ComputerShipyardSecurity
+  entities:
+  - uid: 8674
+    components:
+    - pos: 3.5,78.5
+      parent: 1
+      type: Transform
+    - containers:
+        ShipyardConsole-targetId: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
+  - uid: 8675
+    components:
+    - pos: -10.5,57.5
+      parent: 1
+      type: Transform
+    - containers:
+        ShipyardConsole-targetId: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
 - proto: ComputerShuttle
   entities:
   - uid: 8887
@@ -86164,6 +86327,13 @@ entities:
         - 0
         - 0
       type: EntityStorage
+- proto: LockerBrigmedicFilled
+  entities:
+  - uid: 8677
+    components:
+    - pos: -19.5,51.5
+      parent: 1
+      type: Transform
 - proto: LockerCaptainFilledHardsuit
   entities:
   - uid: 4068
@@ -87214,6 +87384,13 @@ entities:
   - uid: 6825
     components:
     - pos: -16.388914,59.03654
+      parent: 1
+      type: Transform
+- proto: MailTeleporter
+  entities:
+  - uid: 8986
+    components:
+    - pos: 3.5,-5.5
       parent: 1
       type: Transform
 - proto: MaintenanceFluffSpawner
@@ -99280,6 +99457,11 @@ entities:
       type: Transform
 - proto: SignMail
   entities:
+  - uid: 9036
+    components:
+    - pos: 3.5,-6.5
+      parent: 1
+      type: Transform
   - uid: 17875
     components:
     - rot: 3.141592653589793 rad
@@ -99661,6 +99843,15 @@ entities:
     components:
     - rot: -1.5707963267948966 rad
       pos: 22.5,-3.5
+      parent: 1
+      type: Transform
+- proto: SmartFridge
+  entities:
+  - uid: 9047
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: 6.5,3.5
       parent: 1
       type: Transform
 - proto: SMESBasic
@@ -101161,6 +101352,20 @@ entities:
     - pos: 14.5,10.5
       parent: 1
       type: Transform
+- proto: SpawnPointBoxer
+  entities:
+  - uid: 8685
+    components:
+    - pos: -4.5,0.5
+      parent: 1
+      type: Transform
+- proto: SpawnPointBrigmedic
+  entities:
+  - uid: 8676
+    components:
+    - pos: -18.5,51.5
+      parent: 1
+      type: Transform
 - proto: SpawnPointCaptain
   entities:
   - uid: 6799
@@ -101239,6 +101444,13 @@ entities:
     - pos: 42.5,48.5
       parent: 1
       type: Transform
+- proto: SpawnPointGladiator
+  entities:
+  - uid: 8684
+    components:
+    - pos: -1.5,0.5
+      parent: 1
+      type: Transform
 - proto: SpawnPointHeadOfPersonnel
   entities:
   - uid: 6834
@@ -101301,6 +101513,20 @@ entities:
     - pos: -25.5,2.5
       parent: 1
       type: Transform
+- proto: SpawnPointMailCarrier
+  entities:
+  - uid: 8987
+    components:
+    - pos: 2.5,-5.5
+      parent: 1
+      type: Transform
+- proto: SpawnPointMartialArtist
+  entities:
+  - uid: 8683
+    components:
+    - pos: 0.5,0.5
+      parent: 1
+      type: Transform
 - proto: SpawnPointMedicalDoctor
   entities:
   - uid: 8497
@@ -101356,6 +101582,30 @@ entities:
   - uid: 3651
     components:
     - pos: 15.5,18.5
+      parent: 1
+      type: Transform
+- proto: SpawnPointPrisoner
+  entities:
+  - uid: 8680
+    components:
+    - pos: -34.5,48.5
+      parent: 1
+      type: Transform
+  - uid: 8681
+    components:
+    - pos: -33.5,48.5
+      parent: 1
+      type: Transform
+  - uid: 8682
+    components:
+    - pos: -32.5,48.5
+      parent: 1
+      type: Transform
+- proto: SpawnPointPrisonGuard
+  entities:
+  - uid: 8679
+    components:
+    - pos: -18.5,47.5
       parent: 1
       type: Transform
 - proto: SpawnPointQuartermaster
@@ -101440,6 +101690,34 @@ entities:
   - uid: 6838
     components:
     - pos: -16.5,41.5
+      parent: 1
+      type: Transform
+- proto: SpawnPointSeniorEngineer
+  entities:
+  - uid: 8686
+    components:
+    - pos: 7.5,-19.5
+      parent: 1
+      type: Transform
+- proto: SpawnPointSeniorOfficer
+  entities:
+  - uid: 8691
+    components:
+    - pos: -17.5,42.5
+      parent: 1
+      type: Transform
+- proto: SpawnPointSeniorPhysician
+  entities:
+  - uid: 8985
+    components:
+    - pos: 18.5,27.5
+      parent: 1
+      type: Transform
+- proto: SpawnPointSeniorResearcher
+  entities:
+  - uid: 8692
+    components:
+    - pos: -12.5,21.5
       parent: 1
       type: Transform
 - proto: SpawnPointServiceWorker
@@ -101625,6 +101903,38 @@ entities:
     - pos: 12.5,32.5
       parent: 1
       type: Transform
+- proto: StationAdminBankATM
+  entities:
+  - uid: 8584
+    components:
+    - pos: 24.5,6.5
+      parent: 1
+      type: Transform
+    - containers:
+        station-bank-ATM-cashSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
+  - uid: 8672
+    components:
+    - pos: -4.5,78.5
+      parent: 1
+      type: Transform
+    - containers:
+        station-bank-ATM-cashSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
 - proto: StationMap
   entities:
   - uid: 7440
@@ -106381,15 +106691,6 @@ entities:
     - flags: SessionSpecific
       type: MetaData
     - pos: -35.5,49.5
-      parent: 1
-      type: Transform
-- proto: VendingMachineSmartFridge
-  entities:
-  - uid: 9047
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: 6.5,3.5
       parent: 1
       type: Transform
 - proto: VendingMachineSnack

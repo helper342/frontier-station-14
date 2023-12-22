@@ -20,7 +20,7 @@
   - Maintenance
   - External
   - Mercenary # Frontier
-  - Captain # Frontier
+  # - Captain # Frontier
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant, TrackingImplant ]

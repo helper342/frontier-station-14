@@ -413,7 +413,7 @@ namespace Content.Shared.CCVar
             CVarDef.Create("suspicion.min_traitors", 2);
 
         public static readonly CVarDef<int> SuspicionPlayersPerTraitor =
-            CVarDef.Create("suspicion.players_per_traitor", 6);
+            CVarDef.Create("suspicion.players_per_traitor", 5);
 
         public static readonly CVarDef<int> SuspicionStartingBalance =
             CVarDef.Create("suspicion.starting_balance", 20);
@@ -432,7 +432,7 @@ namespace Content.Shared.CCVar
             CVarDef.Create("traitor.max_traitors", 12); // Assuming average server maxes somewhere from like 50-80 people
 
         public static readonly CVarDef<int> TraitorPlayersPerTraitor =
-            CVarDef.Create("traitor.players_per_traitor", 10);
+            CVarDef.Create("traitor.players_per_traitor", 6);
 
         public static readonly CVarDef<int> TraitorCodewordCount =
             CVarDef.Create("traitor.codeword_count", 4);
@@ -464,14 +464,14 @@ namespace Content.Shared.CCVar
          */
 
         public static readonly CVarDef<int> ZombieMinPlayers =
-            CVarDef.Create("zombie.min_players", 20);
+            CVarDef.Create("zombie.min_players", 10);
 
         /*
          * Pirates
          */
 
         public static readonly CVarDef<int> PiratesMinPlayers =
-            CVarDef.Create("pirates.min_players", 25);
+            CVarDef.Create("pirates.min_players", 10);
 
         public static readonly CVarDef<int> PiratesMaxOps =
             CVarDef.Create("pirates.max_pirates", 6);
