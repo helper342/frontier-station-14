@@ -9,6 +9,7 @@ using Content.Shared.Bank.Components;
 using Content.Server.GameTicking.Events;
 using Content.Server.GameTicking.Rules.Components;
 using Content.Shared.Procedural;
+using Content.Shared.CCVar;
 using Robust.Server.GameObjects;
 using Robust.Server.Maps;
 using Robust.Shared.Console;
@@ -31,6 +32,7 @@ namespace Content.Server.GameTicking.Rules;
 /// </summary>
 public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponent>
 {
+    [Dependency] private readonly IConfigurationManager _cfgManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly IMapManager _mapManager = default!;
@@ -47,6 +49,11 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
     [ViewVariables]
     private List<(EntityUid, int)> _players = new();
 
+    /// <summary>
+    /// If enabled then spawns players on an alternate map so they can take a shuttle to the station.
+    /// </summary>
+    public bool Enabled { get; private set; }
+
     /// <inheritdoc/>
     public override void Initialize()
     {
@@ -55,7 +62,16 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
         SubscribeLocalEvent<RoundStartingEvent>(OnStartup);
         SubscribeLocalEvent<PlayerSpawnCompleteEvent>(OnPlayerSpawningEvent);
         SubscribeLocalEvent<RoundEndTextAppendEvent>(OnRoundEndTextEvent);
+
+        // Don't invoke immediately as it will get set in the natural course of things.
+        Enabled = _cfgManager.GetCVar(CCVars.FrontierSpawn);
+        _cfgManager.OnValueChanged(CCVars.FrontierSpawn, SetFrontier);
     }
+        private void SetFrontier(bool obj)
+    {
+        Enabled = obj;
+    }
+
 
     private void OnRoundEndTextEvent(RoundEndTextAppendEvent ev)
     {
@@ -110,6 +126,9 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
 
     private void OnStartup(RoundStartingEvent ev)
     {
+        if (!Enabled)
+            return;
+
         var depotMap = "/Maps/cargodepot.yml";
         var tinnia = "/Maps/tinnia.yml";
         var caseys = "/Maps/caseyscasino.yml";
