@@ -202,8 +202,8 @@
   noSpawn: true
   components:
   - type: WorldTargetAction
-    useDelay: 5
-    range: 32
+    useDelay: 12
+    range: 15
     itemIconStyle: NoItem
     checkCanAccess: true
     repeat: true
@@ -213,7 +213,7 @@
       state: teleport
     event: !type:ShadowkinTeleportEvent
       powerCost: 40
-      staminaCost: 20
+      staminaCost: 30
       speech: action-description-shadowkin-teleport
 
 
@@ -224,7 +224,7 @@
   noSpawn: true
   components:
   - type: InstantAction
-    useDelay: 60
+    useDelay: 40
     itemIconStyle: NoItem
     priority: -22
     checkCanInteract: false
@@ -240,7 +240,7 @@
   noSpawn: true
   components:
   - type: InstantAction
-    useDelay: 15
+    useDelay: 20
     itemIconStyle: NoItem
     priority: -21
     icon:
@@ -249,8 +249,8 @@
     event: !type:ShadowkinDarkSwapEvent
       powerCostOn: 60
       powerCostOff: 45
-      staminaCostOn: 25
-      staminaCostOff: 25
+      staminaCostOn: 35
+      staminaCostOff: 35
       speech: action-description-shadowkin-darkswap
 
 

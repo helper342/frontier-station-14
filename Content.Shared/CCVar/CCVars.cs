@@ -1238,7 +1238,7 @@ namespace Content.Shared.CCVar
         ///     The required ratio of the server that must agree for a restart round vote to go through.
         /// </summary>
         public static readonly CVarDef<float> VoteRestartRequiredRatio =
-            CVarDef.Create("vote.restart_required_ratio", 0.85f, CVar.SERVERONLY);
+            CVarDef.Create("vote.restart_required_ratio", 0.65f, CVar.SERVERONLY);
 
         /// <summary>
         /// Whether or not to restrict the restart vote when there's online admins.
@@ -1250,20 +1250,20 @@ namespace Content.Shared.CCVar
         ///     The delay which two votes of the same type are allowed to be made by separate people, in seconds.
         /// </summary>
         public static readonly CVarDef<float> VoteSameTypeTimeout =
-            CVarDef.Create("vote.same_type_timeout", 200f, CVar.SERVERONLY);
+            CVarDef.Create("vote.same_type_timeout", 300f, CVar.SERVERONLY);
 
 
         /// <summary>
         ///     Sets the duration of the map vote timer.
         /// </summary>
         public static readonly CVarDef<int>
-            VoteTimerMap = CVarDef.Create("vote.timermap", 90, CVar.SERVERONLY);
+            VoteTimerMap = CVarDef.Create("vote.timermap", 30, CVar.SERVERONLY);
 
         /// <summary>
         ///     Sets the duration of the restart vote timer.
         /// </summary>
         public static readonly CVarDef<int>
-            VoteTimerRestart = CVarDef.Create("vote.timerrestart", 60, CVar.SERVERONLY);
+            VoteTimerRestart = CVarDef.Create("vote.timerrestart", 30, CVar.SERVERONLY);
 
         /// <summary>
         ///     Sets the duration of the gamemode/preset vote timer.
@@ -1963,7 +1963,7 @@ namespace Content.Shared.CCVar
         /// Whether the arrivals shuttle is enabled.
         /// </summary>
         public static readonly CVarDef<bool> FrontierSpawn =
-            CVarDef.Create("frontier.spawn", true);
+            CVarDef.Create("frontier.spawn", false);
 
     }
 }
