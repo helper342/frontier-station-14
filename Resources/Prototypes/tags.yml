@@ -1127,3 +1127,15 @@
   
 - type: Tag
   id:  boots
+
+- type: Tag # Frontier
+  id: WeaponRanged # Frontier
+
+- type: Tag # Frontier
+  id: WeaponLongarms # Frontier
+
+- type: Tag # Frontier
+  id: WeaponShortArms # Frontier
+
+- type: Tag # Frontier
+  id: WeaponMelee # Frontier

@@ -69,9 +69,6 @@
         ents: [ ]
   - type: Dumpable              # Frontier
   - type: MagnetPickup # Frontier
-    isFixture: true
-    pickupWhenNotAnchored: true
-    pickupWhenAnchored: false   
     range: 1.5  # Ore bag has a range of 1.0
   - type: Fixtures
     fixtures:
@@ -82,6 +79,7 @@
         # very not dense to make it easy to pull
         density: 20
         mask:
-        - MachineMask
+        #- MachineMask
+        - SmallMobMask  # Frontier
         layer:
         - MachineLayer
