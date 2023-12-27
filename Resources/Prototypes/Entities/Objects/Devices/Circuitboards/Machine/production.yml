@@ -666,9 +666,6 @@
           Amount: 1
           DefaultPrototype: SaxophoneInstrument
           ExamineName: Woodwind Instrument
-    - type: StaticPrice
-      price: 400
-
 
 - type: entity
   id: PortableGeneratorPacmanMachineCircuitboard

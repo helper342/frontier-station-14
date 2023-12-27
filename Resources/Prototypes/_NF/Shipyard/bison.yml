@@ -4,7 +4,7 @@
   description: Надпотужний судноломний корабель із міцним корпусом і значною кількістю життєвого простору, створений для тривалих подорожей із самозабезпеченням.
   price: 166138
   category: Large
-  group: Civilian
+  group: Scrap
   shuttlePath: /Maps/Shuttles/bison.yml
   
 - type: gameMap

@@ -1,3 +1,4 @@
+using Content.Server.Nutrition; // DeltaV
 using Content.Server.Nutrition.Components;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;
@@ -9,7 +10,7 @@ using Content.Shared.Interaction;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
-using Robust.Shared.Player;
+//using Robust.Shared.Player;
 
 namespace Content.Server.Nutrition.EntitySystems
 {
@@ -100,7 +101,7 @@ namespace Content.Server.Nutrition.EntitySystems
         /// Create a new slice in the world and returns its entity.
         /// The solutions must be set afterwards.
         /// </summary>
-        public EntityUid Slice(EntityUid uid, EntityUid user, SliceableFoodComponent? comp = null, TransformComponent? transform = null)
+        private EntityUid Slice(EntityUid uid, EntityUid user, SliceableFoodComponent? comp = null, TransformComponent? transform = null) // Frontier - Public to private
         {
             if (!Resolve(uid, ref comp, ref transform))
                 return EntityUid.Invalid;
@@ -117,6 +118,11 @@ namespace Content.Server.Nutrition.EntitySystems
                 _containerSystem.AttachParentToContainerOrGrid((sliceUid, xform));
                 xform.LocalRotation = 0;
             }
+
+            // DeltaV - Begin deep frier related code
+            var sliceEvent = new SliceFoodEvent(user, uid, sliceUid);
+            RaiseLocalEvent(uid, sliceEvent);
+            // DeltaV - End deep frier related code
 
             return sliceUid;
         }
@@ -160,40 +166,4 @@ namespace Content.Server.Nutrition.EntitySystems
             args.PushMarkup(Loc.GetString("sliceable-food-component-on-examine-remaining-slices-text", ("remainingCount", component.Count)));
         }
     }
-    //Nyano - Summary: Begin Nyano Code for the sliced food event. 
-    public sealed class SliceFoodEvent : EntityEventArgs
-    {
-        /// <summary>
-        /// Who did the slicing?
-        /// <summary>
-        public EntityUid User;
-
-        /// <summary>
-        /// What did the slicing?
-        /// <summary>
-        public EntityUid Tool;
-
-        /// <summary>
-        /// What has been sliced?
-        /// <summary>
-        /// <remarks>
-        /// This could soon be deleted if there was not enough food left to
-        /// continue slicing.
-        /// </remarks>
-        public EntityUid Food;
-
-        /// <summary>
-        /// What is the slice?
-        /// <summary>
-        public EntityUid Slice;
-
-        public SliceFoodEvent(EntityUid user, EntityUid tool, EntityUid food, EntityUid slice)
-        {
-            User = user;
-            Tool = tool;
-            Food = food;
-            Slice = slice;
-        }
-    }
-    //End Nyano Code. 
 }

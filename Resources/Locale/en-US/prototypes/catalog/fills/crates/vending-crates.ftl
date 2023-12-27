@@ -2,7 +2,7 @@ ent-CrateVendingMachineRestockBoozeFilled = Booze-O-Mat restock crate
     .desc = Contains a restock box for the Booze-O-Mat.
 
 ent-CrateVendingMachineRestockClothesFilled = Clothing restock crate
-    .desc = Contains a pair of restock boxes, one for the ClothesMate and one for the AutoDrobe.
+    .desc = Contains eight restock boxes, seven for the ClothesMate and one for the AutoDrobe.
 
 ent-CrateVendingMachineRestockDinnerwareFilled = Plasteel Chef restock crate
     .desc = Contains a restock box for the Plasteel Chef vending machine.
@@ -50,19 +50,19 @@ ent-CrateVendingMachineRestockTankDispenserFilled = Tank dispenser restock crate
     .desc = Contains a restock box for an Engineering or Atmospherics tank dispenser.
 
 ent-CrateVendingMachineRestockHappyHonkFilled = Happy honk restock crate
-    .desc = Contains a restock box for a happy honk dispenser.
+    .desc = Contains eight restock boxes for a happy honk dispenser.
 
 ent-CrateVendingMachineRestockGetmoreChocolateCorpFilled = Getmore Chocolate Corp restock crate
-    .desc = Contains a restock box for a Getmore Chocolate Corp dispenser.
+    .desc = Contains eight restock boxes for a Getmore Chocolate Corp dispenser.
 
 ent-CrateVendingMachineRestockChangFilled = Chang restock crate
-    .desc = Contains a restock box for a Mr. Chang dispenser.
+    .desc = Contains eight restock boxes for a Mr. Chang dispenser.
 
 ent-CrateVendingMachineRestockDiscountDansFilled = Discount Dans restock crate
-    .desc = Contains a restock box for a Discount Dan's dispenser.
+    .desc = Contains eight restock boxes for a Discount Dan's dispenser.
 
 ent-CrateVendingMachineRestockDonutFilled = Donut restock crate
-    .desc = Contains a restock box for a Monkin' Donuts dispenser.
+    .desc = Contains eight restock boxes for a Monkin' Donuts dispenser.
 
 ent-CrateVendingMachineRestockChemVendFilled = ChemVend restock crate
     .desc = Contains a restock box for the ChemVend.

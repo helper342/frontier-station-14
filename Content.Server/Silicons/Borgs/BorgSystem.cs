@@ -298,6 +298,23 @@ public sealed partial class BorgSystem : SharedBorgSystem
     {
         Popup.PopupEntity(Loc.GetString("borg-mind-added", ("name", Identity.Name(uid, EntityManager))), uid);
         _powerCell.SetPowerCellDrawEnabled(uid, true);
+
+        // if (TryComp<AccessComponent>(uid, out var oldAccess))
+        // {
+        //     var access = oldAccess.Tags.ToList();
+
+        //     access.Clear();
+        //     access.Add($"Captain");
+        //     access.Add($"Maintenance");
+        //     access.Add($"External");
+        //     access.Add($"Cargo");
+        //     access.Add($"Salvage");
+        //     access.Add($"Medical");
+        //     access.Add($"Service");
+        //     access.Add($"Research");
+
+        //     _access.TrySetTags(uid, access);
+        // }
         _access.SetAccessEnabled(uid, true);
         _appearance.SetData(uid, BorgVisuals.HasPlayer, true);
         Dirty(uid, component);

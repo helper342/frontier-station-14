@@ -30,6 +30,7 @@
   - Chemistry
   - ChiefMedicalOfficer
   - Brig
+  - External # Frontier
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]

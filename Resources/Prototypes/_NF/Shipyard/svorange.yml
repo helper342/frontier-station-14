@@ -4,7 +4,7 @@
   description: Вантажний рятувальний шатл, виготовлений із розкопаних уламків, має деякі пошкодження.
   price: 16000 #Appraisal is 14500
   category: Small
-  group: Civilian
+  group: Scrap
   shuttlePath: /Maps/Shuttles/svorange.yml
 
 - type: gameMap
