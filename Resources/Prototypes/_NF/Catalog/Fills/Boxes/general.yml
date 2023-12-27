@@ -30,7 +30,9 @@
       - id: WetFloorSign
         amount: 6
   - type: Storage
-    capacity: 90
+    maxItemSize: Normal
+    grid:
+    - 0,0,6,3
     whitelist:
       tags:
         - WetFloorSign
@@ -50,7 +52,9 @@
       - id: Paper
         amount: 10
   - type: Storage
-    capacity: 30
+    grid:
+    - 0,0,4,3
+    maxItemSize: Small
     whitelist:
       tags:
         - Document

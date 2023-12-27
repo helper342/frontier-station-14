@@ -20,7 +20,8 @@
   - type: Clothing
     sprite: _NF/Clothing/Belt/chaplain_sash.rsi
   - type: Storage
-    capacity: 45
+    grid:
+    - 0,0,3,3
     # TODO: Fill this out more.
     whitelist:
       tags:
