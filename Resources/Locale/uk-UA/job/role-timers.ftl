@@ -1,9 +1,9 @@
-﻿role-timer-department-insufficient = You require [color=yellow]{TOSTRING($time, "0")}[/color] more minutes of [color={$departmentColor}]{$department}[/color] department playtime to play this role.
-role-timer-department-too-high = You require [color=yellow]{TOSTRING($time, "0")}[/color] fewer minutes in [color={$departmentColor}]{$department}[/color] department to play this role. (Are you trying to play a trainee role?)
-role-timer-overall-insufficient = You require [color=yellow]{TOSTRING($time, "0")}[/color] more minutes of playtime to play this role.
-role-timer-overall-too-high = You require [color=yellow]{TOSTRING($time, "0")}[/color] fewer minutes of playtime to play this role. (Are you trying to play a trainee role?)
-role-timer-role-insufficient = You require [color=yellow]{TOSTRING($time, "0")}[/color] more minutes with [color={$departmentColor}]{$job}[/color] to play this role.
-role-timer-role-too-high = You require[color=yellow] {TOSTRING($time, "0")}[/color] fewer minutes with [color={$departmentColor}]{$job}[/color] to play this role. (Are you trying to play a trainee role?)
+﻿role-timer-department-insufficient = Тобі потрібно [color=yellow]{TOSTRING($time, "0")}[/color] Більше хвилин в [color={$departmentColor}]{$department}[/color] В департаменті награного для.
+role-timer-department-too-high = Тобі потрібно [color=yellow]{TOSTRING($time, "0")}[/color] менше хвилин в [color={$departmentColor}]{$department}[/color] департаменті для гри (Ти пробуєш грати за роль для новачків?)
+role-timer-overall-insufficient = Тобі потрібно [color=yellow]{TOSTRING($time, "0")}[/color] більше хвилин щоб пограти за цю роль.
+role-timer-overall-too-high = Тобі потрібно [color=yellow]{TOSTRING($time, "0")}[/color] департаменті для гри (Ти пробуєш грати за роль для новачків)
+role-timer-role-insufficient = тобі потрібно [color=yellow]{TOSTRING($time, "0")}[/color] менше хвилин хвилин за [color={$departmentColor}]{$job}[/color] щоб пограти за цю роль .
+role-timer-role-too-high = Тобі потрібно[color=yellow] {TOSTRING($time, "0")}[/color] менше хвилин з [color={$departmentColor}]{$job}[/color] щоб пограти за цю роль. (ти пробуєш грати за роль для новачків?)
 
 role-timer-locked = Заборонено (наведіть курсор, для деталей)
 
