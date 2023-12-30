@@ -1,2 +1,2 @@
-objective-condition-survive-title = Survive
-objective-condition-survive-description = You wouldn't be a very good ninja if you died, now would you?
+objective-condition-survive-title = Вижити
+objective-condition-survive-description = Ти будеш не таким чудовим ніндзя якщо не виживеш, не ти?
